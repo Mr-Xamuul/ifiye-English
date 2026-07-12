@@ -1,6 +1,7 @@
 enum LessonType {
   vocabulary,
   grammar,
+  pronunciation,
   listening,
   speaking,
   reading,
@@ -19,6 +20,7 @@ enum ExerciseType {
   readingComprehension,
   shortWriting,
   speakingPrompt,
+  trueFalse,
 }
 
 T _enumByName<T extends Enum>(List<T> values, String value) =>
@@ -35,6 +37,7 @@ class VocabularyEntry {
     required this.pronunciation,
     required this.exampleEnglish,
     required this.exampleSomali,
+    required this.explanationSomali,
     required this.commonMistakeSomali,
   });
 
@@ -44,6 +47,7 @@ class VocabularyEntry {
   final String pronunciation;
   final String exampleEnglish;
   final String exampleSomali;
+  final String explanationSomali;
   final String commonMistakeSomali;
 
   factory VocabularyEntry.fromJson(Map<String, dynamic> json) =>
@@ -54,6 +58,7 @@ class VocabularyEntry {
         pronunciation: json['pronunciation'] as String,
         exampleEnglish: json['exampleEnglish'] as String,
         exampleSomali: json['exampleSomali'] as String,
+        explanationSomali: json['explanationSomali'] as String,
         commonMistakeSomali: json['commonMistakeSomali'] as String,
       );
 }

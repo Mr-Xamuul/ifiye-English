@@ -1,0 +1,1520 @@
+{
+  "id": "a1-u01",
+  "levelId": "A1",
+  "unitNumber": 1,
+  "titleEnglish": "Alphabet and Basic Sounds",
+  "titleSomali": "Xarfaha iyo dhawaaqyada aasaasiga ah",
+  "introductionSomali": "Unit-kan wuxuu ku bilaabayaa aasaaska English-ka: 26-ka xaraf, qaabkooda weyn iyo yar, vowels iyo consonants, higgaadinta magacyada iyo dhawaaqyada bilowga ah.",
+  "requiredPreviousUnitId": null,
+  "lessons": [
+    {
+      "id": "a1-u01-l01",
+      "levelId": "A1",
+      "unitId": "a1-u01",
+      "lessonNumber": 1,
+      "titleEnglish": "The English Alphabet",
+      "titleSomali": "Xarfaha English-ka",
+      "shortDescriptionSomali": "English-ku wuxuu leeyahay 26 xaraf. Casharkan waxaad ku baranaysaa magaca xaraf kasta iyo sida xarfaha loogu kala hormariyo A ilaa Z.",
+      "learningObjectives": [
+        "Aqoonso 26-ka xaraf ee English-ka.",
+        "U akhri xarfaha A ilaa Z si tartiib ah.",
+        "Kala saar magaca xarafka iyo dhawaaqa uu samayn karo."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 15,
+      "difficulty": "beginner",
+      "isLocked": false,
+      "requiredPreviousLessonId": null,
+      "vocabulary": [
+        {
+          "englishWord": "Alphabet",
+          "somaliMeaning": "Xarfaha luqaddu ka kooban tahay",
+          "partOfSpeech": "noun",
+          "pronunciation": "al-fuh-bet",
+          "exampleEnglish": "The English alphabet has 26 letters.",
+          "exampleSomali": "Xarfaha English-ku waa 26 xaraf.",
+          "explanationSomali": "Alphabet waa ururka xarfaha loo isticmaalo qorista luqad.",
+          "commonMistakeSomali": "Ha u qaadan in alphabet uu yahay hal xaraf."
+        },
+        {
+          "englishWord": "Letter",
+          "somaliMeaning": "Xaraf",
+          "partOfSpeech": "noun",
+          "pronunciation": "let-er",
+          "exampleEnglish": "A is the first letter.",
+          "exampleSomali": "A waa xarafka koowaad.",
+          "explanationSomali": "Letter halkan wuxuu ka dhigan yahay xaraf, mana aha warqad boosto.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Order",
+          "somaliMeaning": "Kala horreyn",
+          "partOfSpeech": "noun",
+          "pronunciation": "or-der",
+          "exampleEnglish": "Say the letters in order.",
+          "exampleSomali": "Xarfaha u sheeg sida ay u kala horreeyaan.",
+          "explanationSomali": "Order wuxuu tilmaamayaa sida wax loo kala hormariyay.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "A comes before B.",
+          "somali": "A wuxuu ka horreeyaa B."
+        },
+        {
+          "english": "Z is the last letter.",
+          "somali": "Z waa xarafka ugu dambeeya."
+        },
+        {
+          "english": "My name starts with M.",
+          "somali": "Magacaygu wuxuu ka bilaabmaa M."
+        },
+        {
+          "english": "Please say the alphabet.",
+          "somali": "Fadlan sheeg xarfaha English-ka."
+        },
+        {
+          "english": "This word has four letters.",
+          "somali": "Eraygani wuxuu leeyahay afar xaraf."
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u01-l01-p01",
+          "type": "multipleChoice",
+          "question": "“Alphabet” maxay ka dhigan tahay?",
+          "options": [
+            "Xarfaha luqaddu ka kooban tahay",
+            "Xaraf",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Xarfaha luqaddu ka kooban tahay",
+          "explanationSomali": "Jawaabta saxda ahi waa “Xarfaha luqaddu ka kooban tahay”; waa macnaha Alphabet ee casharkan."
+        },
+        {
+          "id": "a1-u01-l01-p02",
+          "type": "fillInTheBlank",
+          "question": "The English alphabet has ___ letters.",
+          "options": [
+            "26",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "26",
+          "explanationSomali": "Erayga “26” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l01-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Letter iyo macnihiisa.",
+          "options": [
+            "Xaraf",
+            "Xarfaha luqaddu ka kooban tahay",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Xaraf",
+          "explanationSomali": "Letter waxaa loola jeedaa Xaraf."
+        },
+        {
+          "id": "a1-u01-l01-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: letter / first / A / the / is",
+          "options": [],
+          "correctAnswer": "A is the first letter.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “A is the first letter.”."
+        },
+        {
+          "id": "a1-u01-l01-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: A comes before B.",
+          "options": [
+            "A wuxuu ka horreeyaa B.",
+            "Z waa xarafka ugu dambeeya.",
+            "Magacaygu waa Cali.",
+            "Waxaan aadayaa suuqa."
+          ],
+          "correctAnswer": "A wuxuu ka horreeyaa B.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u01-l01-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Z waa xarafka ugu dambeeya.",
+          "options": [
+            "Z is the last letter.",
+            "A comes before B.",
+            "I go to school.",
+            "This is my phone."
+          ],
+          "correctAnswer": "Z is the last letter.",
+          "explanationSomali": "Jumladda “Z is the last letter.” ayaa si dabiici ah u gudbinaysa macnaha Soomaaliga."
+        },
+        {
+          "id": "a1-u01-l01-p07",
+          "type": "trueFalse",
+          "question": "Z is the last letter of the English alphabet.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Weedhu waa sax marka la raaco waxa casharka lagu bartay."
+        },
+        {
+          "id": "a1-u01-l01-p08",
+          "type": "speakingPrompt",
+          "question": "Si tartiib ah u sheeg A ilaa Z, kadib sheeg xarfaha magacaaga.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si cod dheer u hadal. Ujeeddadu waa dhawaaq cad iyo kalsooni, mana aha xawaare."
+        },
+        {
+          "id": "a1-u01-l01-p09",
+          "type": "shortWriting",
+          "question": "Qor A ilaa Z hal mar adigoo kala fogaynaya xaraf kasta.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Qoraalkaaga hubi: xaraf sax ah, kala horreyn sax ah iyo calaamadda dhammaadka."
+        }
+      ],
+      "speakingPractice": "Si tartiib ah u sheeg A ilaa Z, kadib sheeg xarfaha magacaaga.",
+      "writingPractice": "Qor A ilaa Z hal mar adigoo kala fogaynaya xaraf kasta.",
+      "summarySomali": "Waxaad baratay in English-ku leeyahay 26 xaraf oo ka bilaabma A kuna dhammaada Z. Magaca xarafka iyo dhawaaqiisa mararka qaarkood way kala duwan yihiin.",
+      "quizQuestions": [
+        {
+          "id": "a1-u01-l01-p01",
+          "type": "multipleChoice",
+          "question": "“Alphabet” maxay ka dhigan tahay?",
+          "options": [
+            "Xarfaha luqaddu ka kooban tahay",
+            "Xaraf",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Xarfaha luqaddu ka kooban tahay",
+          "explanationSomali": "Jawaabta saxda ahi waa “Xarfaha luqaddu ka kooban tahay”; waa macnaha Alphabet ee casharkan."
+        },
+        {
+          "id": "a1-u01-l01-p02",
+          "type": "fillInTheBlank",
+          "question": "The English alphabet has ___ letters.",
+          "options": [
+            "26",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "26",
+          "explanationSomali": "Erayga “26” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l01-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Letter iyo macnihiisa.",
+          "options": [
+            "Xaraf",
+            "Xarfaha luqaddu ka kooban tahay",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Xaraf",
+          "explanationSomali": "Letter waxaa loola jeedaa Xaraf."
+        }
+      ]
+    },
+    {
+      "id": "a1-u01-l02",
+      "levelId": "A1",
+      "unitId": "a1-u01",
+      "lessonNumber": 2,
+      "titleEnglish": "Capital and Small Letters",
+      "titleSomali": "Xarfaha waaweyn iyo kuwa yaryar",
+      "shortDescriptionSomali": "Xaraf kasta wuxuu leeyahay qaab weyn iyo qaab yar. Xarafka weyn waxaa lagu bilaabaa jumlad iyo magac qof ama meel.",
+      "learningObjectives": [
+        "Isku aadi capital iyo small letters.",
+        "Ku bilow jumlad xaraf weyn.",
+        "Magacyada dadka iyo meelaha si sax ah u qor."
+      ],
+      "lessonType": "writing",
+      "estimatedMinutes": 15,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u01-l01",
+      "vocabulary": [
+        {
+          "englishWord": "Capital letter",
+          "somaliMeaning": "Xaraf weyn",
+          "partOfSpeech": "noun",
+          "pronunciation": "kap-i-tl let-er",
+          "exampleEnglish": "Somalia starts with a capital S.",
+          "exampleSomali": "Somalia waxay ku bilaabataa S weyn.",
+          "explanationSomali": "Capital letter waxaa loo adeegsadaa bilowga jumlad iyo magacyo gaar ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Small letter",
+          "somaliMeaning": "Xaraf yar",
+          "partOfSpeech": "noun",
+          "pronunciation": "smol let-er",
+          "exampleEnglish": "The small form of A is a.",
+          "exampleSomali": "Qaabka yar ee A waa a.",
+          "explanationSomali": "Small letters ayaa inta badan lagu qoraa erayada dhexdiisa.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Sentence",
+          "somaliMeaning": "Jumlad",
+          "partOfSpeech": "noun",
+          "pronunciation": "sen-tens",
+          "exampleEnglish": "Start a sentence with a capital letter.",
+          "exampleSomali": "Jumlad ku bilow xaraf weyn.",
+          "explanationSomali": "Sentence waa erayo isu tegay oo fikrad dhammeystiran gudbiya.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "My name is Amina.",
+          "somali": "Magacaygu waa Aamina."
+        },
+        {
+          "english": "Mogadishu is a city.",
+          "somali": "Muqdisho waa magaalo."
+        },
+        {
+          "english": "This is my book.",
+          "somali": "Kani waa buuggayga."
+        },
+        {
+          "english": "Ali works in a bank.",
+          "somali": "Cali wuxuu ka shaqeeyaa bangi."
+        },
+        {
+          "english": "The lesson starts now.",
+          "somali": "Casharku hadda ayuu bilaabmayaa."
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u01-l02-p01",
+          "type": "multipleChoice",
+          "question": "“Capital letter” maxay ka dhigan tahay?",
+          "options": [
+            "Xaraf weyn",
+            "Xaraf yar",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Xaraf weyn",
+          "explanationSomali": "Jawaabta saxda ahi waa “Xaraf weyn”; waa macnaha Capital letter ee casharkan."
+        },
+        {
+          "id": "a1-u01-l02-p02",
+          "type": "fillInTheBlank",
+          "question": "A sentence starts with a ___ letter.",
+          "options": [
+            "capital",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "capital",
+          "explanationSomali": "Erayga “capital” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l02-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Small letter iyo macnihiisa.",
+          "options": [
+            "Xaraf yar",
+            "Xaraf weyn",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Xaraf yar",
+          "explanationSomali": "Small letter waxaa loola jeedaa Xaraf yar."
+        },
+        {
+          "id": "a1-u01-l02-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: is / Hargeisa / city / a",
+          "options": [],
+          "correctAnswer": "Hargeisa is a city.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Hargeisa is a city.”."
+        },
+        {
+          "id": "a1-u01-l02-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: My name is Amina.",
+          "options": [
+            "Magacaygu waa Aamina.",
+            "Muqdisho waa magaalo.",
+            "Magacaygu waa Cali.",
+            "Waxaan aadayaa suuqa."
+          ],
+          "correctAnswer": "Magacaygu waa Aamina.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u01-l02-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Muqdisho waa magaalo.",
+          "options": [
+            "Mogadishu is a city.",
+            "My name is Amina.",
+            "I go to school.",
+            "This is my phone."
+          ],
+          "correctAnswer": "Mogadishu is a city.",
+          "explanationSomali": "Jumladda “Mogadishu is a city.” ayaa si dabiici ah u gudbinaysa macnaha Soomaaliga."
+        },
+        {
+          "id": "a1-u01-l02-p07",
+          "type": "trueFalse",
+          "question": "A person’s name should start with a small letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanationSomali": "Weedhu waa khalad; dib u eeg xeerka iyo tusaalooyinka casharka."
+        },
+        {
+          "id": "a1-u01-l02-p08",
+          "type": "speakingPrompt",
+          "question": "Sheeg laba magac oo qof iyo laba magac oo meel ah; ku dhawaaq xarafka ay ku bilaabmaan.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si cod dheer u hadal. Ujeeddadu waa dhawaaq cad iyo kalsooni, mana aha xawaare."
+        },
+        {
+          "id": "a1-u01-l02-p09",
+          "type": "shortWriting",
+          "question": "Qor magacaaga, magaaladaada iyo laba jumladood. Hubi capital letters.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Qoraalkaaga hubi: xaraf sax ah, kala horreyn sax ah iyo calaamadda dhammaadka."
+        }
+      ],
+      "speakingPractice": "Sheeg laba magac oo qof iyo laba magac oo meel ah; ku dhawaaq xarafka ay ku bilaabmaan.",
+      "writingPractice": "Qor magacaaga, magaaladaada iyo laba jumladood. Hubi capital letters.",
+      "summarySomali": "Capital letter waxaa lagu bilaabaa jumlad iyo magac gaar ah. Small letters waxaa lagu isticmaalaa inta kale ee erayada badankood.",
+      "quizQuestions": [
+        {
+          "id": "a1-u01-l02-p01",
+          "type": "multipleChoice",
+          "question": "“Capital letter” maxay ka dhigan tahay?",
+          "options": [
+            "Xaraf weyn",
+            "Xaraf yar",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Xaraf weyn",
+          "explanationSomali": "Jawaabta saxda ahi waa “Xaraf weyn”; waa macnaha Capital letter ee casharkan."
+        },
+        {
+          "id": "a1-u01-l02-p02",
+          "type": "fillInTheBlank",
+          "question": "A sentence starts with a ___ letter.",
+          "options": [
+            "capital",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "capital",
+          "explanationSomali": "Erayga “capital” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l02-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Small letter iyo macnihiisa.",
+          "options": [
+            "Xaraf yar",
+            "Xaraf weyn",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Xaraf yar",
+          "explanationSomali": "Small letter waxaa loola jeedaa Xaraf yar."
+        }
+      ]
+    },
+    {
+      "id": "a1-u01-l03",
+      "levelId": "A1",
+      "unitId": "a1-u01",
+      "lessonNumber": 3,
+      "titleEnglish": "Vowels and Consonants",
+      "titleSomali": "Shaqallada iyo shibbanayaasha",
+      "shortDescriptionSomali": "A, E, I, O iyo U waa vowels. Xarfaha kale waa consonants. Vowel-ku wuxuu muhiim u yahay samaynta dhawaaqa erayga.",
+      "learningObjectives": [
+        "Magacow shanta vowel.",
+        "Kala saar vowel iyo consonant.",
+        "Ka hel vowels-ka ku jira eray fudud."
+      ],
+      "lessonType": "pronunciation",
+      "estimatedMinutes": 15,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u01-l02",
+      "vocabulary": [
+        {
+          "englishWord": "Vowel",
+          "somaliMeaning": "Shaqal",
+          "partOfSpeech": "noun",
+          "pronunciation": "vau-uhl",
+          "exampleEnglish": "A is a vowel.",
+          "exampleSomali": "A waa shaqal.",
+          "explanationSomali": "Vowels-ka English-ku waa A, E, I, O iyo U.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Consonant",
+          "somaliMeaning": "Shibbane",
+          "partOfSpeech": "noun",
+          "pronunciation": "kon-suh-nant",
+          "exampleEnglish": "B is a consonant.",
+          "exampleSomali": "B waa shibbane.",
+          "explanationSomali": "Consonant waa xaraf aan ka mid ahayn shanta vowel.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Sound",
+          "somaliMeaning": "Dhawaaq",
+          "partOfSpeech": "noun",
+          "pronunciation": "saund",
+          "exampleEnglish": "Listen to the sound.",
+          "exampleSomali": "Dhegayso dhawaaqa.",
+          "explanationSomali": "Sound waa codka la maqlo marka xaraf ama eray la yiraahdo.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "A is in apple.",
+          "somali": "A wuxuu ku jiraa apple."
+        },
+        {
+          "english": "E is in egg.",
+          "somali": "E wuxuu ku jiraa egg."
+        },
+        {
+          "english": "I is in ink.",
+          "somali": "I wuxuu ku jiraa ink."
+        },
+        {
+          "english": "O is in orange.",
+          "somali": "O wuxuu ku jiraa orange."
+        },
+        {
+          "english": "U is in umbrella.",
+          "somali": "U wuxuu ku jiraa umbrella."
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u01-l03-p01",
+          "type": "multipleChoice",
+          "question": "“Vowel” maxay ka dhigan tahay?",
+          "options": [
+            "Shaqal",
+            "Shibbane",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Shaqal",
+          "explanationSomali": "Jawaabta saxda ahi waa “Shaqal”; waa macnaha Vowel ee casharkan."
+        },
+        {
+          "id": "a1-u01-l03-p02",
+          "type": "fillInTheBlank",
+          "question": "A, E, I, O and U are ___.",
+          "options": [
+            "vowels",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "vowels",
+          "explanationSomali": "Erayga “vowels” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l03-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Consonant iyo macnihiisa.",
+          "options": [
+            "Shibbane",
+            "Shaqal",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Shibbane",
+          "explanationSomali": "Consonant waxaa loola jeedaa Shibbane."
+        },
+        {
+          "id": "a1-u01-l03-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: vowel / is / E / a",
+          "options": [],
+          "correctAnswer": "E is a vowel.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “E is a vowel.”."
+        },
+        {
+          "id": "a1-u01-l03-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: A is in apple.",
+          "options": [
+            "A wuxuu ku jiraa apple.",
+            "E wuxuu ku jiraa egg.",
+            "Magacaygu waa Cali.",
+            "Waxaan aadayaa suuqa."
+          ],
+          "correctAnswer": "A wuxuu ku jiraa apple.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u01-l03-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: E wuxuu ku jiraa egg.",
+          "options": [
+            "E is in egg.",
+            "A is in apple.",
+            "I go to school.",
+            "This is my phone."
+          ],
+          "correctAnswer": "E is in egg.",
+          "explanationSomali": "Jumladda “E is in egg.” ayaa si dabiici ah u gudbinaysa macnaha Soomaaliga."
+        },
+        {
+          "id": "a1-u01-l03-p07",
+          "type": "trueFalse",
+          "question": "B is a vowel.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanationSomali": "Weedhu waa khalad; dib u eeg xeerka iyo tusaalooyinka casharka."
+        },
+        {
+          "id": "a1-u01-l03-p08",
+          "type": "speakingPrompt",
+          "question": "Ku dhawaaq A, E, I, O, U, kadibna sheeg apple, egg, ink, orange iyo umbrella.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si cod dheer u hadal. Ujeeddadu waa dhawaaq cad iyo kalsooni, mana aha xawaare."
+        },
+        {
+          "id": "a1-u01-l03-p09",
+          "type": "shortWriting",
+          "question": "Qor shanta vowel, kadib ku wareeji vowels-ka ku jira magacaaga.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Qoraalkaaga hubi: xaraf sax ah, kala horreyn sax ah iyo calaamadda dhammaadka."
+        }
+      ],
+      "speakingPractice": "Ku dhawaaq A, E, I, O, U, kadibna sheeg apple, egg, ink, orange iyo umbrella.",
+      "writingPractice": "Qor shanta vowel, kadib ku wareeji vowels-ka ku jira magacaaga.",
+      "summarySomali": "Shanta vowel waa A, E, I, O iyo U. 21-ka xaraf ee kale waa consonants. Labaduba waxay dhisaan erayada.",
+      "quizQuestions": [
+        {
+          "id": "a1-u01-l03-p01",
+          "type": "multipleChoice",
+          "question": "“Vowel” maxay ka dhigan tahay?",
+          "options": [
+            "Shaqal",
+            "Shibbane",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Shaqal",
+          "explanationSomali": "Jawaabta saxda ahi waa “Shaqal”; waa macnaha Vowel ee casharkan."
+        },
+        {
+          "id": "a1-u01-l03-p02",
+          "type": "fillInTheBlank",
+          "question": "A, E, I, O and U are ___.",
+          "options": [
+            "vowels",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "vowels",
+          "explanationSomali": "Erayga “vowels” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l03-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Consonant iyo macnihiisa.",
+          "options": [
+            "Shibbane",
+            "Shaqal",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Shibbane",
+          "explanationSomali": "Consonant waxaa loola jeedaa Shibbane."
+        }
+      ]
+    },
+    {
+      "id": "a1-u01-l04",
+      "levelId": "A1",
+      "unitId": "a1-u01",
+      "lessonNumber": 4,
+      "titleEnglish": "Spelling Names",
+      "titleSomali": "Higaadinta magacyada",
+      "shortDescriptionSomali": "Spelling waa in eray ama magac xaraf-xaraf loo sheego. Waxaa loo isticmaalaa telefoonka, xafiiska, bangiga iyo marka magaca la diiwaangelinayo.",
+      "learningObjectives": [
+        "Magacaaga xaraf-xaraf u sheeg.",
+        "Weydii qof sida magaciisa loo higgaadiyo.",
+        "Si sax ah u qor magac la higgaadiyay."
+      ],
+      "lessonType": "speaking",
+      "estimatedMinutes": 15,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u01-l03",
+      "vocabulary": [
+        {
+          "englishWord": "Spell",
+          "somaliMeaning": "Higgaadi",
+          "partOfSpeech": "verb",
+          "pronunciation": "spel",
+          "exampleEnglish": "Please spell your name.",
+          "exampleSomali": "Fadlan higgaadi magacaaga.",
+          "explanationSomali": "Spell waa inaad sheegto xaraf kasta oo erayga ku jira.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Name",
+          "somaliMeaning": "Magac",
+          "partOfSpeech": "noun",
+          "pronunciation": "neym",
+          "exampleEnglish": "My name is Hassan.",
+          "exampleSomali": "Magacaygu waa Xasan.",
+          "explanationSomali": "Name waa magaca qof, meel ama shay lagu yaqaan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Repeat",
+          "somaliMeaning": "Ku celi",
+          "partOfSpeech": "verb",
+          "pronunciation": "ri-peat",
+          "exampleEnglish": "Please repeat the last letter.",
+          "exampleSomali": "Fadlan ku celi xarafka ugu dambeeya.",
+          "explanationSomali": "Repeat waxaa la yiraahdaa marka aad rabto in wax mar kale la sheego.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "How do you spell your name?",
+          "somali": "Sidee baad u higgaadisaa magacaaga?"
+        },
+        {
+          "english": "Amina is A-M-I-N-A.",
+          "somali": "Aamina waxaa loo higgaadiyaa A-M-I-N-A."
+        },
+        {
+          "english": "Please repeat the letter.",
+          "somali": "Fadlan ku celi xarafka."
+        },
+        {
+          "english": "My last name starts with A.",
+          "somali": "Magacayga dambe wuxuu ka bilaabmaa A."
+        },
+        {
+          "english": "Is that M or N?",
+          "somali": "Kaasi ma M baa mise N?"
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u01-l04-p01",
+          "type": "multipleChoice",
+          "question": "“Spell” maxay ka dhigan tahay?",
+          "options": [
+            "Higgaadi",
+            "Magac",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Higgaadi",
+          "explanationSomali": "Jawaabta saxda ahi waa “Higgaadi”; waa macnaha Spell ee casharkan."
+        },
+        {
+          "id": "a1-u01-l04-p02",
+          "type": "fillInTheBlank",
+          "question": "Please ___ your name.",
+          "options": [
+            "spell",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "spell",
+          "explanationSomali": "Erayga “spell” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l04-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Name iyo macnihiisa.",
+          "options": [
+            "Magac",
+            "Higgaadi",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Magac",
+          "explanationSomali": "Name waxaa loola jeedaa Magac."
+        },
+        {
+          "id": "a1-u01-l04-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: spell / do / name / your / you / How",
+          "options": [],
+          "correctAnswer": "How do you spell your name?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “How do you spell your name?”."
+        },
+        {
+          "id": "a1-u01-l04-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: How do you spell your name?",
+          "options": [
+            "Sidee baad u higgaadisaa magacaaga?",
+            "Aamina waxaa loo higgaadiyaa A-M-I-N-A.",
+            "Magacaygu waa Cali.",
+            "Waxaan aadayaa suuqa."
+          ],
+          "correctAnswer": "Sidee baad u higgaadisaa magacaaga?",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u01-l04-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Aamina waxaa loo higgaadiyaa A-M-I-N-A.",
+          "options": [
+            "Amina is A-M-I-N-A.",
+            "How do you spell your name?",
+            "I go to school.",
+            "This is my phone."
+          ],
+          "correctAnswer": "Amina is A-M-I-N-A.",
+          "explanationSomali": "Jumladda “Amina is A-M-I-N-A.” ayaa si dabiici ah u gudbinaysa macnaha Soomaaliga."
+        },
+        {
+          "id": "a1-u01-l04-p07",
+          "type": "trueFalse",
+          "question": "Spelling means saying a word letter by letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Weedhu waa sax marka la raaco waxa casharka lagu bartay."
+        },
+        {
+          "id": "a1-u01-l04-p08",
+          "type": "speakingPrompt",
+          "question": "Magacaaga saddex jeer higgaadi: si tartiib ah, si caadi ah, kadib adigoo jumlad ku bilaabaya “My name is…”.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si cod dheer u hadal. Ujeeddadu waa dhawaaq cad iyo kalsooni, mana aha xawaare."
+        },
+        {
+          "id": "a1-u01-l04-p09",
+          "type": "shortWriting",
+          "question": "Qor magacaaga iyo laba magac oo kale, kuna kala saar xarfaha xarriiq gaaban.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Qoraalkaaga hubi: xaraf sax ah, kala horreyn sax ah iyo calaamadda dhammaadka."
+        }
+      ],
+      "speakingPractice": "Magacaaga saddex jeer higgaadi: si tartiib ah, si caadi ah, kadib adigoo jumlad ku bilaabaya “My name is…”.",
+      "writingPractice": "Qor magacaaga iyo laba magac oo kale, kuna kala saar xarfaha xarriiq gaaban.",
+      "summarySomali": "Markaad magac higgaadinayso, xaraf kasta si cad u sheeg. Waxaad oran kartaa “How do you spell…?” ama “Please repeat.”",
+      "quizQuestions": [
+        {
+          "id": "a1-u01-l04-p01",
+          "type": "multipleChoice",
+          "question": "“Spell” maxay ka dhigan tahay?",
+          "options": [
+            "Higgaadi",
+            "Magac",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Higgaadi",
+          "explanationSomali": "Jawaabta saxda ahi waa “Higgaadi”; waa macnaha Spell ee casharkan."
+        },
+        {
+          "id": "a1-u01-l04-p02",
+          "type": "fillInTheBlank",
+          "question": "Please ___ your name.",
+          "options": [
+            "spell",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "spell",
+          "explanationSomali": "Erayga “spell” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l04-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Name iyo macnihiisa.",
+          "options": [
+            "Magac",
+            "Higgaadi",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Magac",
+          "explanationSomali": "Name waxaa loola jeedaa Magac."
+        }
+      ]
+    },
+    {
+      "id": "a1-u01-l05",
+      "levelId": "A1",
+      "unitId": "a1-u01",
+      "lessonNumber": 5,
+      "titleEnglish": "Basic English Sounds",
+      "titleSomali": "Dhawaaqyada aasaasiga ah ee English-ka",
+      "shortDescriptionSomali": "Xarafku mararka qaarkood wuxuu leeyahay dhawaaq ka duwan magaciisa. Casharkan wuxuu ku barayaa dhawaaqyo bilow ah sida b, m, s, sh iyo th.",
+      "learningObjectives": [
+        "Kala garo magaca xarafka iyo dhawaaqiisa.",
+        "Ku celceli b, m, s, sh iyo th.",
+        "Si tartiib ah u akhri erayo fudud."
+      ],
+      "lessonType": "pronunciation",
+      "estimatedMinutes": 15,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u01-l04",
+      "vocabulary": [
+        {
+          "englishWord": "Pronounce",
+          "somaliMeaning": "Ku dhawaaq",
+          "partOfSpeech": "verb",
+          "pronunciation": "pruh-nauns",
+          "exampleEnglish": "Pronounce the word slowly.",
+          "exampleSomali": "Erayga si tartiib ah ugu dhawaaq.",
+          "explanationSomali": "Pronounce wuxuu ka hadlayaa sida eray afka looga yiraahdo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Listen",
+          "somaliMeaning": "Dhegayso",
+          "partOfSpeech": "verb",
+          "pronunciation": "lis-en",
+          "exampleEnglish": "Listen and repeat.",
+          "exampleSomali": "Dhegayso oo ku celi.",
+          "explanationSomali": "Listen waa inaad si feejigan codka u maqasho.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Slowly",
+          "somaliMeaning": "Si tartiib ah",
+          "partOfSpeech": "adverb",
+          "pronunciation": "sloh-lee",
+          "exampleEnglish": "Speak slowly, please.",
+          "exampleSomali": "Si tartiib ah u hadal, fadlan.",
+          "explanationSomali": "Slowly wuxuu tilmaamayaa in aan wax degdeg loo samayn.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "B sounds like /b/ in book.",
+          "somali": "B wuxuu leeyahay dhawaaqa /b/ ee book."
+        },
+        {
+          "english": "M sounds like /m/ in milk.",
+          "somali": "M wuxuu leeyahay dhawaaqa /m/ ee milk."
+        },
+        {
+          "english": "S sounds like /s/ in school.",
+          "somali": "S wuxuu leeyahay dhawaaqa /s/ ee school."
+        },
+        {
+          "english": "Sh is in shop.",
+          "somali": "Sh wuxuu ku jiraa shop."
+        },
+        {
+          "english": "Th is in thank.",
+          "somali": "Th wuxuu ku jiraa thank."
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u01-l05-p01",
+          "type": "multipleChoice",
+          "question": "“Pronounce” maxay ka dhigan tahay?",
+          "options": [
+            "Ku dhawaaq",
+            "Dhegayso",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Ku dhawaaq",
+          "explanationSomali": "Jawaabta saxda ahi waa “Ku dhawaaq”; waa macnaha Pronounce ee casharkan."
+        },
+        {
+          "id": "a1-u01-l05-p02",
+          "type": "fillInTheBlank",
+          "question": "Listen and ___ the word.",
+          "options": [
+            "repeat",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "repeat",
+          "explanationSomali": "Erayga “repeat” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l05-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Listen iyo macnihiisa.",
+          "options": [
+            "Dhegayso",
+            "Ku dhawaaq",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Dhegayso",
+          "explanationSomali": "Listen waxaa loola jeedaa Dhegayso."
+        },
+        {
+          "id": "a1-u01-l05-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: slowly / word / the / Pronounce",
+          "options": [],
+          "correctAnswer": "Pronounce the word slowly.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Pronounce the word slowly.”."
+        },
+        {
+          "id": "a1-u01-l05-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: B sounds like /b/ in book.",
+          "options": [
+            "B wuxuu leeyahay dhawaaqa /b/ ee book.",
+            "M wuxuu leeyahay dhawaaqa /m/ ee milk.",
+            "Magacaygu waa Cali.",
+            "Waxaan aadayaa suuqa."
+          ],
+          "correctAnswer": "B wuxuu leeyahay dhawaaqa /b/ ee book.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u01-l05-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: M wuxuu leeyahay dhawaaqa /m/ ee milk.",
+          "options": [
+            "M sounds like /m/ in milk.",
+            "B sounds like /b/ in book.",
+            "I go to school.",
+            "This is my phone."
+          ],
+          "correctAnswer": "M sounds like /m/ in milk.",
+          "explanationSomali": "Jumladda “M sounds like /m/ in milk.” ayaa si dabiici ah u gudbinaysa macnaha Soomaaliga."
+        },
+        {
+          "id": "a1-u01-l05-p07",
+          "type": "trueFalse",
+          "question": "The name of a letter is always the same as its sound in a word.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanationSomali": "Weedhu waa khalad; dib u eeg xeerka iyo tusaalooyinka casharka."
+        },
+        {
+          "id": "a1-u01-l05-p08",
+          "type": "speakingPrompt",
+          "question": "Dhegayso maskax ahaan kadib ku celi: book, milk, school, shop, thank. Afkaaga si cad u dhaqaaji.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si cod dheer u hadal. Ujeeddadu waa dhawaaq cad iyo kalsooni, mana aha xawaare."
+        },
+        {
+          "id": "a1-u01-l05-p09",
+          "type": "shortWriting",
+          "question": "Qor b, m, s, sh iyo th; mid kasta agtiisa ku qor hal eray oo dhawaaqaas leh.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Qoraalkaaga hubi: xaraf sax ah, kala horreyn sax ah iyo calaamadda dhammaadka."
+        }
+      ],
+      "speakingPractice": "Dhegayso maskax ahaan kadib ku celi: book, milk, school, shop, thank. Afkaaga si cad u dhaqaaji.",
+      "writingPractice": "Qor b, m, s, sh iyo th; mid kasta agtiisa ku qor hal eray oo dhawaaqaas leh.",
+      "summarySomali": "Magaca xarafku iyo dhawaaqiisu way kala duwanaan karaan. Dhegaysi iyo ku celcelin tartiib ah ayaa kaa caawinaya pronunciation-ka.",
+      "quizQuestions": [
+        {
+          "id": "a1-u01-l05-p01",
+          "type": "multipleChoice",
+          "question": "“Pronounce” maxay ka dhigan tahay?",
+          "options": [
+            "Ku dhawaaq",
+            "Dhegayso",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Ku dhawaaq",
+          "explanationSomali": "Jawaabta saxda ahi waa “Ku dhawaaq”; waa macnaha Pronounce ee casharkan."
+        },
+        {
+          "id": "a1-u01-l05-p02",
+          "type": "fillInTheBlank",
+          "question": "Listen and ___ the word.",
+          "options": [
+            "repeat",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "repeat",
+          "explanationSomali": "Erayga “repeat” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l05-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Listen iyo macnihiisa.",
+          "options": [
+            "Dhegayso",
+            "Ku dhawaaq",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Dhegayso",
+          "explanationSomali": "Listen waxaa loola jeedaa Dhegayso."
+        }
+      ]
+    },
+    {
+      "id": "a1-u01-l06",
+      "levelId": "A1",
+      "unitId": "a1-u01",
+      "lessonNumber": 6,
+      "titleEnglish": "Unit Review",
+      "titleSomali": "Dib-u-eegista Unit-ka",
+      "shortDescriptionSomali": "Casharkan wuxuu isku soo koobayaa alphabet-ka, capital iyo small letters, vowels, consonants, spelling iyo dhawaaqyada aasaasiga ah.",
+      "learningObjectives": [
+        "Dib u sheeg 26-ka xaraf.",
+        "Sax capital letters iyo vowels.",
+        "Higgaadi magacyo oo ku dhawaaq erayo fudud."
+      ],
+      "lessonType": "review",
+      "estimatedMinutes": 20,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u01-l05",
+      "vocabulary": [
+        {
+          "englishWord": "Review",
+          "somaliMeaning": "Dib-u-eegis",
+          "partOfSpeech": "noun",
+          "pronunciation": "ri-vyuu",
+          "exampleEnglish": "Let us review the unit.",
+          "exampleSomali": "Aan dib u eegno unit-ka.",
+          "explanationSomali": "Review waa ku noqoshada wixii la bartay si loo xoojiyo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Practice",
+          "somaliMeaning": "Ku celcelin",
+          "partOfSpeech": "noun",
+          "pronunciation": "prak-tis",
+          "exampleEnglish": "Practice the alphabet every day.",
+          "exampleSomali": "Maalin kasta ku celceli alphabet-ka.",
+          "explanationSomali": "Practice waa samaynta hawl marar badan si xirfaddu u fiicnaato.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Correct",
+          "somaliMeaning": "Sax",
+          "partOfSpeech": "adjective",
+          "pronunciation": "kuh-rekt",
+          "exampleEnglish": "Choose the correct letter.",
+          "exampleSomali": "Dooro xarafka saxda ah.",
+          "explanationSomali": "Correct wuxuu tilmaamayaa jawaab aan khalad ahayn.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "A is a capital letter.",
+          "somali": "A waa xaraf weyn."
+        },
+        {
+          "english": "a is a small letter.",
+          "somali": "a waa xaraf yar."
+        },
+        {
+          "english": "There are five vowels.",
+          "somali": "Waxaa jira shan vowel."
+        },
+        {
+          "english": "Spell Ali: A-L-I.",
+          "somali": "Higgaadi Cali: A-L-I."
+        },
+        {
+          "english": "Listen and repeat the sound.",
+          "somali": "Dhegayso oo ku celi dhawaaqa."
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u01-l06-p01",
+          "type": "multipleChoice",
+          "question": "“Review” maxay ka dhigan tahay?",
+          "options": [
+            "Dib-u-eegis",
+            "Ku celcelin",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Dib-u-eegis",
+          "explanationSomali": "Jawaabta saxda ahi waa “Dib-u-eegis”; waa macnaha Review ee casharkan."
+        },
+        {
+          "id": "a1-u01-l06-p02",
+          "type": "fillInTheBlank",
+          "question": "There are ___ vowels in English.",
+          "options": [
+            "five",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "five",
+          "explanationSomali": "Erayga “five” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l06-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Practice iyo macnihiisa.",
+          "options": [
+            "Ku celcelin",
+            "Dib-u-eegis",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Ku celcelin",
+          "explanationSomali": "Practice waxaa loola jeedaa Ku celcelin."
+        },
+        {
+          "id": "a1-u01-l06-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: name / Spell / your",
+          "options": [],
+          "correctAnswer": "Spell your name.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Spell your name.”."
+        },
+        {
+          "id": "a1-u01-l06-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: A is a capital letter.",
+          "options": [
+            "A waa xaraf weyn.",
+            "a waa xaraf yar.",
+            "Magacaygu waa Cali.",
+            "Waxaan aadayaa suuqa."
+          ],
+          "correctAnswer": "A waa xaraf weyn.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u01-l06-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: a waa xaraf yar.",
+          "options": [
+            "a is a small letter.",
+            "A is a capital letter.",
+            "I go to school.",
+            "This is my phone."
+          ],
+          "correctAnswer": "a is a small letter.",
+          "explanationSomali": "Jumladda “a is a small letter.” ayaa si dabiici ah u gudbinaysa macnaha Soomaaliga."
+        },
+        {
+          "id": "a1-u01-l06-p07",
+          "type": "trueFalse",
+          "question": "English has 26 letters.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Weedhu waa sax marka la raaco waxa casharka lagu bartay."
+        },
+        {
+          "id": "a1-u01-l06-p08",
+          "type": "speakingPrompt",
+          "question": "Sheeg alphabet-ka, vowels-ka, kadib higgaadi magacaaga iyo magaca magaaladaada.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si cod dheer u hadal. Ujeeddadu waa dhawaaq cad iyo kalsooni, mana aha xawaare."
+        },
+        {
+          "id": "a1-u01-l06-p09",
+          "type": "shortWriting",
+          "question": "Qor 26-ka xaraf laba saf: capital letters iyo small letters. Hoosta ka qor shanta vowel.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Qoraalkaaga hubi: xaraf sax ah, kala horreyn sax ah iyo calaamadda dhammaadka."
+        }
+      ],
+      "speakingPractice": "Sheeg alphabet-ka, vowels-ka, kadib higgaadi magacaaga iyo magaca magaaladaada.",
+      "writingPractice": "Qor 26-ka xaraf laba saf: capital letters iyo small letters. Hoosta ka qor shanta vowel.",
+      "summarySomali": "Waxaad dib u eegtay dhammaan Unit 1. Hadda waa inaad aqoonsan kartaa xarfaha, higgaadin kartaa magac, kala saari kartaa vowels iyo consonants, kuna celcelin kartaa dhawaaqyada.",
+      "quizQuestions": [
+        {
+          "id": "a1-u01-l06-p01",
+          "type": "multipleChoice",
+          "question": "“Review” maxay ka dhigan tahay?",
+          "options": [
+            "Dib-u-eegis",
+            "Ku celcelin",
+            "Tiro",
+            "Meel"
+          ],
+          "correctAnswer": "Dib-u-eegis",
+          "explanationSomali": "Jawaabta saxda ahi waa “Dib-u-eegis”; waa macnaha Review ee casharkan."
+        },
+        {
+          "id": "a1-u01-l06-p02",
+          "type": "fillInTheBlank",
+          "question": "There are ___ vowels in English.",
+          "options": [
+            "five",
+            "name",
+            "small",
+            "sound"
+          ],
+          "correctAnswer": "five",
+          "explanationSomali": "Erayga “five” ayaa jumladda macne sax ah siinaya."
+        },
+        {
+          "id": "a1-u01-l06-p03",
+          "type": "matchWords",
+          "question": "Isku aadi Practice iyo macnihiisa.",
+          "options": [
+            "Ku celcelin",
+            "Dib-u-eegis",
+            "Salaan",
+            "Mahadsanid"
+          ],
+          "correctAnswer": "Ku celcelin",
+          "explanationSomali": "Practice waxaa loola jeedaa Ku celcelin."
+        }
+      ]
+    }
+  ],
+  "unitQuiz": [
+    {
+      "id": "a1-u01-q01",
+      "type": "multipleChoice",
+      "question": "Immisa xaraf ayuu leeyahay English alphabet-ku?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctAnswer": "26",
+      "explanationSomali": "English alphabet-ku wuxuu leeyahay 26 xaraf."
+    },
+    {
+      "id": "a1-u01-q02",
+      "type": "multipleChoice",
+      "question": "Waa kee xarafka ugu horreeya?",
+      "options": [
+        "A",
+        "B",
+        "Y",
+        "Z"
+      ],
+      "correctAnswer": "A",
+      "explanationSomali": "A waa xarafka ugu horreeya ee alphabet-ka."
+    },
+    {
+      "id": "a1-u01-q03",
+      "type": "trueFalse",
+      "question": "Z is the last letter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanationSomali": "Z waa xarafka ugu dambeeya."
+    },
+    {
+      "id": "a1-u01-q04",
+      "type": "multipleChoice",
+      "question": "Kee ayaa ah capital letter?",
+      "options": [
+        "m",
+        "n",
+        "M",
+        "o"
+      ],
+      "correctAnswer": "M",
+      "explanationSomali": "M waa qaabka weyn; m waa qaabka yar."
+    },
+    {
+      "id": "a1-u01-q05",
+      "type": "fillInTheBlank",
+      "question": "A sentence starts with a ___ letter.",
+      "options": [
+        "capital",
+        "small",
+        "last",
+        "silent"
+      ],
+      "correctAnswer": "capital",
+      "explanationSomali": "Jumlad waxaa lagu bilaabaa capital letter."
+    },
+    {
+      "id": "a1-u01-q06",
+      "type": "multipleChoice",
+      "question": "Kee ayaa vowel ah?",
+      "options": [
+        "B",
+        "E",
+        "M",
+        "S"
+      ],
+      "correctAnswer": "E",
+      "explanationSomali": "E wuxuu ka mid yahay A, E, I, O, U."
+    },
+    {
+      "id": "a1-u01-q07",
+      "type": "multipleChoice",
+      "question": "Kee ayaa consonant ah?",
+      "options": [
+        "A",
+        "I",
+        "O",
+        "T"
+      ],
+      "correctAnswer": "T",
+      "explanationSomali": "T ma aha vowel, sidaas darteed waa consonant."
+    },
+    {
+      "id": "a1-u01-q08",
+      "type": "fillInTheBlank",
+      "question": "A, E, I, O and U are ___.",
+      "options": [
+        "vowels",
+        "names",
+        "sentences",
+        "numbers"
+      ],
+      "correctAnswer": "vowels",
+      "explanationSomali": "Shantaas xaraf waa vowels-ka English-ka."
+    },
+    {
+      "id": "a1-u01-q09",
+      "type": "multipleChoice",
+      "question": "Sidee loo higgaadiyaa “Ali”?",
+      "options": [
+        "A-L-I",
+        "E-L-I",
+        "A-R-I",
+        "A-L-E"
+      ],
+      "correctAnswer": "A-L-I",
+      "explanationSomali": "Ali xarafihiisu waa A, L iyo I."
+    },
+    {
+      "id": "a1-u01-q10",
+      "type": "arrangeSentence",
+      "question": "Kala hagaaji: spell / name / your / Please",
+      "options": [],
+      "correctAnswer": "Please spell your name.",
+      "explanationSomali": "Qaabka dabiiciga ahi waa “Please spell your name.”"
+    },
+    {
+      "id": "a1-u01-q11",
+      "type": "englishToSomali",
+      "question": "“Repeat” maxay ka dhigan tahay?",
+      "options": [
+        "Ku celi",
+        "Qor",
+        "Akhri",
+        "Tag"
+      ],
+      "correctAnswer": "Ku celi",
+      "explanationSomali": "Repeat waxaa loola jeedaa in wax mar kale la sameeyo ama la yiraahdo."
+    },
+    {
+      "id": "a1-u01-q12",
+      "type": "somaliToEnglish",
+      "question": "Dooro English-ka “Dhegayso”.",
+      "options": [
+        "Speak",
+        "Write",
+        "Listen",
+        "Spell"
+      ],
+      "correctAnswer": "Listen",
+      "explanationSomali": "Listen waa “dhegayso”."
+    },
+    {
+      "id": "a1-u01-q13",
+      "type": "trueFalse",
+      "question": "A letter name and its sound are always identical.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "explanationSomali": "Magaca xarafka iyo dhawaaqiisa erayga mararka qaar way kala duwan yihiin."
+    },
+    {
+      "id": "a1-u01-q14",
+      "type": "multipleChoice",
+      "question": "Eraygee ku bilaabma dhawaaqa /sh/?",
+      "options": [
+        "shop",
+        "book",
+        "milk",
+        "name"
+      ],
+      "correctAnswer": "shop",
+      "explanationSomali": "Shop wuxuu ku bilaabmaa isku-dhafka sh."
+    },
+    {
+      "id": "a1-u01-q15",
+      "type": "multipleChoice",
+      "question": "Maxaa fiican marka pronunciation la baranayo?",
+      "options": [
+        "Dhegayso oo ku celi",
+        "Aad u degdeg",
+        "Ha hadlin",
+        "Xarfaha ka bood"
+      ],
+      "correctAnswer": "Dhegayso oo ku celi",
+      "explanationSomali": "Dhegaysi iyo ku celcelin ayaa dhisa dhawaaq cad."
+    }
+  ],
+  "passingScore": 70
+}

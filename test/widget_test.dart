@@ -34,4 +34,17 @@ void main() {
     expect(restored.hasPassedUnitQuiz('a1-u01'), isTrue);
     expect(restored.hasPassedFinalExam('A1'), isTrue);
   });
+
+  test('unit pass is persisted and unlocks the next unit', () async {
+    SharedPreferences.setMockInitialValues({});
+    final storage = await LocalStorageService.create();
+    final state = AppProvider(storage);
+
+    await state.completeCourseLesson('a1-u01-l01');
+    await state.recordUnitQuizScore('a1-u01', 73);
+
+    expect(state.courseProgress.completedLessonIds, contains('a1-u01-l01'));
+    expect(state.hasPassedUnit('a1-u01'), isTrue);
+    expect(storage.courseProgress.hasPassedUnitQuiz('a1-u01'), isTrue);
+  });
 }

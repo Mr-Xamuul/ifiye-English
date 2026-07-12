@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/storage/local_storage_service.dart';
+import '../models/content/course_progress.dart';
 import '../models/models.dart';
 
 class AppProvider extends ChangeNotifier {
@@ -11,6 +12,7 @@ class AppProvider extends ChangeNotifier {
   Set<String> completedLessons = {};
   List<SavedItem> savedItems = [];
   List<int> examScores = [];
+  CourseProgress courseProgress = const CourseProgress();
 
   Future<void> initialize() async {
     onboardingComplete = _storage.onboardingComplete;
@@ -18,6 +20,7 @@ class AppProvider extends ChangeNotifier {
     savedItems = _storage.savedItems.map(SavedItem.fromJson).toList();
     examScores = _storage.examScores;
     dailyGoal = _storage.dailyGoal;
+    courseProgress = _storage.courseProgress;
     initialized = true;
     notifyListeners();
     await Future<void>.delayed(const Duration(milliseconds: 1200));
@@ -43,6 +46,40 @@ class AppProvider extends ChangeNotifier {
     await _storage.saveCompletedLessons(completedLessons);
     notifyListeners();
   }
+
+  bool isCourseLessonUnlocked(String? previousLessonId) =>
+      previousLessonId == null ||
+      courseProgress.completedLessonIds.contains(previousLessonId);
+
+  Future<void> completeCourseLesson(String lessonId) async {
+    courseProgress = CourseProgress(
+      version: courseProgress.version,
+      completedLessonIds: {...courseProgress.completedLessonIds, lessonId},
+      lessonQuizScores: courseProgress.lessonQuizScores,
+      unitQuizScores: courseProgress.unitQuizScores,
+      finalExamScores: courseProgress.finalExamScores,
+    );
+    await _storage.saveCourseProgress(courseProgress);
+    notifyListeners();
+  }
+
+  Future<void> recordUnitQuizScore(String unitId, int score) async {
+    final previous = courseProgress.unitQuizScores[unitId] ?? 0;
+    courseProgress = CourseProgress(
+      version: courseProgress.version,
+      completedLessonIds: courseProgress.completedLessonIds,
+      lessonQuizScores: courseProgress.lessonQuizScores,
+      unitQuizScores: {
+        ...courseProgress.unitQuizScores,
+        unitId: score > previous ? score : previous,
+      },
+      finalExamScores: courseProgress.finalExamScores,
+    );
+    await _storage.saveCourseProgress(courseProgress);
+    notifyListeners();
+  }
+
+  bool hasPassedUnit(String unitId) => courseProgress.hasPassedUnitQuiz(unitId);
 
   bool isSaved(String id) => savedItems.any((e) => e.id == id);
   Future<void> toggleSaved(SavedItem item) async {
@@ -81,6 +118,7 @@ class AppProvider extends ChangeNotifier {
     completedLessons.clear();
     savedItems.clear();
     examScores.clear();
+    courseProgress = const CourseProgress();
     dailyGoal = 10;
     await _storage.reset();
     notifyListeners();

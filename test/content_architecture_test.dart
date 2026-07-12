@@ -24,4 +24,21 @@ void main() {
       expect(validator.validateLevel(level).errors, isEmpty);
     }
   });
+
+  test('A1 Unit 1 has complete lessons, review, and unit quiz', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final validator = const ContentValidator();
+
+    final unit = await repository.loadUnit('assets/content/a1/unit_01.json');
+    final result = validator.validateUnit(unit);
+
+    expect(result.errors, isEmpty);
+    expect(unit.lessons, hasLength(6));
+    expect(unit.lessons.last.lessonType.name, 'review');
+    expect(
+      unit.lessons.every((lesson) => lesson.practiceExercises.length >= 8),
+      isTrue,
+    );
+    expect(unit.unitQuiz, hasLength(15));
+  });
 }
