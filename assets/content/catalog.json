@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "levelFiles": [
+    "assets/content/a1/level.json",
+    "assets/content/a2/level.json",
+    "assets/content/b1/level.json",
+    "assets/content/b2/level.json",
+    "assets/content/c1/level.json",
+    "assets/content/c2/level.json"
+  ]
+}

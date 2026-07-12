@@ -1,0 +1,9 @@
+{
+  "id": "B1",
+  "title": "B1 – Intermediate",
+  "descriptionSomali": "Heer kuu suurtagelinaya inaad si madax-bannaan uga hadasho mowduucyo badan.",
+  "introductionSomali": "B1 wuxuu isku daraa shaqo, ganacsi, tiknoolajiyad, warar, caafimaad iyo dood fikradeed.",
+  "requiredPreviousLevelId": "A2",
+  "unitFiles": ["assets/content/b1/unit_01.json", "assets/content/b1/unit_02.json", "assets/content/b1/unit_03.json", "assets/content/b1/unit_04.json", "assets/content/b1/unit_05.json", "assets/content/b1/unit_06.json", "assets/content/b1/unit_07.json", "assets/content/b1/unit_08.json", "assets/content/b1/unit_09.json", "assets/content/b1/unit_10.json", "assets/content/b1/unit_11.json", "assets/content/b1/unit_12.json", "assets/content/b1/unit_13.json", "assets/content/b1/unit_14.json"],
+  "finalExamFile": "assets/content/b1/final_exam.json"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "C1",
+  "title": "C1 – Advanced",
+  "descriptionSomali": "English heer sare ah oo loogu talagalay waxbarasho iyo shaqo xirfadeed.",
+  "introductionSomali": "C1 wuxuu horumariyaa cilmi-baarista, falanqaynta, hoggaaminta, hadalka dadweynaha iyo qoraalka rasmi ah.",
+  "requiredPreviousLevelId": "B2",
+  "unitFiles": ["assets/content/c1/unit_01.json", "assets/content/c1/unit_02.json", "assets/content/c1/unit_03.json", "assets/content/c1/unit_04.json", "assets/content/c1/unit_05.json", "assets/content/c1/unit_06.json", "assets/content/c1/unit_07.json", "assets/content/c1/unit_08.json", "assets/content/c1/unit_09.json", "assets/content/c1/unit_10.json", "assets/content/c1/unit_11.json", "assets/content/c1/unit_12.json", "assets/content/c1/unit_13.json", "assets/content/c1/unit_14.json", "assets/content/c1/unit_15.json"],
+  "finalExamFile": "assets/content/c1/final_exam.json"
+}

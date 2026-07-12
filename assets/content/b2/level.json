@@ -1,0 +1,9 @@
+{
+  "id": "B2",
+  "title": "B2 – Upper Intermediate",
+  "descriptionSomali": "Heer lagu barto xiriirka shaqo, bandhigyada iyo mowduucyada adag.",
+  "introductionSomali": "B2 wuxuu xoogga saaraa shirarka, gorgortanka, qoraalka xirfadeed, doodda iyo arrimaha caalamiga ah.",
+  "requiredPreviousLevelId": "B1",
+  "unitFiles": ["assets/content/b2/unit_01.json", "assets/content/b2/unit_02.json", "assets/content/b2/unit_03.json", "assets/content/b2/unit_04.json", "assets/content/b2/unit_05.json", "assets/content/b2/unit_06.json", "assets/content/b2/unit_07.json", "assets/content/b2/unit_08.json", "assets/content/b2/unit_09.json", "assets/content/b2/unit_10.json", "assets/content/b2/unit_11.json", "assets/content/b2/unit_12.json", "assets/content/b2/unit_13.json", "assets/content/b2/unit_14.json", "assets/content/b2/unit_15.json"],
+  "finalExamFile": "assets/content/b2/final_exam.json"
+}
