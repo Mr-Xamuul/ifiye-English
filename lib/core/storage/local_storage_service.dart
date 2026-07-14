@@ -13,10 +13,6 @@ class LocalStorageService {
   bool get onboardingComplete => _prefs.getBool('onboardingComplete') ?? false;
   Future<void> setOnboardingComplete() =>
       _prefs.setBool('onboardingComplete', true);
-  Set<String> get completedLessons =>
-      (_prefs.getStringList('completedLessons') ?? []).toSet();
-  Future<void> saveCompletedLessons(Set<String> ids) =>
-      _prefs.setStringList('completedLessons', ids.toList());
   List<Map<String, dynamic>> get savedItems =>
       (jsonDecode(_prefs.getString('savedItems') ?? '[]') as List)
           .cast<Map<String, dynamic>>();

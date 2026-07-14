@@ -9,14 +9,12 @@ class AppProvider extends ChangeNotifier {
   final LocalStorageService _storage;
   bool initialized = false, splashFinished = false, onboardingComplete = false;
   int navIndex = 0, dailyGoal = 10;
-  Set<String> completedLessons = {};
   List<SavedItem> savedItems = [];
   List<int> examScores = [];
   CourseProgress courseProgress = const CourseProgress();
 
   Future<void> initialize() async {
     onboardingComplete = _storage.onboardingComplete;
-    completedLessons = _storage.completedLessons;
     savedItems = _storage.savedItems.map(SavedItem.fromJson).toList();
     examScores = _storage.examScores;
     dailyGoal = _storage.dailyGoal;
@@ -36,14 +34,6 @@ class AppProvider extends ChangeNotifier {
 
   void setNavIndex(int value) {
     navIndex = value;
-    notifyListeners();
-  }
-
-  bool lessonUnlocked(int index) =>
-      index == 0 || completedLessons.contains('a1-$index');
-  Future<void> completeLesson(String id) async {
-    completedLessons.add(id);
-    await _storage.saveCompletedLessons(completedLessons);
     notifyListeners();
   }
 
@@ -107,7 +97,6 @@ class AppProvider extends ChangeNotifier {
   int get bestScore =>
       examScores.isEmpty ? 0 : examScores.reduce((a, b) => a > b ? a : b);
   int get previousScore => examScores.isEmpty ? 0 : examScores.last;
-  double get progress => completedLessons.length / 10;
   Future<void> updateDailyGoal(int value) async {
     dailyGoal = value;
     await _storage.setDailyGoal(value);
@@ -115,7 +104,6 @@ class AppProvider extends ChangeNotifier {
   }
 
   Future<void> resetProgress() async {
-    completedLessons.clear();
     savedItems.clear();
     examScores.clear();
     courseProgress = const CourseProgress();

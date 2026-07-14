@@ -7,12 +7,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('progress and exam defaults are safe', () async {
+  test('course progress and exam defaults are safe', () async {
     SharedPreferences.setMockInitialValues({});
     final storage = await LocalStorageService.create();
     final state = AppProvider(storage);
 
-    expect(state.progress, 0);
+    expect(state.courseProgress.completedLessonIds, isEmpty);
     expect(state.bestScore, 0);
   });
 

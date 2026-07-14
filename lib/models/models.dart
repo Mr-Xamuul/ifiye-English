@@ -1,52 +1,5 @@
 enum SavedItemType { word, sentence, lesson }
 
-class LessonItem {
-  const LessonItem({
-    required this.id,
-    required this.englishText,
-    required this.somaliText,
-    required this.exampleEnglish,
-    required this.exampleSomali,
-    required this.pronunciation,
-    this.type = 'vocabulary',
-  });
-  final String id,
-      englishText,
-      somaliText,
-      exampleEnglish,
-      exampleSomali,
-      pronunciation,
-      type;
-}
-
-class Lesson {
-  const Lesson({
-    required this.id,
-    required this.levelId,
-    required this.titleEnglish,
-    required this.titleSomali,
-    required this.description,
-    required this.duration,
-    required this.lessonItems,
-  });
-  final String id, levelId, titleEnglish, titleSomali, description;
-  final int duration;
-  final List<LessonItem> lessonItems;
-}
-
-class CefrLevel {
-  const CefrLevel({
-    required this.id,
-    required this.title,
-    required this.description,
-    required this.lessonCount,
-    required this.isLocked,
-  });
-  final String id, title, description;
-  final int lessonCount;
-  final bool isLocked;
-}
-
 class SavedItem {
   SavedItem({
     required this.id,

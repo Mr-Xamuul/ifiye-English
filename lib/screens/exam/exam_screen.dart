@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../data/mock/mock_data.dart';
+import '../../data/content/a1_exam_data.dart';
 import '../../providers/app_provider.dart';
 import '../../widgets/common_widgets.dart';
 

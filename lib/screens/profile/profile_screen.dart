@@ -32,7 +32,9 @@ class ProfileScreen extends StatelessWidget {
                 ListTile(
                   leading: const Icon(Icons.menu_book),
                   title: const Text('Casharro la dhammaystiray'),
-                  trailing: Text('${s.completedLessons.length}'),
+                  trailing: Text(
+                    '${s.courseProgress.completedLessonIds.length}',
+                  ),
                 ),
                 ListTile(
                   leading: const Icon(Icons.bookmark),
