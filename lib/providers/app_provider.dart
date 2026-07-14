@@ -76,6 +76,29 @@ class AppProvider extends ChangeNotifier {
 
   bool hasPassedUnit(String unitId) => courseProgress.hasPassedUnitQuiz(unitId);
 
+  static const finalReviewCompletionId = 'a1-final-review-completed';
+
+  bool get hasCompletedFinalReview =>
+      courseProgress.completedLessonIds.contains(finalReviewCompletionId);
+
+  Future<void> completeFinalReview(int readinessScore) async {
+    courseProgress = CourseProgress(
+      version: courseProgress.version,
+      completedLessonIds: {
+        ...courseProgress.completedLessonIds,
+        finalReviewCompletionId,
+      },
+      lessonQuizScores: courseProgress.lessonQuizScores,
+      unitQuizScores: {
+        ...courseProgress.unitQuizScores,
+        'a1-final-review': readinessScore,
+      },
+      finalExamScores: courseProgress.finalExamScores,
+    );
+    await _storage.saveCourseProgress(courseProgress);
+    notifyListeners();
+  }
+
   bool isSaved(String id) => savedItems.any((e) => e.id == id);
   Future<void> toggleSaved(SavedItem item) async {
     isSaved(item.id)

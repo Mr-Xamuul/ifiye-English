@@ -119,5 +119,13 @@ void main() {
     await state.recordUnitQuizScore('a1-u10', 70);
     expect(state.hasPassedUnit('a1-u10'), isTrue);
     expect(state.courseProgress.completedLessonIds, contains('a1-u01-l01'));
+
+    await state.completeFinalReview(65);
+    expect(state.hasCompletedFinalReview, isTrue);
+    expect(state.courseProgress.unitQuizScores['a1-final-review'], 65);
+    expect(
+      storage.courseProgress.completedLessonIds,
+      contains(AppProvider.finalReviewCompletionId),
+    );
   });
 }

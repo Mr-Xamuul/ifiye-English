@@ -29,6 +29,7 @@ class _LessonsScreenState extends State<LessonsScreen> {
     CefrContentRepository().loadUnit('assets/content/a1/unit_08.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_09.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_10.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/final_review.json'),
   ]);
 
   @override
@@ -100,6 +101,7 @@ class _UnitSelector extends StatelessWidget {
     final unitTenUnlocked =
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u09');
     final finalReviewUnlocked = state.hasPassedUnit('a1-u10');
+    final finalExamUnlocked = state.hasCompletedFinalReview;
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -309,9 +311,33 @@ class _UnitSelector extends StatelessWidget {
             const SizedBox(width: 8),
             ChoiceChip(
               label: const Text('Final Review'),
-              selected: false,
+              selected: selectedUnit == 10,
               avatar: Icon(
                 finalReviewUnlocked
+                    ? Icons.lock_open_outlined
+                    : Icons.lock_outline,
+                size: 18,
+              ),
+              onSelected: (_) {
+                if (finalReviewUnlocked) {
+                  onSelected(10);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        'Gudub Unit 10 quiz si Final Review u furmo.',
+                      ),
+                    ),
+                  );
+                }
+              },
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: const Text('Final Exam'),
+              selected: false,
+              avatar: Icon(
+                finalExamUnlocked
                     ? Icons.lock_open_outlined
                     : Icons.lock_outline,
                 size: 18,
@@ -319,9 +345,9 @@ class _UnitSelector extends StatelessWidget {
               onSelected: (_) => ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(
-                    finalReviewUnlocked
-                        ? 'A1 Final Review waa furmay; content-kiisu phase-ka xiga ayuu imanayaa.'
-                        : 'Gudub Unit 10 quiz si Final Review u furmo.',
+                    finalExamUnlocked
+                        ? 'A1 Final Exam waa furmay; content-kiisu phase-ka xiga ayuu imanayaa.'
+                        : 'Dhammaystir Final Review iyo Mixed Practice si Final Exam u furmo.',
                   ),
                 ),
               ),
@@ -349,7 +375,9 @@ class _UnitContent extends StatelessWidget {
     final allLessonsComplete = unit.lessons.every(
       (item) => completed.contains(item.id),
     );
-    final passed = state.hasPassedUnit(unit.id);
+    final passed = unit.id == 'a1-final-review'
+        ? state.hasCompletedFinalReview
+        : state.hasPassedUnit(unit.id);
     final quizUnlocked =
         AppProvider.unlockA1DuringDevelopment || allLessonsComplete;
     final nextUnitUnlocked = AppProvider.unlockA1DuringDevelopment || passed;

@@ -185,5 +185,23 @@ void main() {
       findsOneWidget,
     );
     expect(state.hasPassedUnit('a1-u10'), isFalse);
+
+    await state.recordUnitQuizScore('a1-u10', 70);
+    await tester.pump();
+    await tester.ensureVisible(finalReviewChip);
+    await tester.tap(finalReviewChip);
+    await tester.pump();
+
+    expect(find.text('A1 Final Review'), findsOneWidget);
+    expect(find.text('Vocabulary Review'), findsOneWidget);
+
+    final finalExamChip = find.widgetWithText(ChoiceChip, 'Final Exam');
+    expect(
+      find.descendant(
+        of: finalExamChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
   });
 }

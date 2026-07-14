@@ -136,13 +136,17 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
       return;
     }
     final score = (correct / widget.unit.unitQuiz.length * 100).round();
-    context.read<AppProvider>().recordUnitQuizScore(widget.unit.id, score);
+    if (widget.unit.id == 'a1-final-review') {
+      context.read<AppProvider>().completeFinalReview(score);
+    } else {
+      context.read<AppProvider>().recordUnitQuizScore(widget.unit.id, score);
+    }
     setState(() => finished = true);
   }
 
   Widget _result(BuildContext context) {
     final score = (correct / widget.unit.unitQuiz.length * 100).round();
-    final passed = score >= 70;
+    final passed = widget.unit.id == 'a1-final-review' || score >= 70;
     return ListView(
       padding: const EdgeInsets.all(28),
       children: [
@@ -152,7 +156,11 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
           color: passed ? Colors.amber : Theme.of(context).colorScheme.primary,
         ),
         Text(
-          passed ? 'Hambalyo, waad gudubtay!' : 'Weli maadan gudbin',
+          widget.unit.id == 'a1-final-review'
+              ? 'Final Review waa la dhammaystiray!'
+              : passed
+              ? 'Hambalyo, waad gudubtay!'
+              : 'Weli maadan gudbin',
           textAlign: TextAlign.center,
           style: Theme.of(
             context,
@@ -183,7 +191,11 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
                 trailing: const Text('70%'),
               ),
               Text(
-                passed
+                widget.unit.id == 'a1-final-review'
+                    ? score >= 70
+                          ? 'Waxaad diyaar u tahay A1 Final Exam. Final Exam indicator-ku hadda waa furmay.'
+                          : 'Review-ga waad dhammaystirtay, laakiin score-ku wuxuu ka hooseeyaa 70%. Dib u eeg topics-ka aad ku liidato ka hor Final Exam.'
+                    : passed
                     ? widget.unit.id == 'a1-u10'
                           ? 'A1 Final Review hadda waa kuu furmay. Final Exam weli waa locked.'
                           : 'Unit ${widget.unit.unitNumber + 1} hadda waa kuu furmay.'

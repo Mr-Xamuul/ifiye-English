@@ -527,4 +527,33 @@ void main() {
       );
     }
   });
+
+  test('A1 Final Review has complete sections and mixed practice', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final review = await repository.loadUnit(
+      'assets/content/a1/final_review.json',
+    );
+    expect(const ContentValidator().validateUnit(review).errors, isEmpty);
+    expect(review.id, 'a1-final-review');
+    expect(review.requiredPreviousUnitId, 'a1-u10');
+    expect(review.lessons, hasLength(9));
+    expect(review.lessons[0].practiceExercises, hasLength(80));
+    expect(review.lessons[1].practiceExercises, hasLength(100));
+    expect(review.lessons[2].dialogues, hasLength(25));
+    expect(review.lessons[3].dialogues, hasLength(10));
+    expect(review.lessons[4].dialogues, hasLength(15));
+    expect(review.lessons[5].practiceExercises, hasLength(15));
+    expect(review.lessons[6].practiceExercises, hasLength(15));
+    expect(review.unitQuiz, hasLength(60));
+    final ids = <String>[
+      review.id,
+      ...review.lessons.map((e) => e.id),
+      for (final lesson in review.lessons) ...[
+        ...lesson.practiceExercises.map((e) => e.id),
+        ...lesson.quizQuestions.map((e) => e.id),
+      ],
+      ...review.unitQuiz.map((e) => e.id),
+    ];
+    expect(ids.toSet(), hasLength(ids.length));
+  });
 }
