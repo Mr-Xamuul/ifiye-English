@@ -274,7 +274,7 @@ class _Dashboard extends StatelessWidget {
     final ready = unit.lessons.every(
       (lesson) => state.courseProgress.completedLessonIds.contains(lesson.id),
     );
-    if (!ready) {
+    if (!AppProvider.unlockA1DuringDevelopment && !ready) {
       _lockedMessage(context);
       return;
     }

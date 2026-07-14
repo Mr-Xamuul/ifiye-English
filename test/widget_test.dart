@@ -14,6 +14,7 @@ void main() {
 
     expect(state.courseProgress.completedLessonIds, isEmpty);
     expect(state.bestScore, 0);
+    expect(state.isCourseLessonUnlocked('lesson-not-completed'), isTrue);
   });
 
   test('versioned course progress is saved locally', () async {

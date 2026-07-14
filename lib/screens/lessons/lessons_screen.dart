@@ -76,11 +76,16 @@ class _UnitSelector extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
-    final unitTwoUnlocked = state.hasPassedUnit('a1-u01');
-    final unitThreeUnlocked = state.hasPassedUnit('a1-u02');
-    final unitFourUnlocked = state.hasPassedUnit('a1-u03');
-    final unitFiveUnlocked = state.hasPassedUnit('a1-u04');
-    final unitSixUnlocked = state.hasPassedUnit('a1-u05');
+    final unitTwoUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u01');
+    final unitThreeUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u02');
+    final unitFourUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u03');
+    final unitFiveUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u04');
+    final unitSixUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u05');
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -216,12 +221,16 @@ class _UnitContent extends StatelessWidget {
     final state = context.watch<AppProvider>();
     final completed = state.courseProgress.completedLessonIds;
     final unitUnlocked =
+        AppProvider.unlockA1DuringDevelopment ||
         unit.requiredPreviousUnitId == null ||
         state.hasPassedUnit(unit.requiredPreviousUnitId!);
     final allLessonsComplete = unit.lessons.every(
       (item) => completed.contains(item.id),
     );
     final passed = state.hasPassedUnit(unit.id);
+    final quizUnlocked =
+        AppProvider.unlockA1DuringDevelopment || allLessonsComplete;
+    final nextUnitUnlocked = AppProvider.unlockA1DuringDevelopment || passed;
     final bestScore = state.courseProgress.unitQuizScores[unit.id] ?? 0;
 
     return ListView(
@@ -298,7 +307,7 @@ class _UnitContent extends StatelessWidget {
           );
         }),
         AppCard(
-          onTap: allLessonsComplete
+          onTap: quizUnlocked
               ? () => Navigator.push(
                   context,
                   MaterialPageRoute(builder: (_) => UnitQuizScreen(unit: unit)),
@@ -314,17 +323,17 @@ class _UnitContent extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              allLessonsComplete
+              quizUnlocked
                   ? '${unit.unitQuiz.length} su’aalood • Gudub 70% • Best $bestScore%'
                   : 'Dhammaystir ${unit.lessons.length}-da cashar si quiz-ku u furmo',
             ),
             trailing: Icon(
-              allLessonsComplete ? Icons.chevron_right : Icons.lock_outline,
+              quizUnlocked ? Icons.chevron_right : Icons.lock_outline,
             ),
           ),
         ),
         AppCard(
-          onTap: passed
+          onTap: nextUnitUnlocked
               ? onOpenNextUnit ??
                     () => ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
@@ -342,14 +351,14 @@ class _UnitContent extends StatelessWidget {
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              passed
+              nextUnitUnlocked
                   ? (onOpenNextUnit == null
                         ? 'Unlocked • Content coming next'
                         : 'Unlocked • Fur casharrada')
                   : 'Locked • Gudub Unit ${unit.unitNumber} quiz',
             ),
             trailing: Icon(
-              passed ? Icons.lock_open_outlined : Icons.lock_outline,
+              nextUnitUnlocked ? Icons.lock_open_outlined : Icons.lock_outline,
             ),
           ),
         ),

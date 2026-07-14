@@ -6,6 +6,10 @@ import '../models/models.dart';
 
 class AppProvider extends ChangeNotifier {
   AppProvider(this._storage);
+
+  // A1 content remains open while the curriculum is under development.
+  static const unlockA1DuringDevelopment = true;
+
   final LocalStorageService _storage;
   bool initialized = false, splashFinished = false, onboardingComplete = false;
   int navIndex = 0, dailyGoal = 10;
@@ -38,6 +42,7 @@ class AppProvider extends ChangeNotifier {
   }
 
   bool isCourseLessonUnlocked(String? previousLessonId) =>
+      unlockA1DuringDevelopment ||
       previousLessonId == null ||
       courseProgress.completedLessonIds.contains(previousLessonId);
 
