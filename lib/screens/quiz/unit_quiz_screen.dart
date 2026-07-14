@@ -184,7 +184,11 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
               ),
               Text(
                 passed
-                    ? 'Unit ${widget.unit.unitNumber + 1} hadda waa kuu furmay.'
+                    ? widget.unit.id == 'a1-u10'
+                          ? 'A1 Final Review hadda waa kuu furmay. Final Exam weli waa locked.'
+                          : 'Unit ${widget.unit.unitNumber + 1} hadda waa kuu furmay.'
+                    : widget.unit.id == 'a1-u10'
+                    ? 'Dib u eeg conversation starters/endings, personal information, school/work, shopping/restaurant, help, phone, plans iyo best responses; kadib mar kale isku day.'
                     : widget.unit.id == 'a1-u09'
                     ? 'Dib u eeg places vocabulary, jid weydiinta, left/right/straight, imperatives, location prepositions, can/cannot, gaadiidka iyo textual maps; kadib mar kale isku day.'
                     : widget.unit.id == 'a1-u08'

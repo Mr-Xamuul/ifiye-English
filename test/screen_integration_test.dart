@@ -162,10 +162,28 @@ void main() {
     expect(
       find.descendant(
         of: unitTenChip,
-        matching: find.byIcon(Icons.lock_outline),
+        matching: find.byIcon(Icons.lock_open_outlined),
       ),
       findsOneWidget,
     );
     expect(state.hasPassedUnit('a1-u09'), isFalse);
+
+    await tester.ensureVisible(unitTenChip);
+    await tester.pump();
+    await tester.tap(unitTenChip);
+    await tester.pump();
+
+    expect(find.text('Basic Conversations'), findsOneWidget);
+    expect(find.text('Starting a Conversation'), findsOneWidget);
+
+    final finalReviewChip = find.widgetWithText(ChoiceChip, 'Final Review');
+    expect(
+      find.descendant(
+        of: finalReviewChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+    expect(state.hasPassedUnit('a1-u10'), isFalse);
   });
 }
