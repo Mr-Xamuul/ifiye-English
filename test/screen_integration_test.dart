@@ -180,7 +180,7 @@ void main() {
     expect(
       find.descendant(
         of: finalReviewChip,
-        matching: find.byIcon(Icons.lock_outline),
+        matching: find.byIcon(Icons.lock_open_outlined),
       ),
       findsOneWidget,
     );
@@ -199,7 +199,7 @@ void main() {
     expect(
       find.descendant(
         of: finalExamChip,
-        matching: find.byIcon(Icons.lock_outline),
+        matching: find.byIcon(Icons.lock_open_outlined),
       ),
       findsOneWidget,
     );

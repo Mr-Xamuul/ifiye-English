@@ -100,8 +100,10 @@ class _UnitSelector extends StatelessWidget {
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u08');
     final unitTenUnlocked =
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u09');
-    final finalReviewUnlocked = state.hasPassedUnit('a1-u10');
-    final finalExamUnlocked = state.hasCompletedFinalReview;
+    final finalReviewUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u10');
+    final finalExamUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasCompletedFinalReview;
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
