@@ -61,5 +61,28 @@ void main() {
 
     expect(find.text('Numbers and Personal Information'), findsOneWidget);
     expect(find.text('Numbers 0–20'), findsOneWidget);
+
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Unit 4'));
+    await tester.pump();
+    expect(find.text('Gudub Unit 3 quiz si Unit 4 u furmo.'), findsOneWidget);
+    expect(find.text('Numbers and Personal Information'), findsOneWidget);
+
+    await state.recordUnitQuizScore('a1-u03', 70);
+    await tester.pump();
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Unit 4'));
+    await tester.pump();
+
+    expect(find.text('Family and People'), findsOneWidget);
+    expect(find.text('Family Members'), findsOneWidget);
+
+    final unitFiveChip = find.widgetWithText(ChoiceChip, 'Unit 5');
+    expect(
+      find.descendant(
+        of: unitFiveChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+    expect(state.hasPassedUnit('a1-u04'), isFalse);
   });
 }

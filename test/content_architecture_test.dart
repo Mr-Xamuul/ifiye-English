@@ -128,4 +128,54 @@ void main() {
       );
     }
   });
+
+  test('A1 Unit 4 is complete, valid, and references Unit 3', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final validator = const ContentValidator();
+    final units = await Future.wait([
+      repository.loadUnit('assets/content/a1/unit_01.json'),
+      repository.loadUnit('assets/content/a1/unit_02.json'),
+      repository.loadUnit('assets/content/a1/unit_03.json'),
+      repository.loadUnit('assets/content/a1/unit_04.json'),
+    ]);
+    final unitFour = units.last;
+
+    expect(validator.validateUnit(unitFour).errors, isEmpty);
+    expect(unitFour.requiredPreviousUnitId, 'a1-u03');
+    expect(unitFour.lessons, hasLength(10));
+    expect(unitFour.lessons.last.lessonType.name, 'review');
+    expect(unitFour.lessons.last.practiceExercises, hasLength(20));
+    expect(unitFour.unitQuiz, hasLength(25));
+    expect(
+      unitFour.lessons.every((lesson) => lesson.dialogues.length >= 2),
+      isTrue,
+    );
+    expect(
+      unitFour.lessons.expand((lesson) => lesson.vocabulary),
+      hasLength(104),
+    );
+    expect(
+      unitFour.lessons.expand((lesson) => lesson.practiceExercises).length,
+      110,
+    );
+
+    final allIds = <String>[
+      for (final unit in units) ...[
+        unit.id,
+        ...unit.lessons.map((lesson) => lesson.id),
+      ],
+      for (final lesson in unitFour.lessons) ...[
+        ...lesson.practiceExercises.map((item) => item.id),
+        ...lesson.quizQuestions.map((item) => item.id),
+      ],
+      ...unitFour.unitQuiz.map((item) => item.id),
+    ];
+    expect(allIds.toSet(), hasLength(allIds.length));
+    for (var index = 1; index < unitFour.lessons.length; index++) {
+      expect(
+        unitFour.lessons[index].requiredPreviousLessonId,
+        unitFour.lessons[index - 1].id,
+      );
+    }
+  });
 }

@@ -1,0 +1,4401 @@
+{
+  "id": "a1-u04",
+  "levelId": "A1",
+  "unitNumber": 4,
+  "titleEnglish": "Family and People",
+  "titleSomali": "Qoyska iyo Dadka",
+  "introductionSomali": "Unit-kan waxaad ku baranaysaa xubnaha qoyska, sida qoys tusaale ah looga hadlo, have/has, lahaanshaha, muuqaalka, dabeecadda iyo sida qof loo soo bandhigo si xushmad leh.",
+  "requiredPreviousUnitId": "a1-u03",
+  "lessons": [
+    {
+      "id": "a1-u04-l01",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 1,
+      "titleEnglish": "Family Members",
+      "titleSomali": "Xubnaha qoyska",
+      "shortDescriptionSomali": "Bar magacyada xubnaha qoyska iyo xiriirka qof kasta, adigoo xusuusanaya in qoysasku qaabab kala duwan yeelan karaan.",
+      "learningObjectives": [
+        "Magacow 20 xubnood oo qoys.",
+        "Kala saar parent/parents iyo child/children.",
+        "Akhri family tree tusaale ah."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 28,
+      "difficulty": "beginner",
+      "isLocked": false,
+      "requiredPreviousLessonId": null,
+      "vocabulary": [
+        {
+          "englishWord": "Family",
+          "somaliMeaning": "Qoys",
+          "partOfSpeech": "noun",
+          "pronunciation": "fa-ma-li",
+          "exampleEnglish": "My family lives in Somalia.",
+          "exampleSomali": "Qoyskaygu wuxuu ku nool yahay Soomaaliya.",
+          "explanationSomali": "Family waa dadka qoys ahaan isku xiran.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Father",
+          "somaliMeaning": "Aabbe",
+          "partOfSpeech": "noun",
+          "pronunciation": "faa-dhar",
+          "exampleEnglish": "My father is a teacher.",
+          "exampleSomali": "Aabbahay waa macallin.",
+          "explanationSomali": "Father waa waalidka labka ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Mother",
+          "somaliMeaning": "Hooyo",
+          "partOfSpeech": "noun",
+          "pronunciation": "ma-dhar",
+          "exampleEnglish": "My mother is kind.",
+          "exampleSomali": "Hooyaday waa naxariis badan tahay.",
+          "explanationSomali": "Mother waa waalidka dheddigga ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Parents",
+          "somaliMeaning": "Waalid",
+          "partOfSpeech": "plural noun",
+          "pronunciation": "pe-rants",
+          "exampleEnglish": "My parents live together.",
+          "exampleSomali": "Waalidkay waxay wada nool yihiin.",
+          "explanationSomali": "Parents waa father iyo mother ama dadka ku koriya.",
+          "commonMistakeSomali": "Parent waa hal waalid; parents waa laba ama ka badan."
+        },
+        {
+          "englishWord": "Son",
+          "somaliMeaning": "Wiil uu qof dhalay",
+          "partOfSpeech": "noun",
+          "pronunciation": "san",
+          "exampleEnglish": "Their son is a student.",
+          "exampleSomali": "Wiilkoodu waa arday.",
+          "explanationSomali": "Son waa wiilka uu qof waalid u yahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Daughter",
+          "somaliMeaning": "Gabar uu qof dhalay",
+          "partOfSpeech": "noun",
+          "pronunciation": "doo-tar",
+          "exampleEnglish": "Their daughter is young.",
+          "exampleSomali": "Gabadhoodu waa yar tahay.",
+          "explanationSomali": "Daughter waa gabadha uu qof waalid u yahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Brother",
+          "somaliMeaning": "Walaal lab",
+          "partOfSpeech": "noun",
+          "pronunciation": "bra-dhar",
+          "exampleEnglish": "I have one brother.",
+          "exampleSomali": "Waxaan leeyahay hal walaal oo lab ah.",
+          "explanationSomali": "Brother waa walaal lab.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Sister",
+          "somaliMeaning": "Walaal dhedig",
+          "partOfSpeech": "noun",
+          "pronunciation": "sis-tar",
+          "exampleEnglish": "She has two sisters.",
+          "exampleSomali": "Waxay leedahay laba walaalo oo dhedig ah.",
+          "explanationSomali": "Sister waa walaal dhedig.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Husband",
+          "somaliMeaning": "Sayg",
+          "partOfSpeech": "noun",
+          "pronunciation": "has-band",
+          "exampleEnglish": "Her husband is friendly.",
+          "exampleSomali": "Saygeedu waa saaxiibtinimo badan yahay.",
+          "explanationSomali": "Husband waa ninka xaas leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Wife",
+          "somaliMeaning": "Xaas",
+          "partOfSpeech": "noun",
+          "pronunciation": "waayf",
+          "exampleEnglish": "His wife is helpful.",
+          "exampleSomali": "Xaaskiisu waa caawimo badan tahay.",
+          "explanationSomali": "Wife waa haweeneyda xaas ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Child",
+          "somaliMeaning": "Ilmo",
+          "partOfSpeech": "noun",
+          "pronunciation": "chaayld",
+          "exampleEnglish": "The child is happy.",
+          "exampleSomali": "Ilmuhu waa faraxsan yahay.",
+          "explanationSomali": "Child waa hal ilmo.",
+          "commonMistakeSomali": "Plural-ka child waa children, ma aha childs."
+        },
+        {
+          "englishWord": "Children",
+          "somaliMeaning": "Carruur",
+          "partOfSpeech": "plural noun",
+          "pronunciation": "chil-dran",
+          "exampleEnglish": "The children are at school.",
+          "exampleSomali": "Carruurtu waxay joogaan iskuulka.",
+          "explanationSomali": "Children waa wax ka badan hal child.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Grandfather",
+          "somaliMeaning": "Awoowe",
+          "partOfSpeech": "noun",
+          "pronunciation": "gran-faa-dhar",
+          "exampleEnglish": "My grandfather is patient.",
+          "exampleSomali": "Awoowahay waa dulqaad badan yahay.",
+          "explanationSomali": "Grandfather waa aabbaha aabbaha ama hooyada.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Grandmother",
+          "somaliMeaning": "Ayeeyo",
+          "partOfSpeech": "noun",
+          "pronunciation": "gran-ma-dhar",
+          "exampleEnglish": "My grandmother is kind.",
+          "exampleSomali": "Ayeeyaday waa naxariis badan tahay.",
+          "explanationSomali": "Grandmother waa hooyada aabbaha ama hooyada.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Grandparents",
+          "somaliMeaning": "Awoowe iyo ayeeyo",
+          "partOfSpeech": "plural noun",
+          "pronunciation": "gran-pe-rants",
+          "exampleEnglish": "Our grandparents live nearby.",
+          "exampleSomali": "Awoowahayaga iyo ayeeyadayadu meel dhow ayay deggan yihiin.",
+          "explanationSomali": "Grandparents waa awoowe iyo ayeeyo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Uncle",
+          "somaliMeaning": "Adeer ama abti",
+          "partOfSpeech": "noun",
+          "pronunciation": "an-kal",
+          "exampleEnglish": "My uncle works in a shop.",
+          "exampleSomali": "Adeerkay ama abtigey wuxuu ka shaqeeyaa dukaan.",
+          "explanationSomali": "Uncle wuxuu noqon karaa walaalka aabbaha ama hooyada.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Aunt",
+          "somaliMeaning": "Eeddo ama habaryar",
+          "partOfSpeech": "noun",
+          "pronunciation": "aant",
+          "exampleEnglish": "My aunt is a nurse.",
+          "exampleSomali": "Eeddaday ama habaryartay waa kalkaaliso.",
+          "explanationSomali": "Aunt waxay noqon kartaa walaasha aabbaha ama hooyada.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Cousin",
+          "somaliMeaning": "Ina-adeer/ina-abti/ina-eeddo/ina-habaryar",
+          "partOfSpeech": "noun",
+          "pronunciation": "ka-zan",
+          "exampleEnglish": "My cousin is my friend.",
+          "exampleSomali": "Qaraabadayda cousin-ka ahi waa saaxiibkay.",
+          "explanationSomali": "Cousin waa ilmaha uncle ama aunt.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Nephew",
+          "somaliMeaning": "Wiilka walaalka ama walaasha",
+          "partOfSpeech": "noun",
+          "pronunciation": "ne-fyuu",
+          "exampleEnglish": "My nephew is five.",
+          "exampleSomali": "Wiilka walaalkay ama walaashay waa shan jir.",
+          "explanationSomali": "Nephew waa wiilka uu dhalay walaalka ama walaasha.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Niece",
+          "somaliMeaning": "Gabadha walaalka ama walaasha",
+          "partOfSpeech": "noun",
+          "pronunciation": "niis",
+          "exampleEnglish": "My niece is a student.",
+          "exampleSomali": "Gabadha walaalkay ama walaashay waa ardayad.",
+          "explanationSomali": "Niece waa gabadha uu dhalay walaalka ama walaasha.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "My father is a teacher.",
+          "somali": "Aabbahay waa macallin."
+        },
+        {
+          "english": "I have one sister.",
+          "somali": "Waxaan leeyahay hal walaal dhedig."
+        },
+        {
+          "english": "Their children are students.",
+          "somali": "Carruurtoodu waa arday."
+        },
+        {
+          "english": "My grandparents live nearby.",
+          "somali": "Awoowahay iyo ayeeyaday meel dhow ayay deggan yihiin."
+        },
+        {
+          "english": "Ali is their son.",
+          "somali": "Ali waa wiilkooda."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Sawir qoys",
+          "lines": [
+            {
+              "speaker": "Asha",
+              "english": "Who is this?",
+              "somali": "Kani waa kuma?"
+            },
+            {
+              "speaker": "Omar",
+              "english": "This is my mother.",
+              "somali": "Tani waa hooyaday."
+            },
+            {
+              "speaker": "Asha",
+              "english": "And those people?",
+              "somali": "Dadkaasna?"
+            },
+            {
+              "speaker": "Omar",
+              "english": "They are my grandparents.",
+              "somali": "Waa awoowahay iyo ayeeyaday."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Family tree tusaale ah",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "english": "Yusuf and Maryan are the parents.",
+              "somali": "Yusuf iyo Maryan waa waalidka."
+            },
+            {
+              "speaker": "Student",
+              "english": "Who are their children?",
+              "somali": "Carruurtoodu waa ayo?"
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Ali is their son and Amina is their daughter.",
+              "somali": "Ali waa wiilkooda, Amina-na waa gabadhooda."
+            },
+            {
+              "speaker": "Student",
+              "english": "I understand.",
+              "somali": "Waan fahmay."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l01-p01",
+          "type": "multipleChoice",
+          "question": "“Family” maxay ka dhigan tahay?",
+          "options": [
+            "Hooyo",
+            "Qoys",
+            "Waalid",
+            "Aabbe"
+          ],
+          "correctAnswer": "Qoys",
+          "explanationSomali": "Family waxaa loola jeedaa Qoys."
+        },
+        {
+          "id": "a1-u04-l01-p02",
+          "type": "fillInTheBlank",
+          "question": "My mother and father are my ___.",
+          "options": [
+            "children",
+            "parents",
+            "cousins",
+            "siblings"
+          ],
+          "correctAnswer": "parents",
+          "explanationSomali": "“parents” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l01-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Father” iyo macnihiisa.",
+          "options": [
+            "Waalid",
+            "Hooyo",
+            "Aabbe",
+            "Qoys"
+          ],
+          "correctAnswer": "Aabbe",
+          "explanationSomali": "Father macnihiisu waa Aabbe."
+        },
+        {
+          "id": "a1-u04-l01-p04",
+          "type": "chooseGrammar",
+          "question": "Hal ilmo waxaa la yiraahdaa…",
+          "options": [
+            "children",
+            "child",
+            "childs",
+            "parents"
+          ],
+          "correctAnswer": "child",
+          "explanationSomali": "Qaabka saxda ahi waa “child”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l01-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: sister / is / my / This",
+          "options": [],
+          "correctAnswer": "This is my sister.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “This is my sister.”."
+        },
+        {
+          "id": "a1-u04-l01-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: My father is a teacher.",
+          "options": [
+            "Carruurtoodu waa arday.",
+            "Ali waa wiilkooda.",
+            "Aabbahay waa macallin.",
+            "Waxaan leeyahay hal walaal dhedig."
+          ],
+          "correctAnswer": "Aabbahay waa macallin.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l01-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaan leeyahay hal walaal dhedig.",
+          "options": [
+            "My grandparents live nearby.",
+            "I have one sister.",
+            "My father is a teacher.",
+            "Ali is their son."
+          ],
+          "correctAnswer": "I have one sister.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “I have one sister.”."
+        },
+        {
+          "id": "a1-u04-l01-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l01-p09",
+          "type": "speakingPrompt",
+          "question": "Magacow ugu yaraan toban xubnood oo qoys, kadib sharax family tree male-awaal ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l01-p10",
+          "type": "shortWriting",
+          "question": "Samee family tree fudud oo Yusuf iyo Maryan waalid yihiin; ku dar son, daughter iyo grandparents.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Magacow ugu yaraan toban xubnood oo qoys, kadib sharax family tree male-awaal ah.",
+      "writingPractice": "Samee family tree fudud oo Yusuf iyo Maryan waalid yihiin; ku dar son, daughter iyo grandparents.",
+      "summarySomali": "Waxaad baratay xubnaha qoyska. Parent waa hal waalid, parents waa badan; child waa hal ilmo, children-na waa carruur.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l01-q01",
+          "type": "multipleChoice",
+          "question": "“Family” maxay ka dhigan tahay?",
+          "options": [
+            "Hooyo",
+            "Qoys",
+            "Waalid",
+            "Aabbe"
+          ],
+          "correctAnswer": "Qoys",
+          "explanationSomali": "Family waxaa loola jeedaa Qoys."
+        },
+        {
+          "id": "a1-u04-l01-q02",
+          "type": "fillInTheBlank",
+          "question": "My mother and father are my ___.",
+          "options": [
+            "children",
+            "parents",
+            "cousins",
+            "siblings"
+          ],
+          "correctAnswer": "parents",
+          "explanationSomali": "“parents” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l01-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Father” iyo macnihiisa.",
+          "options": [
+            "Waalid",
+            "Hooyo",
+            "Aabbe",
+            "Qoys"
+          ],
+          "correctAnswer": "Aabbe",
+          "explanationSomali": "Father macnihiisu waa Aabbe."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l02",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 2,
+      "titleEnglish": "Talking About Your Family",
+      "titleSomali": "Ka hadalka qoyskaaga",
+      "shortDescriptionSomali": "Bar sida qoys tusaale ah looga hadlo adigoon bixin xogtaada gaarka ah.",
+      "learningObjectives": [
+        "Sheeg tirada dadka qoys tusaale ah.",
+        "Weydii brothers, sisters iyo qofka lala nool yahay.",
+        "Sheeg shaqo fudud oo waalid tusaale ahi qabto."
+      ],
+      "lessonType": "speaking",
+      "estimatedMinutes": 24,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l01",
+      "vocabulary": [
+        {
+          "englishWord": "Small family",
+          "somaliMeaning": "Qoys yar",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "smool fa-ma-li",
+          "exampleEnglish": "I have a small family.",
+          "exampleSomali": "Waxaan leeyahay qoys yar.",
+          "explanationSomali": "Small family waa qoys xubnihiisu tiro yar yihiin.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Large family",
+          "somaliMeaning": "Qoys weyn",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "laarj fa-ma-li",
+          "exampleEnglish": "They have a large family.",
+          "exampleSomali": "Waxay leeyihiin qoys weyn.",
+          "explanationSomali": "Large family waa qoys xubno badan leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Together",
+          "somaliMeaning": "Wadajir",
+          "partOfSpeech": "adverb",
+          "pronunciation": "ta-ge-dhar",
+          "exampleEnglish": "We live together.",
+          "exampleSomali": "Waxaan u wada nool nahay si wadajir ah.",
+          "explanationSomali": "Together wuxuu muujinayaa in dadku meel ama hawl wadaagaan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Live with",
+          "somaliMeaning": "La noolow",
+          "partOfSpeech": "verb phrase",
+          "pronunciation": "liv with",
+          "exampleEnglish": "I live with my parents.",
+          "exampleSomali": "Waxaan la noolahay waalidkay.",
+          "explanationSomali": "Live with waxaa lagu sheegaa qofka aad la nooshahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "People",
+          "somaliMeaning": "Dad",
+          "partOfSpeech": "plural noun",
+          "pronunciation": "pii-pal",
+          "exampleEnglish": "There are five people in the family.",
+          "exampleSomali": "Qoyska waxaa ku jira shan qof.",
+          "explanationSomali": "People waa plural-ka caadiga ah ee person.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Teacher",
+          "somaliMeaning": "Macallin",
+          "partOfSpeech": "noun",
+          "pronunciation": "tii-char",
+          "exampleEnglish": "My father is a teacher.",
+          "exampleSomali": "Aabbahay waa macallin.",
+          "explanationSomali": "Teacher waa qof wax bara.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Hospital",
+          "somaliMeaning": "Isbitaal",
+          "partOfSpeech": "noun",
+          "pronunciation": "hos-pi-tal",
+          "exampleEnglish": "My mother works at a hospital.",
+          "exampleSomali": "Hooyaday waxay ka shaqaysaa isbitaal.",
+          "explanationSomali": "Hospital waa goob caafimaad.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Who do you live with?",
+          "somaliMeaning": "Yaad la nooshahay?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "huu duu yuu liv with",
+          "exampleEnglish": "Who do you live with?",
+          "exampleSomali": "Yaad la nooshahay?",
+          "explanationSomali": "Su’aashan waxay weydiinaysaa dadka kula nool.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Family questions",
+        "titleSomali": "Su’aalaha qoyska",
+        "explanationSomali": "How many wuxuu weydiiyaa tiro. Who wuxuu weydiiyaa qof. What does ... do? wuxuu weydiiyaa shaqo.",
+        "rule": "How many + plural noun; Who + do/does; What + does + person + do?",
+        "sentenceStructure": "Question word + helper + subject + verb?",
+        "positiveExamples": [
+          {
+            "english": "I have a small family.",
+            "somali": "Waxaan leeyahay qoys yar."
+          },
+          {
+            "english": "I have two brothers.",
+            "somali": "Waxaan leeyahay laba walaalo lab."
+          },
+          {
+            "english": "My mother works at a hospital.",
+            "somali": "Hooyaday waxay ka shaqaysaa isbitaal."
+          },
+          {
+            "english": "There are five people in my family.",
+            "somali": "Qoyskayga waxaa ku jira shan qof."
+          },
+          {
+            "english": "I live with my parents.",
+            "somali": "Waxaan la noolahay waalidkay."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [
+          {
+            "english": "How many people are in your family?",
+            "somali": "Immisa qof ayaa qoyskaaga ku jira?"
+          },
+          {
+            "english": "Do you have any brothers or sisters?",
+            "somali": "Ma leedahay walaalo lab ama dhedig?"
+          },
+          {
+            "english": "Who do you live with?",
+            "somali": "Yaad la nooshahay?"
+          },
+          {
+            "english": "What does your father do?",
+            "somali": "Aabbahaa muxuu shaqeeyaa?"
+          },
+          {
+            "english": "What does your mother do?",
+            "somali": "Hooyadaa maxay shaqaysaa?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "How many waxaa la socda people, ma aha person marka tiro badan la weydiinayo.",
+          "Xog male-awaal ah ayaad isticmaali kartaa."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "I have a small family.",
+          "somali": "Waxaan leeyahay qoys yar."
+        },
+        {
+          "english": "I have two brothers.",
+          "somali": "Waxaan leeyahay laba walaalo lab."
+        },
+        {
+          "english": "My mother works at a hospital.",
+          "somali": "Hooyaday waxay ka shaqaysaa isbitaal."
+        },
+        {
+          "english": "There are five people in my family.",
+          "somali": "Qoyskayga waxaa ku jira shan qof."
+        },
+        {
+          "english": "I live with my parents.",
+          "somali": "Waxaan la noolahay waalidkay."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Laba arday oo qoys tusaale ah ka hadlaya",
+          "lines": [
+            {
+              "speaker": "Hodan",
+              "english": "How many people are in your example family?",
+              "somali": "Immisa qof ayaa ku jira qoyskaaga tusaalaha ah?"
+            },
+            {
+              "speaker": "Samir",
+              "english": "There are five people.",
+              "somali": "Waxaa ku jira shan qof."
+            },
+            {
+              "speaker": "Hodan",
+              "english": "Do you have any brothers?",
+              "somali": "Ma leedahay walaalo lab?"
+            },
+            {
+              "speaker": "Samir",
+              "english": "Yes, I have two brothers.",
+              "somali": "Haa, waxaan leeyahay laba walaalo lab."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Qofka lala nool yahay",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "english": "Who do you live with in this example?",
+              "somali": "Tusaalahan yaad la nooshahay?"
+            },
+            {
+              "speaker": "Student",
+              "english": "I live with my parents.",
+              "somali": "Waxaan la noolahay waalidkay."
+            },
+            {
+              "speaker": "Teacher",
+              "english": "What does your mother do?",
+              "somali": "Hooyadaa maxay qabataa?"
+            },
+            {
+              "speaker": "Student",
+              "english": "She works at a hospital.",
+              "somali": "Waxay ka shaqaysaa isbitaal."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l02-p01",
+          "type": "multipleChoice",
+          "question": "“Small family” maxay ka dhigan tahay?",
+          "options": [
+            "Wadajir",
+            "Qoys yar",
+            "La noolow",
+            "Qoys weyn"
+          ],
+          "correctAnswer": "Qoys yar",
+          "explanationSomali": "Small family waxaa loola jeedaa Qoys yar."
+        },
+        {
+          "id": "a1-u04-l02-p02",
+          "type": "fillInTheBlank",
+          "question": "There are five ___ in my family.",
+          "options": [
+            "person",
+            "people",
+            "family",
+            "parent"
+          ],
+          "correctAnswer": "people",
+          "explanationSomali": "“people” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l02-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Large family” iyo macnihiisa.",
+          "options": [
+            "La noolow",
+            "Wadajir",
+            "Qoys weyn",
+            "Qoys yar"
+          ],
+          "correctAnswer": "Qoys weyn",
+          "explanationSomali": "Large family macnihiisu waa Qoys weyn."
+        },
+        {
+          "id": "a1-u04-l02-p04",
+          "type": "chooseGrammar",
+          "question": "Su’aashee ayaa qofka aad la nooshahay weydiinaysa?",
+          "options": [
+            "How old are you?",
+            "Who do you live with?",
+            "How much is it?",
+            "Where is the shop?"
+          ],
+          "correctAnswer": "Who do you live with?",
+          "explanationSomali": "Qaabka saxda ahi waa “Who do you live with?”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l02-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: with / parents / live / my / I",
+          "options": [],
+          "correctAnswer": "I live with my parents.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “I live with my parents.”."
+        },
+        {
+          "id": "a1-u04-l02-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: I have a small family.",
+          "options": [
+            "Hooyaday waxay ka shaqaysaa isbitaal.",
+            "Waxaan la noolahay waalidkay.",
+            "Waxaan leeyahay qoys yar.",
+            "Waxaan leeyahay laba walaalo lab."
+          ],
+          "correctAnswer": "Waxaan leeyahay qoys yar.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l02-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaan leeyahay laba walaalo lab.",
+          "options": [
+            "There are five people in my family.",
+            "I have two brothers.",
+            "I have a small family.",
+            "I live with my parents."
+          ],
+          "correctAnswer": "I have two brothers.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “I have two brothers.”."
+        },
+        {
+          "id": "a1-u04-l02-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l02-p09",
+          "type": "speakingPrompt",
+          "question": "Ka hadal qoys male-awaal ah: tirada dadka, brothers/sisters, shaqooyinka iyo cidda wada nool.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l02-p10",
+          "type": "shortWriting",
+          "question": "Qor shan jumladood oo qoys tusaale ah ku saabsan. Ha isticmaalin xog xasaasi ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Ka hadal qoys male-awaal ah: tirada dadka, brothers/sisters, shaqooyinka iyo cidda wada nool.",
+      "writingPractice": "Qor shan jumladood oo qoys tusaale ah ku saabsan. Ha isticmaalin xog xasaasi ah.",
+      "summarySomali": "Waxaad baratay inaad qoys tusaale ah ku sharaxdo I have…, There are… iyo I live with….",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l02-q01",
+          "type": "multipleChoice",
+          "question": "“Small family” maxay ka dhigan tahay?",
+          "options": [
+            "Wadajir",
+            "Qoys yar",
+            "La noolow",
+            "Qoys weyn"
+          ],
+          "correctAnswer": "Qoys yar",
+          "explanationSomali": "Small family waxaa loola jeedaa Qoys yar."
+        },
+        {
+          "id": "a1-u04-l02-q02",
+          "type": "fillInTheBlank",
+          "question": "There are five ___ in my family.",
+          "options": [
+            "person",
+            "people",
+            "family",
+            "parent"
+          ],
+          "correctAnswer": "people",
+          "explanationSomali": "“people” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l02-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Large family” iyo macnihiisa.",
+          "options": [
+            "La noolow",
+            "Wadajir",
+            "Qoys weyn",
+            "Qoys yar"
+          ],
+          "correctAnswer": "Qoys weyn",
+          "explanationSomali": "Large family macnihiisu waa Qoys weyn."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l03",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 3,
+      "titleEnglish": "Have and Has",
+      "titleSomali": "Isticmaalka Have iyo Has",
+      "shortDescriptionSomali": "Bar have/has, negative forms iyo do/does questions ee lahaanshaha.",
+      "learningObjectives": [
+        "Have iyo has ku waafaji subject-ka.",
+        "Samee don’t/doesn’t negative.",
+        "Do/does question sax ah samee."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 28,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l02",
+      "vocabulary": [
+        {
+          "englishWord": "Have",
+          "somaliMeaning": "Lahow/hayso",
+          "partOfSpeech": "verb",
+          "pronunciation": "hav",
+          "exampleEnglish": "I have a brother.",
+          "exampleSomali": "Waxaan leeyahay walaal lab.",
+          "explanationSomali": "Have waxaa lala isticmaalaa I, you, we iyo they.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Has",
+          "somaliMeaning": "Leeyahay/leedahay",
+          "partOfSpeech": "verb",
+          "pronunciation": "haz",
+          "exampleEnglish": "She has one sister.",
+          "exampleSomali": "Waxay leedahay hal walaal dhedig.",
+          "explanationSomali": "Has waxaa lala isticmaalaa he, she iyo it.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Do",
+          "somaliMeaning": "Kaaliyaha su’aasha",
+          "partOfSpeech": "auxiliary verb",
+          "pronunciation": "duu",
+          "exampleEnglish": "Do you have children?",
+          "exampleSomali": "Carruur ma leedahay?",
+          "explanationSomali": "Do wuxuu su’aal la sameeyaa I/you/we/they.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Does",
+          "somaliMeaning": "Kaaliyaha su’aasha",
+          "partOfSpeech": "auxiliary verb",
+          "pronunciation": "daz",
+          "exampleEnglish": "Does he have a brother?",
+          "exampleSomali": "Walaal lab ma leeyahay?",
+          "explanationSomali": "Does wuxuu su’aal la sameeyaa he/she/it.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Don't",
+          "somaliMeaning": "Ma lihi/ma laha",
+          "partOfSpeech": "negative auxiliary",
+          "pronunciation": "doont",
+          "exampleEnglish": "I don't have a sister.",
+          "exampleSomali": "Ma lihi walaal dhedig.",
+          "explanationSomali": "Don't waa do not oo la soo gaabiyey.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Doesn't",
+          "somaliMeaning": "Ma leh",
+          "partOfSpeech": "negative auxiliary",
+          "pronunciation": "da-zant",
+          "exampleEnglish": "He doesn't have a brother.",
+          "exampleSomali": "Ma laha walaal lab.",
+          "explanationSomali": "Doesn't waa does not oo la soo gaabiyey.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "One",
+          "somaliMeaning": "Hal",
+          "partOfSpeech": "number",
+          "pronunciation": "wan",
+          "exampleEnglish": "He has one sister.",
+          "exampleSomali": "Wuxuu leeyahay hal walaal dhedig.",
+          "explanationSomali": "One waxaa lala isticmaalaa magac singular ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Any",
+          "somaliMeaning": "Wax/kuwo",
+          "partOfSpeech": "determiner",
+          "pronunciation": "e-ni",
+          "exampleEnglish": "Do you have any cousins?",
+          "exampleSomali": "Ma leedahay cousins?",
+          "explanationSomali": "Any wuxuu inta badan yimaadaa su’aal ama negative.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Have and has",
+        "titleSomali": "Have iyo has",
+        "explanationSomali": "Have waxaa lala isticmaalaa I, you, we, they. Has waxaa lala isticmaalaa he, she, it. Marka does ama doesn’t jiro, falka wuxuu noqdaa have.",
+        "rule": "I/you/we/they have; he/she/it has; do/does + subject + have",
+        "sentenceStructure": "Subject + have/has + object",
+        "positiveExamples": [
+          {
+            "english": "I have a brother.",
+            "somali": "Waxaan leeyahay walaal lab."
+          },
+          {
+            "english": "You have a large family.",
+            "somali": "Waxaad leedahay qoys weyn."
+          },
+          {
+            "english": "We have two children.",
+            "somali": "Waxaan leenahay laba carruur ah."
+          },
+          {
+            "english": "He has one sister.",
+            "somali": "Wuxuu leeyahay hal walaal dhedig."
+          },
+          {
+            "english": "She has three brothers.",
+            "somali": "Waxay leedahay saddex walaalo lab."
+          }
+        ],
+        "negativeExamples": [
+          {
+            "english": "I don't have a sister.",
+            "somali": "Ma lihi walaal dhedig."
+          },
+          {
+            "english": "He doesn't have a brother.",
+            "somali": "Ma laha walaal lab."
+          }
+        ],
+        "questionExamples": [
+          {
+            "english": "Do you have a brother?",
+            "somali": "Ma leedahay walaal lab?"
+          },
+          {
+            "english": "Does she have children?",
+            "somali": "Carruur ma leedahay?"
+          },
+          {
+            "english": "How many sisters does he have?",
+            "somali": "Immisa walaalo dhedig ah ayuu leeyahay?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha oran Does she has…; qaabka saxda ahi waa Does she have….",
+          "He have waa khalad; he has ayaa sax ah."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "I have a brother.",
+          "somali": "Waxaan leeyahay walaal lab."
+        },
+        {
+          "english": "You have a large family.",
+          "somali": "Waxaad leedahay qoys weyn."
+        },
+        {
+          "english": "We have two children.",
+          "somali": "Waxaan leenahay laba carruur ah."
+        },
+        {
+          "english": "He has one sister.",
+          "somali": "Wuxuu leeyahay hal walaal dhedig."
+        },
+        {
+          "english": "She has three brothers.",
+          "somali": "Waxay leedahay saddex walaalo lab."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Have iyo has",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Do you have a sister?",
+              "somali": "Ma leedahay walaal dhedig?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes, I have one sister.",
+              "somali": "Haa, waxaan leeyahay hal walaal dhedig."
+            },
+            {
+              "speaker": "A",
+              "english": "Does she have children?",
+              "somali": "Carruur ma leedahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "No, she does not have children.",
+              "somali": "Maya, carruur ma leh."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Saxidda khalad",
+          "lines": [
+            {
+              "speaker": "Student",
+              "english": "Does he has a brother?",
+              "somali": "Ma leeyahay walaal lab?"
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Say: Does he have a brother?",
+              "somali": "Dheh: Does he have a brother?"
+            },
+            {
+              "speaker": "Student",
+              "english": "Does he have a brother?",
+              "somali": "Ma leeyahay walaal lab?"
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Correct.",
+              "somali": "Waa sax."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l03-p01",
+          "type": "multipleChoice",
+          "question": "“Have” maxay ka dhigan tahay?",
+          "options": [
+            "Kaaliyaha su’aasha",
+            "Lahow/hayso",
+            "Kaaliyaha su’aasha",
+            "Leeyahay/leedahay"
+          ],
+          "correctAnswer": "Lahow/hayso",
+          "explanationSomali": "Have waxaa loola jeedaa Lahow/hayso."
+        },
+        {
+          "id": "a1-u04-l03-p02",
+          "type": "fillInTheBlank",
+          "question": "She ___ three brothers.",
+          "options": [
+            "have",
+            "has",
+            "do",
+            "are"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l03-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Has” iyo macnihiisa.",
+          "options": [
+            "Kaaliyaha su’aasha",
+            "Kaaliyaha su’aasha",
+            "Leeyahay/leedahay",
+            "Lahow/hayso"
+          ],
+          "correctAnswer": "Leeyahay/leedahay",
+          "explanationSomali": "Has macnihiisu waa Leeyahay/leedahay."
+        },
+        {
+          "id": "a1-u04-l03-p04",
+          "type": "chooseGrammar",
+          "question": "Kee ayaa sax ah?",
+          "options": [
+            "Does she has a sister?",
+            "Does she have a sister?",
+            "Do she have a sister?",
+            "She have a sister?"
+          ],
+          "correctAnswer": "Does she have a sister?",
+          "explanationSomali": "Qaabka saxda ahi waa “Does she have a sister?”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l03-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: have / children / They / two",
+          "options": [],
+          "correctAnswer": "They have two children.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “They have two children.”."
+        },
+        {
+          "id": "a1-u04-l03-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: I have a brother.",
+          "options": [
+            "Waxaan leenahay laba carruur ah.",
+            "Waxay leedahay saddex walaalo lab.",
+            "Waxaan leeyahay walaal lab.",
+            "Waxaad leedahay qoys weyn."
+          ],
+          "correctAnswer": "Waxaan leeyahay walaal lab.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l03-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaad leedahay qoys weyn.",
+          "options": [
+            "He has one sister.",
+            "You have a large family.",
+            "I have a brother.",
+            "She has three brothers."
+          ],
+          "correctAnswer": "You have a large family.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “You have a large family.”."
+        },
+        {
+          "id": "a1-u04-l03-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l03-p09",
+          "type": "speakingPrompt",
+          "question": "Samee lix jumladood: I/you/we/they have iyo he/she has; kadib laba su’aalood oo do/does ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l03-p10",
+          "type": "shortWriting",
+          "question": "Qor lix jumladood oo have/has leh, laba negative iyo laba question.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Samee lix jumladood: I/you/we/they have iyo he/she has; kadib laba su’aalood oo do/does ah.",
+      "writingPractice": "Qor lix jumladood oo have/has leh, laba negative iyo laba question.",
+      "summarySomali": "Have: I/you/we/they. Has: he/she/it. Does iyo doesn’t ka dib mar walba have ayaa yimaada.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l03-q01",
+          "type": "multipleChoice",
+          "question": "“Have” maxay ka dhigan tahay?",
+          "options": [
+            "Kaaliyaha su’aasha",
+            "Lahow/hayso",
+            "Kaaliyaha su’aasha",
+            "Leeyahay/leedahay"
+          ],
+          "correctAnswer": "Lahow/hayso",
+          "explanationSomali": "Have waxaa loola jeedaa Lahow/hayso."
+        },
+        {
+          "id": "a1-u04-l03-q02",
+          "type": "fillInTheBlank",
+          "question": "She ___ three brothers.",
+          "options": [
+            "have",
+            "has",
+            "do",
+            "are"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l03-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Has” iyo macnihiisa.",
+          "options": [
+            "Kaaliyaha su’aasha",
+            "Kaaliyaha su’aasha",
+            "Leeyahay/leedahay",
+            "Lahow/hayso"
+          ],
+          "correctAnswer": "Leeyahay/leedahay",
+          "explanationSomali": "Has macnihiisu waa Leeyahay/leedahay."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l04",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 4,
+      "titleEnglish": "Possessive Adjectives",
+      "titleSomali": "Erayada muujinaya lahaanshaha",
+      "shortDescriptionSomali": "Bar my, your, his, her, its, our iyo their iyo pronoun-ka ay la xiriiraan.",
+      "learningObjectives": [
+        "Pronoun kasta la xiriiri possessive adjective-kiisa.",
+        "Lahaansho ku muuji magaca ka hor.",
+        "Kala saar he/his, she/her, we/our iyo they/their."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 25,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l03",
+      "vocabulary": [
+        {
+          "englishWord": "My",
+          "somaliMeaning": "Kayga/tayda",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "maay",
+          "exampleEnglish": "My father is kind.",
+          "exampleSomali": "Aabbahay waa naxariis badan yahay.",
+          "explanationSomali": "My wuxuu muujinayaa wax aniga iga tirsan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Your",
+          "somaliMeaning": "Kaaga/taada",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "yoor",
+          "exampleEnglish": "Your sister is a student.",
+          "exampleSomali": "Walaashaa waa ardayad.",
+          "explanationSomali": "Your wuxuu muujinayaa wax adiga kaa tirsan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "His",
+          "somaliMeaning": "Kiisa/tiisa (lab)",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "hiz",
+          "exampleEnglish": "His brother is tall.",
+          "exampleSomali": "Walaalkiis waa dheer yahay.",
+          "explanationSomali": "His waxaa lala xiriiriyaa he.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Her",
+          "somaliMeaning": "Keeda/teeda (dhedig)",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "har",
+          "exampleEnglish": "Her mother is friendly.",
+          "exampleSomali": "Hooyadeed waa saaxiibtinimo badan tahay.",
+          "explanationSomali": "Her waxaa lala xiriiriyaa she.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Its",
+          "somaliMeaning": "Kiisa/teeda (shay ama xayawaan)",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "its",
+          "exampleEnglish": "The cat is with its family.",
+          "exampleSomali": "Bisaddu waxay la joogtaa qoyskeeda.",
+          "explanationSomali": "Its waxaa loo adeegsadaa shay ama xayawaan.",
+          "commonMistakeSomali": "Ha ku darin apostrophe; it's waxay ka dhigan tahay it is."
+        },
+        {
+          "englishWord": "Our",
+          "somaliMeaning": "Kayaga/keenna",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "aawar",
+          "exampleEnglish": "Our family is small.",
+          "exampleSomali": "Qoyskayagu waa yar yahay.",
+          "explanationSomali": "Our waxaa lala xiriiriyaa we.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Their",
+          "somaliMeaning": "Kooda/tooda",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "dheer",
+          "exampleEnglish": "Their children are happy.",
+          "exampleSomali": "Carruurtoodu waa faraxsan yihiin.",
+          "explanationSomali": "Their waxaa lala xiriiriyaa they.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Possessive adjectives",
+        "titleSomali": "Erayada lahaanshaha",
+        "explanationSomali": "Possessive adjective wuxuu yimaadaa magaca ka hor: my father, her mother. Jadwalku waa I→my, you→your, he→his, she→her, it→its, we→our, they→their.",
+        "rule": "Pronoun → possessive adjective + noun",
+        "sentenceStructure": "my/your/his/her/its/our/their + noun",
+        "positiveExamples": [
+          {
+            "english": "My father is kind.",
+            "somali": "Aabbahay waa naxariis badan yahay."
+          },
+          {
+            "english": "Your sister is a student.",
+            "somali": "Walaashaa waa ardayad."
+          },
+          {
+            "english": "His brother is tall.",
+            "somali": "Walaalkiis waa dheer yahay."
+          },
+          {
+            "english": "Her mother is friendly.",
+            "somali": "Hooyadeed waa saaxiibtinimo badan tahay."
+          },
+          {
+            "english": "Their children are happy.",
+            "somali": "Carruurtoodu waa faraxsan yihiin."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [],
+        "commonMistakesSomali": [
+          "He father waa khalad; his father ayaa sax ah.",
+          "She mother waa khalad; her mother ayaa sax ah.",
+          "Its waa lahaansho; it's waa it is."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "My father is kind.",
+          "somali": "Aabbahay waa naxariis badan yahay."
+        },
+        {
+          "english": "Your sister is a student.",
+          "somali": "Walaashaa waa ardayad."
+        },
+        {
+          "english": "His brother is tall.",
+          "somali": "Walaalkiis waa dheer yahay."
+        },
+        {
+          "english": "Her mother is friendly.",
+          "somali": "Hooyadeed waa saaxiibtinimo badan tahay."
+        },
+        {
+          "english": "Their children are happy.",
+          "somali": "Carruurtoodu waa faraxsan yihiin."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Sawirka qoyska",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Who is she?",
+              "somali": "Iyadu waa kuma?"
+            },
+            {
+              "speaker": "B",
+              "english": "She is Amina. Her mother is a nurse.",
+              "somali": "Waa Amina. Hooyadeed waa kalkaaliso."
+            },
+            {
+              "speaker": "A",
+              "english": "Who is he?",
+              "somali": "Isagu waa kuma?"
+            },
+            {
+              "speaker": "B",
+              "english": "He is Ali. His father is a teacher.",
+              "somali": "Waa Ali. Aabbihiis waa macallin."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Qoysas",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Our family is small.",
+              "somali": "Qoyskayagu waa yar yahay."
+            },
+            {
+              "speaker": "B",
+              "english": "Their family is large.",
+              "somali": "Qoyskoodu waa weyn yahay."
+            },
+            {
+              "speaker": "A",
+              "english": "Are their children students?",
+              "somali": "Carruurtoodu ma arday baa?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes, they are.",
+              "somali": "Haa, waa arday."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l04-p01",
+          "type": "multipleChoice",
+          "question": "“My” maxay ka dhigan tahay?",
+          "options": [
+            "Kiisa/tiisa (lab)",
+            "Kayga/tayda",
+            "Keeda/teeda (dhedig)",
+            "Kaaga/taada"
+          ],
+          "correctAnswer": "Kayga/tayda",
+          "explanationSomali": "My waxaa loola jeedaa Kayga/tayda."
+        },
+        {
+          "id": "a1-u04-l04-p02",
+          "type": "fillInTheBlank",
+          "question": "Amina is a student. ___ mother is a nurse.",
+          "options": [
+            "His",
+            "Her",
+            "Our",
+            "Their"
+          ],
+          "correctAnswer": "Her",
+          "explanationSomali": "“Her” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l04-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Your” iyo macnihiisa.",
+          "options": [
+            "Keeda/teeda (dhedig)",
+            "Kiisa/tiisa (lab)",
+            "Kaaga/taada",
+            "Kayga/tayda"
+          ],
+          "correctAnswer": "Kaaga/taada",
+          "explanationSomali": "Your macnihiisu waa Kaaga/taada."
+        },
+        {
+          "id": "a1-u04-l04-p04",
+          "type": "chooseGrammar",
+          "question": "We → kee?",
+          "options": [
+            "my",
+            "his",
+            "our",
+            "their"
+          ],
+          "correctAnswer": "our",
+          "explanationSomali": "Qaabka saxda ahi waa “our”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l04-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: family / Our / small / is",
+          "options": [],
+          "correctAnswer": "Our family is small.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Our family is small.”."
+        },
+        {
+          "id": "a1-u04-l04-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: My father is kind.",
+          "options": [
+            "Walaalkiis waa dheer yahay.",
+            "Carruurtoodu waa faraxsan yihiin.",
+            "Aabbahay waa naxariis badan yahay.",
+            "Walaashaa waa ardayad."
+          ],
+          "correctAnswer": "Aabbahay waa naxariis badan yahay.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l04-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Walaashaa waa ardayad.",
+          "options": [
+            "Her mother is friendly.",
+            "Your sister is a student.",
+            "My father is kind.",
+            "Their children are happy."
+          ],
+          "correctAnswer": "Your sister is a student.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Your sister is a student.”."
+        },
+        {
+          "id": "a1-u04-l04-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l04-p09",
+          "type": "speakingPrompt",
+          "question": "Ku sheeg tusaalooyin my, your, his, her, its, our iyo their; qof iyo qoys male-awaal ah isticmaal.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l04-p10",
+          "type": "shortWriting",
+          "question": "Qor toddoba jumladood, mid kasta oo isticmaala possessive adjective kala duwan.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Ku sheeg tusaalooyin my, your, his, her, its, our iyo their; qof iyo qoys male-awaal ah isticmaal.",
+      "writingPractice": "Qor toddoba jumladood, mid kasta oo isticmaala possessive adjective kala duwan.",
+      "summarySomali": "I→my, you→your, he→his, she→her, it→its, we→our, they→their. Eraygu magaca ayuu ka horreeyaa.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l04-q01",
+          "type": "multipleChoice",
+          "question": "“My” maxay ka dhigan tahay?",
+          "options": [
+            "Kiisa/tiisa (lab)",
+            "Kayga/tayda",
+            "Keeda/teeda (dhedig)",
+            "Kaaga/taada"
+          ],
+          "correctAnswer": "Kayga/tayda",
+          "explanationSomali": "My waxaa loola jeedaa Kayga/tayda."
+        },
+        {
+          "id": "a1-u04-l04-q02",
+          "type": "fillInTheBlank",
+          "question": "Amina is a student. ___ mother is a nurse.",
+          "options": [
+            "His",
+            "Her",
+            "Our",
+            "Their"
+          ],
+          "correctAnswer": "Her",
+          "explanationSomali": "“Her” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l04-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Your” iyo macnihiisa.",
+          "options": [
+            "Keeda/teeda (dhedig)",
+            "Kiisa/tiisa (lab)",
+            "Kaaga/taada",
+            "Kayga/tayda"
+          ],
+          "correctAnswer": "Kaaga/taada",
+          "explanationSomali": "Your macnihiisu waa Kaaga/taada."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l05",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 5,
+      "titleEnglish": "Describing Physical Appearance",
+      "titleSomali": "Sharaxaadda muuqaalka qofka",
+      "shortDescriptionSomali": "Bar sharaxaad muuqaal oo fudud, sax ah oo ixtiraam leh.",
+      "learningObjectives": [
+        "Isticmaal be + adjective.",
+        "Isticmaal have/has + hair/eyes.",
+        "Qof si ixtiraam leh u sharax."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 26,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l04",
+      "vocabulary": [
+        {
+          "englishWord": "Tall",
+          "somaliMeaning": "Dheer",
+          "partOfSpeech": "adjective",
+          "pronunciation": "tool",
+          "exampleEnglish": "He is tall.",
+          "exampleSomali": "Wuu dheer yahay.",
+          "explanationSomali": "Tall wuxuu tilmaamaa dhererka qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Short",
+          "somaliMeaning": "Gaaban",
+          "partOfSpeech": "adjective",
+          "pronunciation": "shoort",
+          "exampleEnglish": "She is short.",
+          "exampleSomali": "Way gaaban tahay.",
+          "explanationSomali": "Short halkan wuxuu tilmaamayaa dherer gaaban.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Young",
+          "somaliMeaning": "Da’ yar",
+          "partOfSpeech": "adjective",
+          "pronunciation": "yang",
+          "exampleEnglish": "My brother is young.",
+          "exampleSomali": "Walaalkay waa da’ yar yahay.",
+          "explanationSomali": "Young wuxuu tilmaamaa qof da’ yar.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Old",
+          "somaliMeaning": "Da’ weyn",
+          "partOfSpeech": "adjective",
+          "pronunciation": "oold",
+          "exampleEnglish": "My grandfather is old.",
+          "exampleSomali": "Awoowahay waa da’ weyn yahay.",
+          "explanationSomali": "Old halkan wuxuu si xushmad leh u tilmaamaa da’ weyn.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Thin",
+          "somaliMeaning": "Jir dhuuban",
+          "partOfSpeech": "adjective",
+          "pronunciation": "thin",
+          "exampleEnglish": "The man is thin.",
+          "exampleSomali": "Ninku waa jir dhuuban yahay.",
+          "explanationSomali": "Thin waa sharaxaad muuqaal; si ixtiraam leh u isticmaal.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Strong",
+          "somaliMeaning": "Xoog badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "strong",
+          "exampleEnglish": "She is strong.",
+          "exampleSomali": "Way xoog badan tahay.",
+          "explanationSomali": "Strong wuxuu tilmaamaa xoog.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Beautiful",
+          "somaliMeaning": "Qurux badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "byuu-ti-fal",
+          "exampleEnglish": "She is beautiful.",
+          "exampleSomali": "Way qurux badan tahay.",
+          "explanationSomali": "Beautiful waa sharaxaad wanaagsan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Handsome",
+          "somaliMeaning": "Muuqaal wanaagsan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "han-sam",
+          "exampleEnglish": "He is handsome.",
+          "exampleSomali": "Muuqaalkiisu waa wanaagsan yahay.",
+          "explanationSomali": "Handsome badanaa waxaa lagu tilmaamaa nin ama wiil.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Long hair",
+          "somaliMeaning": "Timo dheer",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "long heer",
+          "exampleEnglish": "She has long hair.",
+          "exampleSomali": "Waxay leedahay timo dheer.",
+          "explanationSomali": "Hair waxaa lala isticmaalaa has marka la sheegayo waxa qof leeyahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Short hair",
+          "somaliMeaning": "Timo gaaban",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "shoort heer",
+          "exampleEnglish": "He has short hair.",
+          "exampleSomali": "Wuxuu leeyahay timo gaaban.",
+          "explanationSomali": "Short hair waa timo aan dheerayn.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Black hair",
+          "somaliMeaning": "Timo madow",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "blak heer",
+          "exampleEnglish": "He has black hair.",
+          "exampleSomali": "Wuxuu leeyahay timo madow.",
+          "explanationSomali": "Midabka hair wuxuu yimaadaa hair ka hor.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Brown eyes",
+          "somaliMeaning": "Indho bunni ah",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "braawn aayz",
+          "exampleEnglish": "She has brown eyes.",
+          "exampleSomali": "Waxay leedahay indho bunni ah.",
+          "explanationSomali": "Eyes waa plural, laakiin lahaanshaha waxaa xukuma subject-ka: she has.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Big",
+          "somaliMeaning": "Weyn",
+          "partOfSpeech": "adjective",
+          "pronunciation": "big",
+          "exampleEnglish": "He has big eyes.",
+          "exampleSomali": "Wuxuu leeyahay indho waaweyn.",
+          "explanationSomali": "Big wuxuu tilmaamaa cabbir weyn.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Small",
+          "somaliMeaning": "Yar",
+          "partOfSpeech": "adjective",
+          "pronunciation": "smool",
+          "exampleEnglish": "She has small hands.",
+          "exampleSomali": "Waxay leedahay gacmo yaryar.",
+          "explanationSomali": "Small wuxuu tilmaamaa cabbir yar.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Be or have for appearance",
+        "titleSomali": "Is/are ama have/has ee muuqaalka",
+        "explanationSomali": "Dherer, da’ iyo sifo guud waxaa lagu sheegaa be: He is tall. Hair iyo eyes waxaa lagu sheegaa have/has: She has brown eyes.",
+        "rule": "Subject + be + adjective; subject + have/has + feature",
+        "sentenceStructure": "He/She + is + adjective OR has + noun phrase",
+        "positiveExamples": [
+          {
+            "english": "He is tall.",
+            "somali": "Wuu dheer yahay."
+          },
+          {
+            "english": "She is short.",
+            "somali": "Way gaaban tahay."
+          },
+          {
+            "english": "He has short hair.",
+            "somali": "Wuxuu leeyahay timo gaaban."
+          },
+          {
+            "english": "She has brown eyes.",
+            "somali": "Waxay leedahay indho bunni ah."
+          },
+          {
+            "english": "My grandfather is old.",
+            "somali": "Awoowahay waa da’ weyn yahay."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [],
+        "commonMistakesSomali": [
+          "Ha oran He has tall; dheh He is tall.",
+          "Ha oran She is brown eyes; dheh She has brown eyes.",
+          "Sharaxaadda qofka si ixtiraam leh u isticmaal."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "He is tall.",
+          "somali": "Wuu dheer yahay."
+        },
+        {
+          "english": "She is short.",
+          "somali": "Way gaaban tahay."
+        },
+        {
+          "english": "He has short hair.",
+          "somali": "Wuxuu leeyahay timo gaaban."
+        },
+        {
+          "english": "She has brown eyes.",
+          "somali": "Waxay leedahay indho bunni ah."
+        },
+        {
+          "english": "My grandfather is old.",
+          "somali": "Awoowahay waa da’ weyn yahay."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Muuqaalka qof",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "What does he look like?",
+              "somali": "Muuqaalkiisu waa sidee?"
+            },
+            {
+              "speaker": "B",
+              "english": "He is tall and he has short hair.",
+              "somali": "Wuu dheer yahay, wuxuuna leeyahay timo gaaban."
+            },
+            {
+              "speaker": "A",
+              "english": "What color is his hair?",
+              "somali": "Midabkee ayay timihiisu yihiin?"
+            },
+            {
+              "speaker": "B",
+              "english": "He has black hair.",
+              "somali": "Wuxuu leeyahay timo madow."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Sharaxaad ixtiraam leh",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Describe the woman in the example.",
+              "somali": "Sharax haweeneyda tusaalaha ah."
+            },
+            {
+              "speaker": "B",
+              "english": "She has long hair and brown eyes.",
+              "somali": "Waxay leedahay timo dheer iyo indho bunni ah."
+            },
+            {
+              "speaker": "A",
+              "english": "Is she young?",
+              "somali": "Ma da’ yar tahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes, she is young.",
+              "somali": "Haa, waa da’ yar tahay."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l05-p01",
+          "type": "multipleChoice",
+          "question": "“Tall” maxay ka dhigan tahay?",
+          "options": [
+            "Da’ yar",
+            "Dheer",
+            "Da’ weyn",
+            "Gaaban"
+          ],
+          "correctAnswer": "Dheer",
+          "explanationSomali": "Tall waxaa loola jeedaa Dheer."
+        },
+        {
+          "id": "a1-u04-l05-p02",
+          "type": "fillInTheBlank",
+          "question": "She ___ brown eyes.",
+          "options": [
+            "is",
+            "has",
+            "are",
+            "have"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l05-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Short” iyo macnihiisa.",
+          "options": [
+            "Da’ weyn",
+            "Da’ yar",
+            "Gaaban",
+            "Dheer"
+          ],
+          "correctAnswer": "Gaaban",
+          "explanationSomali": "Short macnihiisu waa Gaaban."
+        },
+        {
+          "id": "a1-u04-l05-p04",
+          "type": "chooseGrammar",
+          "question": "Kee ayaa sax ah?",
+          "options": [
+            "He has tall.",
+            "He is tall.",
+            "He tall is.",
+            "He have tall."
+          ],
+          "correctAnswer": "He is tall.",
+          "explanationSomali": "Qaabka saxda ahi waa “He is tall.”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l05-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: hair / has / black / She",
+          "options": [],
+          "correctAnswer": "She has black hair.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “She has black hair.”."
+        },
+        {
+          "id": "a1-u04-l05-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: He is tall.",
+          "options": [
+            "Wuxuu leeyahay timo gaaban.",
+            "Awoowahay waa da’ weyn yahay.",
+            "Wuu dheer yahay.",
+            "Way gaaban tahay."
+          ],
+          "correctAnswer": "Wuu dheer yahay.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l05-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Way gaaban tahay.",
+          "options": [
+            "She has brown eyes.",
+            "She is short.",
+            "He is tall.",
+            "My grandfather is old."
+          ],
+          "correctAnswer": "She is short.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “She is short.”."
+        },
+        {
+          "id": "a1-u04-l05-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l05-p09",
+          "type": "speakingPrompt",
+          "question": "Sharax qof male-awaal ah adigoo isticmaalaya tall/short, young/old, hair iyo eyes.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l05-p10",
+          "type": "shortWriting",
+          "question": "Qor shan jumladood oo muuqaal qof tusaale ah si ixtiraam leh u sharaxaya.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Sharax qof male-awaal ah adigoo isticmaalaya tall/short, young/old, hair iyo eyes.",
+      "writingPractice": "Qor shan jumladood oo muuqaal qof tusaale ah si ixtiraam leh u sharaxaya.",
+      "summarySomali": "Isticmaal is + adjective: He is tall. Isticmaal has + feature: He has black hair.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l05-q01",
+          "type": "multipleChoice",
+          "question": "“Tall” maxay ka dhigan tahay?",
+          "options": [
+            "Da’ yar",
+            "Dheer",
+            "Da’ weyn",
+            "Gaaban"
+          ],
+          "correctAnswer": "Dheer",
+          "explanationSomali": "Tall waxaa loola jeedaa Dheer."
+        },
+        {
+          "id": "a1-u04-l05-q02",
+          "type": "fillInTheBlank",
+          "question": "She ___ brown eyes.",
+          "options": [
+            "is",
+            "has",
+            "are",
+            "have"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l05-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Short” iyo macnihiisa.",
+          "options": [
+            "Da’ weyn",
+            "Da’ yar",
+            "Gaaban",
+            "Dheer"
+          ],
+          "correctAnswer": "Gaaban",
+          "explanationSomali": "Short macnihiisu waa Gaaban."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l06",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 6,
+      "titleEnglish": "Describing Personality",
+      "titleSomali": "Sharaxaadda dabeecadda qofka",
+      "shortDescriptionSomali": "Bar sifooyin wanaagsan oo dabeecadda qofka lagu tilmaamo, kana sooc muuqaalka.",
+      "learningObjectives": [
+        "Magacow 12 personality adjectives.",
+        "Subject + be + adjective samee.",
+        "Kala saar muuqaal iyo dabeecad."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 24,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l05",
+      "vocabulary": [
+        {
+          "englishWord": "Kind",
+          "somaliMeaning": "Naxariis badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "kaaynd",
+          "exampleEnglish": "My mother is kind.",
+          "exampleSomali": "Hooyaday waa naxariis badan tahay.",
+          "explanationSomali": "Kind wuxuu tilmaamaa qof dadka si wanaagsan ula dhaqma.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Friendly",
+          "somaliMeaning": "Saaxiibtinimo badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "frend-li",
+          "exampleEnglish": "She is very friendly.",
+          "exampleSomali": "Aad bay saaxiibtinimo badan u tahay.",
+          "explanationSomali": "Friendly waa qof si wanaagsan dadka ula macaamila.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Helpful",
+          "somaliMeaning": "Caawimo badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "help-fal",
+          "exampleEnglish": "My friend is helpful.",
+          "exampleSomali": "Saaxiibkay waa caawimo badan yahay.",
+          "explanationSomali": "Helpful waa qof dadka caawiya.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Happy",
+          "somaliMeaning": "Faraxsan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "ha-pi",
+          "exampleEnglish": "The child is happy.",
+          "exampleSomali": "Ilmuhu waa faraxsan yahay.",
+          "explanationSomali": "Happy wuxuu tilmaamaa dareen farxad.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Quiet",
+          "somaliMeaning": "Hadal yar/deggan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "kwaa-yat",
+          "exampleEnglish": "He is quiet.",
+          "exampleSomali": "Waa hadal yar yahay.",
+          "explanationSomali": "Quiet waa qof ama meel aan buuq badnayn.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Funny",
+          "somaliMeaning": "Qosol badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "fa-ni",
+          "exampleEnglish": "My cousin is funny.",
+          "exampleSomali": "Cousinkaygu waa qosol badan yahay.",
+          "explanationSomali": "Funny waa qof dadka ka qosliya.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Polite",
+          "somaliMeaning": "Edeb badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "pa-laayt",
+          "exampleEnglish": "The student is polite.",
+          "exampleSomali": "Ardaygu waa edeb badan yahay.",
+          "explanationSomali": "Polite wuxuu tilmaamaa edeb iyo ixtiraam.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Honest",
+          "somaliMeaning": "Daacad ah",
+          "partOfSpeech": "adjective",
+          "pronunciation": "o-nist",
+          "exampleEnglish": "Her sister is honest.",
+          "exampleSomali": "Walaasheed waa daacad.",
+          "explanationSomali": "Honest waa qof run iyo daacadnimo leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Hard-working",
+          "somaliMeaning": "Hawl-kar ah",
+          "partOfSpeech": "adjective",
+          "pronunciation": "haard-wer-king",
+          "exampleEnglish": "Our father is hard-working.",
+          "exampleSomali": "Aabbahayagu waa hawl-kar.",
+          "explanationSomali": "Hard-working wuxuu tilmaamaa qof dadaal badan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Shy",
+          "somaliMeaning": "Xishood badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "shaay",
+          "exampleEnglish": "The new student is shy.",
+          "exampleSomali": "Ardayga cusub waa xishood badan yahay.",
+          "explanationSomali": "Shy waa qof ka xishooda la hadalka dadka qaarkood.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Clever",
+          "somaliMeaning": "Fahmo badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "kle-var",
+          "exampleEnglish": "She is clever.",
+          "exampleSomali": "Way fahmo badan tahay.",
+          "explanationSomali": "Clever wuxuu tilmaamaa qof si fiican wax u fahma.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Patient",
+          "somaliMeaning": "Dulqaad badan",
+          "partOfSpeech": "adjective",
+          "pronunciation": "pey-shant",
+          "exampleEnglish": "Our teacher is patient.",
+          "exampleSomali": "Macallinkayagu waa dulqaad badan yahay.",
+          "explanationSomali": "Patient halkan waa adjective micnihiisuna yahay dulqaad badan.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Basic adjectives",
+        "titleSomali": "Sifooyinka aasaasiga ah",
+        "explanationSomali": "Adjective wuxuu iman karaa be ka dib: She is friendly; ama magaca ka hor: a friendly teacher. Tall waa muuqaal; kind waa dabeecad.",
+        "rule": "Subject + be + adjective; adjective + noun",
+        "sentenceStructure": "Person + am/is/are + adjective",
+        "positiveExamples": [
+          {
+            "english": "My mother is kind.",
+            "somali": "Hooyaday waa naxariis badan tahay."
+          },
+          {
+            "english": "My friend is helpful.",
+            "somali": "Saaxiibkay waa caawimo badan yahay."
+          },
+          {
+            "english": "He is quiet.",
+            "somali": "Waa hadal yar yahay."
+          },
+          {
+            "english": "She is very friendly.",
+            "somali": "Aad bay saaxiibtinimo badan u tahay."
+          },
+          {
+            "english": "Our teacher is patient.",
+            "somali": "Macallinkayagu waa dulqaad badan yahay."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [],
+        "commonMistakesSomali": [
+          "Ha ku darin -s adjective-ka marka subject-ku he/she yahay.",
+          "Muuqaal iyo dabeecad ha isku khaldin."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "My mother is kind.",
+          "somali": "Hooyaday waa naxariis badan tahay."
+        },
+        {
+          "english": "My friend is helpful.",
+          "somali": "Saaxiibkay waa caawimo badan yahay."
+        },
+        {
+          "english": "He is quiet.",
+          "somali": "Waa hadal yar yahay."
+        },
+        {
+          "english": "She is very friendly.",
+          "somali": "Aad bay saaxiibtinimo badan u tahay."
+        },
+        {
+          "english": "Our teacher is patient.",
+          "somali": "Macallinkayagu waa dulqaad badan yahay."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Dabeecadda saaxiib",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "What is your example friend like?",
+              "somali": "Saaxiibkaaga tusaalaha ahi dabeecad ahaan waa sidee?"
+            },
+            {
+              "speaker": "B",
+              "english": "She is friendly and helpful.",
+              "somali": "Waa saaxiibtinimo iyo caawimo badan tahay."
+            },
+            {
+              "speaker": "A",
+              "english": "Is she funny?",
+              "somali": "Ma qosol badan tahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes, she is.",
+              "somali": "Haa, waa sidaas."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Macallin dulqaad badan",
+          "lines": [
+            {
+              "speaker": "Student",
+              "english": "Our teacher is patient.",
+              "somali": "Macallinkayagu waa dulqaad badan yahay."
+            },
+            {
+              "speaker": "Worker",
+              "english": "Is he quiet?",
+              "somali": "Ma hadal yar yahay?"
+            },
+            {
+              "speaker": "Student",
+              "english": "Yes, and he is polite.",
+              "somali": "Haa, sidoo kale waa edeb badan yahay."
+            },
+            {
+              "speaker": "Worker",
+              "english": "He sounds kind.",
+              "somali": "Wuxuu u muuqdaa qof naxariis badan."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l06-p01",
+          "type": "multipleChoice",
+          "question": "“Kind” maxay ka dhigan tahay?",
+          "options": [
+            "Caawimo badan",
+            "Naxariis badan",
+            "Faraxsan",
+            "Saaxiibtinimo badan"
+          ],
+          "correctAnswer": "Naxariis badan",
+          "explanationSomali": "Kind waxaa loola jeedaa Naxariis badan."
+        },
+        {
+          "id": "a1-u04-l06-p02",
+          "type": "fillInTheBlank",
+          "question": "Our teacher is very ___. She waits calmly.",
+          "options": [
+            "patient",
+            "tall",
+            "black hair",
+            "short"
+          ],
+          "correctAnswer": "patient",
+          "explanationSomali": "“patient” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l06-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Friendly” iyo macnihiisa.",
+          "options": [
+            "Faraxsan",
+            "Caawimo badan",
+            "Saaxiibtinimo badan",
+            "Naxariis badan"
+          ],
+          "correctAnswer": "Saaxiibtinimo badan",
+          "explanationSomali": "Friendly macnihiisu waa Saaxiibtinimo badan."
+        },
+        {
+          "id": "a1-u04-l06-p04",
+          "type": "chooseGrammar",
+          "question": "Kee ayaa dabeecad tilmaamaya?",
+          "options": [
+            "brown eyes",
+            "long hair",
+            "friendly",
+            "tall"
+          ],
+          "correctAnswer": "friendly",
+          "explanationSomali": "Qaabka saxda ahi waa “friendly”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l06-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: helpful / friend / is / My",
+          "options": [],
+          "correctAnswer": "My friend is helpful.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “My friend is helpful.”."
+        },
+        {
+          "id": "a1-u04-l06-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: My mother is kind.",
+          "options": [
+            "Waa hadal yar yahay.",
+            "Macallinkayagu waa dulqaad badan yahay.",
+            "Hooyaday waa naxariis badan tahay.",
+            "Saaxiibkay waa caawimo badan yahay."
+          ],
+          "correctAnswer": "Hooyaday waa naxariis badan tahay.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l06-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Saaxiibkay waa caawimo badan yahay.",
+          "options": [
+            "She is very friendly.",
+            "My friend is helpful.",
+            "My mother is kind.",
+            "Our teacher is patient."
+          ],
+          "correctAnswer": "My friend is helpful.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “My friend is helpful.”."
+        },
+        {
+          "id": "a1-u04-l06-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l06-p09",
+          "type": "speakingPrompt",
+          "question": "Sharax dabeecadda saaxiib, macallin ama qof male-awaal ah adigoo isticmaalaya afar adjective.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l06-p10",
+          "type": "shortWriting",
+          "question": "Qor lix jumladood oo personality adjectives leh; laba ka mid ah adjective + noun ha noqdaan.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Sharax dabeecadda saaxiib, macallin ama qof male-awaal ah adigoo isticmaalaya afar adjective.",
+      "writingPractice": "Qor lix jumladood oo personality adjectives leh; laba ka mid ah adjective + noun ha noqdaan.",
+      "summarySomali": "Personality waa dabeecad; appearance waa muuqaal. Qaabka fudud waa Subject + be + adjective.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l06-q01",
+          "type": "multipleChoice",
+          "question": "“Kind” maxay ka dhigan tahay?",
+          "options": [
+            "Caawimo badan",
+            "Naxariis badan",
+            "Faraxsan",
+            "Saaxiibtinimo badan"
+          ],
+          "correctAnswer": "Naxariis badan",
+          "explanationSomali": "Kind waxaa loola jeedaa Naxariis badan."
+        },
+        {
+          "id": "a1-u04-l06-q02",
+          "type": "fillInTheBlank",
+          "question": "Our teacher is very ___. She waits calmly.",
+          "options": [
+            "patient",
+            "tall",
+            "black hair",
+            "short"
+          ],
+          "correctAnswer": "patient",
+          "explanationSomali": "“patient” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l06-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Friendly” iyo macnihiisa.",
+          "options": [
+            "Faraxsan",
+            "Caawimo badan",
+            "Saaxiibtinimo badan",
+            "Naxariis badan"
+          ],
+          "correctAnswer": "Saaxiibtinimo badan",
+          "explanationSomali": "Friendly macnihiisu waa Saaxiibtinimo badan."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l07",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 7,
+      "titleEnglish": "This, That, These and Those",
+      "titleSomali": "Isticmaalka This, That, These iyo Those",
+      "shortDescriptionSomali": "Bar tilmaamidda qof ama dad dhow iyo fog, singular iyo plural.",
+      "learningObjectives": [
+        "This/that u isticmaal singular.",
+        "These/those u isticmaal plural.",
+        "Dhow iyo fog si sax ah u kala saar."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 24,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l06",
+      "vocabulary": [
+        {
+          "englishWord": "This",
+          "somaliMeaning": "Kani/tani (dhow, hal)",
+          "partOfSpeech": "demonstrative",
+          "pronunciation": "dhis",
+          "exampleEnglish": "This is my brother.",
+          "exampleSomali": "Kani waa walaalkay.",
+          "explanationSomali": "This waxaa loo adeegsadaa hal qof ama shay oo dhow.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "That",
+          "somaliMeaning": "Kaas/taasi (fog, hal)",
+          "partOfSpeech": "demonstrative",
+          "pronunciation": "dhat",
+          "exampleEnglish": "That is my teacher.",
+          "exampleSomali": "Kaas waa macallinkay.",
+          "explanationSomali": "That waxaa loo adeegsadaa hal qof ama shay oo fog.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "These",
+          "somaliMeaning": "Kuwani (dhow, badan)",
+          "partOfSpeech": "demonstrative",
+          "pronunciation": "dhiiz",
+          "exampleEnglish": "These are my friends.",
+          "exampleSomali": "Kuwani waa saaxiibbaday.",
+          "explanationSomali": "These waxaa loo adeegsadaa dad ama waxyaabo badan oo dhow.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Those",
+          "somaliMeaning": "Kuwaas (fog, badan)",
+          "partOfSpeech": "demonstrative",
+          "pronunciation": "dhooz",
+          "exampleEnglish": "Those are my cousins.",
+          "exampleSomali": "Kuwaas waa cousins-kayga.",
+          "explanationSomali": "Those waxaa loo adeegsadaa dad ama waxyaabo badan oo fog.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Near",
+          "somaliMeaning": "Dhow",
+          "partOfSpeech": "adjective",
+          "pronunciation": "niir",
+          "exampleEnglish": "These people are near.",
+          "exampleSomali": "Dadkani way dhow yihiin.",
+          "explanationSomali": "Near wuxuu tilmaamaa meel dhow.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Far",
+          "somaliMeaning": "Fog",
+          "partOfSpeech": "adjective",
+          "pronunciation": "faar",
+          "exampleEnglish": "Those people are far away.",
+          "exampleSomali": "Dadkaas way fog yihiin.",
+          "explanationSomali": "Far wuxuu tilmaamaa meel fog.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Who is this?",
+          "somaliMeaning": "Kani/tani waa kuma?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "huu iz dhis",
+          "exampleEnglish": "Who is this?",
+          "exampleSomali": "Kani waa kuma?",
+          "explanationSomali": "Su’aashan waxaa la weydiiyaa qof keliya oo dhow.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Who are those people?",
+          "somaliMeaning": "Dadkaas waa ayo?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "huu aar dhooz pii-pal",
+          "exampleEnglish": "Who are those people?",
+          "exampleSomali": "Dadkaas waa ayo?",
+          "explanationSomali": "Are waxaa lala isticmaalaa those iyo people.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Demonstratives",
+        "titleSomali": "Tilmaamayaasha dhow iyo fog",
+        "explanationSomali": "This: hal dhow. That: hal fog. These: badan oo dhow. Those: badan oo fog. This/that waxaa la socda is; these/those waxaa la socda are.",
+        "rule": "this/that + is; these/those + are",
+        "sentenceStructure": "Demonstrative + be + person/noun",
+        "positiveExamples": [
+          {
+            "english": "This is my brother.",
+            "somali": "Kani waa walaalkay."
+          },
+          {
+            "english": "That is my teacher.",
+            "somali": "Kaas waa macallinkay."
+          },
+          {
+            "english": "These are my friends.",
+            "somali": "Kuwani waa saaxiibbaday."
+          },
+          {
+            "english": "Those are my cousins.",
+            "somali": "Kuwaas waa cousins-kayga."
+          },
+          {
+            "english": "Who are those people?",
+            "somali": "Dadkaas waa ayo?"
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [],
+        "commonMistakesSomali": [
+          "Ha oran These is; dheh These are.",
+          "Ha oran Those is; dheh Those are.",
+          "This iyo these waa dhow; that iyo those waa fog."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "This is my brother.",
+          "somali": "Kani waa walaalkay."
+        },
+        {
+          "english": "That is my teacher.",
+          "somali": "Kaas waa macallinkay."
+        },
+        {
+          "english": "These are my friends.",
+          "somali": "Kuwani waa saaxiibbaday."
+        },
+        {
+          "english": "Those are my cousins.",
+          "somali": "Kuwaas waa cousins-kayga."
+        },
+        {
+          "english": "Who are those people?",
+          "somali": "Dadkaas waa ayo?"
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Dad dhow iyo fog",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Who is this?",
+              "somali": "Kani waa kuma?"
+            },
+            {
+              "speaker": "B",
+              "english": "This is my brother.",
+              "somali": "Kani waa walaalkay."
+            },
+            {
+              "speaker": "A",
+              "english": "Who are those people?",
+              "somali": "Dadkaas waa ayo?"
+            },
+            {
+              "speaker": "B",
+              "english": "Those are my cousins.",
+              "somali": "Kuwaas waa cousins-kayga."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Saaxiibbada sawirka",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Are these your friends?",
+              "somali": "Kuwani ma saaxiibbadaa baa?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes, these are my friends.",
+              "somali": "Haa, kuwani waa saaxiibbaday."
+            },
+            {
+              "speaker": "A",
+              "english": "Is that your teacher?",
+              "somali": "Kaas ma macallinkaaga baa?"
+            },
+            {
+              "speaker": "B",
+              "english": "No, that is my uncle.",
+              "somali": "Maya, kaas waa adeerkay/abtigey."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l07-p01",
+          "type": "multipleChoice",
+          "question": "“This” maxay ka dhigan tahay?",
+          "options": [
+            "Kuwani (dhow, badan)",
+            "Kani/tani (dhow, hal)",
+            "Kuwaas (fog, badan)",
+            "Kaas/taasi (fog, hal)"
+          ],
+          "correctAnswer": "Kani/tani (dhow, hal)",
+          "explanationSomali": "This waxaa loola jeedaa Kani/tani (dhow, hal)."
+        },
+        {
+          "id": "a1-u04-l07-p02",
+          "type": "fillInTheBlank",
+          "question": "___ are my friends here beside me.",
+          "options": [
+            "This",
+            "That",
+            "These",
+            "Those"
+          ],
+          "correctAnswer": "These",
+          "explanationSomali": "“These” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l07-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “That” iyo macnihiisa.",
+          "options": [
+            "Kuwaas (fog, badan)",
+            "Kuwani (dhow, badan)",
+            "Kaas/taasi (fog, hal)",
+            "Kani/tani (dhow, hal)"
+          ],
+          "correctAnswer": "Kaas/taasi (fog, hal)",
+          "explanationSomali": "That macnihiisu waa Kaas/taasi (fog, hal)."
+        },
+        {
+          "id": "a1-u04-l07-p04",
+          "type": "chooseGrammar",
+          "question": "Dad badan oo fog waxaa lagu tilmaamaa…",
+          "options": [
+            "this",
+            "that",
+            "these",
+            "those"
+          ],
+          "correctAnswer": "those",
+          "explanationSomali": "Qaabka saxda ahi waa “those”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l07-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: cousins / Those / my / are",
+          "options": [],
+          "correctAnswer": "Those are my cousins.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Those are my cousins.”."
+        },
+        {
+          "id": "a1-u04-l07-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: This is my brother.",
+          "options": [
+            "Kuwani waa saaxiibbaday.",
+            "Dadkaas waa ayo?",
+            "Kani waa walaalkay.",
+            "Kaas waa macallinkay."
+          ],
+          "correctAnswer": "Kani waa walaalkay.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l07-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Kaas waa macallinkay.",
+          "options": [
+            "Those are my cousins.",
+            "That is my teacher.",
+            "This is my brother.",
+            "Who are those people?"
+          ],
+          "correctAnswer": "That is my teacher.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “That is my teacher.”."
+        },
+        {
+          "id": "a1-u04-l07-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l07-p09",
+          "type": "speakingPrompt",
+          "question": "Adeegso this, that, these iyo those adigoo afar scenario oo dad dhow/fog ah sharaxaya.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l07-p10",
+          "type": "shortWriting",
+          "question": "Qor siddeed jumladood: laba this, laba that, laba these iyo laba those.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Adeegso this, that, these iyo those adigoo afar scenario oo dad dhow/fog ah sharaxaya.",
+      "writingPractice": "Qor siddeed jumladood: laba this, laba that, laba these iyo laba those.",
+      "summarySomali": "This/that waa singular; these/those waa plural. This/these waa dhow; that/those waa fog.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l07-q01",
+          "type": "multipleChoice",
+          "question": "“This” maxay ka dhigan tahay?",
+          "options": [
+            "Kuwani (dhow, badan)",
+            "Kani/tani (dhow, hal)",
+            "Kuwaas (fog, badan)",
+            "Kaas/taasi (fog, hal)"
+          ],
+          "correctAnswer": "Kani/tani (dhow, hal)",
+          "explanationSomali": "This waxaa loola jeedaa Kani/tani (dhow, hal)."
+        },
+        {
+          "id": "a1-u04-l07-q02",
+          "type": "fillInTheBlank",
+          "question": "___ are my friends here beside me.",
+          "options": [
+            "This",
+            "That",
+            "These",
+            "Those"
+          ],
+          "correctAnswer": "These",
+          "explanationSomali": "“These” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l07-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “That” iyo macnihiisa.",
+          "options": [
+            "Kuwaas (fog, badan)",
+            "Kuwani (dhow, badan)",
+            "Kaas/taasi (fog, hal)",
+            "Kani/tani (dhow, hal)"
+          ],
+          "correctAnswer": "Kaas/taasi (fog, hal)",
+          "explanationSomali": "That macnihiisu waa Kaas/taasi (fog, hal)."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l08",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 8,
+      "titleEnglish": "Asking About People",
+      "titleSomali": "Weydiinta dadka ku saabsan",
+      "shortDescriptionSomali": "Bar su’aalo fudud oo aqoonsiga, xiriirka, dabeecadda, muuqaalka, da’da iyo meesha qofku deggan yahay.",
+      "learningObjectives": [
+        "Who questions samee.",
+        "Dabeecad iyo muuqaal si kala duwan u weydii.",
+        "Yes/no questions uga jawaab dadka."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 27,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l07",
+      "vocabulary": [
+        {
+          "englishWord": "Who is he?",
+          "somaliMeaning": "Isagu waa kuma?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "huu iz hii",
+          "exampleEnglish": "Who is he?",
+          "exampleSomali": "Isagu waa kuma?",
+          "explanationSomali": "Who wuxuu weydiinayaa aqoonsiga qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Who is she?",
+          "somaliMeaning": "Iyadu waa kuma?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "huu iz shii",
+          "exampleEnglish": "Who is she?",
+          "exampleSomali": "Iyadu waa kuma?",
+          "explanationSomali": "She waa qof dhedig ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Who are they?",
+          "somaliMeaning": "Iyagu waa ayo?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "huu aar dhey",
+          "exampleEnglish": "Who are they?",
+          "exampleSomali": "Iyagu waa ayo?",
+          "explanationSomali": "They waa dad badan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Is he your brother?",
+          "somaliMeaning": "Ma walaalkaa baa?",
+          "partOfSpeech": "yes/no question",
+          "pronunciation": "iz hii yoor bra-dhar",
+          "exampleEnglish": "Is he your brother?",
+          "exampleSomali": "Ma walaalkaa baa?",
+          "explanationSomali": "Is + he wuxuu sameeyaa su’aal yes/no ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Are they your friends?",
+          "somaliMeaning": "Ma saaxiibbadaa baa?",
+          "partOfSpeech": "yes/no question",
+          "pronunciation": "aar dhey yoor frendz",
+          "exampleEnglish": "Are they your friends?",
+          "exampleSomali": "Ma saaxiibbadaa baa?",
+          "explanationSomali": "Are waxaa lala isticmaalaa they.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "What is he like?",
+          "somaliMeaning": "Dabeecaddiisu waa sidee?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "wot iz hii laayk",
+          "exampleEnglish": "What is he like?",
+          "exampleSomali": "Dabeecaddiisu waa sidee?",
+          "explanationSomali": "Su’aashani badanaa waxay weydiinaysaa dabeecadda.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "What does she look like?",
+          "somaliMeaning": "Muuqaalkeedu waa sidee?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "wot daz shii luk laayk",
+          "exampleEnglish": "What does she look like?",
+          "exampleSomali": "Muuqaalkeedu waa sidee?",
+          "explanationSomali": "Su’aashani waxay weydiinaysaa muuqaalka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How old is he?",
+          "somaliMeaning": "Immisa jir buu yahay?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "haw oold iz hii",
+          "exampleEnglish": "How old is he?",
+          "exampleSomali": "Immisa jir buu yahay?",
+          "explanationSomali": "How old wuxuu weydiinayaa da’da.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Where does she live?",
+          "somaliMeaning": "Xaggee ayay degan tahay?",
+          "partOfSpeech": "question phrase",
+          "pronunciation": "weer daz shii liv",
+          "exampleEnglish": "Where does she live?",
+          "exampleSomali": "Xaggee ayay degan tahay?",
+          "explanationSomali": "Where wuxuu weydiinayaa meel.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "People",
+          "somaliMeaning": "Dad",
+          "partOfSpeech": "plural noun",
+          "pronunciation": "pii-pal",
+          "exampleEnglish": "Those people are friendly.",
+          "exampleSomali": "Dadkaas waa saaxiibtinimo badan yihiin.",
+          "explanationSomali": "People waxaa lala isticmaalaa are.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Questions about people",
+        "titleSomali": "Su’aalaha dadka",
+        "explanationSomali": "Who is/are wuxuu weydiiyaa qofka. What is ... like? wuxuu weydiiyaa dabeecadda. What does ... look like? wuxuu weydiiyaa muuqaalka.",
+        "rule": "Who + is/are; What + is/does; How old + is; Where + does + live",
+        "sentenceStructure": "Question word + helper + subject + complement?",
+        "positiveExamples": [
+          {
+            "english": "Who is he?",
+            "somali": "Isagu waa kuma?"
+          },
+          {
+            "english": "Who is she?",
+            "somali": "Iyadu waa kuma?"
+          },
+          {
+            "english": "Are they your friends?",
+            "somali": "Ma saaxiibbadaa baa?"
+          },
+          {
+            "english": "What is he like?",
+            "somali": "Dabeecaddiisu waa sidee?"
+          },
+          {
+            "english": "What does she look like?",
+            "somali": "Muuqaalkeedu waa sidee?"
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [
+          {
+            "english": "Who is he?",
+            "somali": "Isagu waa kuma?"
+          },
+          {
+            "english": "Who is she?",
+            "somali": "Iyadu waa kuma?"
+          },
+          {
+            "english": "Are they your friends?",
+            "somali": "Ma saaxiibbadaa baa?"
+          },
+          {
+            "english": "What is he like?",
+            "somali": "Dabeecaddiisu waa sidee?"
+          },
+          {
+            "english": "What does she look like?",
+            "somali": "Muuqaalkeedu waa sidee?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "What is he like? iyo What does he look like? isku macne ma aha.",
+          "Where does she lives? waa khalad; dheh Where does she live?"
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "Who is he?",
+          "somali": "Isagu waa kuma?"
+        },
+        {
+          "english": "Who is she?",
+          "somali": "Iyadu waa kuma?"
+        },
+        {
+          "english": "Are they your friends?",
+          "somali": "Ma saaxiibbadaa baa?"
+        },
+        {
+          "english": "What is he like?",
+          "somali": "Dabeecaddiisu waa sidee?"
+        },
+        {
+          "english": "What does she look like?",
+          "somali": "Muuqaalkeedu waa sidee?"
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Qofka sawirka ku jira",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Who is she?",
+              "somali": "Iyadu waa kuma?"
+            },
+            {
+              "speaker": "B",
+              "english": "She is my teacher.",
+              "somali": "Waa macallimaddayda."
+            },
+            {
+              "speaker": "A",
+              "english": "What is she like?",
+              "somali": "Dabeecaddeedu waa sidee?"
+            },
+            {
+              "speaker": "B",
+              "english": "She is kind and patient.",
+              "somali": "Waa naxariis iyo dulqaad badan tahay."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Qof cusub",
+          "lines": [
+            {
+              "speaker": "Worker",
+              "english": "Who is he?",
+              "somali": "Isagu waa kuma?"
+            },
+            {
+              "speaker": "Colleague",
+              "english": "He is our new coworker.",
+              "somali": "Waa qofka cusub ee nala shaqeeya."
+            },
+            {
+              "speaker": "Worker",
+              "english": "What does he look like?",
+              "somali": "Muuqaalkiisu waa sidee?"
+            },
+            {
+              "speaker": "Colleague",
+              "english": "He is tall and has short hair.",
+              "somali": "Wuu dheer yahay, timo gaabanna wuu leeyahay."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l08-p01",
+          "type": "multipleChoice",
+          "question": "“Who is he?” maxay ka dhigan tahay?",
+          "options": [
+            "Iyagu waa ayo?",
+            "Isagu waa kuma?",
+            "Ma walaalkaa baa?",
+            "Iyadu waa kuma?"
+          ],
+          "correctAnswer": "Isagu waa kuma?",
+          "explanationSomali": "Who is he? waxaa loola jeedaa Isagu waa kuma?."
+        },
+        {
+          "id": "a1-u04-l08-p02",
+          "type": "fillInTheBlank",
+          "question": "What does she ___ like?",
+          "options": [
+            "looks",
+            "look",
+            "is",
+            "has"
+          ],
+          "correctAnswer": "look",
+          "explanationSomali": "“look” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l08-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Who is she?” iyo macnihiisa.",
+          "options": [
+            "Ma walaalkaa baa?",
+            "Iyagu waa ayo?",
+            "Iyadu waa kuma?",
+            "Isagu waa kuma?"
+          ],
+          "correctAnswer": "Iyadu waa kuma?",
+          "explanationSomali": "Who is she? macnihiisu waa Iyadu waa kuma?."
+        },
+        {
+          "id": "a1-u04-l08-p04",
+          "type": "chooseGrammar",
+          "question": "Su’aashee ayaa dabeecadda weydiinaysa?",
+          "options": [
+            "What is he like?",
+            "What does he look like?",
+            "How old is he?",
+            "Where does he live?"
+          ],
+          "correctAnswer": "What is he like?",
+          "explanationSomali": "Qaabka saxda ahi waa “What is he like?”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l08-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: they / Who / are",
+          "options": [],
+          "correctAnswer": "Who are they?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Who are they?”."
+        },
+        {
+          "id": "a1-u04-l08-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: Who is he?",
+          "options": [
+            "Ma saaxiibbadaa baa?",
+            "Muuqaalkeedu waa sidee?",
+            "Isagu waa kuma?",
+            "Iyadu waa kuma?"
+          ],
+          "correctAnswer": "Isagu waa kuma?",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l08-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Iyadu waa kuma?",
+          "options": [
+            "What is he like?",
+            "Who is she?",
+            "Who is he?",
+            "What does she look like?"
+          ],
+          "correctAnswer": "Who is she?",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Who is she?”."
+        },
+        {
+          "id": "a1-u04-l08-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l08-p09",
+          "type": "speakingPrompt",
+          "question": "Sawir ama scenario male-awaal ah ka weydii who, personality, appearance, age iyo place.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l08-p10",
+          "type": "shortWriting",
+          "question": "Qor siddeed su’aalood oo dadka ku saabsan, kadib jawaabo gaaban ku dar.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Sawir ama scenario male-awaal ah ka weydii who, personality, appearance, age iyo place.",
+      "writingPractice": "Qor siddeed su’aalood oo dadka ku saabsan, kadib jawaabo gaaban ku dar.",
+      "summarySomali": "Who wuxuu weydiiyaa qofka; What is ... like? dabeecad; What does ... look like? muuqaal.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l08-q01",
+          "type": "multipleChoice",
+          "question": "“Who is he?” maxay ka dhigan tahay?",
+          "options": [
+            "Iyagu waa ayo?",
+            "Isagu waa kuma?",
+            "Ma walaalkaa baa?",
+            "Iyadu waa kuma?"
+          ],
+          "correctAnswer": "Isagu waa kuma?",
+          "explanationSomali": "Who is he? waxaa loola jeedaa Isagu waa kuma?."
+        },
+        {
+          "id": "a1-u04-l08-q02",
+          "type": "fillInTheBlank",
+          "question": "What does she ___ like?",
+          "options": [
+            "looks",
+            "look",
+            "is",
+            "has"
+          ],
+          "correctAnswer": "look",
+          "explanationSomali": "“look” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l08-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Who is she?” iyo macnihiisa.",
+          "options": [
+            "Ma walaalkaa baa?",
+            "Iyagu waa ayo?",
+            "Iyadu waa kuma?",
+            "Isagu waa kuma?"
+          ],
+          "correctAnswer": "Iyadu waa kuma?",
+          "explanationSomali": "Who is she? macnihiisu waa Iyadu waa kuma?."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l09",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 9,
+      "titleEnglish": "Introducing and Describing Someone",
+      "titleSomali": "Soo bandhigidda iyo sharaxaadda qof",
+      "shortDescriptionSomali": "Isku dar family, age, occupation, personality, appearance iyo place si qof loogu soo bandhigo 5–7 jumladood.",
+      "learningObjectives": [
+        "Qof si xushmad leh u soo bandhig.",
+        "5–7 jumladood isku xiran qor.",
+        "Family member, friend, teacher ama coworker sharax."
+      ],
+      "lessonType": "speaking",
+      "estimatedMinutes": 28,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l08",
+      "vocabulary": [
+        {
+          "englishWord": "This is…",
+          "somaliMeaning": "Kani/tani waa…",
+          "partOfSpeech": "introduction phrase",
+          "pronunciation": "dhis iz",
+          "exampleEnglish": "This is my sister, Amina.",
+          "exampleSomali": "Tani waa walaashay, Amina.",
+          "explanationSomali": "This is waxaa lagu bilaabaa soo bandhigid qof dhow.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Meet",
+          "somaliMeaning": "La kulan/baro",
+          "partOfSpeech": "verb",
+          "pronunciation": "miit",
+          "exampleEnglish": "Meet my friend, Omar.",
+          "exampleSomali": "La kulan saaxiibkay, Omar.",
+          "explanationSomali": "Meet waxaa lagu casuumaa qof inuu qof kale barto.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Student",
+          "somaliMeaning": "Arday",
+          "partOfSpeech": "noun",
+          "pronunciation": "stuu-dant",
+          "exampleEnglish": "She is a student.",
+          "exampleSomali": "Waa ardayad.",
+          "explanationSomali": "Student waa qof wax barta.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Friend",
+          "somaliMeaning": "Saaxiib",
+          "partOfSpeech": "noun",
+          "pronunciation": "frend",
+          "exampleEnglish": "He is my friend.",
+          "exampleSomali": "Waa saaxiibkay.",
+          "explanationSomali": "Friend waa qof aad saaxiib tihiin.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Teacher",
+          "somaliMeaning": "Macallin",
+          "partOfSpeech": "noun",
+          "pronunciation": "tii-char",
+          "exampleEnglish": "This is our teacher.",
+          "exampleSomali": "Kani waa macallinkayaga.",
+          "explanationSomali": "Teacher waa qof wax bara.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Coworker",
+          "somaliMeaning": "Qof aad wada shaqaysaan",
+          "partOfSpeech": "noun",
+          "pronunciation": "koo-wer-kar",
+          "exampleEnglish": "She is my coworker.",
+          "exampleSomali": "Waa qof aan wada shaqayno.",
+          "explanationSomali": "Coworker waa qof isku goob ama shaqo ka wada shaqaysaan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Lives",
+          "somaliMeaning": "Wuxuu/waxay deggan yahay/tahay",
+          "partOfSpeech": "verb",
+          "pronunciation": "livz",
+          "exampleEnglish": "She lives in Mogadishu.",
+          "exampleSomali": "Waxay deggan tahay Muqdisho.",
+          "explanationSomali": "Lives waxaa lala isticmaalaa he ama she.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Works",
+          "somaliMeaning": "Wuxuu/waxay shaqeeyaa/shaqaysaa",
+          "partOfSpeech": "verb",
+          "pronunciation": "werks",
+          "exampleEnglish": "He works at a school.",
+          "exampleSomali": "Wuxuu ka shaqeeyaa iskuul.",
+          "explanationSomali": "Works waxaa lala isticmaalaa he ama she.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "A short person description",
+        "titleSomali": "Sharaxaad qof oo gaaban",
+        "explanationSomali": "Ku bilow This is…, kadib isticmaal he/she is da’da, shaqada iyo sifooyinka; has muuqaalka; lives meesha.",
+        "rule": "This is + person. He/She is… Has… Lives…",
+        "sentenceStructure": "Introduction + age + role + personality + appearance + place",
+        "positiveExamples": [
+          {
+            "english": "This is my sister, Amina.",
+            "somali": "Tani waa walaashay, Amina."
+          },
+          {
+            "english": "She is eighteen years old.",
+            "somali": "Waxay jirtaa siddeed iyo toban sano."
+          },
+          {
+            "english": "She is a student.",
+            "somali": "Waa ardayad."
+          },
+          {
+            "english": "She is friendly and helpful.",
+            "somali": "Waa saaxiibtinimo iyo caawimo badan tahay."
+          },
+          {
+            "english": "She has long black hair.",
+            "somali": "Waxay leedahay timo madow oo dheer."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [],
+        "commonMistakesSomali": [
+          "Magaca qofka ka dib pronoun isku mid ah sii wad.",
+          "Ha gelin xog xasaasi ah; qof male-awaal ah isticmaal."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "This is my sister, Amina.",
+          "somali": "Tani waa walaashay, Amina."
+        },
+        {
+          "english": "She is eighteen years old.",
+          "somali": "Waxay jirtaa siddeed iyo toban sano."
+        },
+        {
+          "english": "She is a student.",
+          "somali": "Waa ardayad."
+        },
+        {
+          "english": "She is friendly and helpful.",
+          "somali": "Waa saaxiibtinimo iyo caawimo badan tahay."
+        },
+        {
+          "english": "She has long black hair.",
+          "somali": "Waxay leedahay timo madow oo dheer."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Soo bandhigid saaxiib",
+          "lines": [
+            {
+              "speaker": "Amina",
+              "english": "This is my friend, Hani.",
+              "somali": "Tani waa saaxiibadday Hani."
+            },
+            {
+              "speaker": "Hani",
+              "english": "Nice to meet you.",
+              "somali": "Waan ku faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Omar",
+              "english": "What is she like?",
+              "somali": "Dabeecaddeedu waa sidee?"
+            },
+            {
+              "speaker": "Amina",
+              "english": "She is friendly and helpful.",
+              "somali": "Waa saaxiibtinimo iyo caawimo badan tahay."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Soo bandhigid coworker",
+          "lines": [
+            {
+              "speaker": "Worker",
+              "english": "Meet our coworker, Ali.",
+              "somali": "La kulan qofka nala shaqeeya, Ali."
+            },
+            {
+              "speaker": "Ali",
+              "english": "Hello.",
+              "somali": "Salaan."
+            },
+            {
+              "speaker": "Worker",
+              "english": "He works in the office and he is very polite.",
+              "somali": "Wuxuu ka shaqeeyaa xafiiska, waana edeb badan yahay."
+            },
+            {
+              "speaker": "Guest",
+              "english": "Nice to meet you, Ali.",
+              "somali": "Waan ku faraxsanahay inaan kula kulmo, Ali."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l09-p01",
+          "type": "multipleChoice",
+          "question": "“This is…” maxay ka dhigan tahay?",
+          "options": [
+            "Arday",
+            "Kani/tani waa…",
+            "Saaxiib",
+            "La kulan/baro"
+          ],
+          "correctAnswer": "Kani/tani waa…",
+          "explanationSomali": "This is… waxaa loola jeedaa Kani/tani waa…."
+        },
+        {
+          "id": "a1-u04-l09-p02",
+          "type": "fillInTheBlank",
+          "question": "She ___ long black hair.",
+          "options": [
+            "is",
+            "has",
+            "have",
+            "are"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l09-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Meet” iyo macnihiisa.",
+          "options": [
+            "Saaxiib",
+            "Arday",
+            "La kulan/baro",
+            "Kani/tani waa…"
+          ],
+          "correctAnswer": "La kulan/baro",
+          "explanationSomali": "Meet macnihiisu waa La kulan/baro."
+        },
+        {
+          "id": "a1-u04-l09-p04",
+          "type": "chooseGrammar",
+          "question": "Jumladda ugu fiican ee soo bandhigiddu waa tee?",
+          "options": [
+            "This my sister Amina.",
+            "This is my sister, Amina.",
+            "She my sister is Amina.",
+            "These is Amina."
+          ],
+          "correctAnswer": "This is my sister, Amina.",
+          "explanationSomali": "Qaabka saxda ahi waa “This is my sister, Amina.”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l09-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: friendly / is / helpful / She / and",
+          "options": [],
+          "correctAnswer": "She is friendly and helpful.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “She is friendly and helpful.”."
+        },
+        {
+          "id": "a1-u04-l09-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: This is my sister, Amina.",
+          "options": [
+            "Waa ardayad.",
+            "Waxay leedahay timo madow oo dheer.",
+            "Tani waa walaashay, Amina.",
+            "Waxay jirtaa siddeed iyo toban sano."
+          ],
+          "correctAnswer": "Tani waa walaashay, Amina.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l09-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxay jirtaa siddeed iyo toban sano.",
+          "options": [
+            "She is friendly and helpful.",
+            "She is eighteen years old.",
+            "This is my sister, Amina.",
+            "She has long black hair."
+          ],
+          "correctAnswer": "She is eighteen years old.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “She is eighteen years old.”."
+        },
+        {
+          "id": "a1-u04-l09-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l09-p09",
+          "type": "speakingPrompt",
+          "question": "Soo bandhig family member, friend, teacher ama coworker male-awaal ah 5–7 jumladood.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l09-p10",
+          "type": "shortWriting",
+          "question": "Qor paragraph 5–7 jumladood ah oo qof tusaale ah soo bandhigaya: xiriir, da’, shaqo, dabeecad, muuqaal iyo magaalo.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        }
+      ],
+      "speakingPractice": "Soo bandhig family member, friend, teacher ama coworker male-awaal ah 5–7 jumladood.",
+      "writingPractice": "Qor paragraph 5–7 jumladood ah oo qof tusaale ah soo bandhigaya: xiriir, da’, shaqo, dabeecad, muuqaal iyo magaalo.",
+      "summarySomali": "Soo bandhigid wanaagsan waxay leedahay This is…, kadib is/has/lives oo 5–7 jumladood gaaban ah.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l09-q01",
+          "type": "multipleChoice",
+          "question": "“This is…” maxay ka dhigan tahay?",
+          "options": [
+            "Arday",
+            "Kani/tani waa…",
+            "Saaxiib",
+            "La kulan/baro"
+          ],
+          "correctAnswer": "Kani/tani waa…",
+          "explanationSomali": "This is… waxaa loola jeedaa Kani/tani waa…."
+        },
+        {
+          "id": "a1-u04-l09-q02",
+          "type": "fillInTheBlank",
+          "question": "She ___ long black hair.",
+          "options": [
+            "is",
+            "has",
+            "have",
+            "are"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l09-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Meet” iyo macnihiisa.",
+          "options": [
+            "Saaxiib",
+            "Arday",
+            "La kulan/baro",
+            "Kani/tani waa…"
+          ],
+          "correctAnswer": "La kulan/baro",
+          "explanationSomali": "Meet macnihiisu waa La kulan/baro."
+        }
+      ]
+    },
+    {
+      "id": "a1-u04-l10",
+      "levelId": "A1",
+      "unitId": "a1-u04",
+      "lessonNumber": 10,
+      "titleEnglish": "Unit Review",
+      "titleSomali": "Dib-u-eegista Unit 4",
+      "shortDescriptionSomali": "Dib u eeg family vocabulary, have/has, possessives, appearance, personality, demonstratives iyo sharaxaadda qof.",
+      "learningObjectives": [
+        "Isku dar dhammaan xirfadaha Unit 4.",
+        "Aqoonso oo sax khaladaadka caadiga ah.",
+        "Qof male-awaal ah si buuxda u sharax."
+      ],
+      "lessonType": "review",
+      "estimatedMinutes": 35,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u04-l09",
+      "vocabulary": [
+        {
+          "englishWord": "Family member",
+          "somaliMeaning": "Xubin qoys",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "fa-ma-li mem-bar",
+          "exampleEnglish": "Describe a family member.",
+          "exampleSomali": "Sharax xubin qoys.",
+          "explanationSomali": "Family member waa qof qoyska ka tirsan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Have or has",
+          "somaliMeaning": "Lahow: have ama has",
+          "partOfSpeech": "grammar phrase",
+          "pronunciation": "hav oor haz",
+          "exampleEnglish": "Choose have or has.",
+          "exampleSomali": "Dooro have ama has.",
+          "explanationSomali": "Doorashadu waxay ku xiran tahay subject-ka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Possessive adjective",
+          "somaliMeaning": "Eray lahaansho",
+          "partOfSpeech": "grammar term",
+          "pronunciation": "pa-ze-siv ajek-tiv",
+          "exampleEnglish": "My is a possessive adjective.",
+          "exampleSomali": "My waa eray lahaansho.",
+          "explanationSomali": "Wuxuu yimaadaa magaca ka hor.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Appearance",
+          "somaliMeaning": "Muuqaal",
+          "partOfSpeech": "noun",
+          "pronunciation": "a-pii-rans",
+          "exampleEnglish": "Describe her appearance.",
+          "exampleSomali": "Sharax muuqaalkeeda.",
+          "explanationSomali": "Appearance waa sida qofku u muuqdo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Personality",
+          "somaliMeaning": "Dabeecad",
+          "partOfSpeech": "noun",
+          "pronunciation": "per-sa-na-li-ti",
+          "exampleEnglish": "Describe his personality.",
+          "exampleSomali": "Sharax dabeecaddiisa.",
+          "explanationSomali": "Personality waa sida qofku dabeecad ahaan yahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Near",
+          "somaliMeaning": "Dhow",
+          "partOfSpeech": "adjective",
+          "pronunciation": "niir",
+          "exampleEnglish": "This person is near.",
+          "exampleSomali": "Qofkani waa dhow yahay.",
+          "explanationSomali": "Near wuxuu la xiriiraa this iyo these.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Far",
+          "somaliMeaning": "Fog",
+          "partOfSpeech": "adjective",
+          "pronunciation": "faar",
+          "exampleEnglish": "Those people are far.",
+          "exampleSomali": "Dadkaas waa fog yihiin.",
+          "explanationSomali": "Far wuxuu la xiriiraa that iyo those.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Introduce",
+          "somaliMeaning": "Soo bandhig",
+          "partOfSpeech": "verb",
+          "pronunciation": "in-tra-dyuus",
+          "exampleEnglish": "Introduce your example friend.",
+          "exampleSomali": "Soo bandhig saaxiib tusaale ah.",
+          "explanationSomali": "Introduce waa qof kale barid.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Describe",
+          "somaliMeaning": "Sharax",
+          "partOfSpeech": "verb",
+          "pronunciation": "dis-kraayb",
+          "exampleEnglish": "Describe a fictional person.",
+          "exampleSomali": "Sharax qof male-awaal ah.",
+          "explanationSomali": "Describe waa bixinta faahfaahin.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "I have two brothers.",
+          "somali": "Waxaan leeyahay laba walaalo lab."
+        },
+        {
+          "english": "Her mother is kind.",
+          "somali": "Hooyadeed waa naxariis badan tahay."
+        },
+        {
+          "english": "He has short black hair.",
+          "somali": "Wuxuu leeyahay timo madow oo gaaban."
+        },
+        {
+          "english": "Those are my cousins.",
+          "somali": "Kuwaas waa cousins-kayga."
+        },
+        {
+          "english": "What is she like?",
+          "somali": "Dabeecaddeedu waa sidee?"
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Dib-u-eegis qoys",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Do you have a large family?",
+              "somali": "Ma leedahay qoys weyn?"
+            },
+            {
+              "speaker": "B",
+              "english": "No, I have a small family.",
+              "somali": "Maya, waxaan leeyahay qoys yar."
+            },
+            {
+              "speaker": "A",
+              "english": "Who is this?",
+              "somali": "Kani waa kuma?"
+            },
+            {
+              "speaker": "B",
+              "english": "This is my example brother.",
+              "somali": "Kani waa walaalkayga tusaalaha ah."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Dib-u-eegis qof",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "What is she like?",
+              "somali": "Dabeecaddeedu waa sidee?"
+            },
+            {
+              "speaker": "B",
+              "english": "She is kind and honest.",
+              "somali": "Waa naxariis iyo daacad."
+            },
+            {
+              "speaker": "A",
+              "english": "What does she look like?",
+              "somali": "Muuqaalkeedu waa sidee?"
+            },
+            {
+              "speaker": "B",
+              "english": "She has long black hair.",
+              "somali": "Waxay leedahay timo madow oo dheer."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u04-l10-p01",
+          "type": "multipleChoice",
+          "question": "“Family member” maxay ka dhigan tahay?",
+          "options": [
+            "Eray lahaansho",
+            "Xubin qoys",
+            "Muuqaal",
+            "Lahow: have ama has"
+          ],
+          "correctAnswer": "Xubin qoys",
+          "explanationSomali": "Family member waxaa loola jeedaa Xubin qoys."
+        },
+        {
+          "id": "a1-u04-l10-p02",
+          "type": "fillInTheBlank",
+          "question": "He ___ one sister.",
+          "options": [
+            "have",
+            "has",
+            "are",
+            "do"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l10-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Have or has” iyo macnihiisa.",
+          "options": [
+            "Muuqaal",
+            "Eray lahaansho",
+            "Lahow: have ama has",
+            "Xubin qoys"
+          ],
+          "correctAnswer": "Lahow: have ama has",
+          "explanationSomali": "Have or has macnihiisu waa Lahow: have ama has."
+        },
+        {
+          "id": "a1-u04-l10-p04",
+          "type": "chooseGrammar",
+          "question": "Kee ayaa sax ah?",
+          "options": [
+            "Those is my cousins.",
+            "Those are my cousins.",
+            "This are my cousin.",
+            "These is my cousin."
+          ],
+          "correctAnswer": "Those are my cousins.",
+          "explanationSomali": "Qaabka saxda ahi waa “Those are my cousins.”. Xulashooyinka kale kuma waafaqsana subject-ka ama tirada."
+        },
+        {
+          "id": "a1-u04-l10-p05",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: patient / teacher / Our / is",
+          "options": [],
+          "correctAnswer": "Our teacher is patient.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Our teacher is patient.”."
+        },
+        {
+          "id": "a1-u04-l10-p06",
+          "type": "englishToSomali",
+          "question": "Turjun: I have two brothers.",
+          "options": [
+            "Wuxuu leeyahay timo madow oo gaaban.",
+            "Dabeecaddeedu waa sidee?",
+            "Waxaan leeyahay laba walaalo lab.",
+            "Hooyadeed waa naxariis badan tahay."
+          ],
+          "correctAnswer": "Waxaan leeyahay laba walaalo lab.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u04-l10-p07",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Hooyadeed waa naxariis badan tahay.",
+          "options": [
+            "Those are my cousins.",
+            "Her mother is kind.",
+            "I have two brothers.",
+            "What is she like?"
+          ],
+          "correctAnswer": "Her mother is kind.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Her mother is kind.”."
+        },
+        {
+          "id": "a1-u04-l10-p08",
+          "type": "trueFalse",
+          "question": "Layliga qoyska iyo dadka waxaa lagu samayn karaa qof ama qoys male-awaal ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Xog dhab ah looma baahna; tusaale male-awaal ah ayaa ku filan."
+        },
+        {
+          "id": "a1-u04-l10-p09",
+          "type": "speakingPrompt",
+          "question": "Dib u sheeg family members, kadib qof tusaale ah ku sharax family relation, appearance iyo personality.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah u hadal, isticmaal jumlado gaaban oo ixtiraam leh."
+        },
+        {
+          "id": "a1-u04-l10-p10",
+          "type": "shortWriting",
+          "question": "Qor paragraph dib-u-eegis ah oo leh have/has, possessive adjective iyo this/that/these/those.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi subject-ka, verb-ka iyo calaamadda dhammaadka jumlad kasta."
+        },
+        {
+          "id": "a1-u04-l10-p11",
+          "type": "multipleChoice",
+          "question": "Children waa plural-ka eraygee?",
+          "options": [
+            "Parent",
+            "Child",
+            "Cousin",
+            "Family"
+          ],
+          "correctAnswer": "Child",
+          "explanationSomali": "Hal waa child; wax ka badan hal waa children."
+        },
+        {
+          "id": "a1-u04-l10-p12",
+          "type": "chooseGrammar",
+          "question": "She ___ two brothers.",
+          "options": [
+            "have",
+            "has",
+            "having",
+            "do have"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "She waxaa la socda has."
+        },
+        {
+          "id": "a1-u04-l10-p13",
+          "type": "chooseGrammar",
+          "question": "Does he ___ a sister?",
+          "options": [
+            "has",
+            "have",
+            "having",
+            "had"
+          ],
+          "correctAnswer": "have",
+          "explanationSomali": "Does ka dib waxaa yimaada have, ma aha has."
+        },
+        {
+          "id": "a1-u04-l10-p14",
+          "type": "fillInTheBlank",
+          "question": "Amina is a student. ___ mother is a nurse.",
+          "options": [
+            "His",
+            "Her",
+            "Their",
+            "Our"
+          ],
+          "correctAnswer": "Her",
+          "explanationSomali": "Amina waa she; possessive adjective-keedu waa her."
+        },
+        {
+          "id": "a1-u04-l10-p15",
+          "type": "multipleChoice",
+          "question": "Kee ayaa tilmaamaya dabeecad?",
+          "options": [
+            "Tall",
+            "Long hair",
+            "Kind",
+            "Brown eyes"
+          ],
+          "correctAnswer": "Kind",
+          "explanationSomali": "Kind waa dabeecad; kuwa kale waa muuqaal."
+        },
+        {
+          "id": "a1-u04-l10-p16",
+          "type": "fillInTheBlank",
+          "question": "___ are my cousins over there.",
+          "options": [
+            "This",
+            "That",
+            "These",
+            "Those"
+          ],
+          "correctAnswer": "Those",
+          "explanationSomali": "Dad badan oo fog waxaa lagu tilmaamaa those."
+        },
+        {
+          "id": "a1-u04-l10-p17",
+          "type": "multipleChoice",
+          "question": "Su’aashee ayaa weydiinaysa muuqaalka?",
+          "options": [
+            "What is he like?",
+            "What does he look like?",
+            "Who is he?",
+            "Where is he?"
+          ],
+          "correctAnswer": "What does he look like?",
+          "explanationSomali": "What does ... look like? wuxuu weydiiyaa muuqaalka."
+        },
+        {
+          "id": "a1-u04-l10-p18",
+          "type": "somaliToEnglish",
+          "question": "U beddel: “Kani waa walaalkay.”",
+          "options": [
+            "These are my brothers.",
+            "This is my brother.",
+            "That is my father.",
+            "He have a brother."
+          ],
+          "correctAnswer": "This is my brother.",
+          "explanationSomali": "Qof keliya oo dhow: This is my brother."
+        },
+        {
+          "id": "a1-u04-l10-p19",
+          "type": "englishToSomali",
+          "question": "Turjun: “Our teacher is patient.”",
+          "options": [
+            "Macallinkoodu waa qosol badan yahay.",
+            "Macallinkayagu waa dulqaad badan yahay.",
+            "Macallinkaygu waa dheer yahay.",
+            "Macallinkiinnu waa xishood badan yahay."
+          ],
+          "correctAnswer": "Macallinkayagu waa dulqaad badan yahay.",
+          "explanationSomali": "Our waa “-kayaga/-keenna”, patient-na waa dulqaad badan."
+        },
+        {
+          "id": "a1-u04-l10-p20",
+          "type": "shortWriting",
+          "question": "Qor 5–7 jumladood oo qof male-awaal ah ku soo bandhigaya: xiriirka, da’da tusaalaha ah, shaqada, muuqaalka iyo dabeecadda.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal this is, he/she is, has iyo possessive adjective ku habboon."
+        }
+      ],
+      "speakingPractice": "Dib u sheeg family members, kadib qof tusaale ah ku sharax family relation, appearance iyo personality.",
+      "writingPractice": "Qor paragraph dib-u-eegis ah oo leh have/has, possessive adjective iyo this/that/these/those.",
+      "summarySomali": "Waxaad dib u eegtay qoyska, lahaanshaha, muuqaalka, dabeecadda, tilmaamayaasha iyo su’aalaha dadka.",
+      "quizQuestions": [
+        {
+          "id": "a1-u04-l10-q01",
+          "type": "multipleChoice",
+          "question": "“Family member” maxay ka dhigan tahay?",
+          "options": [
+            "Eray lahaansho",
+            "Xubin qoys",
+            "Muuqaal",
+            "Lahow: have ama has"
+          ],
+          "correctAnswer": "Xubin qoys",
+          "explanationSomali": "Family member waxaa loola jeedaa Xubin qoys."
+        },
+        {
+          "id": "a1-u04-l10-q02",
+          "type": "fillInTheBlank",
+          "question": "He ___ one sister.",
+          "options": [
+            "have",
+            "has",
+            "are",
+            "do"
+          ],
+          "correctAnswer": "has",
+          "explanationSomali": "“has” ayaa jumladda ka dhigaya mid sax ah."
+        },
+        {
+          "id": "a1-u04-l10-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Have or has” iyo macnihiisa.",
+          "options": [
+            "Muuqaal",
+            "Eray lahaansho",
+            "Lahow: have ama has",
+            "Xubin qoys"
+          ],
+          "correctAnswer": "Lahow: have ama has",
+          "explanationSomali": "Have or has macnihiisu waa Lahow: have ama has."
+        }
+      ]
+    }
+  ],
+  "unitQuiz": [
+    {
+      "id": "a1-u04-q01",
+      "type": "multipleChoice",
+      "question": "“Niece” waa tee?",
+      "options": [
+        "Wiilka walaalka",
+        "Gabadha walaalka ama walaasha",
+        "Waalid",
+        "Ayeeyo"
+      ],
+      "correctAnswer": "Gabadha walaalka ama walaasha",
+      "explanationSomali": "Niece waa gabadha uu dhalay walaalka ama walaasha."
+    },
+    {
+      "id": "a1-u04-q02",
+      "type": "multipleChoice",
+      "question": "Plural-ka child waa…",
+      "options": [
+        "childs",
+        "childes",
+        "children",
+        "childrens"
+      ],
+      "correctAnswer": "children",
+      "explanationSomali": "Child waa singular; children waa plural."
+    },
+    {
+      "id": "a1-u04-q03",
+      "type": "multipleChoice",
+      "question": "Father iyo mother wadajir waa…",
+      "options": [
+        "cousins",
+        "parents",
+        "children",
+        "grandparents"
+      ],
+      "correctAnswer": "parents",
+      "explanationSomali": "Father iyo mother waa parents."
+    },
+    {
+      "id": "a1-u04-q04",
+      "type": "multipleChoice",
+      "question": "“Husband” lidka xiriirka guurka waa…",
+      "options": [
+        "wife",
+        "sister",
+        "aunt",
+        "daughter"
+      ],
+      "correctAnswer": "wife",
+      "explanationSomali": "Husband iyo wife waa labada eray ee xiriirka guurka."
+    },
+    {
+      "id": "a1-u04-q05",
+      "type": "multipleChoice",
+      "question": "Ilmaha uncle ama aunt waa…",
+      "options": [
+        "parent",
+        "cousin",
+        "nephew oo keliya",
+        "grandparent"
+      ],
+      "correctAnswer": "cousin",
+      "explanationSomali": "Cousin waa ilmaha uncle ama aunt."
+    },
+    {
+      "id": "a1-u04-q06",
+      "type": "fillInTheBlank",
+      "question": "I ___ two brothers.",
+      "options": [
+        "has",
+        "have",
+        "does",
+        "is"
+      ],
+      "correctAnswer": "have",
+      "explanationSomali": "I waxaa la socda have."
+    },
+    {
+      "id": "a1-u04-q07",
+      "type": "fillInTheBlank",
+      "question": "She ___ one sister.",
+      "options": [
+        "have",
+        "has",
+        "do",
+        "are"
+      ],
+      "correctAnswer": "has",
+      "explanationSomali": "She waxaa la socda has."
+    },
+    {
+      "id": "a1-u04-q08",
+      "type": "multipleChoice",
+      "question": "Kee ayaa sax ah?",
+      "options": [
+        "Does he has children?",
+        "Does he have children?",
+        "Do he has children?",
+        "He does have children?"
+      ],
+      "correctAnswer": "Does he have children?",
+      "explanationSomali": "Does ka dib have ayaa yimaada."
+    },
+    {
+      "id": "a1-u04-q09",
+      "type": "fillInTheBlank",
+      "question": "They ___ have a large family.",
+      "options": [
+        "doesn't",
+        "don't",
+        "has not",
+        "is not"
+      ],
+      "correctAnswer": "don't",
+      "explanationSomali": "They waxaa la socda don't."
+    },
+    {
+      "id": "a1-u04-q10",
+      "type": "fillInTheBlank",
+      "question": "He ___ have a brother.",
+      "options": [
+        "don't",
+        "doesn't",
+        "is not",
+        "has not a"
+      ],
+      "correctAnswer": "doesn't",
+      "explanationSomali": "He waxaa la socda doesn't; ka dibna have."
+    },
+    {
+      "id": "a1-u04-q11",
+      "type": "fillInTheBlank",
+      "question": "I have a sister. ___ name is Hani.",
+      "options": [
+        "His",
+        "Her",
+        "Our",
+        "Their"
+      ],
+      "correctAnswer": "Her",
+      "explanationSomali": "Sister waa she; lahaanshaheedu waa her."
+    },
+    {
+      "id": "a1-u04-q12",
+      "type": "multipleChoice",
+      "question": "We → possessive adjective kee?",
+      "options": [
+        "my",
+        "your",
+        "our",
+        "their"
+      ],
+      "correctAnswer": "our",
+      "explanationSomali": "We waxaa lahaansho ahaan u dhigma our."
+    },
+    {
+      "id": "a1-u04-q13",
+      "type": "fillInTheBlank",
+      "question": "Ali has a brother. ___ brother is tall.",
+      "options": [
+        "Her",
+        "His",
+        "Its",
+        "Our"
+      ],
+      "correctAnswer": "His",
+      "explanationSomali": "Ali waa he; possessive adjective-ku waa his."
+    },
+    {
+      "id": "a1-u04-q14",
+      "type": "multipleChoice",
+      "question": "They → possessive adjective kee?",
+      "options": [
+        "their",
+        "our",
+        "his",
+        "your"
+      ],
+      "correctAnswer": "their",
+      "explanationSomali": "They waxaa lahaansho ahaan u dhigma their."
+    },
+    {
+      "id": "a1-u04-q15",
+      "type": "multipleChoice",
+      "question": "Kee ayaa muuqaal tilmaamaya?",
+      "options": [
+        "honest",
+        "helpful",
+        "brown eyes",
+        "patient"
+      ],
+      "correctAnswer": "brown eyes",
+      "explanationSomali": "Brown eyes waa muuqaal; kuwa kale waa dabeecad."
+    },
+    {
+      "id": "a1-u04-q16",
+      "type": "multipleChoice",
+      "question": "Kee ayaa dabeecad tilmaamaya?",
+      "options": [
+        "long hair",
+        "tall",
+        "friendly",
+        "brown eyes"
+      ],
+      "correctAnswer": "friendly",
+      "explanationSomali": "Friendly waa personality adjective."
+    },
+    {
+      "id": "a1-u04-q17",
+      "type": "fillInTheBlank",
+      "question": "He ___ tall.",
+      "options": [
+        "has",
+        "is",
+        "have",
+        "are"
+      ],
+      "correctAnswer": "is",
+      "explanationSomali": "Tall waa adjective; He is tall."
+    },
+    {
+      "id": "a1-u04-q18",
+      "type": "fillInTheBlank",
+      "question": "She ___ long hair.",
+      "options": [
+        "is",
+        "are",
+        "has",
+        "have"
+      ],
+      "correctAnswer": "has",
+      "explanationSomali": "Hair waa feature uu qof leeyahay; She has long hair."
+    },
+    {
+      "id": "a1-u04-q19",
+      "type": "fillInTheBlank",
+      "question": "___ is my brother here beside me.",
+      "options": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
+      "correctAnswer": "This",
+      "explanationSomali": "Hal qof oo dhow waxaa lagu tilmaamaa this."
+    },
+    {
+      "id": "a1-u04-q20",
+      "type": "fillInTheBlank",
+      "question": "___ are my cousins over there.",
+      "options": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
+      "correctAnswer": "Those",
+      "explanationSomali": "Dad badan oo fog waxaa lagu tilmaamaa those."
+    },
+    {
+      "id": "a1-u04-q21",
+      "type": "multipleChoice",
+      "question": "Kee ayaa sax ah?",
+      "options": [
+        "These is my friends.",
+        "These are my friends.",
+        "This are my friends.",
+        "Those is my friends."
+      ],
+      "correctAnswer": "These are my friends.",
+      "explanationSomali": "These waa plural, waxaana la socda are."
+    },
+    {
+      "id": "a1-u04-q22",
+      "type": "readingComprehension",
+      "question": "A: What is Hani like? B: She is kind and helpful. Maxaa laga hadlayaa?",
+      "options": [
+        "Da’deeda",
+        "Dabeecaddeeda",
+        "Cinwaankeeda",
+        "Qiimaha"
+      ],
+      "correctAnswer": "Dabeecaddeeda",
+      "explanationSomali": "What is ... like? wuxuu weydiiyaa dabeecadda."
+    },
+    {
+      "id": "a1-u04-q23",
+      "type": "readingComprehension",
+      "question": "A: Who are those people? B: They are my cousins. Dadkaasi waa ayo?",
+      "options": [
+        "Waalidkiis",
+        "Macallimiintiis",
+        "Cousins-kiis",
+        "Carruurtiis"
+      ],
+      "correctAnswer": "Cousins-kiis",
+      "explanationSomali": "Jawaabtu si cad ayay u sheegaysaa “They are my cousins.”"
+    },
+    {
+      "id": "a1-u04-q24",
+      "type": "somaliToEnglish",
+      "question": "U beddel: “Waxay leedahay laba walaalo dhedig.”",
+      "options": [
+        "She is two sisters.",
+        "She has two sisters.",
+        "She have two sisters.",
+        "Her two sisters."
+      ],
+      "correctAnswer": "She has two sisters.",
+      "explanationSomali": "She waxaa la socda has; sisters waa plural."
+    },
+    {
+      "id": "a1-u04-q25",
+      "type": "somaliToEnglish",
+      "question": "U beddel: “Kuwaas waa saaxiibbaday.”",
+      "options": [
+        "This is my friend.",
+        "Those are my friends.",
+        "These is my friends.",
+        "That are my friends."
+      ],
+      "correctAnswer": "Those are my friends.",
+      "explanationSomali": "Dad badan oo fog: Those are my friends."
+    }
+  ],
+  "passingScore": 70
+}
