@@ -185,6 +185,8 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
               Text(
                 passed
                     ? 'Unit ${widget.unit.unitNumber + 1} hadda waa kuu furmay.'
+                    : widget.unit.id == 'a1-u03'
+                    ? 'Dib u eeg tirooyinka, da’da, telefoonka, cinwaannada, qiimaha, taariikhaha iyo foomamka; kadib mar kale isku day.'
                     : widget.unit.id == 'a1-u02'
                     ? 'Dib u eeg Basic Greetings, am/is/are, formal iyo informal greetings, iyo wada sheekeysiyada; kadib mar kale isku day.'
                     : 'Dib u eeg casharrada, kadib mar kale isku day.',

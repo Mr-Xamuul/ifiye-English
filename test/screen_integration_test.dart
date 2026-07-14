@@ -53,5 +53,13 @@ void main() {
 
     expect(find.text('Greetings and Introductions'), findsOneWidget);
     expect(find.text('Basic Greetings'), findsOneWidget);
+
+    await state.recordUnitQuizScore('a1-u02', 70);
+    await tester.pump();
+    await tester.tap(find.text('Unit 3'));
+    await tester.pump();
+
+    expect(find.text('Numbers and Personal Information'), findsOneWidget);
+    expect(find.text('Numbers 0–20'), findsOneWidget);
   });
 }

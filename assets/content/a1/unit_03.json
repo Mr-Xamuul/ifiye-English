@@ -1,0 +1,4043 @@
+{
+  "id": "a1-u03",
+  "levelId": "A1",
+  "unitNumber": 3,
+  "titleEnglish": "Numbers and Personal Information",
+  "titleSomali": "Tirooyinka iyo Macluumaadka Qofka",
+  "introductionSomali": "Unit-kan wuxuu ku barayaa tirooyinka 0 ilaa 100, da’da, lambarrada telefoonka, cinwaannada, qiimaha, taariikhaha iyo buuxinta foomamka xogta qofka adigoo adeegsanaya xog tusaale ah.",
+  "requiredPreviousUnitId": "a1-u02",
+  "lessons": [
+    {
+      "id": "a1-u03-l01",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 1,
+      "titleEnglish": "Numbers 0–20",
+      "titleSomali": "Tirooyinka eber ilaa labaatan",
+      "shortDescriptionSomali": "Bar qorista iyo dhawaaqa zero ilaa twenty, iyo farqiga hordhaca ah ee -teen iyo -ty.",
+      "learningObjectives": [
+        "Akhri oo qor 0 ilaa 20.",
+        "Tirso si sax ah zero ilaa twenty.",
+        "Kala saar thirteen/thirty iyo lammaanayaasha la midka ah."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 24,
+      "difficulty": "beginner",
+      "isLocked": false,
+      "requiredPreviousLessonId": null,
+      "vocabulary": [
+        {
+          "englishWord": "zero",
+          "somaliMeaning": "0",
+          "partOfSpeech": "number",
+          "pronunciation": "zii-ro",
+          "exampleEnglish": "The number is zero.",
+          "exampleSomali": "Tiradu waa 0.",
+          "explanationSomali": "zero waa sida tirada 0 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "one",
+          "somaliMeaning": "1",
+          "partOfSpeech": "number",
+          "pronunciation": "wan",
+          "exampleEnglish": "The number is one.",
+          "exampleSomali": "Tiradu waa 1.",
+          "explanationSomali": "one waa sida tirada 1 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "two",
+          "somaliMeaning": "2",
+          "partOfSpeech": "number",
+          "pronunciation": "tuu",
+          "exampleEnglish": "The number is two.",
+          "exampleSomali": "Tiradu waa 2.",
+          "explanationSomali": "two waa sida tirada 2 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "three",
+          "somaliMeaning": "3",
+          "partOfSpeech": "number",
+          "pronunciation": "thrii",
+          "exampleEnglish": "The number is three.",
+          "exampleSomali": "Tiradu waa 3.",
+          "explanationSomali": "three waa sida tirada 3 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "four",
+          "somaliMeaning": "4",
+          "partOfSpeech": "number",
+          "pronunciation": "foor",
+          "exampleEnglish": "The number is four.",
+          "exampleSomali": "Tiradu waa 4.",
+          "explanationSomali": "four waa sida tirada 4 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "five",
+          "somaliMeaning": "5",
+          "partOfSpeech": "number",
+          "pronunciation": "faayv",
+          "exampleEnglish": "The number is five.",
+          "exampleSomali": "Tiradu waa 5.",
+          "explanationSomali": "five waa sida tirada 5 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "six",
+          "somaliMeaning": "6",
+          "partOfSpeech": "number",
+          "pronunciation": "siks",
+          "exampleEnglish": "The number is six.",
+          "exampleSomali": "Tiradu waa 6.",
+          "explanationSomali": "six waa sida tirada 6 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "seven",
+          "somaliMeaning": "7",
+          "partOfSpeech": "number",
+          "pronunciation": "se-van",
+          "exampleEnglish": "The number is seven.",
+          "exampleSomali": "Tiradu waa 7.",
+          "explanationSomali": "seven waa sida tirada 7 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "eight",
+          "somaliMeaning": "8",
+          "partOfSpeech": "number",
+          "pronunciation": "eyt",
+          "exampleEnglish": "The number is eight.",
+          "exampleSomali": "Tiradu waa 8.",
+          "explanationSomali": "eight waa sida tirada 8 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "nine",
+          "somaliMeaning": "9",
+          "partOfSpeech": "number",
+          "pronunciation": "naayn",
+          "exampleEnglish": "The number is nine.",
+          "exampleSomali": "Tiradu waa 9.",
+          "explanationSomali": "nine waa sida tirada 9 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "ten",
+          "somaliMeaning": "10",
+          "partOfSpeech": "number",
+          "pronunciation": "ten",
+          "exampleEnglish": "The number is ten.",
+          "exampleSomali": "Tiradu waa 10.",
+          "explanationSomali": "ten waa sida tirada 10 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "eleven",
+          "somaliMeaning": "11",
+          "partOfSpeech": "number",
+          "pronunciation": "i-le-van",
+          "exampleEnglish": "The number is eleven.",
+          "exampleSomali": "Tiradu waa 11.",
+          "explanationSomali": "eleven waa sida tirada 11 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "twelve",
+          "somaliMeaning": "12",
+          "partOfSpeech": "number",
+          "pronunciation": "twelv",
+          "exampleEnglish": "The number is twelve.",
+          "exampleSomali": "Tiradu waa 12.",
+          "explanationSomali": "twelve waa sida tirada 12 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "thirteen",
+          "somaliMeaning": "13",
+          "partOfSpeech": "number",
+          "pronunciation": "ther-tiin",
+          "exampleEnglish": "The number is thirteen.",
+          "exampleSomali": "Tiradu waa 13.",
+          "explanationSomali": "thirteen waa sida tirada 13 loogu qoro English.",
+          "commonMistakeSomali": "Thirteen waa 13; thirty waa 30. Dhawaaqa -teen dheer u sheeg."
+        },
+        {
+          "englishWord": "fourteen",
+          "somaliMeaning": "14",
+          "partOfSpeech": "number",
+          "pronunciation": "foor-tiin",
+          "exampleEnglish": "The number is fourteen.",
+          "exampleSomali": "Tiradu waa 14.",
+          "explanationSomali": "fourteen waa sida tirada 14 loogu qoro English.",
+          "commonMistakeSomali": "Fourteen waa 14; forty waa 40. Forty laguma qoro fourty."
+        },
+        {
+          "englishWord": "fifteen",
+          "somaliMeaning": "15",
+          "partOfSpeech": "number",
+          "pronunciation": "fif-tiin",
+          "exampleEnglish": "The number is fifteen.",
+          "exampleSomali": "Tiradu waa 15.",
+          "explanationSomali": "fifteen waa sida tirada 15 loogu qoro English.",
+          "commonMistakeSomali": "Fifteen waa 15; fifty waa 50."
+        },
+        {
+          "englishWord": "sixteen",
+          "somaliMeaning": "16",
+          "partOfSpeech": "number",
+          "pronunciation": "siks-tiin",
+          "exampleEnglish": "The number is sixteen.",
+          "exampleSomali": "Tiradu waa 16.",
+          "explanationSomali": "sixteen waa sida tirada 16 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "seventeen",
+          "somaliMeaning": "17",
+          "partOfSpeech": "number",
+          "pronunciation": "se-van-tiin",
+          "exampleEnglish": "The number is seventeen.",
+          "exampleSomali": "Tiradu waa 17.",
+          "explanationSomali": "seventeen waa sida tirada 17 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "eighteen",
+          "somaliMeaning": "18",
+          "partOfSpeech": "number",
+          "pronunciation": "ey-tiin",
+          "exampleEnglish": "The number is eighteen.",
+          "exampleSomali": "Tiradu waa 18.",
+          "explanationSomali": "eighteen waa sida tirada 18 loogu qoro English.",
+          "commonMistakeSomali": "Eighteen waa 18; eighty waa 80."
+        },
+        {
+          "englishWord": "nineteen",
+          "somaliMeaning": "19",
+          "partOfSpeech": "number",
+          "pronunciation": "naayn-tiin",
+          "exampleEnglish": "The number is nineteen.",
+          "exampleSomali": "Tiradu waa 19.",
+          "explanationSomali": "nineteen waa sida tirada 19 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "twenty",
+          "somaliMeaning": "20",
+          "partOfSpeech": "number",
+          "pronunciation": "twen-ti",
+          "exampleEnglish": "The number is twenty.",
+          "exampleSomali": "Tiradu waa 20.",
+          "explanationSomali": "twenty waa sida tirada 20 loogu qoro English.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "I have two books.",
+          "somali": "Waxaan haystaa laba buug."
+        },
+        {
+          "english": "There are thirteen students.",
+          "somali": "Waxaa jira saddex iyo toban arday."
+        },
+        {
+          "english": "My number is eighteen.",
+          "somali": "Tiradaydu waa siddeed iyo toban."
+        },
+        {
+          "english": "She has twenty pens.",
+          "somali": "Waxay haysataa labaatan qalin."
+        },
+        {
+          "english": "Count from zero to ten.",
+          "somali": "Tiri eber ilaa toban."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Laba arday oo tirinaya",
+          "lines": [
+            {
+              "speaker": "Asha",
+              "english": "How many books?",
+              "somali": "Immisa buug?"
+            },
+            {
+              "speaker": "Ali",
+              "english": "Thirteen books.",
+              "somali": "Saddex iyo toban buug."
+            },
+            {
+              "speaker": "Asha",
+              "english": "Thirteen, not thirty?",
+              "somali": "Saddex iyo toban, ma aha soddon?"
+            },
+            {
+              "speaker": "Ali",
+              "english": "Yes, thirteen.",
+              "somali": "Haa, saddex iyo toban."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Fasalka",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "english": "Count from zero to five.",
+              "somali": "Tiri eber ilaa shan."
+            },
+            {
+              "speaker": "Student",
+              "english": "Zero, one, two, three, four, five.",
+              "somali": "Eber, kow, laba, saddex, afar, shan."
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Good.",
+              "somali": "Fiican."
+            },
+            {
+              "speaker": "Student",
+              "english": "Thank you.",
+              "somali": "Mahadsanid."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l01-p01",
+          "type": "multipleChoice",
+          "question": "“zero” maxay ka dhigan tahay?",
+          "options": [
+            "1",
+            "0",
+            "2",
+            "3"
+          ],
+          "correctAnswer": "0",
+          "explanationSomali": "Jawaabta saxda ahi waa 0; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l01-p02",
+          "type": "fillInTheBlank",
+          "question": "There are ___ students. (13)",
+          "options": [
+            "one",
+            "thirteen",
+            "two",
+            "three"
+          ],
+          "correctAnswer": "thirteen",
+          "explanationSomali": "“thirteen” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l01-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “one” iyo macnihiisa.",
+          "options": [
+            "3",
+            "2",
+            "1",
+            "0"
+          ],
+          "correctAnswer": "1",
+          "explanationSomali": "one waxaa loola jeedaa 1."
+        },
+        {
+          "id": "a1-u03-l01-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: books / have / two / I",
+          "options": [],
+          "correctAnswer": "I have two books.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “I have two books.”."
+        },
+        {
+          "id": "a1-u03-l01-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: I have two books.",
+          "options": [
+            "Tiradaydu waa siddeed iyo toban.",
+            "Waxaa jira saddex iyo toban arday.",
+            "Waxay haysataa labaatan qalin.",
+            "Waxaan haystaa laba buug."
+          ],
+          "correctAnswer": "Waxaan haystaa laba buug.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l01-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaa jira saddex iyo toban arday.",
+          "options": [
+            "She has twenty pens.",
+            "I have two books.",
+            "There are thirteen students.",
+            "My number is eighteen."
+          ],
+          "correctAnswer": "There are thirteen students.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “There are thirteen students.”."
+        },
+        {
+          "id": "a1-u03-l01-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l01-p08",
+          "type": "multipleChoice",
+          "question": "Kee ayaa ah 18?",
+          "options": [
+            "eighty",
+            "eight",
+            "eighteen",
+            "thirteen"
+          ],
+          "correctAnswer": "eighteen",
+          "explanationSomali": "“eighteen” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l01-p09",
+          "type": "speakingPrompt",
+          "question": "Tirso 0 ilaa 20, kadib si cad u kala sheeg thirteen/thirty, fourteen/forty, fifteen/fifty iyo eighteen/eighty.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l01-p10",
+          "type": "shortWriting",
+          "question": "Tirooyinka 0 ilaa 20 ku qor English, kadib qor afar lammaane oo -teen iyo -ty ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Tirso 0 ilaa 20, kadib si cad u kala sheeg thirteen/thirty, fourteen/forty, fifteen/fifty iyo eighteen/eighty.",
+      "writingPractice": "Tirooyinka 0 ilaa 20 ku qor English, kadib qor afar lammaane oo -teen iyo -ty ah.",
+      "summarySomali": "Waxaad baratay zero ilaa twenty. -teen wuxuu tilmaamaa 13–19; -ty wuxuu yimaadaa tobannada sida thirty iyo forty.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l01-q01",
+          "type": "multipleChoice",
+          "question": "“zero” maxay ka dhigan tahay?",
+          "options": [
+            "1",
+            "0",
+            "2",
+            "3"
+          ],
+          "correctAnswer": "0",
+          "explanationSomali": "Jawaabta saxda ahi waa 0; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l01-q02",
+          "type": "fillInTheBlank",
+          "question": "There are ___ students. (13)",
+          "options": [
+            "one",
+            "thirteen",
+            "two",
+            "three"
+          ],
+          "correctAnswer": "thirteen",
+          "explanationSomali": "“thirteen” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l01-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “one” iyo macnihiisa.",
+          "options": [
+            "3",
+            "2",
+            "1",
+            "0"
+          ],
+          "correctAnswer": "1",
+          "explanationSomali": "one waxaa loola jeedaa 1."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l02",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 2,
+      "titleEnglish": "Numbers 21–100",
+      "titleSomali": "Tirooyinka kow iyo labaatan ilaa boqol",
+      "shortDescriptionSomali": "Bar tobannada, tirooyinka isku dhafan iyo hyphen-ka twenty-one ilaa ninety-nine.",
+      "learningObjectives": [
+        "Akhri tirooyinka 21 ilaa 100.",
+        "Samee tiro isku dhafan tens + ones.",
+        "Hyphen si sax ah ugu qor tirooyinka isku dhafan."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 25,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l01",
+      "vocabulary": [
+        {
+          "englishWord": "twenty",
+          "somaliMeaning": "20",
+          "partOfSpeech": "number",
+          "pronunciation": "twen-ti",
+          "exampleEnglish": "The number is twenty.",
+          "exampleSomali": "Tiradu waa 20.",
+          "explanationSomali": "twenty waa sida tirada 20 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "thirty",
+          "somaliMeaning": "30",
+          "partOfSpeech": "number",
+          "pronunciation": "ther-ti",
+          "exampleEnglish": "The number is thirty.",
+          "exampleSomali": "Tiradu waa 30.",
+          "explanationSomali": "thirty waa sida tirada 30 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "forty",
+          "somaliMeaning": "40",
+          "partOfSpeech": "number",
+          "pronunciation": "foor-ti",
+          "exampleEnglish": "The number is forty.",
+          "exampleSomali": "Tiradu waa 40.",
+          "explanationSomali": "forty waa sida tirada 40 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "fifty",
+          "somaliMeaning": "50",
+          "partOfSpeech": "number",
+          "pronunciation": "fif-ti",
+          "exampleEnglish": "The number is fifty.",
+          "exampleSomali": "Tiradu waa 50.",
+          "explanationSomali": "fifty waa sida tirada 50 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "sixty",
+          "somaliMeaning": "60",
+          "partOfSpeech": "number",
+          "pronunciation": "siks-ti",
+          "exampleEnglish": "The number is sixty.",
+          "exampleSomali": "Tiradu waa 60.",
+          "explanationSomali": "sixty waa sida tirada 60 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "seventy",
+          "somaliMeaning": "70",
+          "partOfSpeech": "number",
+          "pronunciation": "se-van-ti",
+          "exampleEnglish": "The number is seventy.",
+          "exampleSomali": "Tiradu waa 70.",
+          "explanationSomali": "seventy waa sida tirada 70 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "eighty",
+          "somaliMeaning": "80",
+          "partOfSpeech": "number",
+          "pronunciation": "ey-ti",
+          "exampleEnglish": "The number is eighty.",
+          "exampleSomali": "Tiradu waa 80.",
+          "explanationSomali": "eighty waa sida tirada 80 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "ninety",
+          "somaliMeaning": "90",
+          "partOfSpeech": "number",
+          "pronunciation": "naayn-ti",
+          "exampleEnglish": "The number is ninety.",
+          "exampleSomali": "Tiradu waa 90.",
+          "explanationSomali": "ninety waa sida tirada 90 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "one hundred",
+          "somaliMeaning": "100",
+          "partOfSpeech": "number",
+          "pronunciation": "wan han-dred",
+          "exampleEnglish": "The number is one hundred.",
+          "exampleSomali": "Tiradu waa 100.",
+          "explanationSomali": "one hundred waa sida tirada 100 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "twenty-four",
+          "somaliMeaning": "24",
+          "partOfSpeech": "number",
+          "pronunciation": "twen-ti foor",
+          "exampleEnglish": "The number is twenty-four.",
+          "exampleSomali": "Tiradu waa 24.",
+          "explanationSomali": "twenty-four waa sida tirada 24 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "thirty-five",
+          "somaliMeaning": "35",
+          "partOfSpeech": "number",
+          "pronunciation": "ther-ti faayv",
+          "exampleEnglish": "The number is thirty-five.",
+          "exampleSomali": "Tiradu waa 35.",
+          "explanationSomali": "thirty-five waa sida tirada 35 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "forty-eight",
+          "somaliMeaning": "48",
+          "partOfSpeech": "number",
+          "pronunciation": "foor-ti eyt",
+          "exampleEnglish": "The number is forty-eight.",
+          "exampleSomali": "Tiradu waa 48.",
+          "explanationSomali": "forty-eight waa sida tirada 48 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "fifty-seven",
+          "somaliMeaning": "57",
+          "partOfSpeech": "number",
+          "pronunciation": "fif-ti se-van",
+          "exampleEnglish": "The number is fifty-seven.",
+          "exampleSomali": "Tiradu waa 57.",
+          "explanationSomali": "fifty-seven waa sida tirada 57 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "sixty-nine",
+          "somaliMeaning": "69",
+          "partOfSpeech": "number",
+          "pronunciation": "siks-ti naayn",
+          "exampleEnglish": "The number is sixty-nine.",
+          "exampleSomali": "Tiradu waa 69.",
+          "explanationSomali": "sixty-nine waa sida tirada 69 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "seventy-three",
+          "somaliMeaning": "73",
+          "partOfSpeech": "number",
+          "pronunciation": "se-van-ti thrii",
+          "exampleEnglish": "The number is seventy-three.",
+          "exampleSomali": "Tiradu waa 73.",
+          "explanationSomali": "seventy-three waa sida tirada 73 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "eighty-six",
+          "somaliMeaning": "86",
+          "partOfSpeech": "number",
+          "pronunciation": "ey-ti siks",
+          "exampleEnglish": "The number is eighty-six.",
+          "exampleSomali": "Tiradu waa 86.",
+          "explanationSomali": "eighty-six waa sida tirada 86 loogu qoro English.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "ninety-nine",
+          "somaliMeaning": "99",
+          "partOfSpeech": "number",
+          "pronunciation": "naayn-ti naayn",
+          "exampleEnglish": "The number is ninety-nine.",
+          "exampleSomali": "Tiradu waa 99.",
+          "explanationSomali": "ninety-nine waa sida tirada 99 loogu qoro English.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "The price is twenty-four dollars.",
+          "somali": "Qiimuhu waa afar iyo labaatan doolar."
+        },
+        {
+          "english": "There are thirty-five chairs.",
+          "somali": "Waxaa jira shan iyo soddon kursi."
+        },
+        {
+          "english": "Page forty-eight is open.",
+          "somali": "Bogga siddeed iyo afartan waa furan yahay."
+        },
+        {
+          "english": "He is seventy-three years old.",
+          "somali": "Wuxuu jiraa saddex iyo toddobaatan sano."
+        },
+        {
+          "english": "One hundred students are here.",
+          "somali": "Boqol arday ayaa halkan jooga."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Tiro bog",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "english": "Open page forty-eight.",
+              "somali": "Fur bogga siddeed iyo afartan."
+            },
+            {
+              "speaker": "Student",
+              "english": "Page forty-eight?",
+              "somali": "Bogga siddeed iyo afartan?"
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Yes.",
+              "somali": "Haa."
+            },
+            {
+              "speaker": "Student",
+              "english": "It is open.",
+              "somali": "Waa furan yahay."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Tirada kuraasta",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "How many chairs?",
+              "somali": "Immisa kursi?"
+            },
+            {
+              "speaker": "B",
+              "english": "Thirty-five.",
+              "somali": "Shan iyo soddon."
+            },
+            {
+              "speaker": "A",
+              "english": "Please repeat.",
+              "somali": "Fadlan ku celi."
+            },
+            {
+              "speaker": "B",
+              "english": "Thirty-five chairs.",
+              "somali": "Shan iyo soddon kursi."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l02-p01",
+          "type": "multipleChoice",
+          "question": "“twenty” maxay ka dhigan tahay?",
+          "options": [
+            "30",
+            "20",
+            "40",
+            "50"
+          ],
+          "correctAnswer": "20",
+          "explanationSomali": "Jawaabta saxda ahi waa 20; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l02-p02",
+          "type": "fillInTheBlank",
+          "question": "The number 48 is ___.",
+          "options": [
+            "thirty",
+            "forty-eight",
+            "forty",
+            "fifty"
+          ],
+          "correctAnswer": "forty-eight",
+          "explanationSomali": "“forty-eight” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l02-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “thirty” iyo macnihiisa.",
+          "options": [
+            "50",
+            "40",
+            "30",
+            "20"
+          ],
+          "correctAnswer": "30",
+          "explanationSomali": "thirty waxaa loola jeedaa 30."
+        },
+        {
+          "id": "a1-u03-l02-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: is / ninety-nine / number / The",
+          "options": [],
+          "correctAnswer": "The number is ninety-nine.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “The number is ninety-nine.”."
+        },
+        {
+          "id": "a1-u03-l02-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: The price is twenty-four dollars.",
+          "options": [
+            "Bogga siddeed iyo afartan waa furan yahay.",
+            "Waxaa jira shan iyo soddon kursi.",
+            "Wuxuu jiraa saddex iyo toddobaatan sano.",
+            "Qiimuhu waa afar iyo labaatan doolar."
+          ],
+          "correctAnswer": "Qiimuhu waa afar iyo labaatan doolar.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l02-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaa jira shan iyo soddon kursi.",
+          "options": [
+            "He is seventy-three years old.",
+            "The price is twenty-four dollars.",
+            "There are thirty-five chairs.",
+            "Page forty-eight is open."
+          ],
+          "correctAnswer": "There are thirty-five chairs.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “There are thirty-five chairs.”."
+        },
+        {
+          "id": "a1-u03-l02-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l02-p08",
+          "type": "multipleChoice",
+          "question": "Kee ayaa si sax ah loo qoray 40?",
+          "options": [
+            "fourty",
+            "forty",
+            "four-ty",
+            "fourteen"
+          ],
+          "correctAnswer": "forty",
+          "explanationSomali": "“forty” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l02-p09",
+          "type": "speakingPrompt",
+          "question": "Akhri tirooyinkan: 24, 35, 48, 57, 69, 73, 86, 99 iyo 100.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l02-p10",
+          "type": "shortWriting",
+          "question": "Tirooyinka 21, 34, 46, 58, 67, 79, 82, 95 iyo 100 ku qor English adigoo hyphen isticmaalaya.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Akhri tirooyinkan: 24, 35, 48, 57, 69, 73, 86, 99 iyo 100.",
+      "writingPractice": "Tirooyinka 21, 34, 46, 58, 67, 79, 82, 95 iyo 100 ku qor English adigoo hyphen isticmaalaya.",
+      "summarySomali": "Tirooyinka isku dhafan waxay ka kooban yihiin tens iyo ones: twenty-four. 40 waxaa loo qoraa forty, 100-na one hundred.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l02-q01",
+          "type": "multipleChoice",
+          "question": "“twenty” maxay ka dhigan tahay?",
+          "options": [
+            "30",
+            "20",
+            "40",
+            "50"
+          ],
+          "correctAnswer": "20",
+          "explanationSomali": "Jawaabta saxda ahi waa 20; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l02-q02",
+          "type": "fillInTheBlank",
+          "question": "The number 48 is ___.",
+          "options": [
+            "thirty",
+            "forty-eight",
+            "forty",
+            "fifty"
+          ],
+          "correctAnswer": "forty-eight",
+          "explanationSomali": "“forty-eight” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l02-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “thirty” iyo macnihiisa.",
+          "options": [
+            "50",
+            "40",
+            "30",
+            "20"
+          ],
+          "correctAnswer": "30",
+          "explanationSomali": "thirty waxaa loola jeedaa 30."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l03",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 3,
+      "titleEnglish": "Asking and Saying Age",
+      "titleSomali": "Weydiinta iyo sheegidda da’da",
+      "shortDescriptionSomali": "Bar How old…? iyo sida am, is, are loogu isticmaalo da’da.",
+      "learningObjectives": [
+        "Da’da qof weydii.",
+        "Da’ tusaale ah ku sheeg I am… years old.",
+        "Am, is iyo are ku waafaji subject-ka."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 20,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l02",
+      "vocabulary": [
+        {
+          "englishWord": "How old are you?",
+          "somaliMeaning": "Immisa jir baad tahay?",
+          "partOfSpeech": "age question",
+          "pronunciation": "haw old aar yuu",
+          "exampleEnglish": "How old are you?",
+          "exampleSomali": "Immisa jir baad tahay?",
+          "explanationSomali": "Waxaa lagu weydiiyaa da’da qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Years old",
+          "somaliMeaning": "Jir/sano da’ ah",
+          "partOfSpeech": "age phrase",
+          "pronunciation": "yiirs old",
+          "exampleEnglish": "I am twenty years old.",
+          "exampleSomali": "Waxaan jiraa labaatan sano.",
+          "explanationSomali": "Waxaa tirada kadib lagu caddeeyaa da’da.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I am…",
+          "somaliMeaning": "Waxaan ahay/jiraa…",
+          "partOfSpeech": "verb phrase",
+          "pronunciation": "aay am",
+          "exampleEnglish": "I am eighteen.",
+          "exampleSomali": "Waxaan jiraa siddeed iyo toban.",
+          "explanationSomali": "Da’daada waxaa lagu sheegaa I am, ma aha I have.",
+          "commonMistakeSomali": "Ha oran I have twenty years."
+        },
+        {
+          "englishWord": "How old is he?",
+          "somaliMeaning": "Immisa jir buu yahay?",
+          "partOfSpeech": "age question",
+          "pronunciation": "haw old iz hii",
+          "exampleEnglish": "How old is he?",
+          "exampleSomali": "Immisa jir buu yahay?",
+          "explanationSomali": "He waxaa la socda is.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How old is she?",
+          "somaliMeaning": "Immisa jir bay tahay?",
+          "partOfSpeech": "age question",
+          "pronunciation": "haw old iz shii",
+          "exampleEnglish": "How old is she?",
+          "exampleSomali": "Immisa jir bay tahay?",
+          "explanationSomali": "She waxaa la socda is.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Age",
+          "somaliMeaning": "Da’",
+          "partOfSpeech": "noun",
+          "pronunciation": "eyj",
+          "exampleEnglish": "Write your example age.",
+          "exampleSomali": "Qor da’ tusaale ah.",
+          "explanationSomali": "Age waa tirada sannadaha qofku jiro.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Old",
+          "somaliMeaning": "Jir/da’ leh",
+          "partOfSpeech": "adjective",
+          "pronunciation": "old",
+          "exampleEnglish": "He is fifteen years old.",
+          "exampleSomali": "Wuxuu jiraa shan iyo toban sano.",
+          "explanationSomali": "Old halkan wuxuu qayb ka yahay qaabka sheegidda da’da.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "How old with am, is, are",
+        "titleSomali": "How old iyo am, is, are",
+        "explanationSomali": "Da’da waxaa English-ka lagu sheegaa verb to be: I am, he/she is, you are.",
+        "rule": "I am; he/she is; you are",
+        "sentenceStructure": "How old + am/is/are + subject?",
+        "positiveExamples": [
+          {
+            "english": "I am twenty years old.",
+            "somali": "Waxaan jiraa labaatan sano."
+          },
+          {
+            "english": "I’m twenty.",
+            "somali": "Waxaan jiraa labaatan."
+          },
+          {
+            "english": "He is fifteen years old.",
+            "somali": "Wuxuu jiraa shan iyo toban sano."
+          },
+          {
+            "english": "She is eighteen.",
+            "somali": "Waxay jirtaa siddeed iyo toban."
+          },
+          {
+            "english": "How old are you?",
+            "somali": "Immisa jir baad tahay?"
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [
+          {
+            "english": "I am twenty years old.",
+            "somali": "Waxaan jiraa labaatan sano."
+          },
+          {
+            "english": "I’m twenty.",
+            "somali": "Waxaan jiraa labaatan."
+          },
+          {
+            "english": "He is fifteen years old.",
+            "somali": "Wuxuu jiraa shan iyo toban sano."
+          },
+          {
+            "english": "She is eighteen.",
+            "somali": "Waxay jirtaa siddeed iyo toban."
+          },
+          {
+            "english": "How old are you?",
+            "somali": "Immisa jir baad tahay?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha oran I have twenty years.",
+          "Ha oran How old you are? su’aal toos ah."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "I am twenty years old.",
+          "somali": "Waxaan jiraa labaatan sano."
+        },
+        {
+          "english": "I’m twenty.",
+          "somali": "Waxaan jiraa labaatan."
+        },
+        {
+          "english": "He is fifteen years old.",
+          "somali": "Wuxuu jiraa shan iyo toban sano."
+        },
+        {
+          "english": "She is eighteen.",
+          "somali": "Waxay jirtaa siddeed iyo toban."
+        },
+        {
+          "english": "How old are you?",
+          "somali": "Immisa jir baad tahay?"
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Laba arday oo da’dooda sheegaya",
+          "lines": [
+            {
+              "speaker": "Amina",
+              "english": "How old are you?",
+              "somali": "Immisa jir baad tahay?"
+            },
+            {
+              "speaker": "Hassan",
+              "english": "I am twenty years old.",
+              "somali": "Waxaan jiraa labaatan sano."
+            },
+            {
+              "speaker": "Hassan",
+              "english": "How old are you?",
+              "somali": "Adigu immisa jir baad tahay?"
+            },
+            {
+              "speaker": "Amina",
+              "english": "I’m eighteen.",
+              "somali": "Waxaan jiraa siddeed iyo toban."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Da’da qof kale",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "How old is he?",
+              "somali": "Immisa jir buu yahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "He is fifteen.",
+              "somali": "Wuxuu jiraa shan iyo toban."
+            },
+            {
+              "speaker": "A",
+              "english": "How old is she?",
+              "somali": "Immisa jir bay tahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "She is eighteen.",
+              "somali": "Waxay jirtaa siddeed iyo toban."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l03-p01",
+          "type": "multipleChoice",
+          "question": "“How old are you?” maxay ka dhigan tahay?",
+          "options": [
+            "Jir/sano da’ ah",
+            "Immisa jir baad tahay?",
+            "Waxaan ahay/jiraa…",
+            "Immisa jir buu yahay?"
+          ],
+          "correctAnswer": "Immisa jir baad tahay?",
+          "explanationSomali": "Jawaabta saxda ahi waa Immisa jir baad tahay?; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l03-p02",
+          "type": "fillInTheBlank",
+          "question": "I ___ twenty years old.",
+          "options": [
+            "Years old",
+            "am",
+            "I am…",
+            "How old is he?"
+          ],
+          "correctAnswer": "am",
+          "explanationSomali": "“am” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l03-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Years old” iyo macnihiisa.",
+          "options": [
+            "Immisa jir buu yahay?",
+            "Waxaan ahay/jiraa…",
+            "Jir/sano da’ ah",
+            "Immisa jir baad tahay?"
+          ],
+          "correctAnswer": "Jir/sano da’ ah",
+          "explanationSomali": "Years old waxaa loola jeedaa Jir/sano da’ ah."
+        },
+        {
+          "id": "a1-u03-l03-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: old / are / How / you",
+          "options": [],
+          "correctAnswer": "How old are you?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “How old are you?”."
+        },
+        {
+          "id": "a1-u03-l03-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: I am twenty years old.",
+          "options": [
+            "Wuxuu jiraa shan iyo toban sano.",
+            "Waxaan jiraa labaatan.",
+            "Waxay jirtaa siddeed iyo toban.",
+            "Waxaan jiraa labaatan sano."
+          ],
+          "correctAnswer": "Waxaan jiraa labaatan sano.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l03-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaan jiraa labaatan.",
+          "options": [
+            "She is eighteen.",
+            "I am twenty years old.",
+            "I’m twenty.",
+            "He is fifteen years old."
+          ],
+          "correctAnswer": "I’m twenty.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “I’m twenty.”."
+        },
+        {
+          "id": "a1-u03-l03-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l03-p08",
+          "type": "multipleChoice",
+          "question": "Kee ayaa ah qaabka saxda ah?",
+          "options": [
+            "I have twenty years.",
+            "I am twenty years old.",
+            "I is twenty.",
+            "I are twenty old."
+          ],
+          "correctAnswer": "I am twenty years old.",
+          "explanationSomali": "“I am twenty years old.” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l03-p09",
+          "type": "speakingPrompt",
+          "question": "Isticmaal da’ tusaale ah: weydii How old are you? kadib ku jawaab I am … years old.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l03-p10",
+          "type": "shortWriting",
+          "question": "Qor da’da saddex qof oo tusaale ah adigoo isticmaalaya I am, he is iyo she is.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Isticmaal da’ tusaale ah: weydii How old are you? kadib ku jawaab I am … years old.",
+      "writingPractice": "Qor da’da saddex qof oo tusaale ah adigoo isticmaalaya I am, he is iyo she is.",
+      "summarySomali": "Qaabka saxda ahi waa I am twenty years old. How old are you? iyo How old is he/she? ayaa da’da lagu weydiiyaa.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l03-q01",
+          "type": "multipleChoice",
+          "question": "“How old are you?” maxay ka dhigan tahay?",
+          "options": [
+            "Jir/sano da’ ah",
+            "Immisa jir baad tahay?",
+            "Waxaan ahay/jiraa…",
+            "Immisa jir buu yahay?"
+          ],
+          "correctAnswer": "Immisa jir baad tahay?",
+          "explanationSomali": "Jawaabta saxda ahi waa Immisa jir baad tahay?; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l03-q02",
+          "type": "fillInTheBlank",
+          "question": "I ___ twenty years old.",
+          "options": [
+            "Years old",
+            "am",
+            "I am…",
+            "How old is he?"
+          ],
+          "correctAnswer": "am",
+          "explanationSomali": "“am” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l03-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Years old” iyo macnihiisa.",
+          "options": [
+            "Immisa jir buu yahay?",
+            "Waxaan ahay/jiraa…",
+            "Jir/sano da’ ah",
+            "Immisa jir baad tahay?"
+          ],
+          "correctAnswer": "Jir/sano da’ ah",
+          "explanationSomali": "Years old waxaa loola jeedaa Jir/sano da’ ah."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l04",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 4,
+      "titleEnglish": "Phone Numbers",
+      "titleSomali": "Lambarrada telefoonka",
+      "shortDescriptionSomali": "Bar codsiga, ku celinta iyo akhrinta lambar telefoon digit-digit adigoo adeegsanaya zero, oh iyo double.",
+      "learningObjectives": [
+        "Lambar tusaale digit-digit u akhri.",
+        "Codso lambar telefoon.",
+        "Weydii in lambar lagu celiyo."
+      ],
+      "lessonType": "speaking",
+      "estimatedMinutes": 21,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l03",
+      "vocabulary": [
+        {
+          "englishWord": "Phone number",
+          "somaliMeaning": "Lambarka telefoonka",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "foon nam-ber",
+          "exampleEnglish": "My phone number is 000 123 4567.",
+          "exampleSomali": "Lambarkayga tusaalaha ahi waa 000 123 4567.",
+          "explanationSomali": "Lambar telefoon waa taxane digits ah; tusaalahan ma aha lambar qof dhab ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "What is your phone number?",
+          "somaliMeaning": "Waa maxay lambarka telefoonkaagu?",
+          "partOfSpeech": "question",
+          "pronunciation": "wot iz yor foon nam-ber",
+          "exampleEnglish": "What is your phone number?",
+          "exampleSomali": "Waa maxay lambarka telefoonkaagu?",
+          "explanationSomali": "Waxaa lagu codsadaa lambarka telefoonka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Repeat",
+          "somaliMeaning": "Ku celi",
+          "partOfSpeech": "verb",
+          "pronunciation": "ri-piit",
+          "exampleEnglish": "Can you repeat that?",
+          "exampleSomali": "Ma ku celin kartaa taas?",
+          "explanationSomali": "Waxaa la yiraahdaa marka lambar aan la maqal.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Say it again",
+          "somaliMeaning": "Mar kale sheeg",
+          "partOfSpeech": "request",
+          "pronunciation": "sey it a-gen",
+          "exampleEnglish": "Please say it again.",
+          "exampleSomali": "Fadlan mar kale sheeg.",
+          "explanationSomali": "Waa codsi edeb leh oo ku celin ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Double",
+          "somaliMeaning": "Laba jeer isku mid ah",
+          "partOfSpeech": "number word",
+          "pronunciation": "da-bal",
+          "exampleEnglish": "Double zero means 00.",
+          "exampleSomali": "Double zero wuxuu ka dhigan yahay 00.",
+          "explanationSomali": "Double waxaa lagu gaabiyaa laba digit oo isku mid ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Zero",
+          "somaliMeaning": "Eber",
+          "partOfSpeech": "number",
+          "pronunciation": "zii-ro",
+          "exampleEnglish": "The first digit is zero.",
+          "exampleSomali": "Digit-ka koowaad waa eber.",
+          "explanationSomali": "Zero ayaa si rasmi ah loo akhriyaa 0.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Oh",
+          "somaliMeaning": "O; mararka qaar 0",
+          "partOfSpeech": "phone-number word",
+          "pronunciation": "ow",
+          "exampleEnglish": "You can say oh for zero in a phone number.",
+          "exampleSomali": "Lambar telefoon waxaad zero u oran kartaa oh.",
+          "explanationSomali": "Oh waxaa lagu isticmaali karaa 0 marka lambar telefoon la akhrinayo.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "My phone number is 000 123 4567.",
+          "somali": "Lambarkayga tusaalaha ahi waa 000 123 4567."
+        },
+        {
+          "english": "Zero six one, two three four.",
+          "somali": "Eber lix kow, laba saddex afar."
+        },
+        {
+          "english": "Can you repeat that?",
+          "somali": "Ma ku celin kartaa taas?"
+        },
+        {
+          "english": "Please say it again.",
+          "somali": "Fadlan mar kale sheeg."
+        },
+        {
+          "english": "Double zero, one two.",
+          "somali": "Laba eber, kow laba."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Lambar telefoon tusaale ah",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "What is your example phone number?",
+              "somali": "Waa maxay lambarkaaga tusaalaha ahi?"
+            },
+            {
+              "speaker": "B",
+              "english": "It is 000 123 4567.",
+              "somali": "Waa 000 123 4567."
+            },
+            {
+              "speaker": "A",
+              "english": "Can you repeat that?",
+              "somali": "Ma ku celin kartaa?"
+            },
+            {
+              "speaker": "B",
+              "english": "Double zero, zero, one two three…",
+              "somali": "Laba eber, eber, kow laba saddex…"
+            }
+          ]
+        },
+        {
+          "titleSomali": "Telefoonka xafiiska",
+          "lines": [
+            {
+              "speaker": "Worker",
+              "english": "Please say the number again.",
+              "somali": "Fadlan lambarka mar kale sheeg."
+            },
+            {
+              "speaker": "Caller",
+              "english": "Zero six one, double zero…",
+              "somali": "Eber lix kow, laba eber…"
+            },
+            {
+              "speaker": "Worker",
+              "english": "Thank you.",
+              "somali": "Mahadsanid."
+            },
+            {
+              "speaker": "Caller",
+              "english": "You are welcome.",
+              "somali": "Adigaa mudan."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l04-p01",
+          "type": "multipleChoice",
+          "question": "“Phone number” maxay ka dhigan tahay?",
+          "options": [
+            "Waa maxay lambarka telefoonkaagu?",
+            "Lambarka telefoonka",
+            "Ku celi",
+            "Mar kale sheeg"
+          ],
+          "correctAnswer": "Lambarka telefoonka",
+          "explanationSomali": "Jawaabta saxda ahi waa Lambarka telefoonka; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l04-p02",
+          "type": "fillInTheBlank",
+          "question": "My phone ___ is 000 123 4567.",
+          "options": [
+            "What is your phone number?",
+            "number",
+            "Repeat",
+            "Say it again"
+          ],
+          "correctAnswer": "number",
+          "explanationSomali": "“number” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l04-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “What is your phone number?” iyo macnihiisa.",
+          "options": [
+            "Mar kale sheeg",
+            "Ku celi",
+            "Waa maxay lambarka telefoonkaagu?",
+            "Lambarka telefoonka"
+          ],
+          "correctAnswer": "Waa maxay lambarka telefoonkaagu?",
+          "explanationSomali": "What is your phone number? waxaa loola jeedaa Waa maxay lambarka telefoonkaagu?."
+        },
+        {
+          "id": "a1-u03-l04-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: number / phone / your / is / What",
+          "options": [],
+          "correctAnswer": "What is your phone number?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “What is your phone number?”."
+        },
+        {
+          "id": "a1-u03-l04-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: My phone number is 000 123 4567.",
+          "options": [
+            "Ma ku celin kartaa taas?",
+            "Eber lix kow, laba saddex afar.",
+            "Fadlan mar kale sheeg.",
+            "Lambarkayga tusaalaha ahi waa 000 123 4567."
+          ],
+          "correctAnswer": "Lambarkayga tusaalaha ahi waa 000 123 4567.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l04-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Eber lix kow, laba saddex afar.",
+          "options": [
+            "Please say it again.",
+            "My phone number is 000 123 4567.",
+            "Zero six one, two three four.",
+            "Can you repeat that?"
+          ],
+          "correctAnswer": "Zero six one, two three four.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Zero six one, two three four.”."
+        },
+        {
+          "id": "a1-u03-l04-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l04-p08",
+          "type": "multipleChoice",
+          "question": "“Double zero” waa tee?",
+          "options": [
+            "20",
+            "00",
+            "02",
+            "200"
+          ],
+          "correctAnswer": "00",
+          "explanationSomali": "“00” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l04-p09",
+          "type": "speakingPrompt",
+          "question": "Akhri lambarro tusaale ah digit-digit: 000 123 4567 iyo 061 000 0000. Ha isticmaalin lambar dhab ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l04-p10",
+          "type": "shortWriting",
+          "question": "Qor laba lambar telefoon oo male-awaal ah, kadib hoostooda ku qor sida digit-digit loogu akhriyo.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Akhri lambarro tusaale ah digit-digit: 000 123 4567 iyo 061 000 0000. Ha isticmaalin lambar dhab ah.",
+      "writingPractice": "Qor laba lambar telefoon oo male-awaal ah, kadib hoostooda ku qor sida digit-digit loogu akhriyo.",
+      "summarySomali": "Lambarrada telefoonka digit-digit ayaa loo akhriyaa. Zero waxaa mararka qaar loo dhihi karaa oh; double zero waa 00.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l04-q01",
+          "type": "multipleChoice",
+          "question": "“Phone number” maxay ka dhigan tahay?",
+          "options": [
+            "Waa maxay lambarka telefoonkaagu?",
+            "Lambarka telefoonka",
+            "Ku celi",
+            "Mar kale sheeg"
+          ],
+          "correctAnswer": "Lambarka telefoonka",
+          "explanationSomali": "Jawaabta saxda ahi waa Lambarka telefoonka; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l04-q02",
+          "type": "fillInTheBlank",
+          "question": "My phone ___ is 000 123 4567.",
+          "options": [
+            "What is your phone number?",
+            "number",
+            "Repeat",
+            "Say it again"
+          ],
+          "correctAnswer": "number",
+          "explanationSomali": "“number” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l04-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “What is your phone number?” iyo macnihiisa.",
+          "options": [
+            "Mar kale sheeg",
+            "Ku celi",
+            "Waa maxay lambarka telefoonkaagu?",
+            "Lambarka telefoonka"
+          ],
+          "correctAnswer": "Waa maxay lambarka telefoonkaagu?",
+          "explanationSomali": "What is your phone number? waxaa loola jeedaa Waa maxay lambarka telefoonkaagu?."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l05",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 5,
+      "titleEnglish": "Addresses",
+      "titleSomali": "Cinwaannada",
+      "shortDescriptionSomali": "Bar sida magaalo, degmo, waddo, guri, dhisme iyo dal loogu sheego cinwaan fudud.",
+      "learningObjectives": [
+        "Weydii Where do you live?",
+        "Sheeg magaalo iyo dal.",
+        "In iyo on si sax ah ugu isticmaal cinwaan."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 22,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l04",
+      "vocabulary": [
+        {
+          "englishWord": "Where do you live?",
+          "somaliMeaning": "Xaggee baad degan tahay?",
+          "partOfSpeech": "question",
+          "pronunciation": "wer duu yuu liv",
+          "exampleEnglish": "Where do you live?",
+          "exampleSomali": "Xaggee baad degan tahay?",
+          "explanationSomali": "Waxaa lagu weydiiyaa meesha qof degan yahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Address",
+          "somaliMeaning": "Cinwaan",
+          "partOfSpeech": "noun",
+          "pronunciation": "a-dres",
+          "exampleEnglish": "What is your address?",
+          "exampleSomali": "Waa maxay cinwaankaagu?",
+          "explanationSomali": "Address wuxuu tilmaamaa meesha lagu heli karo guri ama dhisme.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Street",
+          "somaliMeaning": "Jid waddo yar",
+          "partOfSpeech": "noun",
+          "pronunciation": "striit",
+          "exampleEnglish": "The shop is on Market Street.",
+          "exampleSomali": "Dukaanku wuxuu ku yaal Market Street.",
+          "explanationSomali": "Street waa jid magaalo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Road",
+          "somaliMeaning": "Waddo",
+          "partOfSpeech": "noun",
+          "pronunciation": "rood",
+          "exampleEnglish": "I live on Peace Road.",
+          "exampleSomali": "Waxaan degganahay Peace Road.",
+          "explanationSomali": "On waxaa badanaa lala isticmaalaa magaca waddada.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "House",
+          "somaliMeaning": "Guri",
+          "partOfSpeech": "noun",
+          "pronunciation": "haws",
+          "exampleEnglish": "My house number is twelve.",
+          "exampleSomali": "Lambarka gurigaygu waa laba iyo toban.",
+          "explanationSomali": "House waa guri la deggan yahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Building",
+          "somaliMeaning": "Dhisme",
+          "partOfSpeech": "noun",
+          "pronunciation": "bil-ding",
+          "exampleEnglish": "The office is in this building.",
+          "exampleSomali": "Xafiisku wuxuu ku jiraa dhismahan.",
+          "explanationSomali": "Building waa dhisme guryo ama xafiisyo leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "City",
+          "somaliMeaning": "Magaalo",
+          "partOfSpeech": "noun",
+          "pronunciation": "si-ti",
+          "exampleEnglish": "Mogadishu is a city.",
+          "exampleSomali": "Muqdisho waa magaalo.",
+          "explanationSomali": "In waxaa lala isticmaalaa magaalo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "District",
+          "somaliMeaning": "Degmo",
+          "partOfSpeech": "noun",
+          "pronunciation": "dis-trikt",
+          "exampleEnglish": "I live in Hodan District.",
+          "exampleSomali": "Waxaan degganahay Degmada Hodan.",
+          "explanationSomali": "District waa qayb ka mid ah magaalo ama gobol.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Country",
+          "somaliMeaning": "Dal",
+          "partOfSpeech": "noun",
+          "pronunciation": "kan-tri",
+          "exampleEnglish": "I live in Somalia.",
+          "exampleSomali": "Waxaan degganahay Soomaaliya.",
+          "explanationSomali": "Country waa dal.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "In",
+          "somaliMeaning": "Gudaha/ku jira",
+          "partOfSpeech": "preposition",
+          "pronunciation": "in",
+          "exampleEnglish": "I live in Nairobi.",
+          "exampleSomali": "Waxaan degganahay Nairobi.",
+          "explanationSomali": "In waxaa lala isticmaalaa magaalo, degmo ama dal.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "On",
+          "somaliMeaning": "Dusha/ku yaal",
+          "partOfSpeech": "preposition",
+          "pronunciation": "on",
+          "exampleEnglish": "I live on Peace Road.",
+          "exampleSomali": "Waxaan degganahay Peace Road.",
+          "explanationSomali": "On waxaa lala isticmaalaa magaca waddo.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "In and on for addresses",
+        "titleSomali": "In iyo on ee cinwaannada",
+        "explanationSomali": "In waxaa lala isticmaalaa magaalo, degmo iyo dal. On waxaa lala isticmaalaa magaca waddada.",
+        "rule": "in + city/district/country; on + road/street",
+        "sentenceStructure": "I live + in/on + place",
+        "positiveExamples": [
+          {
+            "english": "I live in Mogadishu.",
+            "somali": "Waxaan degganahay Muqdisho."
+          },
+          {
+            "english": "I live in Hodan District.",
+            "somali": "Waxaan degganahay Degmada Hodan."
+          },
+          {
+            "english": "I live on Peace Road.",
+            "somali": "Waxaan degganahay Peace Road."
+          },
+          {
+            "english": "My house number is twelve.",
+            "somali": "Lambarka gurigaygu waa laba iyo toban."
+          },
+          {
+            "english": "I live in Somalia.",
+            "somali": "Waxaan degganahay Soomaaliya."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [
+          {
+            "english": "I live in Mogadishu.",
+            "somali": "Waxaan degganahay Muqdisho."
+          },
+          {
+            "english": "I live in Hodan District.",
+            "somali": "Waxaan degganahay Degmada Hodan."
+          },
+          {
+            "english": "I live on Peace Road.",
+            "somali": "Waxaan degganahay Peace Road."
+          },
+          {
+            "english": "My house number is twelve.",
+            "somali": "Lambarka gurigaygu waa laba iyo toban."
+          },
+          {
+            "english": "I live in Somalia.",
+            "somali": "Waxaan degganahay Soomaaliya."
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha oran in Peace Road; qaabka la bartay waa on Peace Road.",
+          "Ha gelin cinwaan dhab ah layliga."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "I live in Mogadishu.",
+          "somali": "Waxaan degganahay Muqdisho."
+        },
+        {
+          "english": "I live in Hodan District.",
+          "somali": "Waxaan degganahay Degmada Hodan."
+        },
+        {
+          "english": "I live on Peace Road.",
+          "somali": "Waxaan degganahay Peace Road."
+        },
+        {
+          "english": "My house number is twelve.",
+          "somali": "Lambarka gurigaygu waa laba iyo toban."
+        },
+        {
+          "english": "I live in Somalia.",
+          "somali": "Waxaan degganahay Soomaaliya."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Cinwaan tusaale ah",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "Where do you live?",
+              "somali": "Xaggee baad degan tahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "I live in Hodan District.",
+              "somali": "Waxaan degganahay Degmada Hodan."
+            },
+            {
+              "speaker": "A",
+              "english": "What road?",
+              "somali": "Waddadee?"
+            },
+            {
+              "speaker": "B",
+              "english": "Example Road.",
+              "somali": "Example Road."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Magaalo iyo dal",
+          "lines": [
+            {
+              "speaker": "Worker",
+              "english": "What is your city?",
+              "somali": "Waa maxay magaaladaadu?"
+            },
+            {
+              "speaker": "Student",
+              "english": "Mogadishu.",
+              "somali": "Muqdisho."
+            },
+            {
+              "speaker": "Worker",
+              "english": "Country?",
+              "somali": "Dal?"
+            },
+            {
+              "speaker": "Student",
+              "english": "Somalia.",
+              "somali": "Soomaaliya."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l05-p01",
+          "type": "multipleChoice",
+          "question": "“Where do you live?” maxay ka dhigan tahay?",
+          "options": [
+            "Cinwaan",
+            "Xaggee baad degan tahay?",
+            "Jid waddo yar",
+            "Waddo"
+          ],
+          "correctAnswer": "Xaggee baad degan tahay?",
+          "explanationSomali": "Jawaabta saxda ahi waa Xaggee baad degan tahay?; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l05-p02",
+          "type": "fillInTheBlank",
+          "question": "I live ___ Somalia.",
+          "options": [
+            "Address",
+            "in",
+            "Street",
+            "Road"
+          ],
+          "correctAnswer": "in",
+          "explanationSomali": "“in” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l05-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Address” iyo macnihiisa.",
+          "options": [
+            "Waddo",
+            "Jid waddo yar",
+            "Cinwaan",
+            "Xaggee baad degan tahay?"
+          ],
+          "correctAnswer": "Cinwaan",
+          "explanationSomali": "Address waxaa loola jeedaa Cinwaan."
+        },
+        {
+          "id": "a1-u03-l05-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: live / Where / you / do",
+          "options": [],
+          "correctAnswer": "Where do you live?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Where do you live?”."
+        },
+        {
+          "id": "a1-u03-l05-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: I live in Mogadishu.",
+          "options": [
+            "Waxaan degganahay Peace Road.",
+            "Waxaan degganahay Degmada Hodan.",
+            "Lambarka gurigaygu waa laba iyo toban.",
+            "Waxaan degganahay Muqdisho."
+          ],
+          "correctAnswer": "Waxaan degganahay Muqdisho.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l05-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaan degganahay Degmada Hodan.",
+          "options": [
+            "My house number is twelve.",
+            "I live in Mogadishu.",
+            "I live in Hodan District.",
+            "I live on Peace Road."
+          ],
+          "correctAnswer": "I live in Hodan District.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “I live in Hodan District.”."
+        },
+        {
+          "id": "a1-u03-l05-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l05-p08",
+          "type": "multipleChoice",
+          "question": "Magaca waddo preposition kee la socda?",
+          "options": [
+            "in",
+            "on",
+            "is",
+            "am"
+          ],
+          "correctAnswer": "on",
+          "explanationSomali": "“on” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l05-p09",
+          "type": "speakingPrompt",
+          "question": "Isticmaal cinwaan male-awaal ah: sheeg magaalo, degmo, waddo iyo lambar guri.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l05-p10",
+          "type": "shortWriting",
+          "question": "Qor cinwaan tusaale ah oo leh city, district, road iyo house number; ha isticmaalin cinwaan dhab ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Isticmaal cinwaan male-awaal ah: sheeg magaalo, degmo, waddo iyo lambar guri.",
+      "writingPractice": "Qor cinwaan tusaale ah oo leh city, district, road iyo house number; ha isticmaalin cinwaan dhab ah.",
+      "summarySomali": "I live in… waxaa lala isticmaalaa magaalo, degmo ama dal. I live on… waxaa lala isticmaalaa waddo.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l05-q01",
+          "type": "multipleChoice",
+          "question": "“Where do you live?” maxay ka dhigan tahay?",
+          "options": [
+            "Cinwaan",
+            "Xaggee baad degan tahay?",
+            "Jid waddo yar",
+            "Waddo"
+          ],
+          "correctAnswer": "Xaggee baad degan tahay?",
+          "explanationSomali": "Jawaabta saxda ahi waa Xaggee baad degan tahay?; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l05-q02",
+          "type": "fillInTheBlank",
+          "question": "I live ___ Somalia.",
+          "options": [
+            "Address",
+            "in",
+            "Street",
+            "Road"
+          ],
+          "correctAnswer": "in",
+          "explanationSomali": "“in” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l05-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Address” iyo macnihiisa.",
+          "options": [
+            "Waddo",
+            "Jid waddo yar",
+            "Cinwaan",
+            "Xaggee baad degan tahay?"
+          ],
+          "correctAnswer": "Cinwaan",
+          "explanationSomali": "Address waxaa loola jeedaa Cinwaan."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l06",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 6,
+      "titleEnglish": "Prices and Money",
+      "titleSomali": "Qiimaha iyo lacagta",
+      "shortDescriptionSomali": "Bar sida qiime loo weydiiyo loogana jawaabo dukaan, suuq, makhaayad ama gaadiid.",
+      "learningObjectives": [
+        "Qiimaha shay weydii.",
+        "Qiime ku sheeg dollars ama cents.",
+        "Kala saar How much iyo How many hordhac ahaan."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 22,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l05",
+      "vocabulary": [
+        {
+          "englishWord": "How much is this?",
+          "somaliMeaning": "Immisa ayuu kani yahay?",
+          "partOfSpeech": "price question",
+          "pronunciation": "haw mach iz dhis",
+          "exampleEnglish": "How much is this book?",
+          "exampleSomali": "Immisa ayuu yahay buuggan?",
+          "explanationSomali": "How much waxaa lagu weydiiyaa qiimaha.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How much does it cost?",
+          "somaliMeaning": "Immisa ayuu ku kacayaa?",
+          "partOfSpeech": "price question",
+          "pronunciation": "haw mach daz it kost",
+          "exampleEnglish": "How much does it cost?",
+          "exampleSomali": "Immisa ayuu ku kacayaa?",
+          "explanationSomali": "Cost wuxuu weydiinayaa qiimaha shayga.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Price",
+          "somaliMeaning": "Qiime",
+          "partOfSpeech": "noun",
+          "pronunciation": "praays",
+          "exampleEnglish": "The price is five dollars.",
+          "exampleSomali": "Qiimuhu waa shan doolar.",
+          "explanationSomali": "Price waa lacagta shay lagu iibiyo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Cost",
+          "somaliMeaning": "Ku kac/qiime leeyahay",
+          "partOfSpeech": "verb",
+          "pronunciation": "kost",
+          "exampleEnglish": "It costs ten dollars.",
+          "exampleSomali": "Waxay ku kacaysaa toban doolar.",
+          "explanationSomali": "Costs waxaa lala isticmaalaa it.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Cheap",
+          "somaliMeaning": "Raqiis",
+          "partOfSpeech": "adjective",
+          "pronunciation": "jiip",
+          "exampleEnglish": "The pen is cheap.",
+          "exampleSomali": "Qalinku waa raqiis.",
+          "explanationSomali": "Cheap wuxuu tilmaamaa qiime hoose.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Expensive",
+          "somaliMeaning": "Qaali",
+          "partOfSpeech": "adjective",
+          "pronunciation": "ik-spen-siv",
+          "exampleEnglish": "The phone is expensive.",
+          "exampleSomali": "Telefoonku waa qaali.",
+          "explanationSomali": "Expensive wuxuu tilmaamaa qiime sare.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Dollar",
+          "somaliMeaning": "Doolar",
+          "partOfSpeech": "noun",
+          "pronunciation": "do-lar",
+          "exampleEnglish": "It is one dollar.",
+          "exampleSomali": "Waa hal doolar.",
+          "explanationSomali": "Dollar waa lacag; plural-ku waa dollars.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Cent",
+          "somaliMeaning": "Senti",
+          "partOfSpeech": "noun",
+          "pronunciation": "sent",
+          "exampleEnglish": "It is fifty cents.",
+          "exampleSomali": "Waa konton senti.",
+          "explanationSomali": "Boqol cents waxay la mid yihiin hal dollar.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Total",
+          "somaliMeaning": "Wadarta",
+          "partOfSpeech": "noun",
+          "pronunciation": "to-tal",
+          "exampleEnglish": "The total is twelve dollars.",
+          "exampleSomali": "Wadartu waa laba iyo toban doolar.",
+          "explanationSomali": "Total waa qiimaha dhammaan waxyaabaha la isku daray.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How many?",
+          "somaliMeaning": "Immisa xabbo?",
+          "partOfSpeech": "quantity question",
+          "pronunciation": "haw me-ni",
+          "exampleEnglish": "How many books do you want?",
+          "exampleSomali": "Immisa buug ayaad rabtaa?",
+          "explanationSomali": "How many waxaa lagu weydiiyaa tirada shay la tirin karo; How much halkan qiime ayuu weydiinayaa.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "How much, this, and it",
+        "titleSomali": "How much, this iyo it",
+        "explanationSomali": "How much is this? wuxuu weydiiyaa qiimaha shay la tilmaamayo. How much does it cost? isla qiimaha ayuu weydiiyaa. How many wuxuu weydiiyaa tiro xabbo.",
+        "rule": "How much + is + this?; How much + does + it + cost?",
+        "sentenceStructure": "It is/costs + price",
+        "positiveExamples": [
+          {
+            "english": "How much is this?",
+            "somali": "Immisa ayuu kani yahay?"
+          },
+          {
+            "english": "It is five dollars.",
+            "somali": "Waa shan doolar."
+          },
+          {
+            "english": "How much does it cost?",
+            "somali": "Immisa ayuu ku kacayaa?"
+          },
+          {
+            "english": "The book costs ten dollars.",
+            "somali": "Buuggu wuxuu ku kacayaa toban doolar."
+          },
+          {
+            "english": "The total is twelve dollars.",
+            "somali": "Wadartu waa laba iyo toban doolar."
+          }
+        ],
+        "negativeExamples": [],
+        "questionExamples": [
+          {
+            "english": "How much is this?",
+            "somali": "Immisa ayuu kani yahay?"
+          },
+          {
+            "english": "It is five dollars.",
+            "somali": "Waa shan doolar."
+          },
+          {
+            "english": "How much does it cost?",
+            "somali": "Immisa ayuu ku kacayaa?"
+          },
+          {
+            "english": "The book costs ten dollars.",
+            "somali": "Buuggu wuxuu ku kacayaa toban doolar."
+          },
+          {
+            "english": "The total is twelve dollars.",
+            "somali": "Wadartu waa laba iyo toban doolar."
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha oran How many is this? marka qiime la weydiinayo.",
+          "It cost ten dollars waxaa A1 present simple sax ahaan loo yiraahdaa It costs ten dollars."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "How much is this?",
+          "somali": "Immisa ayuu kani yahay?"
+        },
+        {
+          "english": "It is five dollars.",
+          "somali": "Waa shan doolar."
+        },
+        {
+          "english": "How much does it cost?",
+          "somali": "Immisa ayuu ku kacayaa?"
+        },
+        {
+          "english": "The book costs ten dollars.",
+          "somali": "Buuggu wuxuu ku kacayaa toban doolar."
+        },
+        {
+          "english": "The total is twelve dollars.",
+          "somali": "Wadartu waa laba iyo toban doolar."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Dukaan buug",
+          "lines": [
+            {
+              "speaker": "Customer",
+              "english": "How much is this book?",
+              "somali": "Immisa ayuu yahay buuggan?"
+            },
+            {
+              "speaker": "Seller",
+              "english": "It is five dollars.",
+              "somali": "Waa shan doolar."
+            },
+            {
+              "speaker": "Customer",
+              "english": "That is cheap.",
+              "somali": "Taasi waa raqiis."
+            },
+            {
+              "speaker": "Seller",
+              "english": "Yes.",
+              "somali": "Haa."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Makhaayad",
+          "lines": [
+            {
+              "speaker": "Customer",
+              "english": "How much does it cost?",
+              "somali": "Immisa ayuu ku kacayaa?"
+            },
+            {
+              "speaker": "Worker",
+              "english": "It costs ten dollars.",
+              "somali": "Waxay ku kacaysaa toban doolar."
+            },
+            {
+              "speaker": "Customer",
+              "english": "What is the total?",
+              "somali": "Waa maxay wadartu?"
+            },
+            {
+              "speaker": "Worker",
+              "english": "Twelve dollars.",
+              "somali": "Laba iyo toban doolar."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l06-p01",
+          "type": "multipleChoice",
+          "question": "“How much is this?” maxay ka dhigan tahay?",
+          "options": [
+            "Immisa ayuu ku kacayaa?",
+            "Immisa ayuu kani yahay?",
+            "Qiime",
+            "Ku kac/qiime leeyahay"
+          ],
+          "correctAnswer": "Immisa ayuu kani yahay?",
+          "explanationSomali": "Jawaabta saxda ahi waa Immisa ayuu kani yahay?; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l06-p02",
+          "type": "fillInTheBlank",
+          "question": "How ___ is this?",
+          "options": [
+            "How much does it cost?",
+            "much",
+            "Price",
+            "Cost"
+          ],
+          "correctAnswer": "much",
+          "explanationSomali": "“much” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l06-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “How much does it cost?” iyo macnihiisa.",
+          "options": [
+            "Ku kac/qiime leeyahay",
+            "Qiime",
+            "Immisa ayuu ku kacayaa?",
+            "Immisa ayuu kani yahay?"
+          ],
+          "correctAnswer": "Immisa ayuu ku kacayaa?",
+          "explanationSomali": "How much does it cost? waxaa loola jeedaa Immisa ayuu ku kacayaa?."
+        },
+        {
+          "id": "a1-u03-l06-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: cost / does / it / much / How",
+          "options": [],
+          "correctAnswer": "How much does it cost?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “How much does it cost?”."
+        },
+        {
+          "id": "a1-u03-l06-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: How much is this?",
+          "options": [
+            "Immisa ayuu ku kacayaa?",
+            "Waa shan doolar.",
+            "Buuggu wuxuu ku kacayaa toban doolar.",
+            "Immisa ayuu kani yahay?"
+          ],
+          "correctAnswer": "Immisa ayuu kani yahay?",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l06-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waa shan doolar.",
+          "options": [
+            "The book costs ten dollars.",
+            "How much is this?",
+            "It is five dollars.",
+            "How much does it cost?"
+          ],
+          "correctAnswer": "It is five dollars.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “It is five dollars.”."
+        },
+        {
+          "id": "a1-u03-l06-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l06-p08",
+          "type": "multipleChoice",
+          "question": "Waxaad rabtaa qiimaha hal buug. Kee sax ah?",
+          "options": [
+            "How many is this?",
+            "How much is this?",
+            "How old is this?",
+            "Where is this?"
+          ],
+          "correctAnswer": "How much is this?",
+          "explanationSomali": "“How much is this?” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l06-p09",
+          "type": "speakingPrompt",
+          "question": "Samee xaalad dukaan: weydii qiimaha buug, cunto, gaadiid iyo shay kale oo tusaale ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l06-p10",
+          "type": "shortWriting",
+          "question": "Qor wada sheekeysi dukaan oo shan sadar ah, kuna dar price, cheap ama expensive iyo total.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Samee xaalad dukaan: weydii qiimaha buug, cunto, gaadiid iyo shay kale oo tusaale ah.",
+      "writingPractice": "Qor wada sheekeysi dukaan oo shan sadar ah, kuna dar price, cheap ama expensive iyo total.",
+      "summarySomali": "How much is this? iyo How much does it cost? labaduba qiime ayay weydiiyaan. How many wuxuu weydiiyaa tiro xabbo.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l06-q01",
+          "type": "multipleChoice",
+          "question": "“How much is this?” maxay ka dhigan tahay?",
+          "options": [
+            "Immisa ayuu ku kacayaa?",
+            "Immisa ayuu kani yahay?",
+            "Qiime",
+            "Ku kac/qiime leeyahay"
+          ],
+          "correctAnswer": "Immisa ayuu kani yahay?",
+          "explanationSomali": "Jawaabta saxda ahi waa Immisa ayuu kani yahay?; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l06-q02",
+          "type": "fillInTheBlank",
+          "question": "How ___ is this?",
+          "options": [
+            "How much does it cost?",
+            "much",
+            "Price",
+            "Cost"
+          ],
+          "correctAnswer": "much",
+          "explanationSomali": "“much” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l06-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “How much does it cost?” iyo macnihiisa.",
+          "options": [
+            "Ku kac/qiime leeyahay",
+            "Qiime",
+            "Immisa ayuu ku kacayaa?",
+            "Immisa ayuu kani yahay?"
+          ],
+          "correctAnswer": "Immisa ayuu ku kacayaa?",
+          "explanationSomali": "How much does it cost? waxaa loola jeedaa Immisa ayuu ku kacayaa?."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l07",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 7,
+      "titleEnglish": "Dates and Basic Personal Details",
+      "titleSomali": "Taariikhaha iyo macluumaadka qofka",
+      "shortDescriptionSomali": "Bar day, month, year, 12-ka bilood iyo labada qaab ee taariikhda.",
+      "learningObjectives": [
+        "Magacow 12-ka bilood.",
+        "Akhri taariikh fudud.",
+        "Taariikh tusaale ah ku qor laba qaab."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 25,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l06",
+      "vocabulary": [
+        {
+          "englishWord": "Date",
+          "somaliMeaning": "Taariikh",
+          "partOfSpeech": "noun",
+          "pronunciation": "deyt",
+          "exampleEnglish": "What is today’s date?",
+          "exampleSomali": "Waa maxay taariikhda maanta?",
+          "explanationSomali": "Date waa maalinta, bisha iyo sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Date of birth",
+          "somaliMeaning": "Taariikhda dhalashada",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "deyt ov berth",
+          "exampleEnglish": "My example date of birth is 5 July 2000.",
+          "exampleSomali": "Taariikhda dhalashada tusaalaha ahi waa 5 Luulyo 2000.",
+          "explanationSomali": "Waxaad layliga ku isticmaali kartaa taariikh male-awaal ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Day",
+          "somaliMeaning": "Maalin",
+          "partOfSpeech": "noun",
+          "pronunciation": "dey",
+          "exampleEnglish": "The day is the fifth.",
+          "exampleSomali": "Maalintu waa shanta.",
+          "explanationSomali": "Taariikhaha waxay isticmaalaan ordinal numbers sida first iyo fifth.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Month",
+          "somaliMeaning": "Bil",
+          "partOfSpeech": "noun",
+          "pronunciation": "manth",
+          "exampleEnglish": "July is a month.",
+          "exampleSomali": "Luulyo waa bil.",
+          "explanationSomali": "Sannadku wuxuu leeyahay 12 bilood.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Year",
+          "somaliMeaning": "Sannad",
+          "partOfSpeech": "noun",
+          "pronunciation": "yiir",
+          "exampleEnglish": "The year is 2026.",
+          "exampleSomali": "Sannadku waa 2026.",
+          "explanationSomali": "Year waa sannad.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "January",
+          "somaliMeaning": "Jannaayo",
+          "partOfSpeech": "month",
+          "pronunciation": "january",
+          "exampleEnglish": "January is month 1.",
+          "exampleSomali": "Jannaayo waa bisha 1.",
+          "explanationSomali": "January waa magaca bisha 1 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "February",
+          "somaliMeaning": "Febraayo",
+          "partOfSpeech": "month",
+          "pronunciation": "february",
+          "exampleEnglish": "February is month 2.",
+          "exampleSomali": "Febraayo waa bisha 2.",
+          "explanationSomali": "February waa magaca bisha 2 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "March",
+          "somaliMeaning": "Maarso",
+          "partOfSpeech": "month",
+          "pronunciation": "march",
+          "exampleEnglish": "March is month 3.",
+          "exampleSomali": "Maarso waa bisha 3.",
+          "explanationSomali": "March waa magaca bisha 3 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "April",
+          "somaliMeaning": "Abriil",
+          "partOfSpeech": "month",
+          "pronunciation": "april",
+          "exampleEnglish": "April is month 4.",
+          "exampleSomali": "Abriil waa bisha 4.",
+          "explanationSomali": "April waa magaca bisha 4 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "May",
+          "somaliMeaning": "Maajo",
+          "partOfSpeech": "month",
+          "pronunciation": "may",
+          "exampleEnglish": "May is month 5.",
+          "exampleSomali": "Maajo waa bisha 5.",
+          "explanationSomali": "May waa magaca bisha 5 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "June",
+          "somaliMeaning": "Juun",
+          "partOfSpeech": "month",
+          "pronunciation": "june",
+          "exampleEnglish": "June is month 6.",
+          "exampleSomali": "Juun waa bisha 6.",
+          "explanationSomali": "June waa magaca bisha 6 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "July",
+          "somaliMeaning": "Luulyo",
+          "partOfSpeech": "month",
+          "pronunciation": "july",
+          "exampleEnglish": "July is month 7.",
+          "exampleSomali": "Luulyo waa bisha 7.",
+          "explanationSomali": "July waa magaca bisha 7 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "August",
+          "somaliMeaning": "Agoosto",
+          "partOfSpeech": "month",
+          "pronunciation": "august",
+          "exampleEnglish": "August is month 8.",
+          "exampleSomali": "Agoosto waa bisha 8.",
+          "explanationSomali": "August waa magaca bisha 8 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "September",
+          "somaliMeaning": "Sebtembar",
+          "partOfSpeech": "month",
+          "pronunciation": "september",
+          "exampleEnglish": "September is month 9.",
+          "exampleSomali": "Sebtembar waa bisha 9.",
+          "explanationSomali": "September waa magaca bisha 9 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "October",
+          "somaliMeaning": "Oktoobar",
+          "partOfSpeech": "month",
+          "pronunciation": "october",
+          "exampleEnglish": "October is month 10.",
+          "exampleSomali": "Oktoobar waa bisha 10.",
+          "explanationSomali": "October waa magaca bisha 10 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "November",
+          "somaliMeaning": "Nofeembar",
+          "partOfSpeech": "month",
+          "pronunciation": "november",
+          "exampleEnglish": "November is month 11.",
+          "exampleSomali": "Nofeembar waa bisha 11.",
+          "explanationSomali": "November waa magaca bisha 11 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "December",
+          "somaliMeaning": "Diseembar",
+          "partOfSpeech": "month",
+          "pronunciation": "december",
+          "exampleEnglish": "December is month 12.",
+          "exampleSomali": "Diseembar waa bisha 12.",
+          "explanationSomali": "December waa magaca bisha 12 ee sannadka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "First",
+          "somaliMeaning": "Koowaad",
+          "partOfSpeech": "ordinal number",
+          "pronunciation": "ferst",
+          "exampleEnglish": "January is the first month.",
+          "exampleSomali": "Jannaayo waa bisha koowaad.",
+          "explanationSomali": "Ordinal number wuxuu muujinayaa kala horreyn.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "Today is 5 July 2026.",
+          "somali": "Maanta waa 5 Luulyo 2026."
+        },
+        {
+          "english": "Today is July 5, 2026.",
+          "somali": "Maanta waa Luulyo 5, 2026."
+        },
+        {
+          "english": "What is your date of birth?",
+          "somali": "Waa maxay taariikhda dhalashadaadu?"
+        },
+        {
+          "english": "My example date of birth is 1 January 2000.",
+          "somali": "Taariikhda dhalashada tusaalaha ahi waa 1 Jannaayo 2000."
+        },
+        {
+          "english": "December is the twelfth month.",
+          "somali": "Diseembar waa bisha laba iyo tobnaad."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Taariikhda maanta",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "What is today’s date?",
+              "somali": "Waa maxay taariikhda maanta?"
+            },
+            {
+              "speaker": "B",
+              "english": "Today is 5 July 2026.",
+              "somali": "Maanta waa 5 Luulyo 2026."
+            },
+            {
+              "speaker": "A",
+              "english": "July fifth?",
+              "somali": "Luulyo shanteeda?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes.",
+              "somali": "Haa."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Taariikh dhalasho tusaale ah",
+          "lines": [
+            {
+              "speaker": "Worker",
+              "english": "What is your example date of birth?",
+              "somali": "Waa maxay taariikhda dhalashada tusaalaha ahi?"
+            },
+            {
+              "speaker": "Student",
+              "english": "1 January 2000.",
+              "somali": "1 Jannaayo 2000."
+            },
+            {
+              "speaker": "Worker",
+              "english": "Thank you.",
+              "somali": "Mahadsanid."
+            },
+            {
+              "speaker": "Student",
+              "english": "You are welcome.",
+              "somali": "Adigaa mudan."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l07-p01",
+          "type": "multipleChoice",
+          "question": "“Date” maxay ka dhigan tahay?",
+          "options": [
+            "Taariikhda dhalashada",
+            "Taariikh",
+            "Maalin",
+            "Bil"
+          ],
+          "correctAnswer": "Taariikh",
+          "explanationSomali": "Jawaabta saxda ahi waa Taariikh; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l07-p02",
+          "type": "fillInTheBlank",
+          "question": "July is the seventh ___.",
+          "options": [
+            "Date of birth",
+            "month",
+            "Day",
+            "Month"
+          ],
+          "correctAnswer": "month",
+          "explanationSomali": "“month” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l07-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Date of birth” iyo macnihiisa.",
+          "options": [
+            "Bil",
+            "Maalin",
+            "Taariikhda dhalashada",
+            "Taariikh"
+          ],
+          "correctAnswer": "Taariikhda dhalashada",
+          "explanationSomali": "Date of birth waxaa loola jeedaa Taariikhda dhalashada."
+        },
+        {
+          "id": "a1-u03-l07-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: date / today’s / is / What",
+          "options": [],
+          "correctAnswer": "What is today’s date?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “What is today’s date?”."
+        },
+        {
+          "id": "a1-u03-l07-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: Today is 5 July 2026.",
+          "options": [
+            "Waa maxay taariikhda dhalashadaadu?",
+            "Maanta waa Luulyo 5, 2026.",
+            "Taariikhda dhalashada tusaalaha ahi waa 1 Jannaayo 2000.",
+            "Maanta waa 5 Luulyo 2026."
+          ],
+          "correctAnswer": "Maanta waa 5 Luulyo 2026.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l07-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Maanta waa Luulyo 5, 2026.",
+          "options": [
+            "My example date of birth is 1 January 2000.",
+            "Today is 5 July 2026.",
+            "Today is July 5, 2026.",
+            "What is your date of birth?"
+          ],
+          "correctAnswer": "Today is July 5, 2026.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Today is July 5, 2026.”."
+        },
+        {
+          "id": "a1-u03-l07-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l07-p08",
+          "type": "multipleChoice",
+          "question": "Kee ayaa ah taariikh si sax ah loo qoray?",
+          "options": [
+            "5 July 2026",
+            "July of five is",
+            "2026 fifth July is",
+            "Five 2026 July"
+          ],
+          "correctAnswer": "5 July 2026",
+          "explanationSomali": "“5 July 2026” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l07-p09",
+          "type": "speakingPrompt",
+          "question": "Sheeg saddex taariikhood oo tusaale ah, hal mar qaabka 5 July 2026, marna July 5, 2026.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l07-p10",
+          "type": "shortWriting",
+          "question": "Qor 12-ka bilood, kadib qor saddex taariikhood oo male-awaal ah labada qaab.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Sheeg saddex taariikhood oo tusaale ah, hal mar qaabka 5 July 2026, marna July 5, 2026.",
+      "writingPractice": "Qor 12-ka bilood, kadib qor saddex taariikhood oo male-awaal ah labada qaab.",
+      "summarySomali": "Taariikhdu waxay leedahay day, month iyo year. 5 July 2026 iyo July 5, 2026 labaduba waa sax; dalalku qaabka way ku kala duwanaan karaan.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l07-q01",
+          "type": "multipleChoice",
+          "question": "“Date” maxay ka dhigan tahay?",
+          "options": [
+            "Taariikhda dhalashada",
+            "Taariikh",
+            "Maalin",
+            "Bil"
+          ],
+          "correctAnswer": "Taariikh",
+          "explanationSomali": "Jawaabta saxda ahi waa Taariikh; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l07-q02",
+          "type": "fillInTheBlank",
+          "question": "July is the seventh ___.",
+          "options": [
+            "Date of birth",
+            "month",
+            "Day",
+            "Month"
+          ],
+          "correctAnswer": "month",
+          "explanationSomali": "“month” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l07-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Date of birth” iyo macnihiisa.",
+          "options": [
+            "Bil",
+            "Maalin",
+            "Taariikhda dhalashada",
+            "Taariikh"
+          ],
+          "correctAnswer": "Taariikhda dhalashada",
+          "explanationSomali": "Date of birth waxaa loola jeedaa Taariikhda dhalashada."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l08",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 8,
+      "titleEnglish": "Forms and Personal Information",
+      "titleSomali": "Buuxinta foomamka macluumaadka qofka",
+      "shortDescriptionSomali": "Bar fields-ka foom fudud iyo sida xog male-awaal ah loogu buuxiyo English.",
+      "learningObjectives": [
+        "Aqoonso fields-ka foomka.",
+        "Kala saar first, last iyo full name.",
+        "Buuxi sample form adigoon xog dhab ah isticmaalin."
+      ],
+      "lessonType": "writing",
+      "estimatedMinutes": 24,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l07",
+      "vocabulary": [
+        {
+          "englishWord": "First name",
+          "somaliMeaning": "Magaca koowaad",
+          "partOfSpeech": "form field",
+          "pronunciation": "ferst neym",
+          "exampleEnglish": "First name: Amina.",
+          "exampleSomali": "Magaca koowaad: Aamina.",
+          "explanationSomali": "First name waa magaca qofka loogu yeero.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Last name",
+          "somaliMeaning": "Magaca dambe/qoyska",
+          "partOfSpeech": "form field",
+          "pronunciation": "laast neym",
+          "exampleEnglish": "Last name: Noor.",
+          "exampleSomali": "Magaca dambe: Nuur.",
+          "explanationSomali": "Last name waa magaca dambe ee foomka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Full name",
+          "somaliMeaning": "Magaca oo buuxa",
+          "partOfSpeech": "form field",
+          "pronunciation": "ful neym",
+          "exampleEnglish": "Full name: Amina Noor.",
+          "exampleSomali": "Magaca oo buuxa: Aamina Nuur.",
+          "explanationSomali": "Full name wuxuu isku daraa magaca koowaad iyo kan dambe.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Age",
+          "somaliMeaning": "Da’",
+          "partOfSpeech": "form field",
+          "pronunciation": "eyj",
+          "exampleEnglish": "Age: 20.",
+          "exampleSomali": "Da’da: 20.",
+          "explanationSomali": "Age field-ku wuxuu rabaa tirada sannadaha.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Phone number",
+          "somaliMeaning": "Lambarka telefoonka",
+          "partOfSpeech": "form field",
+          "pronunciation": "foon nam-ber",
+          "exampleEnglish": "Phone number: 000 123 4567.",
+          "exampleSomali": "Lambarka tusaalaha: 000 123 4567.",
+          "explanationSomali": "Isticmaal lambar male-awaal ah markaad ku tababaranayso.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Address",
+          "somaliMeaning": "Cinwaan",
+          "partOfSpeech": "form field",
+          "pronunciation": "a-dres",
+          "exampleEnglish": "Address: Example Road.",
+          "exampleSomali": "Cinwaan: Example Road.",
+          "explanationSomali": "Address field-ku wuxuu rabaa meesha tusaalaha ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "City",
+          "somaliMeaning": "Magaalo",
+          "partOfSpeech": "form field",
+          "pronunciation": "si-ti",
+          "exampleEnglish": "City: Mogadishu.",
+          "exampleSomali": "Magaalo: Muqdisho.",
+          "explanationSomali": "City waa magaalada.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Country",
+          "somaliMeaning": "Dal",
+          "partOfSpeech": "form field",
+          "pronunciation": "kan-tri",
+          "exampleEnglish": "Country: Somalia.",
+          "exampleSomali": "Dal: Soomaaliya.",
+          "explanationSomali": "Country waa dalka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Nationality",
+          "somaliMeaning": "Jinsiyad/dhalasho dal",
+          "partOfSpeech": "form field",
+          "pronunciation": "na-sha-na-li-ti",
+          "exampleEnglish": "Nationality: Somali.",
+          "exampleSomali": "Jinsiyad: Soomaali.",
+          "explanationSomali": "Nationality wuxuu tilmaamaa dalka ama jinsiyadda qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Date of birth",
+          "somaliMeaning": "Taariikhda dhalashada",
+          "partOfSpeech": "form field",
+          "pronunciation": "deyt ov berth",
+          "exampleEnglish": "Date of birth: 1 January 2000.",
+          "exampleSomali": "Taariikh dhalasho tusaale: 1 Jannaayo 2000.",
+          "explanationSomali": "Isticmaal taariikh male-awaal ah layliga.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Occupation",
+          "somaliMeaning": "Shaqo",
+          "partOfSpeech": "form field",
+          "pronunciation": "o-kyu-pey-shan",
+          "exampleEnglish": "Occupation: Student.",
+          "exampleSomali": "Shaqo: Arday.",
+          "explanationSomali": "Occupation waa shaqada qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Employee",
+          "somaliMeaning": "Shaqaale",
+          "partOfSpeech": "noun",
+          "pronunciation": "em-ploy-ii",
+          "exampleEnglish": "She is an employee.",
+          "exampleSomali": "Iyadu waa shaqaale.",
+          "explanationSomali": "Employee waa qof u shaqeeya hay’ad ama ganacsi.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Businessperson",
+          "somaliMeaning": "Ganacsade",
+          "partOfSpeech": "noun",
+          "pronunciation": "biz-nis per-san",
+          "exampleEnglish": "He is a businessperson.",
+          "exampleSomali": "Isagu waa ganacsade.",
+          "explanationSomali": "Businessperson waa qof ganacsi sameeya.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "My first name is Amina.",
+          "somali": "Magacayga koowaad waa Aamina."
+        },
+        {
+          "english": "My full name is Amina Noor.",
+          "somali": "Magacayga oo buuxa waa Aamina Nuur."
+        },
+        {
+          "english": "I am twenty years old.",
+          "somali": "Waxaan jiraa labaatan sano."
+        },
+        {
+          "english": "I live in Mogadishu, Somalia.",
+          "somali": "Waxaan degganahay Muqdisho, Soomaaliya."
+        },
+        {
+          "english": "My occupation is student.",
+          "somali": "Shaqadaydu waa arday."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Foom shaqaale",
+          "lines": [
+            {
+              "speaker": "Worker",
+              "english": "What is your full name?",
+              "somali": "Waa maxay magacaaga oo buuxa?"
+            },
+            {
+              "speaker": "Applicant",
+              "english": "Amina Noor.",
+              "somali": "Aamina Nuur."
+            },
+            {
+              "speaker": "Worker",
+              "english": "Occupation?",
+              "somali": "Shaqo?"
+            },
+            {
+              "speaker": "Applicant",
+              "english": "Student.",
+              "somali": "Arday."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Foom tusaale ah",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "City?",
+              "somali": "Magaalo?"
+            },
+            {
+              "speaker": "B",
+              "english": "Mogadishu.",
+              "somali": "Muqdisho."
+            },
+            {
+              "speaker": "A",
+              "english": "Country?",
+              "somali": "Dal?"
+            },
+            {
+              "speaker": "B",
+              "english": "Somalia.",
+              "somali": "Soomaaliya."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l08-p01",
+          "type": "multipleChoice",
+          "question": "“First name” maxay ka dhigan tahay?",
+          "options": [
+            "Magaca dambe/qoyska",
+            "Magaca koowaad",
+            "Magaca oo buuxa",
+            "Da’"
+          ],
+          "correctAnswer": "Magaca koowaad",
+          "explanationSomali": "Jawaabta saxda ahi waa Magaca koowaad; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l08-p02",
+          "type": "fillInTheBlank",
+          "question": "My full ___ is Amina Noor.",
+          "options": [
+            "Last name",
+            "name",
+            "Full name",
+            "Age"
+          ],
+          "correctAnswer": "name",
+          "explanationSomali": "“name” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l08-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Last name” iyo macnihiisa.",
+          "options": [
+            "Da’",
+            "Magaca oo buuxa",
+            "Magaca dambe/qoyska",
+            "Magaca koowaad"
+          ],
+          "correctAnswer": "Magaca dambe/qoyska",
+          "explanationSomali": "Last name waxaa loola jeedaa Magaca dambe/qoyska."
+        },
+        {
+          "id": "a1-u03-l08-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: occupation / is / My / student",
+          "options": [],
+          "correctAnswer": "My occupation is student.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “My occupation is student.”."
+        },
+        {
+          "id": "a1-u03-l08-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: My first name is Amina.",
+          "options": [
+            "Waxaan jiraa labaatan sano.",
+            "Magacayga oo buuxa waa Aamina Nuur.",
+            "Waxaan degganahay Muqdisho, Soomaaliya.",
+            "Magacayga koowaad waa Aamina."
+          ],
+          "correctAnswer": "Magacayga koowaad waa Aamina.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l08-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Magacayga oo buuxa waa Aamina Nuur.",
+          "options": [
+            "I live in Mogadishu, Somalia.",
+            "My first name is Amina.",
+            "My full name is Amina Noor.",
+            "I am twenty years old."
+          ],
+          "correctAnswer": "My full name is Amina Noor.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “My full name is Amina Noor.”."
+        },
+        {
+          "id": "a1-u03-l08-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l08-p08",
+          "type": "multipleChoice",
+          "question": "Foomka “Nationality” maxaa lagu qoraa?",
+          "options": [
+            "Da’da",
+            "Jinsiyadda",
+            "Telefoonka",
+            "Qiimaha"
+          ],
+          "correctAnswer": "Jinsiyadda",
+          "explanationSomali": "“Jinsiyadda” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l08-p09",
+          "type": "speakingPrompt",
+          "question": "Akhri foom tusaale ah oo leh magac, da’ tusaale, telefoon male-awaal, magaalo, dal iyo occupation.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l08-p10",
+          "type": "shortWriting",
+          "question": "Buuxi sample form adigoo isticmaalaya qof male-awaal ah; ha qorin xogtaada dhabta ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        }
+      ],
+      "speakingPractice": "Akhri foom tusaale ah oo leh magac, da’ tusaale, telefoon male-awaal, magaalo, dal iyo occupation.",
+      "writingPractice": "Buuxi sample form adigoo isticmaalaya qof male-awaal ah; ha qorin xogtaada dhabta ah.",
+      "summarySomali": "Foomku wuxuu codsan karaa full name, age, phone, address, nationality, date of birth iyo occupation. Xog male-awaal ah ku tababar.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l08-q01",
+          "type": "multipleChoice",
+          "question": "“First name” maxay ka dhigan tahay?",
+          "options": [
+            "Magaca dambe/qoyska",
+            "Magaca koowaad",
+            "Magaca oo buuxa",
+            "Da’"
+          ],
+          "correctAnswer": "Magaca koowaad",
+          "explanationSomali": "Jawaabta saxda ahi waa Magaca koowaad; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l08-q02",
+          "type": "fillInTheBlank",
+          "question": "My full ___ is Amina Noor.",
+          "options": [
+            "Last name",
+            "name",
+            "Full name",
+            "Age"
+          ],
+          "correctAnswer": "name",
+          "explanationSomali": "“name” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l08-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Last name” iyo macnihiisa.",
+          "options": [
+            "Da’",
+            "Magaca oo buuxa",
+            "Magaca dambe/qoyska",
+            "Magaca koowaad"
+          ],
+          "correctAnswer": "Magaca dambe/qoyska",
+          "explanationSomali": "Last name waxaa loola jeedaa Magaca dambe/qoyska."
+        }
+      ]
+    },
+    {
+      "id": "a1-u03-l09",
+      "levelId": "A1",
+      "unitId": "a1-u03",
+      "lessonNumber": 9,
+      "titleEnglish": "Unit Review",
+      "titleSomali": "Dib-u-eegista Unit 3",
+      "shortDescriptionSomali": "Dib u eeg numbers 0–100, age, phone, address, prices, dates iyo personal information forms.",
+      "learningObjectives": [
+        "Isku dar dhammaan xirfadaha Unit 3.",
+        "Sax khaladaadka tiro, da’ iyo prepositions.",
+        "Buuxi foom iyo wada sheekeysi mixed ah."
+      ],
+      "lessonType": "review",
+      "estimatedMinutes": 32,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u03-l08",
+      "vocabulary": [
+        {
+          "englishWord": "Number",
+          "somaliMeaning": "Tiro",
+          "partOfSpeech": "noun",
+          "pronunciation": "nam-ber",
+          "exampleEnglish": "Write the number in English.",
+          "exampleSomali": "Tirada ku qor English.",
+          "explanationSomali": "Number waa tiro.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Age",
+          "somaliMeaning": "Da’",
+          "partOfSpeech": "noun",
+          "pronunciation": "eyj",
+          "exampleEnglish": "Ask an example age.",
+          "exampleSomali": "Weydii da’ tusaale ah.",
+          "explanationSomali": "Age waa sannadaha qofku jiro.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Phone number",
+          "somaliMeaning": "Lambar telefoon",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "foon nam-ber",
+          "exampleEnglish": "Read the phone number digit by digit.",
+          "exampleSomali": "Lambarka digit-digit u akhri.",
+          "explanationSomali": "Telefoonka digit kasta gooni ayaa loo akhriyaa.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Address",
+          "somaliMeaning": "Cinwaan",
+          "partOfSpeech": "noun",
+          "pronunciation": "a-dres",
+          "exampleEnglish": "Give an example address.",
+          "exampleSomali": "Sheeg cinwaan tusaale ah.",
+          "explanationSomali": "Cinwaan dhab ah looma baahna.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Price",
+          "somaliMeaning": "Qiime",
+          "partOfSpeech": "noun",
+          "pronunciation": "praays",
+          "exampleEnglish": "Ask the price.",
+          "exampleSomali": "Weydii qiimaha.",
+          "explanationSomali": "How much ayaa qiime lagu weydiiyaa.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Date",
+          "somaliMeaning": "Taariikh",
+          "partOfSpeech": "noun",
+          "pronunciation": "deyt",
+          "exampleEnglish": "Write an example date.",
+          "exampleSomali": "Qor taariikh tusaale ah.",
+          "explanationSomali": "Taariikhdu waxay leedahay maalin, bil iyo sannad.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Form",
+          "somaliMeaning": "Foom",
+          "partOfSpeech": "noun",
+          "pronunciation": "foorm",
+          "exampleEnglish": "Complete the form.",
+          "exampleSomali": "Buuxi foomka.",
+          "explanationSomali": "Foomku wuxuu ururiyaa macluumaad aasaasi ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Personal information",
+          "somaliMeaning": "Macluumaad qofeed",
+          "partOfSpeech": "noun phrase",
+          "pronunciation": "per-sa-nal in-for-mey-shan",
+          "exampleEnglish": "Use fictional personal information.",
+          "exampleSomali": "Isticmaal macluumaad qofeed oo male-awaal ah.",
+          "explanationSomali": "Xog tusaale ah ayaa ammaan u ah practice-ka.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "I am twenty years old.",
+          "somali": "Waxaan jiraa labaatan sano."
+        },
+        {
+          "english": "My example phone number is 000 123 4567.",
+          "somali": "Lambarkayga tusaalaha ahi waa 000 123 4567."
+        },
+        {
+          "english": "I live in Mogadishu.",
+          "somali": "Waxaan degganahay Muqdisho."
+        },
+        {
+          "english": "It costs five dollars.",
+          "somali": "Waxay ku kacaysaa shan doolar."
+        },
+        {
+          "english": "Today is 5 July 2026.",
+          "somali": "Maanta waa 5 Luulyo 2026."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Dib-u-eegis xog qofeed",
+          "lines": [
+            {
+              "speaker": "A",
+              "english": "How old are you?",
+              "somali": "Immisa jir baad tahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "I am twenty.",
+              "somali": "Waxaan jiraa labaatan."
+            },
+            {
+              "speaker": "A",
+              "english": "Where do you live?",
+              "somali": "Xaggee baad degan tahay?"
+            },
+            {
+              "speaker": "B",
+              "english": "I live in Mogadishu.",
+              "somali": "Waxaan degganahay Muqdisho."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Dib-u-eegis dukaan",
+          "lines": [
+            {
+              "speaker": "Customer",
+              "english": "How much is this?",
+              "somali": "Immisa ayuu kani yahay?"
+            },
+            {
+              "speaker": "Seller",
+              "english": "Five dollars.",
+              "somali": "Shan doolar."
+            },
+            {
+              "speaker": "Customer",
+              "english": "Thank you.",
+              "somali": "Mahadsanid."
+            },
+            {
+              "speaker": "Seller",
+              "english": "You are welcome.",
+              "somali": "Adigaa mudan."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u03-l09-p01",
+          "type": "multipleChoice",
+          "question": "“Number” maxay ka dhigan tahay?",
+          "options": [
+            "Da’",
+            "Tiro",
+            "Lambar telefoon",
+            "Cinwaan"
+          ],
+          "correctAnswer": "Tiro",
+          "explanationSomali": "Jawaabta saxda ahi waa Tiro; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l09-p02",
+          "type": "fillInTheBlank",
+          "question": "How ___ is this book?",
+          "options": [
+            "Age",
+            "much",
+            "Phone number",
+            "Address"
+          ],
+          "correctAnswer": "much",
+          "explanationSomali": "“much” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l09-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Age” iyo macnihiisa.",
+          "options": [
+            "Cinwaan",
+            "Lambar telefoon",
+            "Da’",
+            "Tiro"
+          ],
+          "correctAnswer": "Da’",
+          "explanationSomali": "Age waxaa loola jeedaa Da’."
+        },
+        {
+          "id": "a1-u03-l09-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: live / Somalia / in / I",
+          "options": [],
+          "correctAnswer": "I live in Somalia.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “I live in Somalia.”."
+        },
+        {
+          "id": "a1-u03-l09-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: I am twenty years old.",
+          "options": [
+            "Waxaan degganahay Muqdisho.",
+            "Lambarkayga tusaalaha ahi waa 000 123 4567.",
+            "Waxay ku kacaysaa shan doolar.",
+            "Waxaan jiraa labaatan sano."
+          ],
+          "correctAnswer": "Waxaan jiraa labaatan sano.",
+          "explanationSomali": "Turjumaadda saxda ahi waxay gudbinaysaa macnaha jumladda oo dhan."
+        },
+        {
+          "id": "a1-u03-l09-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Lambarkayga tusaalaha ahi waa 000 123 4567.",
+          "options": [
+            "It costs five dollars.",
+            "I am twenty years old.",
+            "My example phone number is 000 123 4567.",
+            "I live in Mogadishu."
+          ],
+          "correctAnswer": "My example phone number is 000 123 4567.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “My example phone number is 000 123 4567.”."
+        },
+        {
+          "id": "a1-u03-l09-p07",
+          "type": "trueFalse",
+          "question": "Xogta tusaalaha ah ayaa lagu isticmaali karaa layliga halkii xogtaada dhabta ah.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Layliga uma baahna xog gaar ah; xog male-awaal ah ayaa ammaan ah."
+        },
+        {
+          "id": "a1-u03-l09-p08",
+          "type": "multipleChoice",
+          "question": "Kee ayaa sax u sheegaya da’da?",
+          "options": [
+            "I have twenty years.",
+            "I am twenty years old.",
+            "I is twenty.",
+            "I live twenty."
+          ],
+          "correctAnswer": "I am twenty years old.",
+          "explanationSomali": "“I am twenty years old.” ayaa xaaladda ku habboon; xulashooyinka kale waxay bixiyaan tiro ama qaab aan sax ahayn."
+        },
+        {
+          "id": "a1-u03-l09-p09",
+          "type": "speakingPrompt",
+          "question": "Tirso, sheeg da’ tusaale, akhri lambar male-awaal ah, sheeg cinwaan, weydii qiime, kadib sheeg taariikh.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog tusaale ah, si tartiib ahna u sheeg tiro ama jumlad kasta."
+        },
+        {
+          "id": "a1-u03-l09-p10",
+          "type": "shortWriting",
+          "question": "Samee foom iyo wada sheekeysi isku dara da’, telefoon, cinwaan, qiime iyo taariikh.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi higgaadda tirooyinka, capital letters-ka magacyada iyo calaamadaha jumladda."
+        },
+        {
+          "id": "a1-u03-l09-p11",
+          "type": "multipleChoice",
+          "question": "35 sidee loo qoraa?",
+          "options": [
+            "thirteen-five",
+            "thirty-five",
+            "three-five",
+            "fifty-three"
+          ],
+          "correctAnswer": "thirty-five",
+          "explanationSomali": "35 waa thirty-five, waxaana labada qaybood isku xira hyphen."
+        },
+        {
+          "id": "a1-u03-l09-p12",
+          "type": "fillInTheBlank",
+          "question": "I ___ twenty years old.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "have"
+          ],
+          "correctAnswer": "am",
+          "explanationSomali": "Da’da English-ka waxaa lagu sheegaa I am…, ma aha I have…."
+        },
+        {
+          "id": "a1-u03-l09-p13",
+          "type": "multipleChoice",
+          "question": "Lambar telefoon sidee badanaa loo akhriyaa?",
+          "options": [
+            "Digit-digit",
+            "Hal eray oo dheer",
+            "Sida lacagta",
+            "Sida taariikhda"
+          ],
+          "correctAnswer": "Digit-digit",
+          "explanationSomali": "Lambarka telefoonka waxaa la akhriyaa digit kasta gooni."
+        },
+        {
+          "id": "a1-u03-l09-p14",
+          "type": "fillInTheBlank",
+          "question": "I live ___ Mogadishu.",
+          "options": [
+            "on",
+            "at",
+            "in",
+            "is"
+          ],
+          "correctAnswer": "in",
+          "explanationSomali": "In waxaa lala isticmaalaa magaalo ama dal."
+        },
+        {
+          "id": "a1-u03-l09-p15",
+          "type": "multipleChoice",
+          "question": "Qiimaha hal buug sidee loo weydiiyaa?",
+          "options": [
+            "How many is this?",
+            "How old is this?",
+            "How much is this?",
+            "Where is this?"
+          ],
+          "correctAnswer": "How much is this?",
+          "explanationSomali": "How much waxaa lagu weydiiyaa qiimaha."
+        },
+        {
+          "id": "a1-u03-l09-p16",
+          "type": "multipleChoice",
+          "question": "Bisha 7-aad waa tee?",
+          "options": [
+            "June",
+            "July",
+            "August",
+            "May"
+          ],
+          "correctAnswer": "July",
+          "explanationSomali": "July waa bisha toddobaad."
+        },
+        {
+          "id": "a1-u03-l09-p17",
+          "type": "multipleChoice",
+          "question": "Foomka “occupation” muxuu weydiinayaa?",
+          "options": [
+            "Shaqada",
+            "Da’da",
+            "Cinwaanka",
+            "Telefoonka"
+          ],
+          "correctAnswer": "Shaqada",
+          "explanationSomali": "Occupation waa shaqada qofka."
+        },
+        {
+          "id": "a1-u03-l09-p18",
+          "type": "somaliToEnglish",
+          "question": "U beddel: “Waxaan degganahay Soomaaliya.”",
+          "options": [
+            "I live on Somalia.",
+            "I live in Somalia.",
+            "I am Somalia.",
+            "I live at country."
+          ],
+          "correctAnswer": "I live in Somalia.",
+          "explanationSomali": "Dal waxaa lala isticmaalaa preposition-ka in."
+        },
+        {
+          "id": "a1-u03-l09-p19",
+          "type": "englishToSomali",
+          "question": "Turjun: “It costs ten dollars.”",
+          "options": [
+            "Waxay joogtaa toban doolar.",
+            "Waxay ku kacaysaa toban doolar.",
+            "Waxaan hayaa toban doolar.",
+            "Tobanku waa qaali."
+          ],
+          "correctAnswer": "Waxay ku kacaysaa toban doolar.",
+          "explanationSomali": "Costs wuxuu tilmaamayaa qiimaha shayga."
+        },
+        {
+          "id": "a1-u03-l09-p20",
+          "type": "shortWriting",
+          "question": "Buuxi foom tusaale ah: full name, age, phone, city, country iyo occupation.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Isticmaal xog male-awaal ah; ha gelin xogtaada gaarka ah haddii aadan rabin."
+        }
+      ],
+      "speakingPractice": "Tirso, sheeg da’ tusaale, akhri lambar male-awaal ah, sheeg cinwaan, weydii qiime, kadib sheeg taariikh.",
+      "writingPractice": "Samee foom iyo wada sheekeysi isku dara da’, telefoon, cinwaan, qiime iyo taariikh.",
+      "summarySomali": "Waxaad dib u eegtay tirooyinka, da’da, telefoonka, cinwaanka, qiimaha, taariikhda iyo foomamka. Isticmaal xog tusaale ah si aad ammaan ugu tababarto.",
+      "quizQuestions": [
+        {
+          "id": "a1-u03-l09-q01",
+          "type": "multipleChoice",
+          "question": "“Number” maxay ka dhigan tahay?",
+          "options": [
+            "Da’",
+            "Tiro",
+            "Lambar telefoon",
+            "Cinwaan"
+          ],
+          "correctAnswer": "Tiro",
+          "explanationSomali": "Jawaabta saxda ahi waa Tiro; xulashooyinka kale waxay la xiriiraan erayo kale oo casharka ku jira."
+        },
+        {
+          "id": "a1-u03-l09-q02",
+          "type": "fillInTheBlank",
+          "question": "How ___ is this book?",
+          "options": [
+            "Age",
+            "much",
+            "Phone number",
+            "Address"
+          ],
+          "correctAnswer": "much",
+          "explanationSomali": "“much” ayaa jumladda ka dhigaya mid naxwe iyo macne ahaan sax ah."
+        },
+        {
+          "id": "a1-u03-l09-q03",
+          "type": "matchWords",
+          "question": "Isku aadi “Age” iyo macnihiisa.",
+          "options": [
+            "Cinwaan",
+            "Lambar telefoon",
+            "Da’",
+            "Tiro"
+          ],
+          "correctAnswer": "Da’",
+          "explanationSomali": "Age waxaa loola jeedaa Da’."
+        }
+      ]
+    }
+  ],
+  "unitQuiz": [
+    {
+      "id": "a1-u03-q01",
+      "type": "multipleChoice",
+      "question": "13 sidee loo qoraa?",
+      "options": [
+        "thirty",
+        "thirteen",
+        "three-ten",
+        "fifty"
+      ],
+      "correctAnswer": "thirteen",
+      "explanationSomali": "13 waa thirteen; 30 waa thirty."
+    },
+    {
+      "id": "a1-u03-q02",
+      "type": "multipleChoice",
+      "question": "40 sidee loo qoraa?",
+      "options": [
+        "fourty",
+        "forty",
+        "fourteen",
+        "four-zero"
+      ],
+      "correctAnswer": "forty",
+      "explanationSomali": "Higgaadda saxda ahi waa forty, ma aha fourty."
+    },
+    {
+      "id": "a1-u03-q03",
+      "type": "multipleChoice",
+      "question": "Tirada “fifty-seven” waa tee?",
+      "options": [
+        "75",
+        "47",
+        "57",
+        "67"
+      ],
+      "correctAnswer": "57",
+      "explanationSomali": "Fifty waa 50, seven waa 7; wadajir waa 57."
+    },
+    {
+      "id": "a1-u03-q04",
+      "type": "multipleChoice",
+      "question": "86 sidee loo qoraa?",
+      "options": [
+        "eighty-six",
+        "eighteen-six",
+        "sixty-eight",
+        "eight-sixteen"
+      ],
+      "correctAnswer": "eighty-six",
+      "explanationSomali": "86 waa eighty-six."
+    },
+    {
+      "id": "a1-u03-q05",
+      "type": "multipleChoice",
+      "question": "Kee ayaa ah 100?",
+      "options": [
+        "ninety-nine",
+        "one hundred",
+        "one thousand",
+        "ten hundred"
+      ],
+      "correctAnswer": "one hundred",
+      "explanationSomali": "100 waa one hundred."
+    },
+    {
+      "id": "a1-u03-q06",
+      "type": "trueFalse",
+      "question": "Twenty-one waxaa lagu qoraa hyphen.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanationSomali": "Tirooyinka isku dhafan 21–99 waxaa caadi ahaan lagu qoraa hyphen."
+    },
+    {
+      "id": "a1-u03-q07",
+      "type": "fillInTheBlank",
+      "question": "I ___ twenty years old.",
+      "options": [
+        "have",
+        "is",
+        "am",
+        "are"
+      ],
+      "correctAnswer": "am",
+      "explanationSomali": "I waxaa la socda am; da’da laguma dhaho I have twenty years."
+    },
+    {
+      "id": "a1-u03-q08",
+      "type": "multipleChoice",
+      "question": "Sidee da’da qofka loo weydiiyaa?",
+      "options": [
+        "How many are you?",
+        "How old are you?",
+        "What age have you?",
+        "How much are you?"
+      ],
+      "correctAnswer": "How old are you?",
+      "explanationSomali": "How old are you? waa qaabka saxda ah."
+    },
+    {
+      "id": "a1-u03-q09",
+      "type": "fillInTheBlank",
+      "question": "He ___ fifteen years old.",
+      "options": [
+        "am",
+        "are",
+        "is",
+        "have"
+      ],
+      "correctAnswer": "is",
+      "explanationSomali": "He waxaa la socda is."
+    },
+    {
+      "id": "a1-u03-q10",
+      "type": "multipleChoice",
+      "question": "Kee ayaa khalad ah?",
+      "options": [
+        "She is eighteen.",
+        "I’m twenty.",
+        "I have twenty years.",
+        "He is fifteen years old."
+      ],
+      "correctAnswer": "I have twenty years.",
+      "explanationSomali": "English-ku da’da wuxuu isticmaalaa verb to be: I am twenty."
+    },
+    {
+      "id": "a1-u03-q11",
+      "type": "multipleChoice",
+      "question": "Lambar telefoon badanaa sidee loo akhriyaa?",
+      "options": [
+        "Digit-digit",
+        "Sida hal tiro weyn",
+        "Sida taariikh",
+        "Sida qiime"
+      ],
+      "correctAnswer": "Digit-digit",
+      "explanationSomali": "Digit kasta gooni ayaa loo akhriyaa."
+    },
+    {
+      "id": "a1-u03-q12",
+      "type": "multipleChoice",
+      "question": "“Double zero” waa tee?",
+      "options": [
+        "20",
+        "00",
+        "02",
+        "200"
+      ],
+      "correctAnswer": "00",
+      "explanationSomali": "Double zero waa laba eber oo isku xiga."
+    },
+    {
+      "id": "a1-u03-q13",
+      "type": "multipleChoice",
+      "question": "Maxaad tiraahdaa marka lambar aan la maqal?",
+      "options": [
+        "How old are you?",
+        "Can you repeat that?",
+        "How much is it?",
+        "Where do you live?"
+      ],
+      "correctAnswer": "Can you repeat that?",
+      "explanationSomali": "Can you repeat that? wuxuu codsanayaa ku celin."
+    },
+    {
+      "id": "a1-u03-q14",
+      "type": "trueFalse",
+      "question": "Oh mararka qaar wuxuu matali karaa zero marka phone number la akhrinayo.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanationSomali": "Phone numbers dhexdiisa zero mararka qaar waxaa loo akhriyaa oh."
+    },
+    {
+      "id": "a1-u03-q15",
+      "type": "fillInTheBlank",
+      "question": "I live ___ Mogadishu.",
+      "options": [
+        "on",
+        "in",
+        "is",
+        "at road"
+      ],
+      "correctAnswer": "in",
+      "explanationSomali": "In waxaa lala isticmaalaa magaalo."
+    },
+    {
+      "id": "a1-u03-q16",
+      "type": "fillInTheBlank",
+      "question": "I live ___ Peace Road.",
+      "options": [
+        "in",
+        "on",
+        "am",
+        "to"
+      ],
+      "correctAnswer": "on",
+      "explanationSomali": "On waxaa lala isticmaalaa magaca waddada."
+    },
+    {
+      "id": "a1-u03-q17",
+      "type": "multipleChoice",
+      "question": "“District” maxay ka dhigan tahay?",
+      "options": [
+        "Dal",
+        "Degmo",
+        "Dhisme",
+        "Qiime"
+      ],
+      "correctAnswer": "Degmo",
+      "explanationSomali": "District waa degmo ama qayb maamul."
+    },
+    {
+      "id": "a1-u03-q18",
+      "type": "multipleChoice",
+      "question": "Qiimaha shay sidee loo weydiiyaa?",
+      "options": [
+        "How many is this?",
+        "How much is this?",
+        "How old is this?",
+        "What date is this?"
+      ],
+      "correctAnswer": "How much is this?",
+      "explanationSomali": "How much is this? wuxuu weydiiyaa qiimaha."
+    },
+    {
+      "id": "a1-u03-q19",
+      "type": "fillInTheBlank",
+      "question": "It ___ ten dollars.",
+      "options": [
+        "cost",
+        "costs",
+        "is cost",
+        "many"
+      ],
+      "correctAnswer": "costs",
+      "explanationSomali": "It waxaa present simple la socda costs."
+    },
+    {
+      "id": "a1-u03-q20",
+      "type": "multipleChoice",
+      "question": "Cheap lidkiisu waa tee?",
+      "options": [
+        "total",
+        "cent",
+        "expensive",
+        "price"
+      ],
+      "correctAnswer": "expensive",
+      "explanationSomali": "Cheap waa raqiis; expensive waa qaali."
+    },
+    {
+      "id": "a1-u03-q21",
+      "type": "multipleChoice",
+      "question": "Bisha 7-aad waa tee?",
+      "options": [
+        "June",
+        "July",
+        "August",
+        "January"
+      ],
+      "correctAnswer": "July",
+      "explanationSomali": "July waa bisha toddobaad."
+    },
+    {
+      "id": "a1-u03-q22",
+      "type": "multipleChoice",
+      "question": "Kee ayaa taariikh sax ah?",
+      "options": [
+        "5 July 2026",
+        "July is five 2026",
+        "2026 of July five is",
+        "Five month year"
+      ],
+      "correctAnswer": "5 July 2026",
+      "explanationSomali": "Day + month + year waa qaab sax ah."
+    },
+    {
+      "id": "a1-u03-q23",
+      "type": "multipleChoice",
+      "question": "“Date of birth” maxay ka dhigan tahay?",
+      "options": [
+        "Taariikhda maanta",
+        "Taariikhda dhalashada",
+        "Da’da",
+        "Cinwaanka"
+      ],
+      "correctAnswer": "Taariikhda dhalashada",
+      "explanationSomali": "Date of birth waa taariikhda qofku dhashay."
+    },
+    {
+      "id": "a1-u03-q24",
+      "type": "multipleChoice",
+      "question": "Foomka “occupation” muxuu rabaa?",
+      "options": [
+        "Shaqada",
+        "Magaalada",
+        "Telefoonka",
+        "Da’da"
+      ],
+      "correctAnswer": "Shaqada",
+      "explanationSomali": "Occupation waa shaqada qofka."
+    },
+    {
+      "id": "a1-u03-q25",
+      "type": "multipleChoice",
+      "question": "Full name waa…",
+      "options": [
+        "magaca koowaad oo keliya",
+        "magaca dambe oo keliya",
+        "magaca oo buuxa",
+        "magaca magaalada"
+      ],
+      "correctAnswer": "magaca oo buuxa",
+      "explanationSomali": "Full name wuxuu ka kooban yahay magaca qofka oo buuxa."
+    }
+  ],
+  "passingScore": 70
+}

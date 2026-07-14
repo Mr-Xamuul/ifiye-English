@@ -67,7 +67,7 @@ class _LevelsList extends StatelessWidget {
                 level.requiredPreviousLevelId!,
               );
           final progress = level.id == 'A1'
-              ? (state.courseProgress.completedLessonIds.length / 14).clamp(
+              ? (state.courseProgress.completedLessonIds.length / 23).clamp(
                   0.0,
                   1.0,
                 )

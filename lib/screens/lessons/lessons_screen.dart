@@ -21,6 +21,7 @@ class _LessonsScreenState extends State<LessonsScreen> {
   late final Future<List<CourseUnit>> _units = Future.wait([
     CefrContentRepository().loadUnit('assets/content/a1/unit_01.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_02.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/unit_03.json'),
   ]);
 
   @override
@@ -47,8 +48,8 @@ class _LessonsScreenState extends State<LessonsScreen> {
             Expanded(
               child: _UnitContent(
                 unit: units[_selectedUnit],
-                onOpenNextUnit: _selectedUnit == 0
-                    ? () => setState(() => _selectedUnit = 1)
+                onOpenNextUnit: _selectedUnit < units.length - 1
+                    ? () => setState(() => _selectedUnit += 1)
                     : null,
               ),
             ),
@@ -75,6 +76,7 @@ class _UnitSelector extends StatelessWidget {
     final state = context.watch<AppProvider>();
     final unitTwoUnlocked = state.hasPassedUnit('a1-u01');
     final unitThreeUnlocked = state.hasPassedUnit('a1-u02');
+    final unitFourUnlocked = state.hasPassedUnit('a1-u03');
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -112,9 +114,31 @@ class _UnitSelector extends StatelessWidget {
             const SizedBox(width: 8),
             ChoiceChip(
               label: const Text('Unit 3'),
-              selected: false,
+              selected: selectedUnit == 2,
               avatar: Icon(
                 unitThreeUnlocked
+                    ? Icons.lock_open_outlined
+                    : Icons.lock_outline,
+                size: 18,
+              ),
+              onSelected: (_) {
+                if (unitThreeUnlocked) {
+                  onSelected(2);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('Gudub Unit 2 quiz si Unit 3 u furmo.'),
+                    ),
+                  );
+                }
+              },
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: const Text('Unit 4'),
+              selected: false,
+              avatar: Icon(
+                unitFourUnlocked
                     ? Icons.lock_open_outlined
                     : Icons.lock_outline,
                 size: 18,
@@ -122,9 +146,9 @@ class _UnitSelector extends StatelessWidget {
               onSelected: (_) => ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(
-                    unitThreeUnlocked
-                        ? 'Unit 3 waa furmay; content-kiisa tallaabada xigta ayaa la dhisayaa.'
-                        : 'Gudub Unit 2 quiz si Unit 3 u furmo.',
+                    unitFourUnlocked
+                        ? 'Unit 4 waa furmay; content-kiisu coming soon ayuu yahay.'
+                        : 'Gudub Unit 3 quiz si Unit 4 u furmo.',
                   ),
                 ),
               ),
@@ -258,7 +282,9 @@ class _UnitContent extends StatelessWidget {
               ? onOpenNextUnit ??
                     () => ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
-                        content: Text('Unit 3 content-ka weli lama bilaabin.'),
+                        content: Text(
+                          'Unit-ka xiga content-kiisu coming soon ayuu yahay.',
+                        ),
                       ),
                     )
               : () => _lockedMessage(context),
