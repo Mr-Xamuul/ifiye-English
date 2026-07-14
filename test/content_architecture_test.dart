@@ -357,4 +357,68 @@ void main() {
       );
     }
   });
+
+  test('A1 Unit 8 is complete, valid, and references Unit 7', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final validator = const ContentValidator();
+    final units = await Future.wait([
+      repository.loadUnit('assets/content/a1/unit_01.json'),
+      repository.loadUnit('assets/content/a1/unit_02.json'),
+      repository.loadUnit('assets/content/a1/unit_03.json'),
+      repository.loadUnit('assets/content/a1/unit_04.json'),
+      repository.loadUnit('assets/content/a1/unit_05.json'),
+      repository.loadUnit('assets/content/a1/unit_06.json'),
+      repository.loadUnit('assets/content/a1/unit_07.json'),
+      repository.loadUnit('assets/content/a1/unit_08.json'),
+    ]);
+    final unitEight = units.last;
+
+    expect(validator.validateUnit(unitEight).errors, isEmpty);
+    expect(unitEight.requiredPreviousUnitId, 'a1-u07');
+    expect(unitEight.lessons, hasLength(15));
+    expect(unitEight.lessons.last.lessonType.name, 'review');
+    expect(unitEight.lessons.last.practiceExercises, hasLength(30));
+    expect(unitEight.unitQuiz, hasLength(35));
+    expect(
+      unitEight.lessons.every((lesson) => lesson.dialogues.length >= 2),
+      isTrue,
+    );
+    expect(
+      unitEight.lessons.expand((lesson) => lesson.vocabulary),
+      hasLength(150),
+    );
+    expect(
+      unitEight.lessons.expand((lesson) => lesson.practiceExercises).length,
+      226,
+    );
+    expect(
+      unitEight.lessons.expand((lesson) => lesson.quizQuestions).length,
+      45,
+    );
+    expect(
+      unitEight.lessons
+          .where((lesson) => lesson.grammar != null)
+          .every((lesson) => lesson.grammar!.positiveExamples.length >= 6),
+      isTrue,
+    );
+
+    final allIds = <String>[
+      for (final unit in units) ...[
+        unit.id,
+        ...unit.lessons.map((lesson) => lesson.id),
+      ],
+      for (final lesson in unitEight.lessons) ...[
+        ...lesson.practiceExercises.map((item) => item.id),
+        ...lesson.quizQuestions.map((item) => item.id),
+      ],
+      ...unitEight.unitQuiz.map((item) => item.id),
+    ];
+    expect(allIds.toSet(), hasLength(allIds.length));
+    for (var index = 1; index < unitEight.lessons.length; index++) {
+      expect(
+        unitEight.lessons[index].requiredPreviousLessonId,
+        unitEight.lessons[index - 1].id,
+      );
+    }
+  });
 }

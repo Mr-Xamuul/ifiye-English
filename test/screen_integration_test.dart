@@ -126,10 +126,28 @@ void main() {
     expect(
       find.descendant(
         of: unitEightChip,
-        matching: find.byIcon(Icons.lock_outline),
+        matching: find.byIcon(Icons.lock_open_outlined),
       ),
       findsOneWidget,
     );
     expect(state.hasPassedUnit('a1-u07'), isFalse);
+
+    await tester.ensureVisible(unitEightChip);
+    await tester.pump();
+    await tester.tap(unitEightChip);
+    await tester.pump();
+
+    expect(find.text('Home and Objects'), findsOneWidget);
+    expect(find.text('Types of Homes'), findsOneWidget);
+
+    final unitNineChip = find.widgetWithText(ChoiceChip, 'Unit 9');
+    expect(
+      find.descendant(
+        of: unitNineChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+    expect(state.hasPassedUnit('a1-u08'), isFalse);
   });
 }
