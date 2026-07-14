@@ -75,6 +75,38 @@ class BilingualExample {
       );
 }
 
+class DialogueLine {
+  const DialogueLine({
+    required this.speaker,
+    required this.english,
+    required this.somali,
+  });
+
+  final String speaker;
+  final String english;
+  final String somali;
+
+  factory DialogueLine.fromJson(Map<String, dynamic> json) => DialogueLine(
+    speaker: json['speaker'] as String,
+    english: json['english'] as String,
+    somali: json['somali'] as String,
+  );
+}
+
+class LessonDialogue {
+  const LessonDialogue({required this.titleSomali, required this.lines});
+
+  final String titleSomali;
+  final List<DialogueLine> lines;
+
+  factory LessonDialogue.fromJson(Map<String, dynamic> json) => LessonDialogue(
+    titleSomali: json['titleSomali'] as String,
+    lines: (json['lines'] as List<dynamic>)
+        .map((item) => DialogueLine.fromJson(item as Map<String, dynamic>))
+        .toList(),
+  );
+}
+
 class PracticeExercise {
   const PracticeExercise({
     required this.id,
@@ -160,6 +192,7 @@ class CourseLesson {
     required this.vocabulary,
     this.grammar,
     required this.examples,
+    this.dialogues = const [],
     required this.practiceExercises,
     required this.speakingPractice,
     required this.writingPractice,
@@ -183,6 +216,7 @@ class CourseLesson {
   final List<VocabularyEntry> vocabulary;
   final GrammarTopic? grammar;
   final List<BilingualExample> examples;
+  final List<LessonDialogue> dialogues;
   final List<PracticeExercise> practiceExercises;
   final String speakingPractice;
   final String writingPractice;
@@ -210,6 +244,9 @@ class CourseLesson {
         ? null
         : GrammarTopic.fromJson(json['grammar'] as Map<String, dynamic>),
     examples: _examples(json['examples']),
+    dialogues: (json['dialogues'] as List<dynamic>? ?? const [])
+        .map((item) => LessonDialogue.fromJson(item as Map<String, dynamic>))
+        .toList(),
     practiceExercises: _exercises(json['practiceExercises']),
     speakingPractice: json['speakingPractice'] as String,
     writingPractice: json['writingPractice'] as String,

@@ -45,5 +45,13 @@ void main() {
 
     expect(find.text('Alphabet and Basic Sounds'), findsOneWidget);
     expect(find.text('The English Alphabet'), findsOneWidget);
+
+    await state.recordUnitQuizScore('a1-u01', 70);
+    await tester.pump();
+    await tester.tap(find.text('Unit 2'));
+    await tester.pump();
+
+    expect(find.text('Greetings and Introductions'), findsOneWidget);
+    expect(find.text('Basic Greetings'), findsOneWidget);
   });
 }

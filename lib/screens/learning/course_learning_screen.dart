@@ -18,9 +18,11 @@ class _CourseLearningScreenState extends State<CourseLearningScreen> {
   final Map<String, String> _answers = {};
   final Set<String> _completedPrompts = {};
 
-  int get _vocabularyStart => 2;
+  int get _grammarSteps => widget.lesson.grammar == null ? 0 : 1;
+  int get _vocabularyStart => 2 + _grammarSteps;
   int get _examplesStart => _vocabularyStart + widget.lesson.vocabulary.length;
-  int get _exercisesStart => _examplesStart + widget.lesson.examples.length;
+  int get _dialoguesStart => _examplesStart + widget.lesson.examples.length;
+  int get _exercisesStart => _dialoguesStart + widget.lesson.dialogues.length;
   int get _speakingStep =>
       _exercisesStart + widget.lesson.practiceExercises.length;
   int get _writingStep => _speakingStep + 1;
@@ -105,17 +107,27 @@ class _CourseLearningScreenState extends State<CourseLearningScreen> {
     if (_step == 1) {
       return _objectivesCard(context);
     }
+    if (_grammarSteps == 1 && _step == 2) {
+      return _grammarCard(context, widget.lesson.grammar!);
+    }
     if (_step < _examplesStart) {
       return _vocabularyCard(
         context,
         widget.lesson.vocabulary[_step - _vocabularyStart],
       );
     }
-    if (_step < _exercisesStart) {
+    if (_step < _dialoguesStart) {
       return _exampleCard(
         context,
         widget.lesson.examples[_step - _examplesStart],
         _step - _examplesStart,
+      );
+    }
+    if (_step < _exercisesStart) {
+      return _dialogueCard(
+        context,
+        widget.lesson.dialogues[_step - _dialoguesStart],
+        _step - _dialoguesStart,
       );
     }
     if (_step < _speakingStep) {
@@ -243,6 +255,80 @@ class _CourseLearningScreenState extends State<CourseLearningScreen> {
             ),
           ),
         ),
+      ],
+    ),
+  );
+
+  Widget _grammarCard(BuildContext context, GrammarTopic topic) => _StepCard(
+    color: Colors.blueGrey,
+    icon: Icons.account_tree_outlined,
+    eyebrow: 'GRAMMAR FUDUD',
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          topic.titleEnglish,
+          style: Theme.of(
+            context,
+          ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        Text(
+          topic.titleSomali,
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.primary,
+            fontSize: 17,
+          ),
+        ),
+        const SizedBox(height: 16),
+        Text(topic.explanationSomali, style: const TextStyle(height: 1.5)),
+        const SizedBox(height: 14),
+        _SoftPanel(
+          icon: Icons.rule_outlined,
+          color: Colors.blueGrey,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                topic.rule,
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 4),
+              Text('Qaabka: ${topic.sentenceStructure}'),
+            ],
+          ),
+        ),
+        const SizedBox(height: 18),
+        const Text(
+          'Tusaalooyin',
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 8),
+        ...topic.positiveExamples.map(
+          (item) => Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  item.english,
+                  style: const TextStyle(fontWeight: FontWeight.w600),
+                ),
+                Text(item.somali, style: const TextStyle(color: Colors.grey)),
+              ],
+            ),
+          ),
+        ),
+        if (topic.commonMistakesSomali.isNotEmpty)
+          _SoftPanel(
+            icon: Icons.warning_amber_rounded,
+            color: Colors.orange,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: topic.commonMistakesSomali
+                  .map((mistake) => Text('• $mistake'))
+                  .toList(),
+            ),
+          ),
       ],
     ),
   );
@@ -392,6 +478,68 @@ class _CourseLearningScreenState extends State<CourseLearningScreen> {
           icon: const Icon(Icons.record_voice_over_outlined),
           label: const Text('Ku celceli cod dheer'),
         ),
+      ],
+    ),
+  );
+
+  Widget _dialogueCard(
+    BuildContext context,
+    LessonDialogue dialogue,
+    int index,
+  ) => _StepCard(
+    color: Colors.cyan.shade700,
+    icon: Icons.forum_outlined,
+    eyebrow: 'WADA SHEEKAYSI ${index + 1} / ${widget.lesson.dialogues.length}',
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          dialogue.titleSomali,
+          style: Theme.of(
+            context,
+          ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 16),
+        ...dialogue.lines.asMap().entries.map((entry) {
+          final line = entry.value;
+          final alternate = entry.key.isOdd;
+          return Align(
+            alignment: alternate ? Alignment.centerRight : Alignment.centerLeft,
+            child: Container(
+              constraints: const BoxConstraints(maxWidth: 420),
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: alternate
+                    ? Theme.of(context).colorScheme.primaryContainer
+                    : Colors.grey.shade100,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    line.speaker,
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.primary,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    line.english,
+                    style: const TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 3),
+                  Text(line.somali, style: const TextStyle(color: Colors.grey)),
+                ],
+              ),
+            ),
+          );
+        }),
       ],
     ),
   );

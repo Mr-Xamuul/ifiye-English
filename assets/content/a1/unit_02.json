@@ -1,0 +1,3243 @@
+{
+  "id": "a1-u02",
+  "levelId": "A1",
+  "unitNumber": 2,
+  "titleEnglish": "Greetings and Introductions",
+  "titleSomali": "Salaanta iyo Isbarashada",
+  "introductionSomali": "Unit-kan wuxuu ku barayaa sida qof loo salaamo, la isu baro, magaca iyo xaaladda loo weydiiyo, qof kale loo baro, iyo wada sheekeysi fudud si edeb leh loo bilaabo loona dhammeeyo.",
+  "requiredPreviousUnitId": "a1-u01",
+  "lessons": [
+    {
+      "id": "a1-u02-l01",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 1,
+      "titleEnglish": "Basic Greetings",
+      "titleSomali": "Salaamaha aasaasiga ah",
+      "shortDescriptionSomali": "Bar salaamaha lagu bilaabo laguna dhammeeyo kulan, iyo farqiga Good evening iyo Good night.",
+      "learningObjectives": [
+        "Isticmaal ugu yaraan shan salaamood oo sax ah.",
+        "Kala saar Good evening iyo Good night.",
+        "Dooro salaanta ku habboon waqtiga maalinta."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 18,
+      "difficulty": "beginner",
+      "isLocked": false,
+      "requiredPreviousLessonId": null,
+      "vocabulary": [
+        {
+          "englishWord": "Hello",
+          "somaliMeaning": "Salaan",
+          "partOfSpeech": "greeting",
+          "pronunciation": "he-low",
+          "exampleEnglish": "Hello, Amina.",
+          "exampleSomali": "Salaan, Aamina.",
+          "explanationSomali": "Hello waa salaam guud oo rasmi iyo caadi labadaba ku habboon.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Hi",
+          "somaliMeaning": "Salaan aan rasmi badnayn",
+          "partOfSpeech": "greeting",
+          "pronunciation": "haay",
+          "exampleEnglish": "Hi, Ali!",
+          "exampleSomali": "Salaan, Cali!",
+          "explanationSomali": "Hi waxaa badanaa lala isticmaalaa saaxiib ama qof aad taqaan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Good morning",
+          "somaliMeaning": "Subax wanaagsan",
+          "partOfSpeech": "greeting",
+          "pronunciation": "guud moor-ning",
+          "exampleEnglish": "Good morning, teacher.",
+          "exampleSomali": "Subax wanaagsan, macallin.",
+          "explanationSomali": "Waxaa la isticmaalaa subaxdii.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Good afternoon",
+          "somaliMeaning": "Galab wanaagsan",
+          "partOfSpeech": "greeting",
+          "pronunciation": "guud aaf-ter-nuun",
+          "exampleEnglish": "Good afternoon, Mr Ahmed.",
+          "exampleSomali": "Galab wanaagsan, Mudane Axmed.",
+          "explanationSomali": "Waxaa la isticmaalaa duhurka kadib ilaa fiidkii.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Good evening",
+          "somaliMeaning": "Fiid wanaagsan",
+          "partOfSpeech": "greeting",
+          "pronunciation": "guud iiv-ning",
+          "exampleEnglish": "Good evening, everyone.",
+          "exampleSomali": "Fiid wanaagsan, dhammaantiin.",
+          "explanationSomali": "Waxaa lagu salaamaa qof fiidkii marka la kulmayo.",
+          "commonMistakeSomali": "Ha u isticmaalin markaad seexanaysid; markaas Good night ayaa sax ah."
+        },
+        {
+          "englishWord": "Good night",
+          "somaliMeaning": "Habeen wanaagsan",
+          "partOfSpeech": "farewell",
+          "pronunciation": "guud naayt",
+          "exampleEnglish": "Good night, Mum.",
+          "exampleSomali": "Habeen wanaagsan, Hooyo.",
+          "explanationSomali": "Waxaa la yiraahdaa marka la kala tagayo habeenkii ama la seexanayo.",
+          "commonMistakeSomali": "Good night ma aha salaanta bilowga fiidka."
+        },
+        {
+          "englishWord": "Goodbye",
+          "somaliMeaning": "Nabadgelyo",
+          "partOfSpeech": "farewell",
+          "pronunciation": "guud-baay",
+          "exampleEnglish": "Goodbye. Have a good day.",
+          "exampleSomali": "Nabadgelyo. Maalin wanaagsan.",
+          "explanationSomali": "Goodbye waa qaab cad oo lagu soo gabagabeeyo kulanka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "See you later",
+          "somaliMeaning": "Goor dambe ayaan is arki doonnaa",
+          "partOfSpeech": "farewell phrase",
+          "pronunciation": "sii yuu ley-ter",
+          "exampleEnglish": "See you later at school.",
+          "exampleSomali": "Goor dambe ayaan iskuulka isku arki doonnaa.",
+          "explanationSomali": "Waxaa la yiraahdaa marka la filayo in mar kale la kulmo.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "Hello, how are you?",
+          "somali": "Salaan, sidee tahay?"
+        },
+        {
+          "english": "Good morning, teacher.",
+          "somali": "Subax wanaagsan, macallin."
+        },
+        {
+          "english": "Good afternoon, Mr Ali.",
+          "somali": "Galab wanaagsan, Mudane Cali."
+        },
+        {
+          "english": "Good evening, everyone.",
+          "somali": "Fiid wanaagsan, dhammaantiin."
+        },
+        {
+          "english": "Good night. See you tomorrow.",
+          "somali": "Habeen wanaagsan. Berri ayaan is arki doonnaa."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Laba arday oo subaxdii kulmaya",
+          "lines": [
+            {
+              "speaker": "Amina",
+              "english": "Good morning, Ali.",
+              "somali": "Subax wanaagsan, Cali."
+            },
+            {
+              "speaker": "Ali",
+              "english": "Good morning, Amina. How are you?",
+              "somali": "Subax wanaagsan, Aamina. Sidee tahay?"
+            },
+            {
+              "speaker": "Amina",
+              "english": "I am fine, thank you.",
+              "somali": "Waan fiicanahay, mahadsanid."
+            },
+            {
+              "speaker": "Ali",
+              "english": "See you later.",
+              "somali": "Goor dambe ayaan is arki doonnaa."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Shaqaale fiidkii kala tagaya",
+          "lines": [
+            {
+              "speaker": "Hassan",
+              "english": "Good evening, Maryan.",
+              "somali": "Fiid wanaagsan, Maryan."
+            },
+            {
+              "speaker": "Maryan",
+              "english": "Good evening, Hassan.",
+              "somali": "Fiid wanaagsan, Xasan."
+            },
+            {
+              "speaker": "Hassan",
+              "english": "Good night. See you tomorrow.",
+              "somali": "Habeen wanaagsan. Berri ayaan is arki doonnaa."
+            },
+            {
+              "speaker": "Maryan",
+              "english": "Good night.",
+              "somali": "Habeen wanaagsan."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l01-p01",
+          "type": "multipleChoice",
+          "question": "“Hello” maxay ka dhigan tahay?",
+          "options": [
+            "Salaan",
+            "Salaan aan rasmi badnayn",
+            "Subax wanaagsan",
+            "Galab wanaagsan"
+          ],
+          "correctAnswer": "Salaan",
+          "explanationSomali": "Macnaha saxda ahi waa “Salaan”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l01-p02",
+          "type": "fillInTheBlank",
+          "question": "___ morning, teacher.",
+          "options": [
+            "Good",
+            "Hi",
+            "Good morning",
+            "Good afternoon"
+          ],
+          "correctAnswer": "Good",
+          "explanationSomali": "“Good” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l01-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Hi” iyo macnihiisa.",
+          "options": [
+            "Subax wanaagsan",
+            "Salaan aan rasmi badnayn",
+            "Galab wanaagsan",
+            "Salaan"
+          ],
+          "correctAnswer": "Salaan aan rasmi badnayn",
+          "explanationSomali": "Hi waxaa loola jeedaa Salaan aan rasmi badnayn."
+        },
+        {
+          "id": "a1-u02-l01-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: you / See / tomorrow",
+          "options": [],
+          "correctAnswer": "See you tomorrow.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “See you tomorrow.”."
+        },
+        {
+          "id": "a1-u02-l01-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: Hello, how are you?",
+          "options": [
+            "Subax wanaagsan, macallin.",
+            "Galab wanaagsan, Mudane Cali.",
+            "Salaan, sidee tahay?",
+            "Fiid wanaagsan, dhammaantiin."
+          ],
+          "correctAnswer": "Salaan, sidee tahay?",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l01-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Subax wanaagsan, macallin.",
+          "options": [
+            "Good afternoon, Mr Ali.",
+            "Hello, how are you?",
+            "Good evening, everyone.",
+            "Good morning, teacher."
+          ],
+          "correctAnswer": "Good morning, teacher.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Good morning, teacher.”."
+        },
+        {
+          "id": "a1-u02-l01-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l01-p08",
+          "type": "multipleChoice",
+          "question": "Waxaad macallinkaaga la kulantay 8:00 subaxnimo. Maxaad oranaysaa?",
+          "options": [
+            "Good night",
+            "Good morning",
+            "Bye",
+            "Good evening"
+          ],
+          "correctAnswer": "Good morning",
+          "explanationSomali": "“Good morning” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l01-p09",
+          "type": "speakingPrompt",
+          "question": "Salaan saaxiib, macallin iyo qof aad fiidkii la kulantay. Kadib ku dhammee “Goodbye” ama “See you later.”",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l01-p10",
+          "type": "shortWriting",
+          "question": "Qor salaanta ku habboon subax, galab iyo fiid, kadib qor laba weedhood oo lagu kala tagayo.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Salaan saaxiib, macallin iyo qof aad fiidkii la kulantay. Kadib ku dhammee “Goodbye” ama “See you later.”",
+      "writingPractice": "Qor salaanta ku habboon subax, galab iyo fiid, kadib qor laba weedhood oo lagu kala tagayo.",
+      "summarySomali": "Waxaad baratay salaamaha subax, galab iyo fiid. Good evening waxaa lagu bilaabaa kulan fiidkii; Good night waxaa lagu kala tagaa ama la yiraahdaa marka la seexanayo.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l01-p01",
+          "type": "multipleChoice",
+          "question": "“Hello” maxay ka dhigan tahay?",
+          "options": [
+            "Salaan",
+            "Salaan aan rasmi badnayn",
+            "Subax wanaagsan",
+            "Galab wanaagsan"
+          ],
+          "correctAnswer": "Salaan",
+          "explanationSomali": "Macnaha saxda ahi waa “Salaan”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l01-p02",
+          "type": "fillInTheBlank",
+          "question": "___ morning, teacher.",
+          "options": [
+            "Good",
+            "Hi",
+            "Good morning",
+            "Good afternoon"
+          ],
+          "correctAnswer": "Good",
+          "explanationSomali": "“Good” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l01-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Hi” iyo macnihiisa.",
+          "options": [
+            "Subax wanaagsan",
+            "Salaan aan rasmi badnayn",
+            "Galab wanaagsan",
+            "Salaan"
+          ],
+          "correctAnswer": "Salaan aan rasmi badnayn",
+          "explanationSomali": "Hi waxaa loola jeedaa Salaan aan rasmi badnayn."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l02",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 2,
+      "titleEnglish": "Introducing Yourself",
+      "titleSomali": "Sida aad isu barayso",
+      "shortDescriptionSomali": "Bar sida magacaaga, meesha aad ka timid, meesha aad degan tahay iyo shaqadaada si fudud loo sheego.",
+      "learningObjectives": [
+        "Isku bar ugu yaraan afar jumladood.",
+        "Isticmaal I am iyo I’m si sax ah.",
+        "Ku dhammee isbarashada Nice to meet you."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 20,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l01",
+      "vocabulary": [
+        {
+          "englishWord": "My name is…",
+          "somaliMeaning": "Magacaygu waa…",
+          "partOfSpeech": "introduction phrase",
+          "pronunciation": "maay neym iz",
+          "exampleEnglish": "My name is Hodan.",
+          "exampleSomali": "Magacaygu waa Hodan.",
+          "explanationSomali": "Qaab cad oo magacaaga lagu sheego.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I am…",
+          "somaliMeaning": "Waxaan ahay…",
+          "partOfSpeech": "introduction phrase",
+          "pronunciation": "aay am",
+          "exampleEnglish": "I am Bashir.",
+          "exampleSomali": "Waxaan ahay Bashiir.",
+          "explanationSomali": "I am waxaa lagu sheegaa magaca ama xaaladda qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I’m…",
+          "somaliMeaning": "Waxaan ahay…",
+          "partOfSpeech": "contraction",
+          "pronunciation": "aaym",
+          "exampleEnglish": "I’m a student.",
+          "exampleSomali": "Waxaan ahay arday.",
+          "explanationSomali": "I’m waa qaabka gaaban ee I am.",
+          "commonMistakeSomali": "Ha qorin Im adigoon apostrophe isticmaalin."
+        },
+        {
+          "englishWord": "I am from…",
+          "somaliMeaning": "Waxaan ka imid…",
+          "partOfSpeech": "phrase",
+          "pronunciation": "aay am from",
+          "exampleEnglish": "I am from Somalia.",
+          "exampleSomali": "Waxaan ka imid Soomaaliya.",
+          "explanationSomali": "Waxaa lagu sheegaa dalka ama meesha aad asal ahaan ka timid.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I live in…",
+          "somaliMeaning": "Waxaan degganahay…",
+          "partOfSpeech": "phrase",
+          "pronunciation": "aay liv in",
+          "exampleEnglish": "I live in Nairobi.",
+          "exampleSomali": "Waxaan degganahay Nairobi.",
+          "explanationSomali": "Waxaa lagu sheegaa meesha aad hadda degan tahay.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Student",
+          "somaliMeaning": "Arday",
+          "partOfSpeech": "noun",
+          "pronunciation": "stuu-dent",
+          "exampleEnglish": "I am a university student.",
+          "exampleSomali": "Waxaan ahay arday jaamacadeed.",
+          "explanationSomali": "Student waa qof wax barta.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Nice to meet you",
+          "somaliMeaning": "Waan ku faraxsanahay inaan kula kulmo",
+          "partOfSpeech": "polite phrase",
+          "pronunciation": "naays tu miit yuu",
+          "exampleEnglish": "Nice to meet you, Asha.",
+          "exampleSomali": "Waan ku faraxsanahay inaan kula kulmo, Caasha.",
+          "explanationSomali": "Waxaa la yiraahdaa marka qof markii ugu horreysay la kulmo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Pleased to meet you",
+          "somaliMeaning": "Aad ayaan ugu faraxsanahay inaan kula kulmo",
+          "partOfSpeech": "formal phrase",
+          "pronunciation": "pliizd tu miit yuu",
+          "exampleEnglish": "Pleased to meet you, sir.",
+          "exampleSomali": "Aad ayaan ugu faraxsanahay inaan kula kulmo, mudane.",
+          "explanationSomali": "Waa qaab ka rasmi badan Nice to meet you.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "I am and I’m",
+        "titleSomali": "I am iyo qaabka gaaban I’m",
+        "explanationSomali": "I am waxaa loo isticmaalaa marka aad naftaada ka hadlayso. I’m waa isla macnahaas oo la soo gaabiyay.",
+        "rule": "I + am; I am = I’m",
+        "sentenceStructure": "I am/I’m + name, job, or description",
+        "positiveExamples": [
+          {
+            "english": "My name is Fadumo.",
+            "somali": "Magacaygu waa Faadumo."
+          },
+          {
+            "english": "I’m a student.",
+            "somali": "Waxaan ahay arday."
+          },
+          {
+            "english": "I am from Somalia.",
+            "somali": "Waxaan ka imid Soomaaliya."
+          },
+          {
+            "english": "I live in Hargeisa.",
+            "somali": "Waxaan degganahay Hargeysa."
+          },
+          {
+            "english": "Nice to meet you.",
+            "somali": "Waan ku faraxsanahay inaan kula kulmo."
+          }
+        ],
+        "negativeExamples": [
+          {
+            "english": "I am not a teacher.",
+            "somali": "Macallin ma ihi."
+          },
+          {
+            "english": "I’m not from Kenya.",
+            "somali": "Kama imanin Kenya."
+          }
+        ],
+        "questionExamples": [
+          {
+            "english": "Are you a student?",
+            "somali": "Ma arday baad tahay?"
+          },
+          {
+            "english": "Are you from Somalia?",
+            "somali": "Ma Soomaaliya ayaad ka timid?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha oran I is; waxaa sax ah I am.",
+          "I’m waxaa ku jira apostrophe."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "My name is Fadumo.",
+          "somali": "Magacaygu waa Faadumo."
+        },
+        {
+          "english": "I’m a student.",
+          "somali": "Waxaan ahay arday."
+        },
+        {
+          "english": "I am from Somalia.",
+          "somali": "Waxaan ka imid Soomaaliya."
+        },
+        {
+          "english": "I live in Hargeisa.",
+          "somali": "Waxaan degganahay Hargeysa."
+        },
+        {
+          "english": "Nice to meet you.",
+          "somali": "Waan ku faraxsanahay inaan kula kulmo."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Laba qof oo isbaranaya",
+          "lines": [
+            {
+              "speaker": "Sahra",
+              "english": "Hello. My name is Sahra.",
+              "somali": "Salaan. Magacaygu waa Sahra."
+            },
+            {
+              "speaker": "Omar",
+              "english": "Hi, Sahra. I’m Omar.",
+              "somali": "Salaan, Sahra. Waxaan ahay Cumar."
+            },
+            {
+              "speaker": "Sahra",
+              "english": "Nice to meet you.",
+              "somali": "Waan ku faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Omar",
+              "english": "Nice to meet you too.",
+              "somali": "Aniguna waan ku faraxsanahay inaan kula kulmo."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Laba shaqaale oo cusub",
+          "lines": [
+            {
+              "speaker": "Abdi",
+              "english": "I am Abdi. I work as a driver.",
+              "somali": "Waxaan ahay Cabdi. Waxaan u shaqeeyaa darawal."
+            },
+            {
+              "speaker": "Hodan",
+              "english": "I’m Hodan. I work in the office.",
+              "somali": "Waxaan ahay Hodan. Waxaan ka shaqeeyaa xafiiska."
+            },
+            {
+              "speaker": "Abdi",
+              "english": "Pleased to meet you.",
+              "somali": "Aad ayaan ugu faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Hodan",
+              "english": "Pleased to meet you too.",
+              "somali": "Aniguna aad ayaan ugu faraxsanahay inaan kula kulmo."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l02-p01",
+          "type": "multipleChoice",
+          "question": "“My name is…” maxay ka dhigan tahay?",
+          "options": [
+            "Magacaygu waa…",
+            "Waxaan ahay…",
+            "Waxaan ahay…",
+            "Waxaan ka imid…"
+          ],
+          "correctAnswer": "Magacaygu waa…",
+          "explanationSomali": "Macnaha saxda ahi waa “Magacaygu waa…”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l02-p02",
+          "type": "fillInTheBlank",
+          "question": "My name ___ Amina.",
+          "options": [
+            "is",
+            "I am…",
+            "I’m…",
+            "I am from…"
+          ],
+          "correctAnswer": "is",
+          "explanationSomali": "“is” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l02-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “I am…” iyo macnihiisa.",
+          "options": [
+            "Waxaan ahay…",
+            "Waxaan ahay…",
+            "Waxaan ka imid…",
+            "Magacaygu waa…"
+          ],
+          "correctAnswer": "Waxaan ahay…",
+          "explanationSomali": "I am… waxaa loola jeedaa Waxaan ahay…."
+        },
+        {
+          "id": "a1-u02-l02-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: from / am / Somalia / I",
+          "options": [],
+          "correctAnswer": "I am from Somalia.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “I am from Somalia.”."
+        },
+        {
+          "id": "a1-u02-l02-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: My name is Fadumo.",
+          "options": [
+            "Waxaan ahay arday.",
+            "Waxaan ka imid Soomaaliya.",
+            "Magacaygu waa Faadumo.",
+            "Waxaan degganahay Hargeysa."
+          ],
+          "correctAnswer": "Magacaygu waa Faadumo.",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l02-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Waxaan ahay arday.",
+          "options": [
+            "I am from Somalia.",
+            "My name is Fadumo.",
+            "I live in Hargeisa.",
+            "I’m a student."
+          ],
+          "correctAnswer": "I’m a student.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “I’m a student.”."
+        },
+        {
+          "id": "a1-u02-l02-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l02-p08",
+          "type": "multipleChoice",
+          "question": "Markaad qof cusub la kulanto, weedhee ku habboon?",
+          "options": [
+            "Good night",
+            "Nice to meet you",
+            "Who are you?",
+            "See you yesterday"
+          ],
+          "correctAnswer": "Nice to meet you",
+          "explanationSomali": "“Nice to meet you” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l02-p09",
+          "type": "speakingPrompt",
+          "question": "Isku bar 3 ilaa 5 jumladood: magacaaga, meesha aad ka timid, meesha aad degan tahay iyo shaqadaada ama waxbarashadaada.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l02-p10",
+          "type": "shortWriting",
+          "question": "Qor isbarasho shan jumladood ah oo ku bilaabma “My name is…”.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Isku bar 3 ilaa 5 jumladood: magacaaga, meesha aad ka timid, meesha aad degan tahay iyo shaqadaada ama waxbarashadaada.",
+      "writingPractice": "Qor isbarasho shan jumladood ah oo ku bilaabma “My name is…”.",
+      "summarySomali": "Waxaad hadda magacaaga iyo xog kooban ku sheegi kartaa My name is…, I am… ama I’m…. Nice to meet you waxaa lagu yiraahdaa qof cusub.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l02-p01",
+          "type": "multipleChoice",
+          "question": "“My name is…” maxay ka dhigan tahay?",
+          "options": [
+            "Magacaygu waa…",
+            "Waxaan ahay…",
+            "Waxaan ahay…",
+            "Waxaan ka imid…"
+          ],
+          "correctAnswer": "Magacaygu waa…",
+          "explanationSomali": "Macnaha saxda ahi waa “Magacaygu waa…”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l02-p02",
+          "type": "fillInTheBlank",
+          "question": "My name ___ Amina.",
+          "options": [
+            "is",
+            "I am…",
+            "I’m…",
+            "I am from…"
+          ],
+          "correctAnswer": "is",
+          "explanationSomali": "“is” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l02-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “I am…” iyo macnihiisa.",
+          "options": [
+            "Waxaan ahay…",
+            "Waxaan ahay…",
+            "Waxaan ka imid…",
+            "Magacaygu waa…"
+          ],
+          "correctAnswer": "Waxaan ahay…",
+          "explanationSomali": "I am… waxaa loola jeedaa Waxaan ahay…."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l03",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 3,
+      "titleEnglish": "Asking Someone’s Name",
+      "titleSomali": "Sida magaca qof loo weydiiyo",
+      "shortDescriptionSomali": "Bar su’aalaha magaca, higgaadinta iyo ku celinta, adigoo isticmaalaya qaab edeb leh.",
+      "learningObjectives": [
+        "Magaca qof si edeb leh u weydii.",
+        "Weydii sida magaca loo higgaadiyo.",
+        "Isticmaal question mark dhammaadka su’aasha."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 20,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l02",
+      "vocabulary": [
+        {
+          "englishWord": "What is your name?",
+          "somaliMeaning": "Magacaa?",
+          "partOfSpeech": "question",
+          "pronunciation": "wot iz yor neym",
+          "exampleEnglish": "What is your name, please?",
+          "exampleSomali": "Magacaa, fadlan?",
+          "explanationSomali": "Waa su’aasha caadiga ah ee magaca qof lagu weydiiyo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "What’s your name?",
+          "somaliMeaning": "Magacaa?",
+          "partOfSpeech": "contraction question",
+          "pronunciation": "wots yor neym",
+          "exampleEnglish": "Hi. What’s your name?",
+          "exampleSomali": "Salaan. Magacaa?",
+          "explanationSomali": "What’s waa qaabka gaaban ee What is.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "May I know your name?",
+          "somaliMeaning": "Ma ogaan karaa magacaaga?",
+          "partOfSpeech": "formal question",
+          "pronunciation": "mey aay no yor neym",
+          "exampleEnglish": "May I know your name, please?",
+          "exampleSomali": "Ma ogaan karaa magacaaga, fadlan?",
+          "explanationSomali": "Waa qaab rasmi ah oo edeb leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Who are you?",
+          "somaliMeaning": "Kumaad tahay?",
+          "partOfSpeech": "direct question",
+          "pronunciation": "huu aar yuu",
+          "exampleEnglish": "Who are you?",
+          "exampleSomali": "Kumaad tahay?",
+          "explanationSomali": "Su’aashani mararka qaar way adkaan kartaa; qof cusub si edeb leh magaca u weydii.",
+          "commonMistakeSomali": "Ha u adeegsan xaalad rasmi ah marka What is your name? ka dabacsan yahay."
+        },
+        {
+          "englishWord": "Spell",
+          "somaliMeaning": "Higgaadi",
+          "partOfSpeech": "verb",
+          "pronunciation": "spel",
+          "exampleEnglish": "How do you spell your name?",
+          "exampleSomali": "Sidee baad u higgaadisaa magacaaga?",
+          "explanationSomali": "Spell waa in magaca xaraf-xaraf loo sheego.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Repeat",
+          "somaliMeaning": "Ku celi",
+          "partOfSpeech": "verb",
+          "pronunciation": "ri-piit",
+          "exampleEnglish": "Can you repeat your name?",
+          "exampleSomali": "Ma ku celin kartaa magacaaga?",
+          "explanationSomali": "Waxaa la isticmaalaa marka magaca aan si fiican loo maqal.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Please",
+          "somaliMeaning": "Fadlan",
+          "partOfSpeech": "polite word",
+          "pronunciation": "pliiz",
+          "exampleEnglish": "Repeat your name, please.",
+          "exampleSomali": "Ku celi magacaaga, fadlan.",
+          "explanationSomali": "Please wuxuu hadalka ka dhigaa mid edeb leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Question mark",
+          "somaliMeaning": "Calaamadda su’aasha",
+          "partOfSpeech": "punctuation",
+          "pronunciation": "kwes-jan maark",
+          "exampleEnglish": "Put a question mark here.",
+          "exampleSomali": "Halkan dhig calaamadda su’aasha.",
+          "explanationSomali": "Su’aal toos ah waxay ku dhammaataa ?.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Basic name questions",
+        "titleSomali": "Qaabka su’aalaha magaca",
+        "explanationSomali": "Su’aasha magaca badanaa waxay ku bilaabataa What ama How, waxayna ku dhammaataa question mark.",
+        "rule": "Question word + is/do/can + subject + …?",
+        "sentenceStructure": "What + is + your name?",
+        "positiveExamples": [
+          {
+            "english": "What is your name?",
+            "somali": "Magacaa?"
+          },
+          {
+            "english": "My name is Omar.",
+            "somali": "Magacaygu waa Cumar."
+          },
+          {
+            "english": "How do you spell Omar?",
+            "somali": "Sidee loo higgaadiyaa Cumar?"
+          },
+          {
+            "english": "O-M-A-R.",
+            "somali": "O-M-A-R."
+          },
+          {
+            "english": "Can you repeat that, please?",
+            "somali": "Ma ku celin kartaa taas, fadlan?"
+          }
+        ],
+        "negativeExamples": [
+          {
+            "english": "Your name what.",
+            "somali": "Qaabkani waa khalad."
+          },
+          {
+            "english": "What your name.",
+            "somali": "Is ayaa ka maqan."
+          }
+        ],
+        "questionExamples": [
+          {
+            "english": "What is your name?",
+            "somali": "Magacaa?"
+          },
+          {
+            "english": "My name is Omar.",
+            "somali": "Magacaygu waa Cumar."
+          },
+          {
+            "english": "How do you spell Omar?",
+            "somali": "Sidee loo higgaadiyaa Cumar?"
+          },
+          {
+            "english": "O-M-A-R.",
+            "somali": "O-M-A-R."
+          },
+          {
+            "english": "Can you repeat that, please?",
+            "somali": "Ma ku celin kartaa taas, fadlan?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha ka tagin is: What is your name?",
+          "Who are you? mararka qaar waxay u muuqan kartaa mid adag."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "What is your name?",
+          "somali": "Magacaa?"
+        },
+        {
+          "english": "My name is Omar.",
+          "somali": "Magacaygu waa Cumar."
+        },
+        {
+          "english": "How do you spell Omar?",
+          "somali": "Sidee loo higgaadiyaa Cumar?"
+        },
+        {
+          "english": "O-M-A-R.",
+          "somali": "O-M-A-R."
+        },
+        {
+          "english": "Can you repeat that, please?",
+          "somali": "Ma ku celin kartaa taas, fadlan?"
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Magaca ardayga",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "english": "What is your name, please?",
+              "somali": "Magacaa, fadlan?"
+            },
+            {
+              "speaker": "Student",
+              "english": "My name is Ilyas.",
+              "somali": "Magacaygu waa Ilyaas."
+            },
+            {
+              "speaker": "Teacher",
+              "english": "How do you spell Ilyas?",
+              "somali": "Sidee loo higgaadiyaa Ilyaas?"
+            },
+            {
+              "speaker": "Student",
+              "english": "I-L-Y-A-S.",
+              "somali": "I-L-Y-A-S."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Telefoonka",
+          "lines": [
+            {
+              "speaker": "Caller",
+              "english": "May I know your name?",
+              "somali": "Ma ogaan karaa magacaaga?"
+            },
+            {
+              "speaker": "Asha",
+              "english": "My name is Asha.",
+              "somali": "Magacaygu waa Caasha."
+            },
+            {
+              "speaker": "Caller",
+              "english": "Can you repeat your name, please?",
+              "somali": "Ma ku celin kartaa magacaaga, fadlan?"
+            },
+            {
+              "speaker": "Asha",
+              "english": "Asha. A-S-H-A.",
+              "somali": "Caasha. A-S-H-A."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l03-p01",
+          "type": "multipleChoice",
+          "question": "“What is your name?” maxay ka dhigan tahay?",
+          "options": [
+            "Magacaa?",
+            "Magacaa?",
+            "Ma ogaan karaa magacaaga?",
+            "Kumaad tahay?"
+          ],
+          "correctAnswer": "Magacaa?",
+          "explanationSomali": "Macnaha saxda ahi waa “Magacaa?”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l03-p02",
+          "type": "fillInTheBlank",
+          "question": "What ___ your name?",
+          "options": [
+            "is",
+            "What’s your name?",
+            "May I know your name?",
+            "Who are you?"
+          ],
+          "correctAnswer": "is",
+          "explanationSomali": "“is” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l03-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “What’s your name?” iyo macnihiisa.",
+          "options": [
+            "Ma ogaan karaa magacaaga?",
+            "Magacaa?",
+            "Kumaad tahay?",
+            "Magacaa?"
+          ],
+          "correctAnswer": "Magacaa?",
+          "explanationSomali": "What’s your name? waxaa loola jeedaa Magacaa?."
+        },
+        {
+          "id": "a1-u02-l03-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: your / spell / do / name / How / you",
+          "options": [],
+          "correctAnswer": "How do you spell your name?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “How do you spell your name?”."
+        },
+        {
+          "id": "a1-u02-l03-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: What is your name?",
+          "options": [
+            "Magacaygu waa Cumar.",
+            "Sidee loo higgaadiyaa Cumar?",
+            "Magacaa?",
+            "O-M-A-R."
+          ],
+          "correctAnswer": "Magacaa?",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l03-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Magacaygu waa Cumar.",
+          "options": [
+            "How do you spell Omar?",
+            "What is your name?",
+            "O-M-A-R.",
+            "My name is Omar."
+          ],
+          "correctAnswer": "My name is Omar.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “My name is Omar.”."
+        },
+        {
+          "id": "a1-u02-l03-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l03-p08",
+          "type": "multipleChoice",
+          "question": "Maamulaha ayaad si edeb leh magaciisa u weydiinaysaa. Kee ugu habboon?",
+          "options": [
+            "Who are you?",
+            "May I know your name, please?",
+            "Name?",
+            "Tell name."
+          ],
+          "correctAnswer": "May I know your name, please?",
+          "explanationSomali": "“May I know your name, please?” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l03-p09",
+          "type": "speakingPrompt",
+          "question": "Qof weydii magaciisa si edeb leh, weydii sida loo higgaadiyo, kadib ka codso inuu hal mar ku celiyo.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l03-p10",
+          "type": "shortWriting",
+          "question": "Qor wada sheekeysi afar sadar ah oo laba qof magacyadooda isku weydiinayaan.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Qof weydii magaciisa si edeb leh, weydii sida loo higgaadiyo, kadib ka codso inuu hal mar ku celiyo.",
+      "writingPractice": "Qor wada sheekeysi afar sadar ah oo laba qof magacyadooda isku weydiinayaan.",
+      "summarySomali": "What is your name? waa su’aasha ugu caansan. May I know your name? waa rasmi. Who are you? si taxaddar leh u isticmaal.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l03-p01",
+          "type": "multipleChoice",
+          "question": "“What is your name?” maxay ka dhigan tahay?",
+          "options": [
+            "Magacaa?",
+            "Magacaa?",
+            "Ma ogaan karaa magacaaga?",
+            "Kumaad tahay?"
+          ],
+          "correctAnswer": "Magacaa?",
+          "explanationSomali": "Macnaha saxda ahi waa “Magacaa?”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l03-p02",
+          "type": "fillInTheBlank",
+          "question": "What ___ your name?",
+          "options": [
+            "is",
+            "What’s your name?",
+            "May I know your name?",
+            "Who are you?"
+          ],
+          "correctAnswer": "is",
+          "explanationSomali": "“is” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l03-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “What’s your name?” iyo macnihiisa.",
+          "options": [
+            "Ma ogaan karaa magacaaga?",
+            "Magacaa?",
+            "Kumaad tahay?",
+            "Magacaa?"
+          ],
+          "correctAnswer": "Magacaa?",
+          "explanationSomali": "What’s your name? waxaa loola jeedaa Magacaa?."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l04",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 4,
+      "titleEnglish": "Asking How Someone Is",
+      "titleSomali": "Sida xaaladda qof loo weydiiyo",
+      "shortDescriptionSomali": "Bar sida xaaladda qof loo weydiiyo iyo jawaabaha rasmi ah ama saaxiibtinimo.",
+      "learningObjectives": [
+        "Isticmaal saddex su’aalood oo xaalad lagu weydiiyo.",
+        "Bixi ugu yaraan afar jawaabood oo kala duwan.",
+        "Kala saar jawaab rasmi ah iyo mid saaxiibtinimo."
+      ],
+      "lessonType": "speaking",
+      "estimatedMinutes": 19,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l03",
+      "vocabulary": [
+        {
+          "englishWord": "How are you?",
+          "somaliMeaning": "Sidee tahay?",
+          "partOfSpeech": "question",
+          "pronunciation": "haw aar yuu",
+          "exampleEnglish": "Hello. How are you?",
+          "exampleSomali": "Salaan. Sidee tahay?",
+          "explanationSomali": "Su’aal guud oo xaaladda qof lagu weydiiyo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How are you doing?",
+          "somaliMeaning": "Sidee wax kuu yihiin?",
+          "partOfSpeech": "friendly question",
+          "pronunciation": "haw aar yuu duu-ing",
+          "exampleEnglish": "Hi, how are you doing?",
+          "exampleSomali": "Salaan, sidee wax kuu yihiin?",
+          "explanationSomali": "Waa qaab saaxiibtinimo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How is everything?",
+          "somaliMeaning": "Sidee wax walba yihiin?",
+          "partOfSpeech": "friendly question",
+          "pronunciation": "haw iz ev-ri-thing",
+          "exampleEnglish": "How is everything at work?",
+          "exampleSomali": "Sidee wax walba uga yihiin shaqada?",
+          "explanationSomali": "Waxaa lagu weydiiyaa xaaladda guud.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Are you okay?",
+          "somaliMeaning": "Ma fiican tahay?",
+          "partOfSpeech": "question",
+          "pronunciation": "aar yuu o-key",
+          "exampleEnglish": "You look tired. Are you okay?",
+          "exampleSomali": "Waxaad u muuqataa daallan. Ma fiican tahay?",
+          "explanationSomali": "Waxaa la weydiiyaa marka qof laga walaaco.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I am fine",
+          "somaliMeaning": "Waan fiicanahay",
+          "partOfSpeech": "formal response",
+          "pronunciation": "aay am faayn",
+          "exampleEnglish": "I am fine, thank you.",
+          "exampleSomali": "Waan fiicanahay, mahadsanid.",
+          "explanationSomali": "Waa jawaab caadi ah oo rasmi iyo guud ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Not bad",
+          "somaliMeaning": "Ma xuma",
+          "partOfSpeech": "informal response",
+          "pronunciation": "not bad",
+          "exampleEnglish": "Not bad, thanks.",
+          "exampleSomali": "Ma xuma, mahadsanid.",
+          "explanationSomali": "Waa jawaab saaxiibtinimo oo aan rasmi badnayn.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I am tired",
+          "somaliMeaning": "Waan daalay",
+          "partOfSpeech": "response",
+          "pronunciation": "aay am taayrd",
+          "exampleEnglish": "I am tired after work.",
+          "exampleSomali": "Waan daalay shaqada kadib.",
+          "explanationSomali": "Waxaa lagu sheegaa daal.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "I am not feeling well",
+          "somaliMeaning": "Caafimaadkaygu ma fiicna",
+          "partOfSpeech": "response",
+          "pronunciation": "aay am not fii-ling wel",
+          "exampleEnglish": "I am not feeling well today.",
+          "exampleSomali": "Maanta caafimaadkaygu ma fiicna.",
+          "explanationSomali": "Waxaa lagu sheegaa in qofku xanuunsan yahay ama aanu fiicnayn.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Am, is, and are",
+        "titleSomali": "Am, is iyo are",
+        "explanationSomali": "Am waxaa lala isticmaalaa I; is waxaa lala isticmaalaa he, she ama it; are waxaa lala isticmaalaa you.",
+        "rule": "I am; he/she is; you are",
+        "sentenceStructure": "How + are + you?",
+        "positiveExamples": [
+          {
+            "english": "How are you today?",
+            "somali": "Sidee tahay maanta?"
+          },
+          {
+            "english": "I am very well, thank you.",
+            "somali": "Aad ayaan u fiicanahay, mahadsanid."
+          },
+          {
+            "english": "How is everything?",
+            "somali": "Sidee wax walba yihiin?"
+          },
+          {
+            "english": "Not bad. And you?",
+            "somali": "Ma xuma. Adiguna?"
+          },
+          {
+            "english": "I am tired today.",
+            "somali": "Maanta waan daalay."
+          }
+        ],
+        "negativeExamples": [
+          {
+            "english": "I am not well.",
+            "somali": "Ma fiicni."
+          },
+          {
+            "english": "She is not okay.",
+            "somali": "Iyadu ma fiicna."
+          }
+        ],
+        "questionExamples": [
+          {
+            "english": "How are you?",
+            "somali": "Sidee tahay?"
+          },
+          {
+            "english": "Is she okay?",
+            "somali": "Iyadu ma fiican tahay?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha oran How is you; waxaa sax ah How are you?",
+          "Ha oran I is fine; waxaa sax ah I am fine."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "How are you today?",
+          "somali": "Sidee tahay maanta?"
+        },
+        {
+          "english": "I am very well, thank you.",
+          "somali": "Aad ayaan u fiicanahay, mahadsanid."
+        },
+        {
+          "english": "How is everything?",
+          "somali": "Sidee wax walba yihiin?"
+        },
+        {
+          "english": "Not bad. And you?",
+          "somali": "Ma xuma. Adiguna?"
+        },
+        {
+          "english": "I am tired today.",
+          "somali": "Maanta waan daalay."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Laba saaxiib",
+          "lines": [
+            {
+              "speaker": "Ali",
+              "english": "Hi, how are you doing?",
+              "somali": "Salaan, sidee wax kuu yihiin?"
+            },
+            {
+              "speaker": "Yusuf",
+              "english": "Not bad. And you?",
+              "somali": "Ma xuma. Adiguna?"
+            },
+            {
+              "speaker": "Ali",
+              "english": "I am good, thanks.",
+              "somali": "Waan fiicanahay, mahadsanid."
+            },
+            {
+              "speaker": "Yusuf",
+              "english": "That is good.",
+              "somali": "Taasi waa fiican tahay."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Arday iyo macallin",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "english": "How are you today?",
+              "somali": "Sidee tahay maanta?"
+            },
+            {
+              "speaker": "Student",
+              "english": "I am not feeling well.",
+              "somali": "Caafimaadkaygu ma fiicna."
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Are you okay?",
+              "somali": "Ma fiican tahay?"
+            },
+            {
+              "speaker": "Student",
+              "english": "I am tired.",
+              "somali": "Waan daalay."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l04-p01",
+          "type": "multipleChoice",
+          "question": "“How are you?” maxay ka dhigan tahay?",
+          "options": [
+            "Sidee tahay?",
+            "Sidee wax kuu yihiin?",
+            "Sidee wax walba yihiin?",
+            "Ma fiican tahay?"
+          ],
+          "correctAnswer": "Sidee tahay?",
+          "explanationSomali": "Macnaha saxda ahi waa “Sidee tahay?”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l04-p02",
+          "type": "fillInTheBlank",
+          "question": "How ___ you?",
+          "options": [
+            "are",
+            "How are you doing?",
+            "How is everything?",
+            "Are you okay?"
+          ],
+          "correctAnswer": "are",
+          "explanationSomali": "“are” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l04-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “How are you doing?” iyo macnihiisa.",
+          "options": [
+            "Sidee wax walba yihiin?",
+            "Sidee wax kuu yihiin?",
+            "Ma fiican tahay?",
+            "Sidee tahay?"
+          ],
+          "correctAnswer": "Sidee wax kuu yihiin?",
+          "explanationSomali": "How are you doing? waxaa loola jeedaa Sidee wax kuu yihiin?."
+        },
+        {
+          "id": "a1-u02-l04-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: fine / am / I / thank you",
+          "options": [],
+          "correctAnswer": "I am fine, thank you.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “I am fine, thank you.”."
+        },
+        {
+          "id": "a1-u02-l04-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: How are you today?",
+          "options": [
+            "Aad ayaan u fiicanahay, mahadsanid.",
+            "Sidee wax walba yihiin?",
+            "Sidee tahay maanta?",
+            "Ma xuma. Adiguna?"
+          ],
+          "correctAnswer": "Sidee tahay maanta?",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l04-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Aad ayaan u fiicanahay, mahadsanid.",
+          "options": [
+            "How is everything?",
+            "How are you today?",
+            "Not bad. And you?",
+            "I am very well, thank you."
+          ],
+          "correctAnswer": "I am very well, thank you.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “I am very well, thank you.”."
+        },
+        {
+          "id": "a1-u02-l04-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l04-p08",
+          "type": "multipleChoice",
+          "question": "Saaxiibkaa wuxuu u muuqdaa daallan. Maxaad weydiinaysaa?",
+          "options": [
+            "What is your name?",
+            "Are you okay?",
+            "Good night?",
+            "Who are you?"
+          ],
+          "correctAnswer": "Are you okay?",
+          "explanationSomali": "“Are you okay?” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l04-p09",
+          "type": "speakingPrompt",
+          "question": "Salaan qof, weydii xaaladdiisa, kadib ku jawaab saddex qaab: fine, not bad iyo tired.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l04-p10",
+          "type": "shortWriting",
+          "question": "Qor wada sheekeysi gaaban oo qof xaaladdiisa la weydiinayo, kana jawaabayo.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Salaan qof, weydii xaaladdiisa, kadib ku jawaab saddex qaab: fine, not bad iyo tired.",
+      "writingPractice": "Qor wada sheekeysi gaaban oo qof xaaladdiisa la weydiinayo, kana jawaabayo.",
+      "summarySomali": "How are you? waa su’aal guud. I am fine waa jawaab caadi ah; Not bad waa informal; I am not feeling well waxay sheegaysaa caafimaad xumo.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l04-p01",
+          "type": "multipleChoice",
+          "question": "“How are you?” maxay ka dhigan tahay?",
+          "options": [
+            "Sidee tahay?",
+            "Sidee wax kuu yihiin?",
+            "Sidee wax walba yihiin?",
+            "Ma fiican tahay?"
+          ],
+          "correctAnswer": "Sidee tahay?",
+          "explanationSomali": "Macnaha saxda ahi waa “Sidee tahay?”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l04-p02",
+          "type": "fillInTheBlank",
+          "question": "How ___ you?",
+          "options": [
+            "are",
+            "How are you doing?",
+            "How is everything?",
+            "Are you okay?"
+          ],
+          "correctAnswer": "are",
+          "explanationSomali": "“are” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l04-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “How are you doing?” iyo macnihiisa.",
+          "options": [
+            "Sidee wax walba yihiin?",
+            "Sidee wax kuu yihiin?",
+            "Ma fiican tahay?",
+            "Sidee tahay?"
+          ],
+          "correctAnswer": "Sidee wax kuu yihiin?",
+          "explanationSomali": "How are you doing? waxaa loola jeedaa Sidee wax kuu yihiin?."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l05",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 5,
+      "titleEnglish": "Introducing Other People",
+      "titleSomali": "Sida dad kale la isu baro",
+      "shortDescriptionSomali": "Bar sida saaxiib, qaraabo ama macallin qof kale loogu baro adigoo isticmaalaya I, you, he, she, my, your, his iyo her.",
+      "learningObjectives": [
+        "Qof kale ku bar This is….",
+        "He iyo she si sax ah u kala isticmaal.",
+        "My, your, his iyo her ku muuji lahaansho."
+      ],
+      "lessonType": "grammar",
+      "estimatedMinutes": 22,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l04",
+      "vocabulary": [
+        {
+          "englishWord": "This is my friend",
+          "somaliMeaning": "Kani waa saaxiibkay",
+          "partOfSpeech": "introduction phrase",
+          "pronunciation": "dhis iz maay frend",
+          "exampleEnglish": "This is my friend, Ali.",
+          "exampleSomali": "Kani waa saaxiibkay, Cali.",
+          "explanationSomali": "This is waxaa lagu bilaabaa marka qof la barayo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Meet my teacher",
+          "somaliMeaning": "La kulan macallinkayga",
+          "partOfSpeech": "introduction phrase",
+          "pronunciation": "miit maay tii-jar",
+          "exampleEnglish": "Meet my teacher, Ms Asha.",
+          "exampleSomali": "La kulan macallinkayga, Marwo Caasha.",
+          "explanationSomali": "Meet waxaa halkan loo isticmaalaa isbarasho.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Let me introduce you to…",
+          "somaliMeaning": "Aan ku baro…",
+          "partOfSpeech": "formal phrase",
+          "pronunciation": "let mii in-tro-dyuus yuu tu",
+          "exampleEnglish": "Let me introduce you to Ahmed.",
+          "exampleSomali": "Aan ku baro Axmed.",
+          "explanationSomali": "Waa qaab edeb leh oo laba qof la isku baro.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "He is…",
+          "somaliMeaning": "Isagu waa…",
+          "partOfSpeech": "pronoun phrase",
+          "pronunciation": "hii iz",
+          "exampleEnglish": "He is my brother.",
+          "exampleSomali": "Isagu waa walaalkay.",
+          "explanationSomali": "He waxaa loo isticmaalaa qof lab ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "She is…",
+          "somaliMeaning": "Iyadu waa…",
+          "partOfSpeech": "pronoun phrase",
+          "pronunciation": "shii iz",
+          "exampleEnglish": "She is my teacher.",
+          "exampleSomali": "Iyadu waa macallinkayga.",
+          "explanationSomali": "She waxaa loo isticmaalaa qof dumar ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "His name is…",
+          "somaliMeaning": "Magaciisu waa…",
+          "partOfSpeech": "possessive phrase",
+          "pronunciation": "hiz neym iz",
+          "exampleEnglish": "His name is Hassan.",
+          "exampleSomali": "Magaciisu waa Xasan.",
+          "explanationSomali": "His wuxuu tilmaamayaa wax uu leeyahay qof lab ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Her name is…",
+          "somaliMeaning": "Magaceedu waa…",
+          "partOfSpeech": "possessive phrase",
+          "pronunciation": "her neym iz",
+          "exampleEnglish": "Her name is Maryan.",
+          "exampleSomali": "Magaceedu waa Maryan.",
+          "explanationSomali": "Her wuxuu tilmaamayaa wax ay leedahay qof dumar ah.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Your",
+          "somaliMeaning": "Kaaga/taada",
+          "partOfSpeech": "possessive adjective",
+          "pronunciation": "yor",
+          "exampleEnglish": "What is your name?",
+          "exampleSomali": "Magacaa?",
+          "explanationSomali": "Your waxaa lala isticmaalaa qofka lala hadlayo.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": {
+        "titleEnglish": "Subject pronouns and possessive adjectives",
+        "titleSomali": "Magac-u-yaallada iyo lahaanshaha",
+        "explanationSomali": "I iyo you waxay tilmaamaan qofka hadlaya iyo qofka lala hadlayo. He waa nin, she waa haweeney. My, your, his iyo her waxay muujiyaan cidda wax leh.",
+        "rule": "I→my; you→your; he→his; she→her",
+        "sentenceStructure": "Subject + am/is/are + description",
+        "positiveExamples": [
+          {
+            "english": "This is my friend, Abdi.",
+            "somali": "Kani waa saaxiibkay, Cabdi."
+          },
+          {
+            "english": "He is a student.",
+            "somali": "Isagu waa arday."
+          },
+          {
+            "english": "She is my teacher.",
+            "somali": "Iyadu waa macallinkayga."
+          },
+          {
+            "english": "His name is Yusuf.",
+            "somali": "Magaciisu waa Yuusuf."
+          },
+          {
+            "english": "Her name is Hani.",
+            "somali": "Magaceedu waa Hani."
+          }
+        ],
+        "negativeExamples": [
+          {
+            "english": "He is not my brother.",
+            "somali": "Isagu ma aha walaalkay."
+          },
+          {
+            "english": "She is not my teacher.",
+            "somali": "Iyadu ma aha macallinkayga."
+          }
+        ],
+        "questionExamples": [
+          {
+            "english": "Is he your friend?",
+            "somali": "Isagu ma saaxiibkaa baa?"
+          },
+          {
+            "english": "What is her name?",
+            "somali": "Magaceedu waa maxay?"
+          }
+        ],
+        "commonMistakesSomali": [
+          "Ha u isticmaalin he qof dumar ah.",
+          "His waa lahaanshaha nin; her waa lahaanshaha haweeney."
+        ],
+        "practiceQuestions": []
+      },
+      "examples": [
+        {
+          "english": "This is my friend, Abdi.",
+          "somali": "Kani waa saaxiibkay, Cabdi."
+        },
+        {
+          "english": "He is a student.",
+          "somali": "Isagu waa arday."
+        },
+        {
+          "english": "She is my teacher.",
+          "somali": "Iyadu waa macallinkayga."
+        },
+        {
+          "english": "His name is Yusuf.",
+          "somali": "Magaciisu waa Yuusuf."
+        },
+        {
+          "english": "Her name is Hani.",
+          "somali": "Magaceedu waa Hani."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Saaxiib la barayo",
+          "lines": [
+            {
+              "speaker": "Amina",
+              "english": "Ali, this is my friend Hawa.",
+              "somali": "Cali, tani waa saaxiibadday Xaawo."
+            },
+            {
+              "speaker": "Ali",
+              "english": "Hello, Hawa.",
+              "somali": "Salaan, Xaawo."
+            },
+            {
+              "speaker": "Hawa",
+              "english": "Hello. Nice to meet you.",
+              "somali": "Salaan. Waan ku faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Ali",
+              "english": "Nice to meet you too.",
+              "somali": "Aniguna waan ku faraxsanahay inaan kula kulmo."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Macallin la barayo",
+          "lines": [
+            {
+              "speaker": "Omar",
+              "english": "Let me introduce you to my teacher.",
+              "somali": "Aan ku baro macallinkayga."
+            },
+            {
+              "speaker": "Omar",
+              "english": "Her name is Ms Maryan.",
+              "somali": "Magaceedu waa Marwo Maryan."
+            },
+            {
+              "speaker": "Asha",
+              "english": "Pleased to meet you, Ms Maryan.",
+              "somali": "Aad ayaan ugu faraxsanahay inaan kula kulmo, Marwo Maryan."
+            },
+            {
+              "speaker": "Teacher",
+              "english": "Pleased to meet you too.",
+              "somali": "Aniguna aad ayaan ugu faraxsanahay inaan kula kulmo."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l05-p01",
+          "type": "multipleChoice",
+          "question": "“This is my friend” maxay ka dhigan tahay?",
+          "options": [
+            "Kani waa saaxiibkay",
+            "La kulan macallinkayga",
+            "Aan ku baro…",
+            "Isagu waa…"
+          ],
+          "correctAnswer": "Kani waa saaxiibkay",
+          "explanationSomali": "Macnaha saxda ahi waa “Kani waa saaxiibkay”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l05-p02",
+          "type": "fillInTheBlank",
+          "question": "Amina is my teacher. ___ is kind.",
+          "options": [
+            "She",
+            "Meet my teacher",
+            "Let me introduce you to…",
+            "He is…"
+          ],
+          "correctAnswer": "She",
+          "explanationSomali": "“She” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l05-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Meet my teacher” iyo macnihiisa.",
+          "options": [
+            "Aan ku baro…",
+            "La kulan macallinkayga",
+            "Isagu waa…",
+            "Kani waa saaxiibkay"
+          ],
+          "correctAnswer": "La kulan macallinkayga",
+          "explanationSomali": "Meet my teacher waxaa loola jeedaa La kulan macallinkayga."
+        },
+        {
+          "id": "a1-u02-l05-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: friend / is / my / This",
+          "options": [],
+          "correctAnswer": "This is my friend.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “This is my friend.”."
+        },
+        {
+          "id": "a1-u02-l05-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: This is my friend, Abdi.",
+          "options": [
+            "Isagu waa arday.",
+            "Iyadu waa macallinkayga.",
+            "Kani waa saaxiibkay, Cabdi.",
+            "Magaciisu waa Yuusuf."
+          ],
+          "correctAnswer": "Kani waa saaxiibkay, Cabdi.",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l05-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Isagu waa arday.",
+          "options": [
+            "She is my teacher.",
+            "This is my friend, Abdi.",
+            "His name is Yusuf.",
+            "He is a student."
+          ],
+          "correctAnswer": "He is a student.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “He is a student.”."
+        },
+        {
+          "id": "a1-u02-l05-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l05-p08",
+          "type": "multipleChoice",
+          "question": "Waxaad baraysaa walaalkaa Xasan. Weedhee sax ah?",
+          "options": [
+            "She is Hassan.",
+            "This is my brother, Hassan.",
+            "Her name is Hassan.",
+            "I am Hassan brother."
+          ],
+          "correctAnswer": "This is my brother, Hassan.",
+          "explanationSomali": "“This is my brother, Hassan.” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l05-p09",
+          "type": "speakingPrompt",
+          "question": "Qof kale saaxiibkaa bar. Isticmaal This is…, He/She is… iyo His/Her name is….",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l05-p10",
+          "type": "shortWriting",
+          "question": "Qor shan jumladood oo aad ku barayso laba qof: hal nin iyo hal haweeney.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Qof kale saaxiibkaa bar. Isticmaal This is…, He/She is… iyo His/Her name is….",
+      "writingPractice": "Qor shan jumladood oo aad ku barayso laba qof: hal nin iyo hal haweeney.",
+      "summarySomali": "This is… waxaa lagu baraa qof. He/his waxaa loo isticmaalaa nin; she/her waxaa loo isticmaalaa haweeney. My iyo your waxay muujiyaan lahaansho.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l05-p01",
+          "type": "multipleChoice",
+          "question": "“This is my friend” maxay ka dhigan tahay?",
+          "options": [
+            "Kani waa saaxiibkay",
+            "La kulan macallinkayga",
+            "Aan ku baro…",
+            "Isagu waa…"
+          ],
+          "correctAnswer": "Kani waa saaxiibkay",
+          "explanationSomali": "Macnaha saxda ahi waa “Kani waa saaxiibkay”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l05-p02",
+          "type": "fillInTheBlank",
+          "question": "Amina is my teacher. ___ is kind.",
+          "options": [
+            "She",
+            "Meet my teacher",
+            "Let me introduce you to…",
+            "He is…"
+          ],
+          "correctAnswer": "She",
+          "explanationSomali": "“She” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l05-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Meet my teacher” iyo macnihiisa.",
+          "options": [
+            "Aan ku baro…",
+            "La kulan macallinkayga",
+            "Isagu waa…",
+            "Kani waa saaxiibkay"
+          ],
+          "correctAnswer": "La kulan macallinkayga",
+          "explanationSomali": "Meet my teacher waxaa loola jeedaa La kulan macallinkayga."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l06",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 6,
+      "titleEnglish": "Formal and Informal Greetings",
+      "titleSomali": "Salaamaha rasmiga ah iyo kuwa caadiga ah",
+      "shortDescriptionSomali": "Bar salaanta ku habboon saaxiib, macallin, maamule, macmiil, shaqaale iyo qof kaa weyn.",
+      "learningObjectives": [
+        "Kala saar formal iyo informal greetings.",
+        "Si rasmi ah u salaam macallin ama macmiil.",
+        "Ka fogow Hey xaalad rasmi ah."
+      ],
+      "lessonType": "vocabulary",
+      "estimatedMinutes": 18,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l05",
+      "vocabulary": [
+        {
+          "englishWord": "Formal",
+          "somaliMeaning": "Rasmi",
+          "partOfSpeech": "adjective",
+          "pronunciation": "for-mal",
+          "exampleEnglish": "Good morning is a formal greeting.",
+          "exampleSomali": "Good morning waa salaam rasmi ah.",
+          "explanationSomali": "Formal language waxaa lala isticmaalaa xaalad shaqo ama qof aan si dhow loo aqoon.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Informal",
+          "somaliMeaning": "Aan rasmi ahayn/caadi",
+          "partOfSpeech": "adjective",
+          "pronunciation": "in-for-mal",
+          "exampleEnglish": "Hi is an informal greeting.",
+          "exampleSomali": "Hi waa salaam caadi ah.",
+          "explanationSomali": "Informal language waxaa lala isticmaalaa saaxiib iyo qof aad taqaan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Hey",
+          "somaliMeaning": "Haye/salaan aad u caadi ah",
+          "partOfSpeech": "greeting",
+          "pronunciation": "hey",
+          "exampleEnglish": "Hey, Ahmed!",
+          "exampleSomali": "Haye, Axmed!",
+          "explanationSomali": "Hey aad buu u informal yahay.",
+          "commonMistakeSomali": "Ha kula bilaabin maamule ama macmiil aadan aqoon."
+        },
+        {
+          "englishWord": "Sir",
+          "somaliMeaning": "Mudane",
+          "partOfSpeech": "formal address",
+          "pronunciation": "ser",
+          "exampleEnglish": "Good morning, sir.",
+          "exampleSomali": "Subax wanaagsan, mudane.",
+          "explanationSomali": "Sir waa eray xushmad leh oo nin lala hadlo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Madam",
+          "somaliMeaning": "Marwo",
+          "partOfSpeech": "formal address",
+          "pronunciation": "ma-dam",
+          "exampleEnglish": "Good afternoon, madam.",
+          "exampleSomali": "Galab wanaagsan, marwo.",
+          "explanationSomali": "Madam waa eray rasmi ah oo haweeney lala hadlo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Customer",
+          "somaliMeaning": "Macmiil",
+          "partOfSpeech": "noun",
+          "pronunciation": "kas-ta-mer",
+          "exampleEnglish": "Welcome, dear customer.",
+          "exampleSomali": "Soo dhowow, macmiil qiimo leh.",
+          "explanationSomali": "Customer waa qof wax ka iibsanaya ganacsi.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Manager",
+          "somaliMeaning": "Maamule",
+          "partOfSpeech": "noun",
+          "pronunciation": "ma-ni-jer",
+          "exampleEnglish": "Good morning, manager.",
+          "exampleSomali": "Subax wanaagsan, maamule.",
+          "explanationSomali": "Manager waa qof shaqo ama koox maamula.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Pleased to meet you",
+          "somaliMeaning": "Aad ayaan ugu faraxsanahay inaan kula kulmo",
+          "partOfSpeech": "formal phrase",
+          "pronunciation": "pliizd tu miit yuu",
+          "exampleEnglish": "Pleased to meet you, Madam.",
+          "exampleSomali": "Aad ayaan ugu faraxsanahay inaan kula kulmo, Marwo.",
+          "explanationSomali": "Waxaa ku habboon kulanka rasmiga ah ee ugu horreeya.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "Hi, my friend!",
+          "somali": "Salaan, saaxiibkay!"
+        },
+        {
+          "english": "Good morning, teacher.",
+          "somali": "Subax wanaagsan, macallin."
+        },
+        {
+          "english": "Hello, Mr Hassan.",
+          "somali": "Salaan, Mudane Xasan."
+        },
+        {
+          "english": "Pleased to meet you, Madam.",
+          "somali": "Aad ayaan ugu faraxsanahay inaan kula kulmo, Marwo."
+        },
+        {
+          "english": "Hey, Ali!",
+          "somali": "Haye, Cali!"
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Macmiil iyo shaqaale",
+          "lines": [
+            {
+              "speaker": "Employee",
+              "english": "Good morning, sir.",
+              "somali": "Subax wanaagsan, mudane."
+            },
+            {
+              "speaker": "Customer",
+              "english": "Good morning.",
+              "somali": "Subax wanaagsan."
+            },
+            {
+              "speaker": "Employee",
+              "english": "How can I help you?",
+              "somali": "Sideen kuu caawin karaa?"
+            },
+            {
+              "speaker": "Customer",
+              "english": "Thank you.",
+              "somali": "Mahadsanid."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Laba saaxiib",
+          "lines": [
+            {
+              "speaker": "Ali",
+              "english": "Hey, Yusuf!",
+              "somali": "Haye, Yuusuf!"
+            },
+            {
+              "speaker": "Yusuf",
+              "english": "Hi, Ali!",
+              "somali": "Salaan, Cali!"
+            },
+            {
+              "speaker": "Ali",
+              "english": "How are you?",
+              "somali": "Sidee tahay?"
+            },
+            {
+              "speaker": "Yusuf",
+              "english": "I’m good.",
+              "somali": "Waan fiicanahay."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l06-p01",
+          "type": "multipleChoice",
+          "question": "“Formal” maxay ka dhigan tahay?",
+          "options": [
+            "Rasmi",
+            "Aan rasmi ahayn/caadi",
+            "Haye/salaan aad u caadi ah",
+            "Mudane"
+          ],
+          "correctAnswer": "Rasmi",
+          "explanationSomali": "Macnaha saxda ahi waa “Rasmi”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l06-p02",
+          "type": "fillInTheBlank",
+          "question": "Good morning, ___.",
+          "options": [
+            "sir",
+            "Informal",
+            "Hey",
+            "Sir"
+          ],
+          "correctAnswer": "sir",
+          "explanationSomali": "“sir” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l06-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Informal” iyo macnihiisa.",
+          "options": [
+            "Haye/salaan aad u caadi ah",
+            "Aan rasmi ahayn/caadi",
+            "Mudane",
+            "Rasmi"
+          ],
+          "correctAnswer": "Aan rasmi ahayn/caadi",
+          "explanationSomali": "Informal waxaa loola jeedaa Aan rasmi ahayn/caadi."
+        },
+        {
+          "id": "a1-u02-l06-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: meet / Pleased / you / to",
+          "options": [],
+          "correctAnswer": "Pleased to meet you.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “Pleased to meet you.”."
+        },
+        {
+          "id": "a1-u02-l06-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: Hi, my friend!",
+          "options": [
+            "Subax wanaagsan, macallin.",
+            "Salaan, Mudane Xasan.",
+            "Salaan, saaxiibkay!",
+            "Aad ayaan ugu faraxsanahay inaan kula kulmo, Marwo."
+          ],
+          "correctAnswer": "Salaan, saaxiibkay!",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l06-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Subax wanaagsan, macallin.",
+          "options": [
+            "Hello, Mr Hassan.",
+            "Hi, my friend!",
+            "Pleased to meet you, Madam.",
+            "Good morning, teacher."
+          ],
+          "correctAnswer": "Good morning, teacher.",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Good morning, teacher.”."
+        },
+        {
+          "id": "a1-u02-l06-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l06-p08",
+          "type": "multipleChoice",
+          "question": "Waxaad markii ugu horreysay la kulantay maamule. Maxaad oranaysaa?",
+          "options": [
+            "Hey!",
+            "Pleased to meet you.",
+            "Bye, friend!",
+            "What’s up?"
+          ],
+          "correctAnswer": "Pleased to meet you.",
+          "explanationSomali": "“Pleased to meet you.” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l06-p09",
+          "type": "speakingPrompt",
+          "question": "Salaan saaxiib si informal ah, kadib salaam macallin, maamule iyo macmiil si formal ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l06-p10",
+          "type": "shortWriting",
+          "question": "Samee laba liis: afar salaamood oo formal ah iyo afar salaamood oo informal ah.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Salaan saaxiib si informal ah, kadib salaam macallin, maamule iyo macmiil si formal ah.",
+      "writingPractice": "Samee laba liis: afar salaamood oo formal ah iyo afar salaamood oo informal ah.",
+      "summarySomali": "Hi iyo Hey waa informal. Hello waa guud. Good morning iyo Pleased to meet you waxay ku habboon yihiin xaalad rasmi ah iyo qof markii ugu horreysay la kulmayo.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l06-p01",
+          "type": "multipleChoice",
+          "question": "“Formal” maxay ka dhigan tahay?",
+          "options": [
+            "Rasmi",
+            "Aan rasmi ahayn/caadi",
+            "Haye/salaan aad u caadi ah",
+            "Mudane"
+          ],
+          "correctAnswer": "Rasmi",
+          "explanationSomali": "Macnaha saxda ahi waa “Rasmi”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l06-p02",
+          "type": "fillInTheBlank",
+          "question": "Good morning, ___.",
+          "options": [
+            "sir",
+            "Informal",
+            "Hey",
+            "Sir"
+          ],
+          "correctAnswer": "sir",
+          "explanationSomali": "“sir” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l06-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Informal” iyo macnihiisa.",
+          "options": [
+            "Haye/salaan aad u caadi ah",
+            "Aan rasmi ahayn/caadi",
+            "Mudane",
+            "Rasmi"
+          ],
+          "correctAnswer": "Aan rasmi ahayn/caadi",
+          "explanationSomali": "Informal waxaa loola jeedaa Aan rasmi ahayn/caadi."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l07",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 7,
+      "titleEnglish": "Starting and Ending Conversations",
+      "titleSomali": "Bilaabidda iyo soo gabagabeynta wada sheekeysiga",
+      "shortDescriptionSomali": "Bar sida hadal si edeb leh loo bilaabo, loo sii wado, kadibna si dabiici ah loo soo gabagabeeyo.",
+      "learningObjectives": [
+        "Wada sheekeysi ku bilow Excuse me.",
+        "Weydii qof xaaladdiisa.",
+        "Isticmaal ugu yaraan saddex weedhood oo lagu kala tago."
+      ],
+      "lessonType": "speaking",
+      "estimatedMinutes": 20,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l06",
+      "vocabulary": [
+        {
+          "englishWord": "Excuse me",
+          "somaliMeaning": "Iga raalli ahow",
+          "partOfSpeech": "polite opener",
+          "pronunciation": "ik-skyuus mii",
+          "exampleEnglish": "Excuse me, can I talk to you?",
+          "exampleSomali": "Iga raalli ahow, ma kula hadli karaa?",
+          "explanationSomali": "Waxaa lagu bilaabaa hadal marka qof dareenkiisa la doonayo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Can I talk to you?",
+          "somaliMeaning": "Ma kula hadli karaa?",
+          "partOfSpeech": "question",
+          "pronunciation": "kan aay took tu yuu",
+          "exampleEnglish": "Can I talk to you for a minute?",
+          "exampleSomali": "Ma kula hadli karaa hal daqiiqo?",
+          "explanationSomali": "Waa qaab edeb leh oo wada hadal lagu bilaabo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "How are you today?",
+          "somaliMeaning": "Sidee tahay maanta?",
+          "partOfSpeech": "question",
+          "pronunciation": "haw aar yuu tu-dey",
+          "exampleEnglish": "Hello. How are you today?",
+          "exampleSomali": "Salaan. Sidee tahay maanta?",
+          "explanationSomali": "Waxaa lagu sii wadaa salaanta kadib.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "It was nice talking to you",
+          "somaliMeaning": "Waan ku farxay inaan kula hadlo",
+          "partOfSpeech": "closing phrase",
+          "pronunciation": "it woz naays too-king tu yuu",
+          "exampleEnglish": "It was nice talking to you.",
+          "exampleSomali": "Waan ku farxay inaan kula hadlo.",
+          "explanationSomali": "Waxaa lagu soo gabagabeeyaa wada sheekeysi si edeb leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "See you soon",
+          "somaliMeaning": "Dhowaan ayaan is arki doonnaa",
+          "partOfSpeech": "farewell",
+          "pronunciation": "sii yuu suun",
+          "exampleEnglish": "See you soon, Asha.",
+          "exampleSomali": "Dhowaan ayaan is arki doonnaa, Caasha.",
+          "explanationSomali": "Waxaa la yiraahdaa marka kulanka xiga la filayo.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Have a good day",
+          "somaliMeaning": "Maalin wanaagsan",
+          "partOfSpeech": "farewell wish",
+          "pronunciation": "hav a guud dey",
+          "exampleEnglish": "Goodbye. Have a good day.",
+          "exampleSomali": "Nabadgelyo. Maalin wanaagsan.",
+          "explanationSomali": "Waa duco gaaban oo lagu kala tago.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Take care",
+          "somaliMeaning": "Is ilaali",
+          "partOfSpeech": "farewell",
+          "pronunciation": "teyk ker",
+          "exampleEnglish": "Take care. See you soon.",
+          "exampleSomali": "Is ilaali. Dhowaan ayaan is arki doonnaa.",
+          "explanationSomali": "Waa qaab diirran oo lagu kala tago.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Goodbye",
+          "somaliMeaning": "Nabadgelyo",
+          "partOfSpeech": "farewell",
+          "pronunciation": "guud-baay",
+          "exampleEnglish": "Goodbye, everyone.",
+          "exampleSomali": "Nabadgelyo, dhammaantiin.",
+          "explanationSomali": "Waa weedh lagu dhammeeyo kulanka.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "Excuse me, can I talk to you?",
+          "somali": "Iga raalli ahow, ma kula hadli karaa?"
+        },
+        {
+          "english": "Hello. How are you today?",
+          "somali": "Salaan. Sidee tahay maanta?"
+        },
+        {
+          "english": "It was nice talking to you.",
+          "somali": "Waan ku farxay inaan kula hadlo."
+        },
+        {
+          "english": "Have a good day.",
+          "somali": "Maalin wanaagsan."
+        },
+        {
+          "english": "Take care. Goodbye.",
+          "somali": "Is ilaali. Nabadgelyo."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Wada hadal shaqo",
+          "lines": [
+            {
+              "speaker": "Asha",
+              "english": "Excuse me. Can I talk to you?",
+              "somali": "Iga raalli ahow. Ma kula hadli karaa?"
+            },
+            {
+              "speaker": "Manager",
+              "english": "Yes, of course.",
+              "somali": "Haa, dabcan."
+            },
+            {
+              "speaker": "Asha",
+              "english": "Thank you.",
+              "somali": "Mahadsanid."
+            },
+            {
+              "speaker": "Manager",
+              "english": "You are welcome.",
+              "somali": "Adigaa mudan."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Wada sheekeysi la dhammeeyo",
+          "lines": [
+            {
+              "speaker": "Abdi",
+              "english": "It was nice talking to you.",
+              "somali": "Waan ku farxay inaan kula hadlo."
+            },
+            {
+              "speaker": "Hodan",
+              "english": "It was nice talking to you too.",
+              "somali": "Aniguna waan ku farxay inaan kula hadlo."
+            },
+            {
+              "speaker": "Abdi",
+              "english": "Have a good day.",
+              "somali": "Maalin wanaagsan."
+            },
+            {
+              "speaker": "Hodan",
+              "english": "Take care. Goodbye.",
+              "somali": "Is ilaali. Nabadgelyo."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l07-p01",
+          "type": "multipleChoice",
+          "question": "“Excuse me” maxay ka dhigan tahay?",
+          "options": [
+            "Iga raalli ahow",
+            "Ma kula hadli karaa?",
+            "Sidee tahay maanta?",
+            "Waan ku farxay inaan kula hadlo"
+          ],
+          "correctAnswer": "Iga raalli ahow",
+          "explanationSomali": "Macnaha saxda ahi waa “Iga raalli ahow”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l07-p02",
+          "type": "fillInTheBlank",
+          "question": "Have a good ___.",
+          "options": [
+            "day",
+            "Can I talk to you?",
+            "How are you today?",
+            "It was nice talking to you"
+          ],
+          "correctAnswer": "day",
+          "explanationSomali": "“day” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l07-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Can I talk to you?” iyo macnihiisa.",
+          "options": [
+            "Sidee tahay maanta?",
+            "Ma kula hadli karaa?",
+            "Waan ku farxay inaan kula hadlo",
+            "Iga raalli ahow"
+          ],
+          "correctAnswer": "Ma kula hadli karaa?",
+          "explanationSomali": "Can I talk to you? waxaa loola jeedaa Ma kula hadli karaa?."
+        },
+        {
+          "id": "a1-u02-l07-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: nice / talking / was / you / It / to",
+          "options": [],
+          "correctAnswer": "It was nice talking to you.",
+          "explanationSomali": "Kala horreynta saxda ahi waa “It was nice talking to you.”."
+        },
+        {
+          "id": "a1-u02-l07-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: Excuse me, can I talk to you?",
+          "options": [
+            "Salaan. Sidee tahay maanta?",
+            "Waan ku farxay inaan kula hadlo.",
+            "Iga raalli ahow, ma kula hadli karaa?",
+            "Maalin wanaagsan."
+          ],
+          "correctAnswer": "Iga raalli ahow, ma kula hadli karaa?",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l07-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Salaan. Sidee tahay maanta?",
+          "options": [
+            "It was nice talking to you.",
+            "Excuse me, can I talk to you?",
+            "Have a good day.",
+            "Hello. How are you today?"
+          ],
+          "correctAnswer": "Hello. How are you today?",
+          "explanationSomali": "Qaabka dabiiciga ah waa “Hello. How are you today?”."
+        },
+        {
+          "id": "a1-u02-l07-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l07-p08",
+          "type": "multipleChoice",
+          "question": "Waxaad rabtaa inaad si edeb leh hadal u bilowdo. Kee sax ah?",
+          "options": [
+            "Goodbye.",
+            "Excuse me.",
+            "Take care.",
+            "Good night."
+          ],
+          "correctAnswer": "Excuse me.",
+          "explanationSomali": "“Excuse me.” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l07-p09",
+          "type": "speakingPrompt",
+          "question": "Bilow wada sheekeysi adigoo leh Excuse me, weydii xaaladda qofka, kadib si edeb leh u soo gabagabee.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l07-p10",
+          "type": "shortWriting",
+          "question": "Qor wada sheekeysi lix sadar ah oo leh bilow, salaam, su’aal iyo dhammaad.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        }
+      ],
+      "speakingPractice": "Bilow wada sheekeysi adigoo leh Excuse me, weydii xaaladda qofka, kadib si edeb leh u soo gabagabee.",
+      "writingPractice": "Qor wada sheekeysi lix sadar ah oo leh bilow, salaam, su’aal iyo dhammaad.",
+      "summarySomali": "Excuse me ayaa si edeb leh hadal u bilaaba. It was nice talking to you, Have a good day, Take care iyo Goodbye ayaa si dabiici ah u soo gabagabeeya.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l07-p01",
+          "type": "multipleChoice",
+          "question": "“Excuse me” maxay ka dhigan tahay?",
+          "options": [
+            "Iga raalli ahow",
+            "Ma kula hadli karaa?",
+            "Sidee tahay maanta?",
+            "Waan ku farxay inaan kula hadlo"
+          ],
+          "correctAnswer": "Iga raalli ahow",
+          "explanationSomali": "Macnaha saxda ahi waa “Iga raalli ahow”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l07-p02",
+          "type": "fillInTheBlank",
+          "question": "Have a good ___.",
+          "options": [
+            "day",
+            "Can I talk to you?",
+            "How are you today?",
+            "It was nice talking to you"
+          ],
+          "correctAnswer": "day",
+          "explanationSomali": "“day” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l07-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Can I talk to you?” iyo macnihiisa.",
+          "options": [
+            "Sidee tahay maanta?",
+            "Ma kula hadli karaa?",
+            "Waan ku farxay inaan kula hadlo",
+            "Iga raalli ahow"
+          ],
+          "correctAnswer": "Ma kula hadli karaa?",
+          "explanationSomali": "Can I talk to you? waxaa loola jeedaa Ma kula hadli karaa?."
+        }
+      ]
+    },
+    {
+      "id": "a1-u02-l08",
+      "levelId": "A1",
+      "unitId": "a1-u02",
+      "lessonNumber": 8,
+      "titleEnglish": "Unit Review",
+      "titleSomali": "Dib-u-eegista Unit 2",
+      "shortDescriptionSomali": "Dib u eeg salaamaha, isbarashada, su’aalaha magaca, xaaladda qofka, baridda dad kale iyo bilaabidda ama dhammeystirka wada sheekeysiga.",
+      "learningObjectives": [
+        "Samee wada sheekeysi A1 oo dhammeystiran.",
+        "Sax u isticmaal am, is, are, he, she, my, his iyo her.",
+        "Kala saar formal iyo informal language."
+      ],
+      "lessonType": "review",
+      "estimatedMinutes": 28,
+      "difficulty": "beginner",
+      "isLocked": true,
+      "requiredPreviousLessonId": "a1-u02-l07",
+      "vocabulary": [
+        {
+          "englishWord": "Greeting",
+          "somaliMeaning": "Salaan",
+          "partOfSpeech": "noun",
+          "pronunciation": "grii-ting",
+          "exampleEnglish": "Choose the right greeting.",
+          "exampleSomali": "Dooro salaanta saxda ah.",
+          "explanationSomali": "Greeting waa weedh lagu bilaabo kulan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Introduction",
+          "somaliMeaning": "Isbarasho",
+          "partOfSpeech": "noun",
+          "pronunciation": "in-tro-dak-shan",
+          "exampleEnglish": "Give a short introduction.",
+          "exampleSomali": "Samee isbarasho gaaban.",
+          "explanationSomali": "Introduction waa marka aad sheegto qofka aad tahay ama qof kale barato.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Formal",
+          "somaliMeaning": "Rasmi",
+          "partOfSpeech": "adjective",
+          "pronunciation": "for-mal",
+          "exampleEnglish": "Use formal English with a customer.",
+          "exampleSomali": "Macmiil kula hadal English rasmi ah.",
+          "explanationSomali": "Formal waa hadal xushmad iyo nidaam leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Informal",
+          "somaliMeaning": "Caadi/aan rasmi ahayn",
+          "partOfSpeech": "adjective",
+          "pronunciation": "in-for-mal",
+          "exampleEnglish": "Hi is informal.",
+          "exampleSomali": "Hi waa salaam caadi ah.",
+          "explanationSomali": "Informal waxaa lala isticmaalaa dad aad taqaan.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Introduce",
+          "somaliMeaning": "Isbar ama qof kale bar",
+          "partOfSpeech": "verb",
+          "pronunciation": "in-tro-dyuus",
+          "exampleEnglish": "Let me introduce my friend.",
+          "exampleSomali": "Aan kuu baro saaxiibkay.",
+          "explanationSomali": "Introduce waa isbarid ama laba qof isku barid.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Pronoun",
+          "somaliMeaning": "Magac-u-yaal",
+          "partOfSpeech": "noun",
+          "pronunciation": "pro-nawn",
+          "exampleEnglish": "He is a subject pronoun.",
+          "exampleSomali": "He waa magac-u-yaal subject ah.",
+          "explanationSomali": "I, you, he iyo she waxay beddelaan magaca qofka.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Possessive",
+          "somaliMeaning": "Lahaansho muujinaya",
+          "partOfSpeech": "adjective",
+          "pronunciation": "po-ze-siv",
+          "exampleEnglish": "My shows possession.",
+          "exampleSomali": "My wuxuu muujinayaa lahaansho.",
+          "explanationSomali": "My, your, his iyo her waxay sheegaan cidda wax leh.",
+          "commonMistakeSomali": ""
+        },
+        {
+          "englishWord": "Conversation",
+          "somaliMeaning": "Wada sheekeysi",
+          "partOfSpeech": "noun",
+          "pronunciation": "kon-ver-sey-shan",
+          "exampleEnglish": "End the conversation politely.",
+          "exampleSomali": "Wada sheekeysiga si edeb leh u dhammee.",
+          "explanationSomali": "Conversation waa hadal ay laba qof ama ka badan wadaagaan.",
+          "commonMistakeSomali": ""
+        }
+      ],
+      "grammar": null,
+      "examples": [
+        {
+          "english": "Good morning. My name is Ali.",
+          "somali": "Subax wanaagsan. Magacaygu waa Cali."
+        },
+        {
+          "english": "What is your name, please?",
+          "somali": "Magacaa, fadlan?"
+        },
+        {
+          "english": "I am fine, thank you.",
+          "somali": "Waan fiicanahay, mahadsanid."
+        },
+        {
+          "english": "This is my friend. Her name is Hawa.",
+          "somali": "Tani waa saaxiibadday. Magaceedu waa Xaawo."
+        },
+        {
+          "english": "It was nice talking to you. Goodbye.",
+          "somali": "Waan ku farxay inaan kula hadlo. Nabadgelyo."
+        }
+      ],
+      "dialogues": [
+        {
+          "titleSomali": "Dib-u-eegis: laba arday",
+          "lines": [
+            {
+              "speaker": "Ali",
+              "english": "Good morning. My name is Ali.",
+              "somali": "Subax wanaagsan. Magacaygu waa Cali."
+            },
+            {
+              "speaker": "Hawa",
+              "english": "I’m Hawa. Nice to meet you.",
+              "somali": "Waxaan ahay Xaawo. Waan ku faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Ali",
+              "english": "How are you today?",
+              "somali": "Sidee tahay maanta?"
+            },
+            {
+              "speaker": "Hawa",
+              "english": "I am fine, thank you.",
+              "somali": "Waan fiicanahay, mahadsanid."
+            }
+          ]
+        },
+        {
+          "titleSomali": "Dib-u-eegis: kala tagid",
+          "lines": [
+            {
+              "speaker": "Hawa",
+              "english": "This is my friend, Amina.",
+              "somali": "Tani waa saaxiibadday, Aamina."
+            },
+            {
+              "speaker": "Amina",
+              "english": "Hello. Pleased to meet you.",
+              "somali": "Salaan. Aad ayaan ugu faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Ali",
+              "english": "Pleased to meet you too.",
+              "somali": "Aniguna aad ayaan ugu faraxsanahay inaan kula kulmo."
+            },
+            {
+              "speaker": "Amina",
+              "english": "See you soon. Goodbye.",
+              "somali": "Dhowaan ayaan is arki doonnaa. Nabadgelyo."
+            }
+          ]
+        }
+      ],
+      "practiceExercises": [
+        {
+          "id": "a1-u02-l08-p01",
+          "type": "multipleChoice",
+          "question": "“Greeting” maxay ka dhigan tahay?",
+          "options": [
+            "Salaan",
+            "Isbarasho",
+            "Rasmi",
+            "Caadi/aan rasmi ahayn"
+          ],
+          "correctAnswer": "Salaan",
+          "explanationSomali": "Macnaha saxda ahi waa “Salaan”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l08-p02",
+          "type": "fillInTheBlank",
+          "question": "Her name ___ Hawa.",
+          "options": [
+            "is",
+            "Introduction",
+            "Formal",
+            "Informal"
+          ],
+          "correctAnswer": "is",
+          "explanationSomali": "“is” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l08-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Introduction” iyo macnihiisa.",
+          "options": [
+            "Rasmi",
+            "Isbarasho",
+            "Caadi/aan rasmi ahayn",
+            "Salaan"
+          ],
+          "correctAnswer": "Isbarasho",
+          "explanationSomali": "Introduction waxaa loola jeedaa Isbarasho."
+        },
+        {
+          "id": "a1-u02-l08-p04",
+          "type": "arrangeSentence",
+          "question": "Kala hagaaji: name / your / is / What",
+          "options": [],
+          "correctAnswer": "What is your name?",
+          "explanationSomali": "Kala horreynta saxda ahi waa “What is your name?”."
+        },
+        {
+          "id": "a1-u02-l08-p05",
+          "type": "englishToSomali",
+          "question": "Turjun: Good morning. My name is Ali.",
+          "options": [
+            "Magacaa, fadlan?",
+            "Waan fiicanahay, mahadsanid.",
+            "Subax wanaagsan. Magacaygu waa Cali.",
+            "Tani waa saaxiibadday. Magaceedu waa Xaawo."
+          ],
+          "correctAnswer": "Subax wanaagsan. Magacaygu waa Cali.",
+          "explanationSomali": "Jawaabta saxda ahi waxay gudbinaysaa macnaha jumladda, mana aha turjumaad eray-eray khaldan."
+        },
+        {
+          "id": "a1-u02-l08-p06",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: Magacaa, fadlan?",
+          "options": [
+            "I am fine, thank you.",
+            "Good morning. My name is Ali.",
+            "This is my friend. Her name is Hawa.",
+            "What is your name, please?"
+          ],
+          "correctAnswer": "What is your name, please?",
+          "explanationSomali": "Qaabka dabiiciga ah waa “What is your name, please?”."
+        },
+        {
+          "id": "a1-u02-l08-p07",
+          "type": "trueFalse",
+          "question": "Magacyada dadka waxaa English-ka lagu bilaabaa capital letter.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanationSomali": "Magac qof waa proper name, sidaas darteed xarafka koowaad waa capital."
+        },
+        {
+          "id": "a1-u02-l08-p08",
+          "type": "multipleChoice",
+          "question": "Macmiil cusub ayaad subaxdii la kulantay. Kee ku habboon?",
+          "options": [
+            "Hey!",
+            "Good morning. Pleased to meet you.",
+            "Good night.",
+            "Bye!"
+          ],
+          "correctAnswer": "Good morning. Pleased to meet you.",
+          "explanationSomali": "“Good morning. Pleased to meet you.” ayaa ku habboon qofka iyo xaaladda lagu sheegay; xulashooyinka kale waxay noqon karaan waqti ama heer rasmi ah oo aan ku habboonayn."
+        },
+        {
+          "id": "a1-u02-l08-p09",
+          "type": "speakingPrompt",
+          "question": "Samee wada sheekeysi dhammeystiran: salaam, isbaro, magaca weydii, xaaladda weydii, qof kale bar, kadib soo gabagabee.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Si tartiib ah oo cad u hadal. Isticmaal weedhaha casharka oo eeg qofka aad la hadlayso."
+        },
+        {
+          "id": "a1-u02-l08-p10",
+          "type": "shortWriting",
+          "question": "Qor wada sheekeysi siddeed sadar ah oo laba qof markii ugu horreysay kulmayaan.",
+          "options": [],
+          "correctAnswer": "Teacher review",
+          "explanationSomali": "Hubi capital letters-ka magacyada, full stop-ka jumladaha iyo question mark-ka su’aalaha."
+        },
+        {
+          "id": "a1-u02-l08-p11",
+          "type": "multipleChoice",
+          "question": "Dooro qaabka ugu edeb badan ee magac lagu weydiiyo.",
+          "options": [
+            "Who are you?",
+            "What is your name, please?",
+            "Name?",
+            "You are who?"
+          ],
+          "correctAnswer": "What is your name, please?",
+          "explanationSomali": "Please wuxuu su’aasha ka dhigaa mid edeb leh; qaababka kale way adkaan karaan ama naxwe ahaan way khaldan yihiin."
+        },
+        {
+          "id": "a1-u02-l08-p12",
+          "type": "fillInTheBlank",
+          "question": "This is Amina. ___ is my teacher.",
+          "options": [
+            "I",
+            "You",
+            "He",
+            "She"
+          ],
+          "correctAnswer": "She",
+          "explanationSomali": "Amina waa qof dumar ah, sidaas darteed pronoun-ka saxda ahi waa she."
+        },
+        {
+          "id": "a1-u02-l08-p13",
+          "type": "multipleChoice",
+          "question": "Weedhee ayaa si wanaagsan wada sheekeysi u soo gabagabaynaysa?",
+          "options": [
+            "What is your name?",
+            "See you soon.",
+            "Good morning.",
+            "How are you?"
+          ],
+          "correctAnswer": "See you soon.",
+          "explanationSomali": "See you soon waxaa la yiraahdaa marka la kala tagayo."
+        },
+        {
+          "id": "a1-u02-l08-p14",
+          "type": "somaliToEnglish",
+          "question": "U beddel English: “Magacaygu waa Sahra.”",
+          "options": [
+            "Her name is Sahra.",
+            "Your name is Sahra.",
+            "My name is Sahra.",
+            "His name is Sahra."
+          ],
+          "correctAnswer": "My name is Sahra.",
+          "explanationSomali": "My waxaa loo isticmaalaa wax aniga i leeyahay; halkan waa magacayga."
+        },
+        {
+          "id": "a1-u02-l08-p15",
+          "type": "englishToSomali",
+          "question": "Turjun: “It was nice talking to you.”",
+          "options": [
+            "Waan daalay.",
+            "Waan ku farxay inaan kula hadlo.",
+            "Magacaa?",
+            "Berri ayaan ku arkaa."
+          ],
+          "correctAnswer": "Waan ku farxay inaan kula hadlo.",
+          "explanationSomali": "Weedhan waxaa si edeb leh loo adeegsadaa dhammaadka wada sheekeysiga."
+        }
+      ],
+      "speakingPractice": "Samee wada sheekeysi dhammeystiran: salaam, isbaro, magaca weydii, xaaladda weydii, qof kale bar, kadib soo gabagabee.",
+      "writingPractice": "Qor wada sheekeysi siddeed sadar ah oo laba qof markii ugu horreysay kulmayaan.",
+      "summarySomali": "Waxaad dib u eegtay dhammaan Unit 2. Hadda waxaad salaami kartaa qof, isbari kartaa, magac iyo xaalad weydiin kartaa, qof kale bari kartaa, wada sheekeysina si edeb leh u bilaabi oo u dhammeystiri kartaa.",
+      "quizQuestions": [
+        {
+          "id": "a1-u02-l08-p01",
+          "type": "multipleChoice",
+          "question": "“Greeting” maxay ka dhigan tahay?",
+          "options": [
+            "Salaan",
+            "Isbarasho",
+            "Rasmi",
+            "Caadi/aan rasmi ahayn"
+          ],
+          "correctAnswer": "Salaan",
+          "explanationSomali": "Macnaha saxda ahi waa “Salaan”. Xulashooyinka kale waxay leeyihiin macnayaal kale."
+        },
+        {
+          "id": "a1-u02-l08-p02",
+          "type": "fillInTheBlank",
+          "question": "Her name ___ Hawa.",
+          "options": [
+            "is",
+            "Introduction",
+            "Formal",
+            "Informal"
+          ],
+          "correctAnswer": "is",
+          "explanationSomali": "“is” ayaa qaabka jumladda iyo xaaladda ku habboon."
+        },
+        {
+          "id": "a1-u02-l08-p03",
+          "type": "matchWords",
+          "question": "Isku aadi “Introduction” iyo macnihiisa.",
+          "options": [
+            "Rasmi",
+            "Isbarasho",
+            "Caadi/aan rasmi ahayn",
+            "Salaan"
+          ],
+          "correctAnswer": "Isbarasho",
+          "explanationSomali": "Introduction waxaa loola jeedaa Isbarasho."
+        }
+      ]
+    }
+  ],
+  "unitQuiz": [
+    {
+      "id": "a1-u02-q01",
+      "type": "multipleChoice",
+      "question": "Salaantee ku habboon 8:00 subaxnimo?",
+      "options": [
+        "Good evening",
+        "Good morning",
+        "Good night",
+        "Bye"
+      ],
+      "correctAnswer": "Good morning",
+      "explanationSomali": "Good morning waxaa la isticmaalaa subaxdii."
+    },
+    {
+      "id": "a1-u02-q02",
+      "type": "multipleChoice",
+      "question": "Kee ayaa lagu yiraahdaa marka la seexanayo?",
+      "options": [
+        "Good afternoon",
+        "Hello",
+        "Good night",
+        "Good morning"
+      ],
+      "correctAnswer": "Good night",
+      "explanationSomali": "Good night waxaa la yiraahdaa marka la kala tagayo habeenkii ama la seexanayo."
+    },
+    {
+      "id": "a1-u02-q03",
+      "type": "multipleChoice",
+      "question": "“See you later” maxay ka dhigan tahay?",
+      "options": [
+        "Subax wanaagsan",
+        "Goor dambe ayaan is arki doonnaa",
+        "Magacaa?",
+        "Waan daalay"
+      ],
+      "correctAnswer": "Goor dambe ayaan is arki doonnaa",
+      "explanationSomali": "Weedhu waxay muujinaysaa in mar kale la kulmi doono."
+    },
+    {
+      "id": "a1-u02-q04",
+      "type": "multipleChoice",
+      "question": "Kee ayaa formal ah?",
+      "options": [
+        "Hey!",
+        "Pleased to meet you.",
+        "Hi, friend!",
+        "Bye!"
+      ],
+      "correctAnswer": "Pleased to meet you.",
+      "explanationSomali": "Pleased to meet you waa qaab rasmi ah oo xushmad leh."
+    },
+    {
+      "id": "a1-u02-q05",
+      "type": "multipleChoice",
+      "question": "“Take care” waxaa la yiraahdaa marka…",
+      "options": [
+        "la isbarayo",
+        "la kala tagayo",
+        "magac la weydiinayo",
+        "subax la salaamayo"
+      ],
+      "correctAnswer": "la kala tagayo",
+      "explanationSomali": "Take care waa weedh diirran oo lagu soo gabagabeeyo kulanka."
+    },
+    {
+      "id": "a1-u02-q06",
+      "type": "fillInTheBlank",
+      "question": "I ___ a student.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "correctAnswer": "am",
+      "explanationSomali": "I waxaa la socda am."
+    },
+    {
+      "id": "a1-u02-q07",
+      "type": "fillInTheBlank",
+      "question": "What ___ your name?",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "correctAnswer": "is",
+      "explanationSomali": "Qaabka saxda ahi waa What is your name?"
+    },
+    {
+      "id": "a1-u02-q08",
+      "type": "fillInTheBlank",
+      "question": "She ___ my teacher.",
+      "options": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "correctAnswer": "is",
+      "explanationSomali": "She waxaa la socda is."
+    },
+    {
+      "id": "a1-u02-q09",
+      "type": "multipleChoice",
+      "question": "Amina waa haweeney. ___ name is Amina.",
+      "options": [
+        "His",
+        "Her",
+        "My",
+        "Your"
+      ],
+      "correctAnswer": "Her",
+      "explanationSomali": "Her waxaa loo isticmaalaa lahaanshaha qof dumar ah."
+    },
+    {
+      "id": "a1-u02-q10",
+      "type": "multipleChoice",
+      "question": "Kee ayaa contraction sax ah?",
+      "options": [
+        "Im",
+        "I,m",
+        "I’m",
+        "Iam"
+      ],
+      "correctAnswer": "I’m",
+      "explanationSomali": "I’m waa qaabka saxda ah ee I am oo apostrophe leh."
+    },
+    {
+      "id": "a1-u02-q11",
+      "type": "multipleChoice",
+      "question": "A: Good morning. B: ___",
+      "options": [
+        "Good night.",
+        "Good morning.",
+        "Take care yesterday.",
+        "Who are you?"
+      ],
+      "correctAnswer": "Good morning.",
+      "explanationSomali": "Salaanta waxaa si dabiici ah loogu jawaabaa isla salaanta ku habboon waqtiga."
+    },
+    {
+      "id": "a1-u02-q12",
+      "type": "multipleChoice",
+      "question": "A: What is your name? B: ___",
+      "options": [
+        "I am fine.",
+        "My name is Hawa.",
+        "Good night.",
+        "He is tired."
+      ],
+      "correctAnswer": "My name is Hawa.",
+      "explanationSomali": "Su’aashu magac ayay weydiinaysaa, sidaas darteed magaca ayaa lagu jawaabaa."
+    },
+    {
+      "id": "a1-u02-q13",
+      "type": "multipleChoice",
+      "question": "A: How are you? B: ___",
+      "options": [
+        "I am fine, thank you.",
+        "My name is Ali.",
+        "Good evening yesterday.",
+        "Her name is Asha."
+      ],
+      "correctAnswer": "I am fine, thank you.",
+      "explanationSomali": "How are you? waxaa looga jawaabaa xaaladda qofka."
+    },
+    {
+      "id": "a1-u02-q14",
+      "type": "multipleChoice",
+      "question": "A: It was nice talking to you. B: ___",
+      "options": [
+        "What is your name?",
+        "Nice talking to you too. Goodbye.",
+        "Good morning.",
+        "I am from Somalia."
+      ],
+      "correctAnswer": "Nice talking to you too. Goodbye.",
+      "explanationSomali": "Tani waa jawaab ku habboon dhammaadka wada sheekeysiga."
+    },
+    {
+      "id": "a1-u02-q15",
+      "type": "englishToSomali",
+      "question": "Turjun: “Nice to meet you.”",
+      "options": [
+        "Waan ku faraxsanahay inaan kula kulmo.",
+        "Sidee tahay?",
+        "Habeen wanaagsan.",
+        "Magacaa?"
+      ],
+      "correctAnswer": "Waan ku faraxsanahay inaan kula kulmo.",
+      "explanationSomali": "Weedhan waxaa la yiraahdaa marka qof cusub lala kulmo."
+    },
+    {
+      "id": "a1-u02-q16",
+      "type": "englishToSomali",
+      "question": "Turjun: “Are you okay?”",
+      "options": [
+        "Ma arday baad tahay?",
+        "Ma fiican tahay?",
+        "Xaggee degan tahay?",
+        "Magacaa?"
+      ],
+      "correctAnswer": "Ma fiican tahay?",
+      "explanationSomali": "Are you okay? waxay weydiinaysaa xaaladda qofka."
+    },
+    {
+      "id": "a1-u02-q17",
+      "type": "englishToSomali",
+      "question": "Turjun: “This is my friend.”",
+      "options": [
+        "Kani waa saaxiibkay.",
+        "Isagu waa macallin.",
+        "Magaceedu waa Hawa.",
+        "Waxaan ahay arday."
+      ],
+      "correctAnswer": "Kani waa saaxiibkay.",
+      "explanationSomali": "This is my friend waxaa lagu baraa saaxiib."
+    },
+    {
+      "id": "a1-u02-q18",
+      "type": "somaliToEnglish",
+      "question": "U beddel English: “Magacaygu waa Sahra.”",
+      "options": [
+        "Her name is Sahra.",
+        "My name is Sahra.",
+        "Your name is Sahra.",
+        "His name is Sahra."
+      ],
+      "correctAnswer": "My name is Sahra.",
+      "explanationSomali": "My name is… ayaa lagu sheegaa magacaaga."
+    },
+    {
+      "id": "a1-u02-q19",
+      "type": "somaliToEnglish",
+      "question": "U beddel English: “Sidee tahay?”",
+      "options": [
+        "Who are you?",
+        "How are you?",
+        "What is your name?",
+        "Where are you?"
+      ],
+      "correctAnswer": "How are you?",
+      "explanationSomali": "How are you? waa su’aasha xaaladda qofka."
+    },
+    {
+      "id": "a1-u02-q20",
+      "type": "somaliToEnglish",
+      "question": "U beddel English: “Maalin wanaagsan.”",
+      "options": [
+        "Good night.",
+        "Have a good day.",
+        "Good morning?",
+        "See you yesterday."
+      ],
+      "correctAnswer": "Have a good day.",
+      "explanationSomali": "Have a good day waxaa loo adeegsadaa duco ahaan marka la kala tagayo."
+    }
+  ],
+  "passingScore": 70
+}

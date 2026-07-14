@@ -17,14 +17,15 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  late final Future<CourseUnit> _unit = CefrContentRepository().loadUnit(
-    'assets/content/a1/unit_01.json',
-  );
+  late final Future<List<CourseUnit>> _units = Future.wait([
+    CefrContentRepository().loadUnit('assets/content/a1/unit_01.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/unit_02.json'),
+  ]);
 
   @override
   Widget build(BuildContext context) => SafeArea(
-    child: FutureBuilder<CourseUnit>(
-      future: _unit,
+    child: FutureBuilder<List<CourseUnit>>(
+      future: _units,
       builder: (context, snapshot) {
         if (snapshot.connectionState != ConnectionState.done) {
           return const Center(child: CircularProgressIndicator());
@@ -35,24 +36,33 @@ class _HomeScreenState extends State<HomeScreen> {
             message: 'Xogta waxbarashada lama furin. Fadlan app-ka dib u fur.',
           );
         }
-        return _Dashboard(unit: snapshot.data!);
+        return _Dashboard(units: snapshot.data!);
       },
     ),
   );
 }
 
 class _Dashboard extends StatelessWidget {
-  const _Dashboard({required this.unit});
-  final CourseUnit unit;
+  const _Dashboard({required this.units});
+  final List<CourseUnit> units;
 
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
+    final unit = state.hasPassedUnit('a1-u01') ? units[1] : units[0];
     final completedIds = state.courseProgress.completedLessonIds;
     final completedCount = unit.lessons
         .where((lesson) => completedIds.contains(lesson.id))
         .length;
-    final progress = completedCount / unit.lessons.length;
+    final totalLessons = units.fold<int>(
+      0,
+      (total, item) => total + item.lessons.length,
+    );
+    final totalCompleted = units
+        .expand((item) => item.lessons)
+        .where((lesson) => completedIds.contains(lesson.id))
+        .length;
+    final progress = totalCompleted / totalLessons;
     return ListView(
       padding: const EdgeInsets.all(18),
       children: [
@@ -127,12 +137,12 @@ class _Dashboard extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Waxaad dhammaysay $completedCount ka mid ah ${unit.lessons.length} cashar',
+                  'A1: $totalCompleted ka mid ah $totalLessons cashar • Unit ${unit.unitNumber}: $completedCount/${unit.lessons.length}',
                   style: const TextStyle(color: Colors.white),
                 ),
                 const SizedBox(height: 14),
                 FilledButton.tonal(
-                  onPressed: () => _openNext(context, state),
+                  onPressed: () => _openNext(context, state, unit),
                   child: Text(
                     completedCount == unit.lessons.length
                         ? 'Qaado Unit Quiz'
@@ -179,7 +189,7 @@ class _Dashboard extends StatelessWidget {
             _Action(
               Icons.play_circle_outline,
               'Sii wad casharka',
-              () => _openNext(context, state),
+              () => _openNext(context, state, unit),
             ),
             _Action(
               Icons.bookmark_outline,
@@ -189,7 +199,7 @@ class _Dashboard extends StatelessWidget {
             _Action(
               Icons.quiz_outlined,
               'Unit Quiz',
-              () => _openQuiz(context, state),
+              () => _openQuiz(context, state, unit),
             ),
             _Action(
               Icons.layers_outlined,
@@ -198,7 +208,7 @@ class _Dashboard extends StatelessWidget {
             ),
           ],
         ),
-        const SectionTitle('Casharrada A1 Unit 1'),
+        SectionTitle('Casharrada A1 Unit ${unit.unitNumber}'),
         ...unit.lessons.take(3).map((lesson) {
           final complete = completedIds.contains(lesson.id);
           final unlocked = state.isCourseLessonUnlocked(
@@ -234,7 +244,7 @@ class _Dashboard extends StatelessWidget {
     );
   }
 
-  void _openNext(BuildContext context, AppProvider state) {
+  void _openNext(BuildContext context, AppProvider state, CourseUnit unit) {
     final next = unit.lessons
         .where(
           (lesson) =>
@@ -245,11 +255,11 @@ class _Dashboard extends StatelessWidget {
     if (next != null) {
       _openLesson(context, next);
     } else {
-      _openQuiz(context, state);
+      _openQuiz(context, state, unit);
     }
   }
 
-  void _openQuiz(BuildContext context, AppProvider state) {
+  void _openQuiz(BuildContext context, AppProvider state, CourseUnit unit) {
     final ready = unit.lessons.every(
       (lesson) => state.courseProgress.completedLessonIds.contains(lesson.id),
     );

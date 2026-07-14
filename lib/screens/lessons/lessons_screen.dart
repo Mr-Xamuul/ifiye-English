@@ -17,14 +17,16 @@ class LessonsScreen extends StatefulWidget {
 }
 
 class _LessonsScreenState extends State<LessonsScreen> {
-  late final Future<CourseUnit> _unit = CefrContentRepository().loadUnit(
-    'assets/content/a1/unit_01.json',
-  );
+  int _selectedUnit = 0;
+  late final Future<List<CourseUnit>> _units = Future.wait([
+    CefrContentRepository().loadUnit('assets/content/a1/unit_01.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/unit_02.json'),
+  ]);
 
   @override
   Widget build(BuildContext context) {
-    final content = FutureBuilder<CourseUnit>(
-      future: _unit,
+    final content = FutureBuilder<List<CourseUnit>>(
+      future: _units,
       builder: (context, snapshot) {
         if (snapshot.connectionState != ConnectionState.done) {
           return const Center(child: CircularProgressIndicator());
@@ -35,7 +37,23 @@ class _LessonsScreenState extends State<LessonsScreen> {
             message: 'Casharrada lama furin. Fadlan mar kale isku day.',
           );
         }
-        return _UnitContent(unit: snapshot.data!);
+        final units = snapshot.data!;
+        return Column(
+          children: [
+            _UnitSelector(
+              selectedUnit: _selectedUnit,
+              onSelected: (value) => setState(() => _selectedUnit = value),
+            ),
+            Expanded(
+              child: _UnitContent(
+                unit: units[_selectedUnit],
+                onOpenNextUnit: _selectedUnit == 0
+                    ? () => setState(() => _selectedUnit = 1)
+                    : null,
+              ),
+            ),
+          ],
+        );
       },
     );
     return widget.showBack
@@ -47,14 +65,89 @@ class _LessonsScreenState extends State<LessonsScreen> {
   }
 }
 
+class _UnitSelector extends StatelessWidget {
+  const _UnitSelector({required this.selectedUnit, required this.onSelected});
+  final int selectedUnit;
+  final ValueChanged<int> onSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    final state = context.watch<AppProvider>();
+    final unitTwoUnlocked = state.hasPassedUnit('a1-u01');
+    final unitThreeUnlocked = state.hasPassedUnit('a1-u02');
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
+      color: Theme.of(context).scaffoldBackgroundColor,
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          children: [
+            ChoiceChip(
+              label: const Text('Unit 1'),
+              selected: selectedUnit == 0,
+              onSelected: (_) => onSelected(0),
+              avatar: const Icon(Icons.looks_one_outlined, size: 18),
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: const Text('Unit 2'),
+              selected: selectedUnit == 1,
+              avatar: Icon(
+                unitTwoUnlocked ? Icons.looks_two_outlined : Icons.lock_outline,
+                size: 18,
+              ),
+              onSelected: (_) {
+                if (unitTwoUnlocked) {
+                  onSelected(1);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('Gudub Unit 1 quiz si Unit 2 u furmo.'),
+                    ),
+                  );
+                }
+              },
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: const Text('Unit 3'),
+              selected: false,
+              avatar: Icon(
+                unitThreeUnlocked
+                    ? Icons.lock_open_outlined
+                    : Icons.lock_outline,
+                size: 18,
+              ),
+              onSelected: (_) => ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text(
+                    unitThreeUnlocked
+                        ? 'Unit 3 waa furmay; content-kiisa tallaabada xigta ayaa la dhisayaa.'
+                        : 'Gudub Unit 2 quiz si Unit 3 u furmo.',
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _UnitContent extends StatelessWidget {
-  const _UnitContent({required this.unit});
+  const _UnitContent({required this.unit, this.onOpenNextUnit});
   final CourseUnit unit;
+  final VoidCallback? onOpenNextUnit;
 
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
     final completed = state.courseProgress.completedLessonIds;
+    final unitUnlocked =
+        unit.requiredPreviousUnitId == null ||
+        state.hasPassedUnit(unit.requiredPreviousUnitId!);
     final allLessonsComplete = unit.lessons.every(
       (item) => completed.contains(item.id),
     );
@@ -84,9 +177,9 @@ class _UnitContent extends StatelessWidget {
         ),
         const SizedBox(height: 16),
         ...unit.lessons.map((lesson) {
-          final unlocked = state.isCourseLessonUnlocked(
-            lesson.requiredPreviousLessonId,
-          );
+          final unlocked =
+              unitUnlocked &&
+              state.isCourseLessonUnlocked(lesson.requiredPreviousLessonId);
           final isComplete = completed.contains(lesson.id);
           return AppCard(
             onTap: unlocked
@@ -152,8 +245,8 @@ class _UnitContent extends StatelessWidget {
             ),
             subtitle: Text(
               allLessonsComplete
-                  ? '15 su’aalood • Gudub 70% • Best $bestScore%'
-                  : 'Dhammaystir 6-da cashar si quiz-ku u furmo',
+                  ? '${unit.unitQuiz.length} su’aalood • Gudub 70% • Best $bestScore%'
+                  : 'Dhammaystir ${unit.lessons.length}-da cashar si quiz-ku u furmo',
             ),
             trailing: Icon(
               allLessonsComplete ? Icons.chevron_right : Icons.lock_outline,
@@ -162,25 +255,26 @@ class _UnitContent extends StatelessWidget {
         ),
         AppCard(
           onTap: passed
-              ? () => ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text(
-                      'Unit 2 content-ka waxaa lagu dari doonaa tallaabada xigta.',
-                    ),
-                  ),
-                )
+              ? onOpenNextUnit ??
+                    () => ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Unit 3 content-ka weli lama bilaabin.'),
+                      ),
+                    )
               : () => _lockedMessage(context),
           child: ListTile(
             contentPadding: EdgeInsets.zero,
-            leading: const CircleAvatar(child: Text('2')),
-            title: const Text(
-              'Unit 2',
-              style: TextStyle(fontWeight: FontWeight.bold),
+            leading: CircleAvatar(child: Text('${unit.unitNumber + 1}')),
+            title: Text(
+              'Unit ${unit.unitNumber + 1}',
+              style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
               passed
-                  ? 'Unlocked • Content coming next'
-                  : 'Locked • Gudub Unit 1 quiz',
+                  ? (onOpenNextUnit == null
+                        ? 'Unlocked • Content coming next'
+                        : 'Unlocked • Fur casharrada')
+                  : 'Locked • Gudub Unit ${unit.unitNumber} quiz',
             ),
             trailing: Icon(
               passed ? Icons.lock_open_outlined : Icons.lock_outline,

@@ -46,5 +46,13 @@ void main() {
     expect(state.courseProgress.completedLessonIds, contains('a1-u01-l01'));
     expect(state.hasPassedUnit('a1-u01'), isTrue);
     expect(storage.courseProgress.hasPassedUnitQuiz('a1-u01'), isTrue);
+
+    await state.recordUnitQuizScore('a1-u02', 69);
+    expect(state.hasPassedUnit('a1-u02'), isFalse);
+    expect(state.hasPassedUnit('a1-u01'), isTrue);
+
+    await state.recordUnitQuizScore('a1-u02', 70);
+    expect(state.hasPassedUnit('a1-u02'), isTrue);
+    expect(state.courseProgress.completedLessonIds, contains('a1-u01-l01'));
   });
 }

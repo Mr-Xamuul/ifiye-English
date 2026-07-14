@@ -21,7 +21,7 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('A1 Unit 1 Quiz')),
+    appBar: AppBar(title: Text('A1 Unit ${widget.unit.unitNumber} Quiz')),
     body: SafeArea(child: finished ? _result(context) : _question(context)),
   );
 
@@ -184,7 +184,9 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
               ),
               Text(
                 passed
-                    ? 'Unit 2 hadda waa kuu furmay.'
+                    ? 'Unit ${widget.unit.unitNumber + 1} hadda waa kuu furmay.'
+                    : widget.unit.id == 'a1-u02'
+                    ? 'Dib u eeg Basic Greetings, am/is/are, formal iyo informal greetings, iyo wada sheekeysiyada; kadib mar kale isku day.'
                     : 'Dib u eeg casharrada, kadib mar kale isku day.',
                 style: TextStyle(
                   color: passed ? Colors.green : Colors.deepOrange,
@@ -197,7 +199,7 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
         FilledButton(onPressed: _retry, child: const Text('Mar kale qaado')),
         OutlinedButton(
           onPressed: () => Navigator.pop(context),
-          child: const Text('Ku noqo Unit 1'),
+          child: Text('Ku noqo Unit ${widget.unit.unitNumber}'),
         ),
       ],
     );
