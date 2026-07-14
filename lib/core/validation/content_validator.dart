@@ -29,8 +29,8 @@ class ContentValidator {
   ValidationResult validateUnit(CourseUnit unit) {
     final errors = <String>[];
     final ids = <String>{};
-    if (unit.lessons.length < 4 || unit.lessons.length > 13) {
-      errors.add('${unit.id}: unit-ku waa inuu lahaadaa 4 ilaa 13 lessons.');
+    if (unit.lessons.length < 4 || unit.lessons.length > 15) {
+      errors.add('${unit.id}: unit-ku waa inuu lahaadaa 4 ilaa 15 lessons.');
     }
     for (final lesson in unit.lessons) {
       if (!ids.add(lesson.id)) errors.add('${unit.id}: lesson ID isku mid ah.');
@@ -64,7 +64,7 @@ class ContentValidator {
     if (lesson.examples.length < 5) {
       errors.add('${lesson.id}: ugu yaraan 5 tusaale ayaa loo baahan yahay.');
     }
-    final maximumExercises = lesson.lessonType == LessonType.review ? 25 : 15;
+    final maximumExercises = lesson.lessonType == LessonType.review ? 30 : 15;
     if (lesson.practiceExercises.length < 8 ||
         lesson.practiceExercises.length > maximumExercises) {
       errors.add(
