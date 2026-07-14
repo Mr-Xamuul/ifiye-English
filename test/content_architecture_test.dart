@@ -235,4 +235,63 @@ void main() {
       );
     }
   });
+
+  test('A1 Unit 6 is complete, valid, and references Unit 5', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final validator = const ContentValidator();
+    final units = await Future.wait([
+      repository.loadUnit('assets/content/a1/unit_01.json'),
+      repository.loadUnit('assets/content/a1/unit_02.json'),
+      repository.loadUnit('assets/content/a1/unit_03.json'),
+      repository.loadUnit('assets/content/a1/unit_04.json'),
+      repository.loadUnit('assets/content/a1/unit_05.json'),
+      repository.loadUnit('assets/content/a1/unit_06.json'),
+    ]);
+    final unitSix = units.last;
+
+    expect(validator.validateUnit(unitSix).errors, isEmpty);
+    expect(unitSix.requiredPreviousUnitId, 'a1-u05');
+    expect(unitSix.lessons, hasLength(13));
+    expect(unitSix.lessons.last.lessonType.name, 'review');
+    expect(unitSix.lessons.last.practiceExercises, hasLength(25));
+    expect(unitSix.unitQuiz, hasLength(30));
+    expect(
+      unitSix.lessons.every((lesson) => lesson.dialogues.length >= 2),
+      isTrue,
+    );
+    expect(
+      unitSix.lessons.expand((lesson) => lesson.vocabulary),
+      hasLength(142),
+    );
+    expect(
+      unitSix.lessons.expand((lesson) => lesson.practiceExercises).length,
+      181,
+    );
+    expect(unitSix.lessons.expand((lesson) => lesson.quizQuestions).length, 39);
+    expect(
+      unitSix.lessons
+          .where((lesson) => lesson.grammar != null)
+          .every((lesson) => lesson.grammar!.positiveExamples.length >= 6),
+      isTrue,
+    );
+
+    final allIds = <String>[
+      for (final unit in units) ...[
+        unit.id,
+        ...unit.lessons.map((lesson) => lesson.id),
+      ],
+      for (final lesson in unitSix.lessons) ...[
+        ...lesson.practiceExercises.map((item) => item.id),
+        ...lesson.quizQuestions.map((item) => item.id),
+      ],
+      ...unitSix.unitQuiz.map((item) => item.id),
+    ];
+    expect(allIds.toSet(), hasLength(allIds.length));
+    for (var index = 1; index < unitSix.lessons.length; index++) {
+      expect(
+        unitSix.lessons[index].requiredPreviousLessonId,
+        unitSix.lessons[index - 1].id,
+      );
+    }
+  });
 }

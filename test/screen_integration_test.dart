@@ -95,5 +95,23 @@ void main() {
       findsOneWidget,
     );
     expect(state.hasPassedUnit('a1-u05'), isFalse);
+
+    await tester.ensureVisible(unitSixChip);
+    await tester.pump();
+    await tester.tap(unitSixChip);
+    await tester.pump();
+
+    expect(find.text('Time, Days and Months'), findsOneWidget);
+    expect(find.text('Asking and Telling the Time'), findsOneWidget);
+
+    final unitSevenChip = find.widgetWithText(ChoiceChip, 'Unit 7');
+    expect(
+      find.descendant(
+        of: unitSevenChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+    expect(state.hasPassedUnit('a1-u06'), isFalse);
   });
 }
