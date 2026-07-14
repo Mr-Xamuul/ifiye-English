@@ -421,4 +421,69 @@ void main() {
       );
     }
   });
+
+  test('A1 Unit 9 is complete, valid, and references Unit 8', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final validator = const ContentValidator();
+    final units = await Future.wait([
+      repository.loadUnit('assets/content/a1/unit_01.json'),
+      repository.loadUnit('assets/content/a1/unit_02.json'),
+      repository.loadUnit('assets/content/a1/unit_03.json'),
+      repository.loadUnit('assets/content/a1/unit_04.json'),
+      repository.loadUnit('assets/content/a1/unit_05.json'),
+      repository.loadUnit('assets/content/a1/unit_06.json'),
+      repository.loadUnit('assets/content/a1/unit_07.json'),
+      repository.loadUnit('assets/content/a1/unit_08.json'),
+      repository.loadUnit('assets/content/a1/unit_09.json'),
+    ]);
+    final unitNine = units.last;
+
+    expect(validator.validateUnit(unitNine).errors, isEmpty);
+    expect(unitNine.requiredPreviousUnitId, 'a1-u08');
+    expect(unitNine.lessons, hasLength(15));
+    expect(unitNine.lessons.last.lessonType.name, 'review');
+    expect(unitNine.lessons.last.practiceExercises, hasLength(30));
+    expect(unitNine.unitQuiz, hasLength(35));
+    expect(
+      unitNine.lessons.every((lesson) => lesson.dialogues.length >= 2),
+      isTrue,
+    );
+    expect(
+      unitNine.lessons.expand((lesson) => lesson.vocabulary),
+      hasLength(158),
+    );
+    expect(
+      unitNine.lessons.expand((lesson) => lesson.practiceExercises).length,
+      226,
+    );
+    expect(
+      unitNine.lessons.expand((lesson) => lesson.quizQuestions).length,
+      45,
+    );
+    expect(
+      unitNine.lessons
+          .where((lesson) => lesson.grammar != null)
+          .every((lesson) => lesson.grammar!.positiveExamples.length >= 6),
+      isTrue,
+    );
+
+    final allIds = <String>[
+      for (final unit in units) ...[
+        unit.id,
+        ...unit.lessons.map((lesson) => lesson.id),
+      ],
+      for (final lesson in unitNine.lessons) ...[
+        ...lesson.practiceExercises.map((item) => item.id),
+        ...lesson.quizQuestions.map((item) => item.id),
+      ],
+      ...unitNine.unitQuiz.map((item) => item.id),
+    ];
+    expect(allIds.toSet(), hasLength(allIds.length));
+    for (var index = 1; index < unitNine.lessons.length; index++) {
+      expect(
+        unitNine.lessons[index].requiredPreviousLessonId,
+        unitNine.lessons[index - 1].id,
+      );
+    }
+  });
 }

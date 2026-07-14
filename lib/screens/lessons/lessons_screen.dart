@@ -27,6 +27,7 @@ class _LessonsScreenState extends State<LessonsScreen> {
     CefrContentRepository().loadUnit('assets/content/a1/unit_06.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_07.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_08.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/unit_09.json'),
   ]);
 
   @override
@@ -93,7 +94,9 @@ class _UnitSelector extends StatelessWidget {
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u06');
     final unitEightUnlocked =
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u07');
-    final unitNineUnlocked = state.hasPassedUnit('a1-u08');
+    final unitNineUnlocked =
+        AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u08');
+    final unitTenUnlocked = state.hasPassedUnit('a1-u09');
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -261,19 +264,39 @@ class _UnitSelector extends StatelessWidget {
             const SizedBox(width: 8),
             ChoiceChip(
               label: const Text('Unit 9'),
-              selected: false,
+              selected: selectedUnit == 8,
               avatar: Icon(
                 unitNineUnlocked
                     ? Icons.lock_open_outlined
                     : Icons.lock_outline,
                 size: 18,
               ),
+              onSelected: (_) {
+                if (unitNineUnlocked) {
+                  onSelected(8);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('Gudub Unit 8 quiz si Unit 9 u furmo.'),
+                    ),
+                  );
+                }
+              },
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: const Text('Unit 10'),
+              selected: false,
+              avatar: Icon(
+                unitTenUnlocked ? Icons.lock_open_outlined : Icons.lock_outline,
+                size: 18,
+              ),
               onSelected: (_) => ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(
-                    unitNineUnlocked
-                        ? 'Unit 9 waa furmay; content-kiisu coming soon ayuu yahay.'
-                        : 'Gudub Unit 8 quiz si Unit 9 u furmo.',
+                    unitTenUnlocked
+                        ? 'Unit 10 waa furmay; content-kiisu coming soon ayuu yahay.'
+                        : 'Gudub Unit 9 quiz si Unit 10 u furmo.',
                   ),
                 ),
               ),

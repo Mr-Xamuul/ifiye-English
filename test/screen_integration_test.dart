@@ -144,10 +144,28 @@ void main() {
     expect(
       find.descendant(
         of: unitNineChip,
-        matching: find.byIcon(Icons.lock_outline),
+        matching: find.byIcon(Icons.lock_open_outlined),
       ),
       findsOneWidget,
     );
     expect(state.hasPassedUnit('a1-u08'), isFalse);
+
+    await tester.ensureVisible(unitNineChip);
+    await tester.pump();
+    await tester.tap(unitNineChip);
+    await tester.pump();
+
+    expect(find.text('Places and Directions'), findsOneWidget);
+    expect(find.text('Places in a Town or City'), findsOneWidget);
+
+    final unitTenChip = find.widgetWithText(ChoiceChip, 'Unit 10');
+    expect(
+      find.descendant(
+        of: unitTenChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+    expect(state.hasPassedUnit('a1-u09'), isFalse);
   });
 }
