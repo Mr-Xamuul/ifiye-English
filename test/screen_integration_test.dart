@@ -84,5 +84,25 @@ void main() {
       findsOneWidget,
     );
     expect(state.hasPassedUnit('a1-u04'), isFalse);
+
+    await state.recordUnitQuizScore('a1-u04', 70);
+    await tester.pump();
+    await tester.ensureVisible(unitFiveChip);
+    await tester.pump();
+    await tester.tap(unitFiveChip);
+    await tester.pump();
+
+    expect(find.text('Daily Activities and Routines'), findsOneWidget);
+    expect(find.text('Morning Activities'), findsOneWidget);
+
+    final unitSixChip = find.widgetWithText(ChoiceChip, 'Unit 6');
+    expect(
+      find.descendant(
+        of: unitSixChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+    expect(state.hasPassedUnit('a1-u05'), isFalse);
   });
 }

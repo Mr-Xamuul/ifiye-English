@@ -22,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     CefrContentRepository().loadUnit('assets/content/a1/unit_02.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_03.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_04.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/unit_05.json'),
   ]);
 
   @override
@@ -51,7 +52,9 @@ class _Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
-    final unit = state.hasPassedUnit('a1-u03')
+    final unit = state.hasPassedUnit('a1-u04')
+        ? units[4]
+        : state.hasPassedUnit('a1-u03')
         ? units[3]
         : state.hasPassedUnit('a1-u02')
         ? units[2]

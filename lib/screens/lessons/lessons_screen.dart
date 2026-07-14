@@ -23,6 +23,7 @@ class _LessonsScreenState extends State<LessonsScreen> {
     CefrContentRepository().loadUnit('assets/content/a1/unit_02.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_03.json'),
     CefrContentRepository().loadUnit('assets/content/a1/unit_04.json'),
+    CefrContentRepository().loadUnit('assets/content/a1/unit_05.json'),
   ]);
 
   @override
@@ -79,6 +80,7 @@ class _UnitSelector extends StatelessWidget {
     final unitThreeUnlocked = state.hasPassedUnit('a1-u02');
     final unitFourUnlocked = state.hasPassedUnit('a1-u03');
     final unitFiveUnlocked = state.hasPassedUnit('a1-u04');
+    final unitSixUnlocked = state.hasPassedUnit('a1-u05');
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -160,19 +162,39 @@ class _UnitSelector extends StatelessWidget {
             const SizedBox(width: 8),
             ChoiceChip(
               label: const Text('Unit 5'),
-              selected: false,
+              selected: selectedUnit == 4,
               avatar: Icon(
                 unitFiveUnlocked
                     ? Icons.lock_open_outlined
                     : Icons.lock_outline,
                 size: 18,
               ),
+              onSelected: (_) {
+                if (unitFiveUnlocked) {
+                  onSelected(4);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('Gudub Unit 4 quiz si Unit 5 u furmo.'),
+                    ),
+                  );
+                }
+              },
+            ),
+            const SizedBox(width: 8),
+            ChoiceChip(
+              label: const Text('Unit 6'),
+              selected: false,
+              avatar: Icon(
+                unitSixUnlocked ? Icons.lock_open_outlined : Icons.lock_outline,
+                size: 18,
+              ),
               onSelected: (_) => ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(
-                    unitFiveUnlocked
-                        ? 'Unit 5 waa furmay; content-kiisu coming soon ayuu yahay.'
-                        : 'Gudub Unit 4 quiz si Unit 5 u furmo.',
+                    unitSixUnlocked
+                        ? 'Unit 6 waa furmay; content-kiisu coming soon ayuu yahay.'
+                        : 'Gudub Unit 5 quiz si Unit 6 u furmo.',
                   ),
                 ),
               ),

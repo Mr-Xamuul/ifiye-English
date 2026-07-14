@@ -178,4 +178,61 @@ void main() {
       );
     }
   });
+
+  test('A1 Unit 5 is complete, valid, and references Unit 4', () async {
+    final repository = CefrContentRepository(bundle: rootBundle);
+    final validator = const ContentValidator();
+    final units = await Future.wait([
+      repository.loadUnit('assets/content/a1/unit_01.json'),
+      repository.loadUnit('assets/content/a1/unit_02.json'),
+      repository.loadUnit('assets/content/a1/unit_03.json'),
+      repository.loadUnit('assets/content/a1/unit_04.json'),
+      repository.loadUnit('assets/content/a1/unit_05.json'),
+    ]);
+    final unitFive = units.last;
+
+    expect(validator.validateUnit(unitFive).errors, isEmpty);
+    expect(unitFive.requiredPreviousUnitId, 'a1-u04');
+    expect(unitFive.lessons, hasLength(12));
+    expect(unitFive.lessons.last.lessonType.name, 'review');
+    expect(unitFive.lessons.last.practiceExercises, hasLength(25));
+    expect(unitFive.unitQuiz, hasLength(30));
+    expect(
+      unitFive.lessons.every((lesson) => lesson.dialogues.length >= 2),
+      isTrue,
+    );
+    expect(
+      unitFive.lessons.expand((lesson) => lesson.vocabulary),
+      hasLength(135),
+    );
+    expect(
+      unitFive.lessons.expand((lesson) => lesson.practiceExercises).length,
+      157,
+    );
+    expect(
+      unitFive.lessons
+          .where((lesson) => lesson.grammar != null)
+          .every((lesson) => lesson.grammar!.positiveExamples.length >= 6),
+      isTrue,
+    );
+
+    final allIds = <String>[
+      for (final unit in units) ...[
+        unit.id,
+        ...unit.lessons.map((lesson) => lesson.id),
+      ],
+      for (final lesson in unitFive.lessons) ...[
+        ...lesson.practiceExercises.map((item) => item.id),
+        ...lesson.quizQuestions.map((item) => item.id),
+      ],
+      ...unitFive.unitQuiz.map((item) => item.id),
+    ];
+    expect(allIds.toSet(), hasLength(allIds.length));
+    for (var index = 1; index < unitFive.lessons.length; index++) {
+      expect(
+        unitFive.lessons[index].requiredPreviousLessonId,
+        unitFive.lessons[index - 1].id,
+      );
+    }
+  });
 }
