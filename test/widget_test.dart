@@ -127,5 +127,27 @@ void main() {
       storage.courseProgress.completedLessonIds,
       contains(AppProvider.finalReviewCompletionId),
     );
+
+    await state.saveFinalExamSession(12, {'a1-fe-001': 'Salaan'});
+    expect(state.finalExamProgress.started, isTrue);
+    expect(state.finalExamProgress.currentQuestion, 12);
+
+    await state.finishFinalExam(74, {'vocabulary': 70});
+    expect(state.finalExamProgress.passed, isFalse);
+    expect(state.courseProgress.hasPassedFinalExam('A1'), isFalse);
+    expect(state.finalExamProgress.attempts, 1);
+
+    await state.finishFinalExam(75, {'vocabulary': 80});
+    expect(state.finalExamProgress.passed, isTrue);
+    expect(state.courseProgress.hasPassedFinalExam('A1'), isTrue);
+    expect(state.finalExamProgress.bestScore, 75);
+    expect(state.finalExamProgress.attempts, 2);
+
+    await state.finishFinalExam(100, {'vocabulary': 100});
+    expect(state.finalExamProgress.bestScore, 100);
+    expect(state.finalExamProgress.attempts, 3);
+    expect(storage.finalExamProgress.bestScore, 100);
+    expect(storage.finalExamProgress.passed, isTrue);
+    expect(storage.finalExamProgress.completionDate, isNotNull);
   });
 }

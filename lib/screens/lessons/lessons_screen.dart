@@ -7,6 +7,7 @@ import '../../providers/app_provider.dart';
 import '../../widgets/common_widgets.dart';
 import '../learning/course_learning_screen.dart';
 import '../quiz/unit_quiz_screen.dart';
+import '../exam/exam_screen.dart';
 
 class LessonsScreen extends StatefulWidget {
   const LessonsScreen({this.showBack = false, super.key});
@@ -102,8 +103,7 @@ class _UnitSelector extends StatelessWidget {
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u09');
     final finalReviewUnlocked =
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u10');
-    final finalExamUnlocked =
-        AppProvider.unlockA1DuringDevelopment || state.hasCompletedFinalReview;
+    final finalExamUnlocked = state.hasCompletedFinalReview;
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -344,15 +344,24 @@ class _UnitSelector extends StatelessWidget {
                     : Icons.lock_outline,
                 size: 18,
               ),
-              onSelected: (_) => ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(
-                  content: Text(
-                    finalExamUnlocked
-                        ? 'A1 Final Exam waa furmay; content-kiisu phase-ka xiga ayuu imanayaa.'
-                        : 'Dhammaystir Final Review iyo Mixed Practice si Final Exam u furmo.',
-                  ),
-                ),
-              ),
+              onSelected: (_) {
+                if (finalExamUnlocked) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const ExamScreen(standalone: true),
+                    ),
+                  );
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        'Dhammaystir Final Review iyo Mixed Practice si Final Exam u furmo.',
+                      ),
+                    ),
+                  );
+                }
+              },
             ),
           ],
         ),

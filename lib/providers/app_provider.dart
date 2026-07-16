@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/storage/local_storage_service.dart';
 import '../models/content/course_progress.dart';
+import '../models/content/final_exam_models.dart';
 import '../models/models.dart';
 
 class AppProvider extends ChangeNotifier {
@@ -16,6 +17,7 @@ class AppProvider extends ChangeNotifier {
   List<SavedItem> savedItems = [];
   List<int> examScores = [];
   CourseProgress courseProgress = const CourseProgress();
+  FinalExamProgress finalExamProgress = const FinalExamProgress();
 
   Future<void> initialize() async {
     onboardingComplete = _storage.onboardingComplete;
@@ -23,6 +25,7 @@ class AppProvider extends ChangeNotifier {
     examScores = _storage.examScores;
     dailyGoal = _storage.dailyGoal;
     courseProgress = _storage.courseProgress;
+    finalExamProgress = _storage.finalExamProgress;
     initialized = true;
     notifyListeners();
     await Future<void>.delayed(const Duration(milliseconds: 1200));
@@ -99,6 +102,67 @@ class AppProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> saveFinalExamSession(
+    int currentQuestion,
+    Map<String, String> answers,
+  ) async {
+    finalExamProgress = FinalExamProgress(
+      started: true,
+      currentQuestion: currentQuestion,
+      answers: answers,
+      latestScore: finalExamProgress.latestScore,
+      bestScore: finalExamProgress.bestScore,
+      attempts: finalExamProgress.attempts,
+      passed: finalExamProgress.passed,
+      completionDate: finalExamProgress.completionDate,
+      sectionScores: finalExamProgress.sectionScores,
+    );
+    await _storage.saveFinalExamProgress(finalExamProgress);
+    notifyListeners();
+  }
+
+  Future<void> finishFinalExam(int score, Map<String, int> sections) async {
+    final passed = score >= 75;
+    finalExamProgress = FinalExamProgress(
+      completed: true,
+      latestScore: score,
+      bestScore: score > finalExamProgress.bestScore
+          ? score
+          : finalExamProgress.bestScore,
+      attempts: finalExamProgress.attempts + 1,
+      passed: finalExamProgress.passed || passed,
+      completionDate: passed
+          ? finalExamProgress.completionDate ?? DateTime.now().toIso8601String()
+          : finalExamProgress.completionDate,
+      sectionScores: sections,
+    );
+    courseProgress = CourseProgress(
+      version: courseProgress.version,
+      completedLessonIds: courseProgress.completedLessonIds,
+      lessonQuizScores: courseProgress.lessonQuizScores,
+      unitQuizScores: courseProgress.unitQuizScores,
+      finalExamScores: {
+        ...courseProgress.finalExamScores,
+        'A1': finalExamProgress.bestScore,
+      },
+    );
+    await _storage.saveFinalExamProgress(finalExamProgress);
+    await _storage.saveCourseProgress(courseProgress);
+    notifyListeners();
+  }
+
+  Future<void> retryFinalExam() async {
+    finalExamProgress = FinalExamProgress(
+      bestScore: finalExamProgress.bestScore,
+      attempts: finalExamProgress.attempts,
+      passed: finalExamProgress.passed,
+      completionDate: finalExamProgress.completionDate,
+      sectionScores: finalExamProgress.sectionScores,
+    );
+    await _storage.saveFinalExamProgress(finalExamProgress);
+    notifyListeners();
+  }
+
   bool isSaved(String id) => savedItems.any((e) => e.id == id);
   Future<void> toggleSaved(SavedItem item) async {
     isSaved(item.id)
@@ -135,6 +199,7 @@ class AppProvider extends ChangeNotifier {
     savedItems.clear();
     examScores.clear();
     courseProgress = const CourseProgress();
+    finalExamProgress = const FinalExamProgress();
     dailyGoal = 10;
     await _storage.reset();
     notifyListeners();

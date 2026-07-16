@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../models/content/course_progress.dart';
+import '../../models/content/final_exam_models.dart';
 
 class LocalStorageService {
   LocalStorageService._(this._prefs);
@@ -40,6 +41,18 @@ class LocalStorageService {
 
   Future<void> saveCourseProgress(CourseProgress progress) =>
       _prefs.setString('courseProgress', jsonEncode(progress.toJson()));
+  FinalExamProgress get finalExamProgress {
+    final source = _prefs.getString('a1FinalExamProgress');
+    if (source == null) return const FinalExamProgress();
+    try {
+      return FinalExamProgress.fromJson(jsonDecode(source));
+    } catch (_) {
+      return const FinalExamProgress();
+    }
+  }
+
+  Future<void> saveFinalExamProgress(FinalExamProgress progress) =>
+      _prefs.setString('a1FinalExamProgress', jsonEncode(progress.toJson()));
   Future<void> reset() async {
     for (final key in [
       'completedLessons',
@@ -47,6 +60,7 @@ class LocalStorageService {
       'examScores',
       'dailyGoal',
       'courseProgress',
+      'a1FinalExamProgress',
     ]) {
       await _prefs.remove(key);
     }

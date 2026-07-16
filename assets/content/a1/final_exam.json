@@ -1,0 +1,1528 @@
+{
+  "id": "a1-final-exam",
+  "titleEnglish": "A1 Final Level Exam",
+  "titleSomali": "Imtixaanka Kama Dambaysta ah ee Heerka A1",
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "a1-fe-001",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 1",
+      "type": "englishToSomali",
+      "difficulty": "easy",
+      "question": "Dooro macnaha “letter”.",
+      "options": [
+        "xaraf",
+        "Salaan",
+        "labaatan",
+        "hooyo"
+      ],
+      "correctAnswer": "xaraf",
+      "explanationSomali": "letter macnihiisu waa xaraf.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a1-fe-002",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 2",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "English ku dooro “Salaan”.",
+      "options": [
+        "Hello",
+        "twenty",
+        "mother",
+        "wake up"
+      ],
+      "correctAnswer": "Hello",
+      "explanationSomali": "Hello macnihiisu waa Salaan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-003",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 3",
+      "type": "englishToSomali",
+      "difficulty": "easy",
+      "question": "Dooro macnaha “twenty”.",
+      "options": [
+        "labaatan",
+        "hooyo",
+        "toosid",
+        "Isniin"
+      ],
+      "correctAnswer": "labaatan",
+      "explanationSomali": "twenty macnihiisu waa labaatan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a1-fe-004",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 4",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "English ku dooro “hooyo”.",
+      "options": [
+        "mother",
+        "wake up",
+        "Monday",
+        "rice"
+      ],
+      "correctAnswer": "mother",
+      "explanationSomali": "mother macnihiisu waa hooyo.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-005",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 5",
+      "type": "englishToSomali",
+      "difficulty": "easy",
+      "question": "Dooro macnaha “wake up”.",
+      "options": [
+        "toosid",
+        "Isniin",
+        "bariis",
+        "jikada"
+      ],
+      "correctAnswer": "toosid",
+      "explanationSomali": "wake up macnihiisu waa toosid.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-006",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 6",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "English ku dooro “Isniin”.",
+      "options": [
+        "Monday",
+        "rice",
+        "kitchen",
+        "hospital"
+      ],
+      "correctAnswer": "Monday",
+      "explanationSomali": "Monday macnihiisu waa Isniin.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a1-fe-007",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 7",
+      "type": "englishToSomali",
+      "difficulty": "easy",
+      "question": "Dooro macnaha “rice”.",
+      "options": [
+        "bariis",
+        "jikada",
+        "isbitaal",
+        "iga raalli ahow"
+      ],
+      "correctAnswer": "bariis",
+      "explanationSomali": "rice macnihiisu waa bariis.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-008",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 8",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "English ku dooro “jikada”.",
+      "options": [
+        "kitchen",
+        "hospital",
+        "Excuse me",
+        "letter"
+      ],
+      "correctAnswer": "kitchen",
+      "explanationSomali": "kitchen macnihiisu waa jikada.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-009",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 9",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "Dooro macnaha “hospital”.",
+      "options": [
+        "isbitaal",
+        "iga raalli ahow",
+        "xaraf",
+        "Salaan"
+      ],
+      "correctAnswer": "isbitaal",
+      "explanationSomali": "hospital macnihiisu waa isbitaal.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-010",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 10",
+      "type": "somaliToEnglish",
+      "difficulty": "medium",
+      "question": "English ku dooro “iga raalli ahow”.",
+      "options": [
+        "Excuse me",
+        "letter",
+        "Hello",
+        "twenty"
+      ],
+      "correctAnswer": "Excuse me",
+      "explanationSomali": "Excuse me macnihiisu waa iga raalli ahow.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-011",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 1",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "Dooro macnaha “letter”.",
+      "options": [
+        "xaraf",
+        "Salaan",
+        "labaatan",
+        "hooyo"
+      ],
+      "correctAnswer": "xaraf",
+      "explanationSomali": "letter macnihiisu waa xaraf.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a1-fe-012",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 2",
+      "type": "somaliToEnglish",
+      "difficulty": "medium",
+      "question": "English ku dooro “Salaan”.",
+      "options": [
+        "Hello",
+        "twenty",
+        "mother",
+        "wake up"
+      ],
+      "correctAnswer": "Hello",
+      "explanationSomali": "Hello macnihiisu waa Salaan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-013",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 3",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "Dooro macnaha “twenty”.",
+      "options": [
+        "labaatan",
+        "hooyo",
+        "toosid",
+        "Isniin"
+      ],
+      "correctAnswer": "labaatan",
+      "explanationSomali": "twenty macnihiisu waa labaatan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a1-fe-014",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 4",
+      "type": "somaliToEnglish",
+      "difficulty": "medium",
+      "question": "English ku dooro “hooyo”.",
+      "options": [
+        "mother",
+        "wake up",
+        "Monday",
+        "rice"
+      ],
+      "correctAnswer": "mother",
+      "explanationSomali": "mother macnihiisu waa hooyo.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-015",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 5",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "Dooro macnaha “wake up”.",
+      "options": [
+        "toosid",
+        "Isniin",
+        "bariis",
+        "jikada"
+      ],
+      "correctAnswer": "toosid",
+      "explanationSomali": "wake up macnihiisu waa toosid.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-016",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 6",
+      "type": "somaliToEnglish",
+      "difficulty": "medium",
+      "question": "English ku dooro “Isniin”.",
+      "options": [
+        "Monday",
+        "rice",
+        "kitchen",
+        "hospital"
+      ],
+      "correctAnswer": "Monday",
+      "explanationSomali": "Monday macnihiisu waa Isniin.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a1-fe-017",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 7",
+      "type": "englishToSomali",
+      "difficulty": "challenging",
+      "question": "Dooro macnaha “rice”.",
+      "options": [
+        "bariis",
+        "jikada",
+        "isbitaal",
+        "iga raalli ahow"
+      ],
+      "correctAnswer": "bariis",
+      "explanationSomali": "rice macnihiisu waa bariis.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-018",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 8",
+      "type": "somaliToEnglish",
+      "difficulty": "challenging",
+      "question": "English ku dooro “jikada”.",
+      "options": [
+        "kitchen",
+        "hospital",
+        "Excuse me",
+        "letter"
+      ],
+      "correctAnswer": "kitchen",
+      "explanationSomali": "kitchen macnihiisu waa jikada.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-019",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 9",
+      "type": "englishToSomali",
+      "difficulty": "challenging",
+      "question": "Dooro macnaha “hospital”.",
+      "options": [
+        "isbitaal",
+        "iga raalli ahow",
+        "xaraf",
+        "Salaan"
+      ],
+      "correctAnswer": "isbitaal",
+      "explanationSomali": "hospital macnihiisu waa isbitaal.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-020",
+      "sectionId": "vocabulary",
+      "topic": "A1 vocabulary",
+      "unitSource": "Unit 10",
+      "type": "somaliToEnglish",
+      "difficulty": "challenging",
+      "question": "English ku dooro “iga raalli ahow”.",
+      "options": [
+        "Excuse me",
+        "letter",
+        "Hello",
+        "twenty"
+      ],
+      "correctAnswer": "Excuse me",
+      "explanationSomali": "Excuse me macnihiisu waa iga raalli ahow.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-021",
+      "sectionId": "grammar",
+      "topic": "Verb to be",
+      "unitSource": "Unit 2",
+      "type": "fillInTheBlank",
+      "difficulty": "easy",
+      "question": "I ___ a student.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "am",
+      "explanationSomali": "Verb to be: “am” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-022",
+      "sectionId": "grammar",
+      "topic": "Have/has",
+      "unitSource": "Unit 4",
+      "type": "multipleChoice",
+      "difficulty": "easy",
+      "question": "She ___ two sisters.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "do"
+      ],
+      "correctAnswer": "has",
+      "explanationSomali": "Have/has: “has” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-023",
+      "sectionId": "grammar",
+      "topic": "Present Simple",
+      "unitSource": "Unit 5",
+      "type": "multipleChoice",
+      "difficulty": "easy",
+      "question": "He ___ English daily.",
+      "options": [
+        "studies",
+        "study",
+        "studys",
+        "studying"
+      ],
+      "correctAnswer": "studies",
+      "explanationSomali": "Present Simple: “studies” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-024",
+      "sectionId": "grammar",
+      "topic": "Do/does",
+      "unitSource": "Unit 7",
+      "type": "fillInTheBlank",
+      "difficulty": "easy",
+      "question": "Does she ___ tea?",
+      "options": [
+        "like",
+        "likes",
+        "liking",
+        "liked"
+      ],
+      "correctAnswer": "like",
+      "explanationSomali": "Do/does: “like” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-025",
+      "sectionId": "grammar",
+      "topic": "There is/are",
+      "unitSource": "Unit 8",
+      "type": "multipleChoice",
+      "difficulty": "easy",
+      "question": "There ___ two chairs.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "explanationSomali": "There is/are: “are” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-026",
+      "sectionId": "grammar",
+      "topic": "Some/any",
+      "unitSource": "Unit 7",
+      "type": "multipleChoice",
+      "difficulty": "easy",
+      "question": "Do you have ___ water?",
+      "options": [
+        "any",
+        "a",
+        "many",
+        "an"
+      ],
+      "correctAnswer": "any",
+      "explanationSomali": "Some/any: “any” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-027",
+      "sectionId": "grammar",
+      "topic": "Much/many",
+      "unitSource": "Unit 7",
+      "type": "fillInTheBlank",
+      "difficulty": "easy",
+      "question": "How ___ apples?",
+      "options": [
+        "many",
+        "much",
+        "an",
+        "a"
+      ],
+      "correctAnswer": "many",
+      "explanationSomali": "Much/many: “many” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-028",
+      "sectionId": "grammar",
+      "topic": "Can",
+      "unitSource": "Unit 9",
+      "type": "multipleChoice",
+      "difficulty": "easy",
+      "question": "Can he ___ there?",
+      "options": [
+        "walk",
+        "walks",
+        "walking",
+        "walked"
+      ],
+      "correctAnswer": "walk",
+      "explanationSomali": "Can: “walk” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-029",
+      "sectionId": "grammar",
+      "topic": "Time prepositions",
+      "unitSource": "Unit 6",
+      "type": "multipleChoice",
+      "difficulty": "easy",
+      "question": "We meet ___ Monday.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "correctAnswer": "on",
+      "explanationSomali": "Time prepositions: “on” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a1-fe-030",
+      "sectionId": "grammar",
+      "topic": "Place prepositions",
+      "unitSource": "Unit 8",
+      "type": "fillInTheBlank",
+      "difficulty": "medium",
+      "question": "The book is ___ the table.",
+      "options": [
+        "on",
+        "at",
+        "to",
+        "from"
+      ],
+      "correctAnswer": "on",
+      "explanationSomali": "Place prepositions: “on” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-031",
+      "sectionId": "grammar",
+      "topic": "Verb to be",
+      "unitSource": "Unit 2",
+      "type": "multipleChoice",
+      "difficulty": "medium",
+      "question": "I ___ a student.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "am",
+      "explanationSomali": "Verb to be: “am” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-032",
+      "sectionId": "grammar",
+      "topic": "Have/has",
+      "unitSource": "Unit 4",
+      "type": "multipleChoice",
+      "difficulty": "medium",
+      "question": "She ___ two sisters.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "do"
+      ],
+      "correctAnswer": "has",
+      "explanationSomali": "Have/has: “has” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-033",
+      "sectionId": "grammar",
+      "topic": "Present Simple",
+      "unitSource": "Unit 5",
+      "type": "fillInTheBlank",
+      "difficulty": "medium",
+      "question": "He ___ English daily.",
+      "options": [
+        "studies",
+        "study",
+        "studys",
+        "studying"
+      ],
+      "correctAnswer": "studies",
+      "explanationSomali": "Present Simple: “studies” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-034",
+      "sectionId": "grammar",
+      "topic": "Do/does",
+      "unitSource": "Unit 7",
+      "type": "multipleChoice",
+      "difficulty": "medium",
+      "question": "Does she ___ tea?",
+      "options": [
+        "like",
+        "likes",
+        "liking",
+        "liked"
+      ],
+      "correctAnswer": "like",
+      "explanationSomali": "Do/does: “like” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-035",
+      "sectionId": "grammar",
+      "topic": "There is/are",
+      "unitSource": "Unit 8",
+      "type": "multipleChoice",
+      "difficulty": "medium",
+      "question": "There ___ two chairs.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "explanationSomali": "There is/are: “are” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-036",
+      "sectionId": "grammar",
+      "topic": "Some/any",
+      "unitSource": "Unit 7",
+      "type": "fillInTheBlank",
+      "difficulty": "medium",
+      "question": "Do you have ___ water?",
+      "options": [
+        "any",
+        "a",
+        "many",
+        "an"
+      ],
+      "correctAnswer": "any",
+      "explanationSomali": "Some/any: “any” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-037",
+      "sectionId": "grammar",
+      "topic": "Much/many",
+      "unitSource": "Unit 7",
+      "type": "multipleChoice",
+      "difficulty": "medium",
+      "question": "How ___ apples?",
+      "options": [
+        "many",
+        "much",
+        "an",
+        "a"
+      ],
+      "correctAnswer": "many",
+      "explanationSomali": "Much/many: “many” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-038",
+      "sectionId": "grammar",
+      "topic": "Can",
+      "unitSource": "Unit 9",
+      "type": "multipleChoice",
+      "difficulty": "medium",
+      "question": "Can he ___ there?",
+      "options": [
+        "walk",
+        "walks",
+        "walking",
+        "walked"
+      ],
+      "correctAnswer": "walk",
+      "explanationSomali": "Can: “walk” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-039",
+      "sectionId": "grammar",
+      "topic": "Time prepositions",
+      "unitSource": "Unit 6",
+      "type": "fillInTheBlank",
+      "difficulty": "medium",
+      "question": "We meet ___ Monday.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "correctAnswer": "on",
+      "explanationSomali": "Time prepositions: “on” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a1-fe-040",
+      "sectionId": "grammar",
+      "topic": "Place prepositions",
+      "unitSource": "Unit 8",
+      "type": "multipleChoice",
+      "difficulty": "challenging",
+      "question": "The book is ___ the table.",
+      "options": [
+        "on",
+        "at",
+        "to",
+        "from"
+      ],
+      "correctAnswer": "on",
+      "explanationSomali": "Place prepositions: “on” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-041",
+      "sectionId": "grammar",
+      "topic": "Verb to be",
+      "unitSource": "Unit 2",
+      "type": "multipleChoice",
+      "difficulty": "challenging",
+      "question": "I ___ a student.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "am",
+      "explanationSomali": "Verb to be: “am” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-042",
+      "sectionId": "grammar",
+      "topic": "Have/has",
+      "unitSource": "Unit 4",
+      "type": "fillInTheBlank",
+      "difficulty": "challenging",
+      "question": "She ___ two sisters.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "do"
+      ],
+      "correctAnswer": "has",
+      "explanationSomali": "Have/has: “has” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-043",
+      "sectionId": "grammar",
+      "topic": "Present Simple",
+      "unitSource": "Unit 5",
+      "type": "multipleChoice",
+      "difficulty": "challenging",
+      "question": "He ___ English daily.",
+      "options": [
+        "studies",
+        "study",
+        "studys",
+        "studying"
+      ],
+      "correctAnswer": "studies",
+      "explanationSomali": "Present Simple: “studies” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-044",
+      "sectionId": "grammar",
+      "topic": "Do/does",
+      "unitSource": "Unit 7",
+      "type": "multipleChoice",
+      "difficulty": "challenging",
+      "question": "Does she ___ tea?",
+      "options": [
+        "like",
+        "likes",
+        "liking",
+        "liked"
+      ],
+      "correctAnswer": "like",
+      "explanationSomali": "Do/does: “like” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-045",
+      "sectionId": "grammar",
+      "topic": "There is/are",
+      "unitSource": "Unit 8",
+      "type": "fillInTheBlank",
+      "difficulty": "challenging",
+      "question": "There ___ two chairs.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "explanationSomali": "There is/are: “are” ayaa jumladda saxaya.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-046",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 4",
+      "type": "readingComprehension",
+      "difficulty": "easy",
+      "question": "Amina is twenty years old. She lives with her parents and two brothers. She is a student and studies English. Her father is a driver and her mother works in a shop. Amina likes reading and tea. On Friday, she visits her grandmother. Her family eats dinner together in the evening.\n\nHow many brothers does Amina have?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": "Two",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-047",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 4",
+      "type": "readingComprehension",
+      "difficulty": "easy",
+      "question": "Amina is twenty years old. She lives with her parents and two brothers. She is a student and studies English. Her father is a driver and her mother works in a shop. Amina likes reading and tea. On Friday, she visits her grandmother. Her family eats dinner together in the evening.\n\nWhat does Amina study?",
+      "options": [
+        "English",
+        "Math only",
+        "Medicine",
+        "Driving"
+      ],
+      "correctAnswer": "English",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-048",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 4",
+      "type": "readingComprehension",
+      "difficulty": "easy",
+      "question": "Amina is twenty years old. She lives with her parents and two brothers. She is a student and studies English. Her father is a driver and her mother works in a shop. Amina likes reading and tea. On Friday, she visits her grandmother. Her family eats dinner together in the evening.\n\nWho works in a shop?",
+      "options": [
+        "Her mother",
+        "Her father",
+        "Amina",
+        "Her brother"
+      ],
+      "correctAnswer": "Her mother",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a1-fe-049",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 5",
+      "type": "readingComprehension",
+      "difficulty": "easy",
+      "question": "Ali wakes up at six every morning. He prays, eats breakfast and leaves home at seven. He starts work at eight. He usually has lunch at one. After work, he studies English for thirty minutes. He goes to bed at ten. On Thursday evening, he plays football with friends.\n\nWhat time does Ali wake up?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Ten"
+      ],
+      "correctAnswer": "Six",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-050",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 5",
+      "type": "readingComprehension",
+      "difficulty": "medium",
+      "question": "Ali wakes up at six every morning. He prays, eats breakfast and leaves home at seven. He starts work at eight. He usually has lunch at one. After work, he studies English for thirty minutes. He goes to bed at ten. On Thursday evening, he plays football with friends.\n\nWhen does he have lunch?",
+      "options": [
+        "At one",
+        "At six",
+        "At eight",
+        "At ten"
+      ],
+      "correctAnswer": "At one",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-051",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 5",
+      "type": "readingComprehension",
+      "difficulty": "medium",
+      "question": "Ali wakes up at six every morning. He prays, eats breakfast and leaves home at seven. He starts work at eight. He usually has lunch at one. After work, he studies English for thirty minutes. He goes to bed at ten. On Thursday evening, he plays football with friends.\n\nWhat does he do on Thursday evening?",
+      "options": [
+        "Plays football",
+        "Visits grandmother",
+        "Works",
+        "Cooks"
+      ],
+      "correctAnswer": "Plays football",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-052",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "medium",
+      "question": "Hodan is at a restaurant with her friend. She orders rice and chicken for five dollars. Her friend orders fish and salad for six dollars. They both drink mango juice. Hodan asks for the bill after dinner. The total is fifteen dollars because each juice costs two dollars. They thank the waiter.\n\nWhat does Hodan order?",
+      "options": [
+        "Rice and chicken",
+        "Fish and salad",
+        "Soup",
+        "Tea"
+      ],
+      "correctAnswer": "Rice and chicken",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-053",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "medium",
+      "question": "Hodan is at a restaurant with her friend. She orders rice and chicken for five dollars. Her friend orders fish and salad for six dollars. They both drink mango juice. Hodan asks for the bill after dinner. The total is fifteen dollars because each juice costs two dollars. They thank the waiter.\n\nHow much is fish and salad?",
+      "options": [
+        "Six dollars",
+        "Five dollars",
+        "Two dollars",
+        "Fifteen dollars"
+      ],
+      "correctAnswer": "Six dollars",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-054",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "medium",
+      "question": "Hodan is at a restaurant with her friend. She orders rice and chicken for five dollars. Her friend orders fish and salad for six dollars. They both drink mango juice. Hodan asks for the bill after dinner. The total is fifteen dollars because each juice costs two dollars. They thank the waiter.\n\nWhat is the total?",
+      "options": [
+        "Fifteen dollars",
+        "Eleven dollars",
+        "Ten dollars",
+        "Four dollars"
+      ],
+      "correctAnswer": "Fifteen dollars",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-055",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "challenging",
+      "question": "The hospital is on Peace Road, opposite the market. A pharmacy is next to the hospital. From the bus station, go straight for two minutes and turn left at the bank. Walk past the park. The hospital is on your right. It is about five minutes from the station.\n\nWhat is opposite the hospital?",
+      "options": [
+        "Market",
+        "Bank",
+        "Park",
+        "Station"
+      ],
+      "correctAnswer": "Market",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-056",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "challenging",
+      "question": "The hospital is on Peace Road, opposite the market. A pharmacy is next to the hospital. From the bus station, go straight for two minutes and turn left at the bank. Walk past the park. The hospital is on your right. It is about five minutes from the station.\n\nWhere do you turn?",
+      "options": [
+        "Left at the bank",
+        "Right at the market",
+        "Left at the park",
+        "Back at station"
+      ],
+      "correctAnswer": "Left at the bank",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-057",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "challenging",
+      "question": "The hospital is on Peace Road, opposite the market. A pharmacy is next to the hospital. From the bus station, go straight for two minutes and turn left at the bank. Walk past the park. The hospital is on your right. It is about five minutes from the station.\n\nHow long is the walk?",
+      "options": [
+        "About five minutes",
+        "One hour",
+        "Thirty minutes",
+        "Two hours"
+      ],
+      "correctAnswer": "About five minutes",
+      "explanationSomali": "Jawaabtu si cad ayay ugu jirtaa qoraalka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-058",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 2",
+      "type": "bestResponse",
+      "difficulty": "easy",
+      "question": "How are you?",
+      "options": [
+        "I’m fine, thank you.",
+        "At the bank.",
+        "Five dollars.",
+        "Turn left."
+      ],
+      "correctAnswer": "I’m fine, thank you.",
+      "explanationSomali": "“I’m fine, thank you.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-059",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "easy",
+      "question": "Can you help me?",
+      "options": [
+        "Yes, of course.",
+        "Rice and tea.",
+        "At ten.",
+        "My mother."
+      ],
+      "correctAnswer": "Yes, of course.",
+      "explanationSomali": "“Yes, of course.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-060",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 7",
+      "type": "bestResponse",
+      "difficulty": "easy",
+      "question": "May I see the menu?",
+      "options": [
+        "Yes. Here you are.",
+        "Turn right.",
+        "I’m twenty.",
+        "On Monday."
+      ],
+      "correctAnswer": "Yes. Here you are.",
+      "explanationSomali": "“Yes. Here you are.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-061",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "easy",
+      "question": "Who is calling?",
+      "options": [
+        "This is Ali.",
+        "At five.",
+        "A hospital.",
+        "Two cups."
+      ],
+      "correctAnswer": "This is Ali.",
+      "explanationSomali": "“This is Ali.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-062",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "easy",
+      "question": "Would you like some tea?",
+      "options": [
+        "Yes, please.",
+        "Go straight.",
+        "I work.",
+        "It is Monday."
+      ],
+      "correctAnswer": "Yes, please.",
+      "explanationSomali": "“Yes, please.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-063",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 2",
+      "type": "bestResponse",
+      "difficulty": "medium",
+      "question": "How are you?",
+      "options": [
+        "I’m fine, thank you.",
+        "At the bank.",
+        "Five dollars.",
+        "Turn left."
+      ],
+      "correctAnswer": "I’m fine, thank you.",
+      "explanationSomali": "“I’m fine, thank you.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-064",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "medium",
+      "question": "Can you help me?",
+      "options": [
+        "Yes, of course.",
+        "Rice and tea.",
+        "At ten.",
+        "My mother."
+      ],
+      "correctAnswer": "Yes, of course.",
+      "explanationSomali": "“Yes, of course.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-065",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 7",
+      "type": "bestResponse",
+      "difficulty": "medium",
+      "question": "May I see the menu?",
+      "options": [
+        "Yes. Here you are.",
+        "Turn right.",
+        "I’m twenty.",
+        "On Monday."
+      ],
+      "correctAnswer": "Yes. Here you are.",
+      "explanationSomali": "“Yes. Here you are.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-066",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "medium",
+      "question": "Who is calling?",
+      "options": [
+        "This is Ali.",
+        "At five.",
+        "A hospital.",
+        "Two cups."
+      ],
+      "correctAnswer": "This is Ali.",
+      "explanationSomali": "“This is Ali.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-067",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "medium",
+      "question": "Would you like some tea?",
+      "options": [
+        "Yes, please.",
+        "Go straight.",
+        "I work.",
+        "It is Monday."
+      ],
+      "correctAnswer": "Yes, please.",
+      "explanationSomali": "“Yes, please.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-068",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 2",
+      "type": "bestResponse",
+      "difficulty": "challenging",
+      "question": "How are you?",
+      "options": [
+        "I’m fine, thank you.",
+        "At the bank.",
+        "Five dollars.",
+        "Turn left."
+      ],
+      "correctAnswer": "I’m fine, thank you.",
+      "explanationSomali": "“I’m fine, thank you.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a1-fe-069",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 10",
+      "type": "bestResponse",
+      "difficulty": "challenging",
+      "question": "Can you help me?",
+      "options": [
+        "Yes, of course.",
+        "Rice and tea.",
+        "At ten.",
+        "My mother."
+      ],
+      "correctAnswer": "Yes, of course.",
+      "explanationSomali": "“Yes, of course.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-070",
+      "sectionId": "situations",
+      "topic": "Everyday conversation",
+      "unitSource": "Unit 7",
+      "type": "bestResponse",
+      "difficulty": "challenging",
+      "question": "May I see the menu?",
+      "options": [
+        "Yes. Here you are.",
+        "Turn right.",
+        "I’m twenty.",
+        "On Monday."
+      ],
+      "correctAnswer": "Yes. Here you are.",
+      "explanationSomali": "“Yes. Here you are.” waa jawaabta ugu dabiicisan xaaladdan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-071",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 5",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "Waxaan tagaa shaqada sideedda subaxnimo.",
+      "options": [
+        "I go to work at eight in the morning.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "I go to work at eight in the morning.",
+      "explanationSomali": "Qaabka saxda ahi waa: I go to work at eight in the morning.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-072",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 8",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "Miiska waxaa saaran laba buug.",
+      "options": [
+        "There are two books on the table.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "There are two books on the table.",
+      "explanationSomali": "Qaabka saxda ahi waa: There are two books on the table.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-073",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 7",
+      "type": "somaliToEnglish",
+      "difficulty": "easy",
+      "question": "Ma jeceshahay shaah?",
+      "options": [
+        "Do you like tea?",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "Do you like tea?",
+      "explanationSomali": "Qaabka saxda ahi waa: Do you like tea?",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-074",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 9",
+      "type": "somaliToEnglish",
+      "difficulty": "medium",
+      "question": "Bangigu wuxuu ka soo horjeedaa suuqa.",
+      "options": [
+        "The bank is opposite the market.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "The bank is opposite the market.",
+      "explanationSomali": "Qaabka saxda ahi waa: The bank is opposite the market.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-075",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 7",
+      "type": "somaliToEnglish",
+      "difficulty": "medium",
+      "question": "Waxaan jeclaan lahaa koob biyo ah.",
+      "options": [
+        "I would like a glass of water.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "I would like a glass of water.",
+      "explanationSomali": "Qaabka saxda ahi waa: I would like a glass of water.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a1-fe-076",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 5",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "She studies English every day.",
+      "options": [
+        "Waxay barataa English maalin kasta.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "Waxay barataa English maalin kasta.",
+      "explanationSomali": "Qaabka saxda ahi waa: Waxay barataa English maalin kasta.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a1-fe-077",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 8",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "The keys are under the bed.",
+      "options": [
+        "Furayaashu sariirta ayay hoos yaallaan.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "Furayaashu sariirta ayay hoos yaallaan.",
+      "explanationSomali": "Qaabka saxda ahi waa: Furayaashu sariirta ayay hoos yaallaan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a1-fe-078",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 10",
+      "type": "englishToSomali",
+      "difficulty": "medium",
+      "question": "Can you repeat that, please?",
+      "options": [
+        "Ma ku celin kartaa, fadlan?",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "Ma ku celin kartaa, fadlan?",
+      "explanationSomali": "Qaabka saxda ahi waa: Ma ku celin kartaa, fadlan?",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a1-fe-079",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 9",
+      "type": "arrangeSentence",
+      "difficulty": "challenging",
+      "question": "Habee: straight / go / then / left / turn",
+      "options": [
+        "Go straight, then turn left.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "Go straight, then turn left.",
+      "explanationSomali": "Qaabka saxda ahi waa: Go straight, then turn left.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a1-fe-080",
+      "sectionId": "translation",
+      "topic": "Translation and sentence building",
+      "unitSource": "Unit 2",
+      "type": "arrangeSentence",
+      "difficulty": "challenging",
+      "question": "Habee: name / my / is / Asha",
+      "options": [
+        "My name is Asha.",
+        "Turn right at the bank.",
+        "There is some rice.",
+        "I am from Monday."
+      ],
+      "correctAnswer": "My name is Asha.",
+      "explanationSomali": "Qaabka saxda ahi waa: My name is Asha.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    }
+  ]
+}

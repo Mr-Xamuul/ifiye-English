@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 import '../../models/content/content_models.dart';
+import '../../models/content/final_exam_models.dart';
 
 class ContentLoadException implements Exception {
   const ContentLoadException(this.message, [this.cause]);
@@ -56,6 +57,14 @@ class CefrContentRepository {
           .toList();
     } catch (error) {
       throw ContentLoadException('Exam file-ka $path ma saxna.', error);
+    }
+  }
+
+  Future<FinalExamContent> loadFinalExam(String path) async {
+    try {
+      return FinalExamContent.fromJson(await _readMap(path));
+    } catch (error) {
+      throw ContentLoadException('Final exam file-ka $path ma saxna.', error);
     }
   }
 

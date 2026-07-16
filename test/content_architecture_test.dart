@@ -556,4 +556,37 @@ void main() {
     ];
     expect(ids.toSet(), hasLength(ids.length));
   });
+
+  test('A1 Final Exam has 80 valid questions and exact sections', () async {
+    final exam = await CefrContentRepository(
+      bundle: rootBundle,
+    ).loadFinalExam('assets/content/a1/final_exam.json');
+    expect(exam.passingScore, 75);
+    expect(exam.questions, hasLength(80));
+    expect(
+      exam.questions.where((q) => q.sectionId == 'vocabulary'),
+      hasLength(20),
+    );
+    expect(
+      exam.questions.where((q) => q.sectionId == 'grammar'),
+      hasLength(25),
+    );
+    expect(
+      exam.questions.where((q) => q.sectionId == 'reading'),
+      hasLength(12),
+    );
+    expect(
+      exam.questions.where((q) => q.sectionId == 'situations'),
+      hasLength(13),
+    );
+    expect(
+      exam.questions.where((q) => q.sectionId == 'translation'),
+      hasLength(10),
+    );
+    expect(exam.questions.map((q) => q.id).toSet(), hasLength(80));
+    expect(
+      exam.questions.every((q) => q.options.contains(q.correctAnswer)),
+      isTrue,
+    );
+  });
 }

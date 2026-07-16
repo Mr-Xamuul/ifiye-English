@@ -199,9 +199,31 @@ void main() {
     expect(
       find.descendant(
         of: finalExamChip,
+        matching: find.byIcon(Icons.lock_outline),
+      ),
+      findsOneWidget,
+    );
+
+    await state.completeFinalReview(70);
+    await tester.pump();
+    expect(
+      find.descendant(
+        of: finalExamChip,
         matching: find.byIcon(Icons.lock_open_outlined),
       ),
       findsOneWidget,
     );
+
+    await tester.ensureVisible(finalExamChip);
+    await tester.tap(finalExamChip);
+    await tester.pump();
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 100)),
+    );
+    await tester.pump();
+
+    expect(find.text('A1 Final Level Exam'), findsWidgets);
+    expect(find.text('80'), findsOneWidget);
+    expect(find.text('75%'), findsOneWidget);
   });
 }
