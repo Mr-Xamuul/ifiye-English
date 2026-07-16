@@ -482,6 +482,8 @@ class _CourseLearningScreenState extends State<CourseLearningScreen>
             height: 1.35,
           ),
         ),
+        const SizedBox(height: 10),
+        EnglishSpeechButton(service: _tts, text: item.english),
         const SizedBox(height: 16),
         Container(
           width: 54,
