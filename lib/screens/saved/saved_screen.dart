@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../../core/services/text_to_speech_service.dart';
 import '../../models/models.dart';
 import '../../providers/app_provider.dart';
 import '../../widgets/common_widgets.dart';
+import '../../widgets/english_speech_button.dart';
 
 class SavedScreen extends StatefulWidget {
   const SavedScreen({super.key});
@@ -10,8 +12,28 @@ class SavedScreen extends StatefulWidget {
   State<SavedScreen> createState() => _SavedScreenState();
 }
 
-class _SavedScreenState extends State<SavedScreen> {
+class _SavedScreenState extends State<SavedScreen> with WidgetsBindingObserver {
   int filter = 0;
+  late final TextToSpeechService _tts = TextToSpeechService();
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state != AppLifecycleState.resumed) _tts.stop();
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    _tts.disposeService().whenComplete(_tts.dispose);
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
@@ -72,9 +94,20 @@ class _SavedScreenState extends State<SavedScreen> {
                           ),
                           subtitle: Text('${x.somaliText}\n${x.type.name}'),
                           isThreeLine: true,
-                          trailing: IconButton(
-                            onPressed: () => state.removeSaved(x.id),
-                            icon: const Icon(Icons.delete_outline),
+                          trailing: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              if (x.type != SavedItemType.lesson)
+                                EnglishSpeechButton(
+                                  service: _tts,
+                                  text: x.englishText,
+                                  compact: true,
+                                ),
+                              IconButton(
+                                onPressed: () => state.removeSaved(x.id),
+                                icon: const Icon(Icons.delete_outline),
+                              ),
+                            ],
                           ),
                         ),
                       );

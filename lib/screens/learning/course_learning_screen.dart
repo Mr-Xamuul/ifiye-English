@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/services/text_to_speech_service.dart';
 import '../../models/content/content_models.dart';
 import '../../models/models.dart';
 import '../../providers/app_provider.dart';
+import '../../widgets/english_speech_button.dart';
 
 class CourseLearningScreen extends StatefulWidget {
   const CourseLearningScreen({required this.lesson, super.key});
@@ -13,10 +15,34 @@ class CourseLearningScreen extends StatefulWidget {
   State<CourseLearningScreen> createState() => _CourseLearningScreenState();
 }
 
-class _CourseLearningScreenState extends State<CourseLearningScreen> {
+class _CourseLearningScreenState extends State<CourseLearningScreen>
+    with WidgetsBindingObserver {
   int _step = 0;
   final Map<String, String> _answers = {};
   final Set<String> _completedPrompts = {};
+  late final TextToSpeechService _tts = TextToSpeechService();
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused ||
+        state == AppLifecycleState.inactive ||
+        state == AppLifecycleState.detached) {
+      _tts.stop();
+    }
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    _tts.disposeService().whenComplete(_tts.dispose);
+    super.dispose();
+  }
 
   int get _grammarSteps => widget.lesson.grammar == null ? 0 : 1;
   int get _vocabularyStart => 2 + _grammarSteps;
@@ -381,16 +407,7 @@ class _CourseLearningScreenState extends State<CourseLearningScreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              IconButton.filledTonal(
-                onPressed: () => ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text(
-                      'Audio pronunciation waxaa lagu dari doonaa version dambe.',
-                    ),
-                  ),
-                ),
-                icon: const Icon(Icons.volume_up_outlined),
-              ),
+              EnglishSpeechButton(service: _tts, text: word.englishWord),
               const SizedBox(width: 10),
               Flexible(
                 child: Text(
@@ -409,9 +426,23 @@ class _CourseLearningScreenState extends State<CourseLearningScreen> {
             ),
           ),
           const SizedBox(height: 14),
-          Text(
-            word.exampleEnglish,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  word.exampleEnglish,
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
+              EnglishSpeechButton(
+                service: _tts,
+                text: word.exampleEnglish,
+                compact: true,
+              ),
+            ],
           ),
           const SizedBox(height: 4),
           Text(
