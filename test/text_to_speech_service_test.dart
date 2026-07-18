@@ -8,9 +8,13 @@ class FakeTtsEngine implements TextToSpeechEngine {
   FakeTtsEngine({
     this.languages = const ['en-US', 'en-GB'],
     this.failSpeak = false,
+    this.languageResult = 1,
+    this.speakResult = 1,
   });
-  final List<String> languages;
+  final List<String>? languages;
   final bool failSpeak;
+  final dynamic languageResult;
+  final dynamic speakResult;
   final List<String> spoken = [];
   int stopCalls = 0;
   String? selectedLanguage;
@@ -23,7 +27,7 @@ class FakeTtsEngine implements TextToSpeechEngine {
   @override
   Future<dynamic> setLanguage(String value) async {
     selectedLanguage = value;
-    return 1;
+    return languageResult;
   }
 
   @override
@@ -39,7 +43,7 @@ class FakeTtsEngine implements TextToSpeechEngine {
     if (failSpeak) throw PlatformException(code: 'tts_error');
     spoken.add(text);
     start?.call();
-    return 1;
+    return speakResult;
   }
 
   @override
@@ -113,6 +117,56 @@ void main() {
 
   test('converts a platform speak failure to a safe TTS error', () async {
     final service = TextToSpeechService(engine: FakeTtsEngine(failSpeak: true));
+    expect(
+      () => service.speakEnglish('Hello'),
+      throwsA(isA<TtsUnavailableException>()),
+    );
+  });
+
+  test(
+    'handles setLanguage returning 0 (Android LANG_AVAILABLE) as success',
+    () async {
+      final engine = FakeTtsEngine(languageResult: 0);
+      final service = TextToSpeechService(engine: engine);
+      await service.speakEnglish('Hello');
+      expect(engine.selectedLanguage, 'en-US');
+      expect(engine.spoken, ['Hello']);
+    },
+  );
+
+  test('handles setLanguage returning null as success', () async {
+    final engine = FakeTtsEngine(languageResult: null);
+    final service = TextToSpeechService(engine: engine);
+    await service.speakEnglish('Hello');
+    expect(engine.selectedLanguage, 'en-US');
+  });
+
+  test('handles setLanguage returning false as failure', () async {
+    final engine = FakeTtsEngine(languageResult: false);
+    final service = TextToSpeechService(engine: engine);
+    expect(
+      () => service.speakEnglish('Hello'),
+      throwsA(isA<TtsUnavailableException>()),
+    );
+  });
+
+  test('falls back to en-US if getLanguages returns null or empty', () async {
+    final engine = FakeTtsEngine(languages: null);
+    final service = TextToSpeechService(engine: engine);
+    await service.speakEnglish('Hello');
+    expect(engine.selectedLanguage, 'en-US');
+  });
+
+  test('handles speak returning null as success', () async {
+    final engine = FakeTtsEngine(speakResult: null);
+    final service = TextToSpeechService(engine: engine);
+    await service.speakEnglish('Hello');
+    expect(engine.spoken, ['Hello']);
+  });
+
+  test('handles speak returning 0 as failure', () async {
+    final engine = FakeTtsEngine(speakResult: 0);
+    final service = TextToSpeechService(engine: engine);
     expect(
       () => service.speakEnglish('Hello'),
       throwsA(isA<TtsUnavailableException>()),

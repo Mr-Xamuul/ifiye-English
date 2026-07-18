@@ -1,3 +1,4 @@
+import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -73,18 +74,37 @@ class TextToSpeechService extends ChangeNotifier {
       final available = (languages as List<dynamic>? ?? const [])
           .map((item) => item.toString().replaceAll('_', '-'))
           .toList();
-      final locale = _selectEnglishLocale(available);
+      String? locale = _selectEnglishLocale(available);
       if (locale == null) {
-        throw const TtsUnavailableException();
+        if (available.isEmpty) {
+          locale = 'en-US';
+        } else {
+          throw const TtsUnavailableException();
+        }
       }
       final languageResult = await _engine.setLanguage(locale);
-      if (languageResult == 0 || languageResult == false) {
+      bool isLanguageSuccess = true;
+      if (languageResult is num) {
+        isLanguageSuccess = languageResult >= 0;
+      } else if (languageResult is bool) {
+        isLanguageSuccess = languageResult;
+      } else if (languageResult == null) {
+        isLanguageSuccess = true;
+      }
+      if (!isLanguageSuccess) {
         throw const TtsUnavailableException();
       }
       await _engine.setVolume(1.0);
       await _engine.setPitch(1.0);
       await _engine.setSpeechRate(0.42);
-      await _engine.awaitSpeakCompletion(true);
+      try {
+        if (!kIsWeb &&
+            (Platform.isAndroid || Platform.isIOS || Platform.isMacOS)) {
+          await _engine.awaitSpeakCompletion(true);
+        }
+      } catch (e) {
+        if (kDebugMode) debugPrint('TTS awaitSpeakCompletion error: $e');
+      }
       _engine.setStartHandler(() => _setSpeaking(true));
       _engine.setCompletionHandler(_resetSpeaking);
       _engine.setCancelHandler(_resetSpeaking);
@@ -115,7 +135,17 @@ class TextToSpeechService extends ChangeNotifier {
       _currentText = value;
       _setSpeaking(true);
       final result = await _engine.speak(value);
-      if (result == 0 || result == false) throw const TtsUnavailableException();
+      bool isSpeakSuccess = true;
+      if (result is num) {
+        isSpeakSuccess = result == 1;
+      } else if (result is bool) {
+        isSpeakSuccess = result;
+      } else if (result == null) {
+        isSpeakSuccess = true;
+      }
+      if (!isSpeakSuccess) {
+        throw const TtsUnavailableException();
+      }
     } on TtsUnavailableException {
       _resetSpeaking();
       rethrow;
