@@ -120,6 +120,7 @@ class _A2UnitSelector extends StatelessWidget {
             final unitNumber = index + 1;
             final hasContent = index < availableUnits.length;
             final unlocked =
+                AppProvider.unlockAllDuringDevelopment ||
                 index == 0 ||
                 (index - 1 < availableUnits.length &&
                     state.hasPassedUnit(availableUnits[index - 1].id));
@@ -192,7 +193,8 @@ class _UnitSelector extends StatelessWidget {
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u09');
     final finalReviewUnlocked =
         AppProvider.unlockA1DuringDevelopment || state.hasPassedUnit('a1-u10');
-    final finalExamUnlocked = state.hasCompletedFinalReview;
+    final finalExamUnlocked =
+        AppProvider.unlockAllDuringDevelopment || state.hasCompletedFinalReview;
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
@@ -468,8 +470,7 @@ class _UnitContent extends StatelessWidget {
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
     final completed = state.courseProgress.completedLessonIds;
-    final developmentUnlocked =
-        unit.levelId == 'A1' && AppProvider.unlockA1DuringDevelopment;
+    final developmentUnlocked = AppProvider.unlockAllDuringDevelopment;
     final unitUnlocked =
         developmentUnlocked ||
         unit.requiredPreviousUnitId == null ||

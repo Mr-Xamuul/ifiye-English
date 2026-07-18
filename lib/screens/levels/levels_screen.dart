@@ -62,6 +62,7 @@ class _LevelsList extends StatelessWidget {
         const SizedBox(height: 14),
         ...levels.map((level) {
           final unlocked =
+              AppProvider.unlockAllDuringDevelopment ||
               level.requiredPreviousLevelId == null ||
               state.courseProgress.hasPassedFinalExam(
                 level.requiredPreviousLevelId!,

@@ -51,7 +51,8 @@ class _ExamScreenState extends State<ExamScreen> {
   Widget _intro(FinalExamContent exam) {
     final state = context.watch<AppProvider>();
     final progress = state.finalExamProgress;
-    final unlocked = state.hasCompletedFinalReview;
+    final unlocked =
+        AppProvider.unlockAllDuringDevelopment || state.hasCompletedFinalReview;
     return ListView(
       padding: const EdgeInsets.all(18),
       children: [

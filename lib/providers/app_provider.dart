@@ -8,8 +8,10 @@ import '../models/models.dart';
 class AppProvider extends ChangeNotifier {
   AppProvider(this._storage);
 
-  // A1 content remains open while the curriculum is under development.
-  static const unlockA1DuringDevelopment = true;
+  // Keeps every available lesson and assessment open for curriculum testing.
+  // Set this to false before publishing the production progression rules.
+  static const unlockAllDuringDevelopment = true;
+  static const unlockA1DuringDevelopment = unlockAllDuringDevelopment;
 
   final LocalStorageService _storage;
   bool initialized = false, splashFinished = false, onboardingComplete = false;
@@ -48,7 +50,7 @@ class AppProvider extends ChangeNotifier {
     String? previousLessonId, {
     String levelId = 'A1',
   }) =>
-      (levelId == 'A1' && unlockA1DuringDevelopment) ||
+      unlockAllDuringDevelopment ||
       previousLessonId == null ||
       courseProgress.completedLessonIds.contains(previousLessonId);
 
