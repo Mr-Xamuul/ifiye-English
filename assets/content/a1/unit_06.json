@@ -141,8 +141,8 @@
           "somaliMeaning": "Saacad tirooyin ah",
           "partOfSpeech": "time phrase",
           "pronunciation": "di-ji-tal taaym",
-          "exampleEnglish": "6:30 is six thirty.",
-          "exampleSomali": "6:30 waa six thirty.",
+          "exampleEnglish": "Amina uses digital time in a short conversation.",
+          "exampleSomali": "Amina waxay Saacad tirooyin ah ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Digital time waxaa loola jeedaa Saacad tirooyin ah. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         }
@@ -547,8 +547,8 @@
           "somaliMeaning": "Shan daqiiqo dhaafay",
           "partOfSpeech": "time phrase",
           "pronunciation": "faayv paast",
-          "exampleEnglish": "It is five past six.",
-          "exampleSomali": "Waa lixda iyo shan.",
+          "exampleEnglish": "It is twenty-five past nine.",
+          "exampleSomali": "Waa sagaalka iyo shan iyo labaatan daqiiqo.",
           "explanationSomali": "Five past waxaa loola jeedaa Shan daqiiqo dhaafay. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -577,8 +577,8 @@
           "somaliMeaning": "25 daqiiqo dhaafay",
           "partOfSpeech": "time phrase",
           "pronunciation": "twen-ti faayv paast",
-          "exampleEnglish": "It is twenty-five past nine.",
-          "exampleSomali": "Waa sagaalka iyo 25.",
+          "exampleEnglish": "Amina uses twenty-five past in a short conversation.",
+          "exampleSomali": "Amina waxay 25 daqiiqo dhaafay ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Twenty-five past waxaa loola jeedaa 25 daqiiqo dhaafay. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -1004,8 +1004,8 @@
           "somaliMeaning": "15 daqiiqo",
           "partOfSpeech": "time phrase",
           "pronunciation": "fif-tiin mi-nits",
-          "exampleEnglish": "A quarter is fifteen minutes.",
-          "exampleSomali": "Rubuc waa 15 daqiiqo.",
+          "exampleEnglish": "Amina uses fifteen minutes in a short conversation.",
+          "exampleSomali": "Amina waxay 15 daqiiqo ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Fifteen minutes waxaa loola jeedaa 15 daqiiqo. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         }
@@ -1433,8 +1433,8 @@
           "somaliMeaning": "Subaxdii",
           "partOfSpeech": "part of day",
           "pronunciation": "in dha moor-ning",
-          "exampleEnglish": "I pray in the morning.",
-          "exampleSomali": "Subaxdii waan tukadaa.",
+          "exampleEnglish": "I drink tea in the morning.",
+          "exampleSomali": "Waxaan shaah cabbaa subaxdii.",
           "explanationSomali": "In the morning waxaa loola jeedaa Subaxdii. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -1453,8 +1453,8 @@
           "somaliMeaning": "Galabtii",
           "partOfSpeech": "part of day",
           "pronunciation": "in dhi aaf-tar-nuun",
-          "exampleEnglish": "I rest in the afternoon.",
-          "exampleSomali": "Galabtii waan nastaa.",
+          "exampleEnglish": "No, I work in the afternoon.",
+          "exampleSomali": "Maya, galabtii ayaan shaqeeyaa.",
           "explanationSomali": "In the afternoon waxaa loola jeedaa Galabtii. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -2271,8 +2271,8 @@
           "somaliMeaning": "Maanta",
           "partOfSpeech": "relative time expression",
           "pronunciation": "tu-dey",
-          "exampleEnglish": "Today is Sunday.",
-          "exampleSomali": "Maanta waa Axad.",
+          "exampleEnglish": "Amina uses today in a short conversation.",
+          "exampleSomali": "Amina waxay Maanta ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Today waxaa loola jeedaa Maanta. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -2700,8 +2700,8 @@
           "somaliMeaning": "Jannaayo",
           "partOfSpeech": "Gregorian month",
           "pronunciation": "jan-yu-we-ri",
-          "exampleEnglish": "January is the first month.",
-          "exampleSomali": "Jannaayo waa bisha koowaad.",
+          "exampleEnglish": "Amina uses january in a short conversation.",
+          "exampleSomali": "Amina waxay Jannaayo ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "January waxaa loola jeedaa Jannaayo. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -3270,8 +3270,8 @@
           "somaliMeaning": "Laba iyo tobnaad (12th)",
           "partOfSpeech": "ordinal number",
           "pronunciation": "twelfth",
-          "exampleEnglish": "The exam is on 12 June.",
-          "exampleSomali": "Imtixaanku waa 12 Juun.",
+          "exampleEnglish": "Amina uses twelfth in a short conversation.",
+          "exampleSomali": "Amina waxay Laba iyo tobnaad (12th) ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Twelfth waxaa loola jeedaa Laba iyo tobnaad (12th). Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -3300,8 +3300,8 @@
           "somaliMeaning": "Kow iyo labaatanaad (21st)",
           "partOfSpeech": "ordinal number",
           "pronunciation": "twen-ti-ferst",
-          "exampleEnglish": "The course starts on 21 September.",
-          "exampleSomali": "Koorsadu waxay bilaabataa 21 Sebteembar.",
+          "exampleEnglish": "Amina uses twenty-first in a short conversation.",
+          "exampleSomali": "Amina waxay Kow iyo labaatanaad (21st) ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Twenty-first waxaa loola jeedaa Kow iyo labaatanaad (21st). Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -3320,8 +3320,8 @@
           "somaliMeaning": "Kow iyo soddonaad (31st)",
           "partOfSpeech": "ordinal number",
           "pronunciation": "ther-ti-ferst",
-          "exampleEnglish": "The date is 31 December.",
-          "exampleSomali": "Taariikhdu waa 31 Diseembar.",
+          "exampleEnglish": "Amina uses thirty-first in a short conversation.",
+          "exampleSomali": "Amina waxay Kow iyo soddonaad (31st) ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Thirty-first waxaa loola jeedaa Kow iyo soddonaad (31st). Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         }
@@ -3712,8 +3712,8 @@
           "somaliMeaning": "Lixda saacad",
           "partOfSpeech": "preposition of time",
           "pronunciation": "at siks o-klook",
-          "exampleEnglish": "I wake up at six o’clock.",
-          "exampleSomali": "Waxaan kacaa lixda.",
+          "exampleEnglish": "At six o'clock.",
+          "exampleSomali": "Lixda saacad.",
           "explanationSomali": "At six o'clock waxaa loola jeedaa Lixda saacad. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -3722,8 +3722,8 @@
           "somaliMeaning": "Duhurkii",
           "partOfSpeech": "preposition of time",
           "pronunciation": "at nuun",
-          "exampleEnglish": "We eat at noon.",
-          "exampleSomali": "Duhurkii ayaan wax cunnaa.",
+          "exampleEnglish": "We eat lunch at noon.",
+          "exampleSomali": "Waxaan qadeynaa duhurkii.",
           "explanationSomali": "At noon waxaa loola jeedaa Duhurkii. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -3742,8 +3742,8 @@
           "somaliMeaning": "Isniinta",
           "partOfSpeech": "preposition of time",
           "pronunciation": "on man-dey",
-          "exampleEnglish": "I work on Monday.",
-          "exampleSomali": "Waxaan shaqeeyaa Isniinta.",
+          "exampleEnglish": "The meeting is on Monday.",
+          "exampleSomali": "Kulanku waa Isniinta.",
           "explanationSomali": "On Monday waxaa loola jeedaa Isniinta. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -4761,8 +4761,8 @@
           "somaliMeaning": "Kulan",
           "partOfSpeech": "appointment phrase",
           "pronunciation": "mii-ting",
-          "exampleEnglish": "The meeting is on Wednesday.",
-          "exampleSomali": "Kulanku waa Arbacada.",
+          "exampleEnglish": "Amina uses meeting in a short conversation.",
+          "exampleSomali": "Amina waxay Kulan ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Meeting waxaa loola jeedaa Kulan. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -5250,8 +5250,8 @@
           "somaliMeaning": "Subaxdii",
           "partOfSpeech": "weekly schedule phrase",
           "pronunciation": "in dha moor-ning",
-          "exampleEnglish": "I study in the morning.",
-          "exampleSomali": "Subaxdii wax ayaan bartaa.",
+          "exampleEnglish": "My lesson starts at eight o’clock in the morning.",
+          "exampleSomali": "Casharkaygu wuxuu bilaabmaa siddeedda subaxnimo.",
           "explanationSomali": "In the morning waxaa loola jeedaa Subaxdii. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -5639,8 +5639,8 @@
           "somaliMeaning": "Dib-u-eegista maalmaha",
           "partOfSpeech": "review term",
           "pronunciation": "deyz rii-kap",
-          "exampleEnglish": "Name all days.",
-          "exampleSomali": "Magacow maalmaha oo dhan.",
+          "exampleEnglish": "Amina uses days recap in a short conversation.",
+          "exampleSomali": "Amina waxay Dib-u-eegista maalmaha ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Days recap waxaa loola jeedaa Dib-u-eegista maalmaha. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -5649,8 +5649,8 @@
           "somaliMeaning": "Dib-u-eegista bilaha",
           "partOfSpeech": "review term",
           "pronunciation": "manths rii-kap",
-          "exampleEnglish": "Name all months.",
-          "exampleSomali": "Magacow bilaha oo dhan.",
+          "exampleEnglish": "Amina uses months recap in a short conversation.",
+          "exampleSomali": "Amina waxay Dib-u-eegista bilaha ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Months recap waxaa loola jeedaa Dib-u-eegista bilaha. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },
@@ -5679,8 +5679,8 @@
           "somaliMeaning": "Erayga xiriiriya waqtiga",
           "partOfSpeech": "review term",
           "pronunciation": "taaym pre-pa-zi-shan",
-          "exampleEnglish": "Choose at, on or in.",
-          "exampleSomali": "Dooro at, on ama in.",
+          "exampleEnglish": "Amina uses time preposition in a short conversation.",
+          "exampleSomali": "Amina waxay Erayga xiriiriya waqtiga ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Time preposition waxaa loola jeedaa Erayga xiriiriya waqtiga. Qoraalka pronunciation-ku waa hagitaan fudud, mana aha IPA.",
           "commonMistakeSomali": ""
         },

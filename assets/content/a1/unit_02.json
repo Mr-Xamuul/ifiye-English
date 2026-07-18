@@ -31,8 +31,8 @@
           "somaliMeaning": "Salaan",
           "partOfSpeech": "greeting",
           "pronunciation": "he-low",
-          "exampleEnglish": "Hello, Amina.",
-          "exampleSomali": "Salaan, Aamina.",
+          "exampleEnglish": "Hello, how are you?",
+          "exampleSomali": "Salaan, sidee tahay?",
           "explanationSomali": "Hello waa salaam guud oo rasmi iyo caadi labadaba ku habboon.",
           "commonMistakeSomali": ""
         },
@@ -41,8 +41,8 @@
           "somaliMeaning": "Salaan aan rasmi badnayn",
           "partOfSpeech": "greeting",
           "pronunciation": "haay",
-          "exampleEnglish": "Hi, Ali!",
-          "exampleSomali": "Salaan, Cali!",
+          "exampleEnglish": "Amina uses hi in a short conversation.",
+          "exampleSomali": "Amina waxay Salaan aan rasmi badnayn ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Hi waxaa badanaa lala isticmaalaa saaxiib ama qof aad taqaan.",
           "commonMistakeSomali": ""
         },
@@ -1154,8 +1154,8 @@
           "somaliMeaning": "Sidee tahay?",
           "partOfSpeech": "question",
           "pronunciation": "haw aar yuu",
-          "exampleEnglish": "Hello. How are you?",
-          "exampleSomali": "Salaan. Sidee tahay?",
+          "exampleEnglish": "How are you this morning?",
+          "exampleSomali": "Sidee tahay subaxan?",
           "explanationSomali": "Su’aal guud oo xaaladda qof lagu weydiiyo.",
           "commonMistakeSomali": ""
         },
@@ -1950,8 +1950,8 @@
           "somaliMeaning": "Haye/salaan aad u caadi ah",
           "partOfSpeech": "greeting",
           "pronunciation": "hey",
-          "exampleEnglish": "Hey, Ahmed!",
-          "exampleSomali": "Haye, Axmed!",
+          "exampleEnglish": "Hey, Ali! How are you?",
+          "exampleSomali": "Haye, Cali! Sidee tahay?",
           "explanationSomali": "Hey aad buu u informal yahay.",
           "commonMistakeSomali": "Ha kula bilaabin maamule ama macmiil aadan aqoon."
         },
@@ -2315,8 +2315,8 @@
           "somaliMeaning": "Maalin wanaagsan",
           "partOfSpeech": "farewell wish",
           "pronunciation": "hav a guud dey",
-          "exampleEnglish": "Goodbye. Have a good day.",
-          "exampleSomali": "Nabadgelyo. Maalin wanaagsan.",
+          "exampleEnglish": "Have a good day.",
+          "exampleSomali": "Maalin wanaagsan.",
           "explanationSomali": "Waa duco gaaban oo lagu kala tago.",
           "commonMistakeSomali": ""
         },
@@ -2335,8 +2335,8 @@
           "somaliMeaning": "Nabadgelyo",
           "partOfSpeech": "farewell",
           "pronunciation": "guud-baay",
-          "exampleEnglish": "Goodbye, everyone.",
-          "exampleSomali": "Nabadgelyo, dhammaantiin.",
+          "exampleEnglish": "Take care. Goodbye.",
+          "exampleSomali": "Is ilaali. Nabadgelyo.",
           "explanationSomali": "Waa weedh lagu dhammeeyo kulanka.",
           "commonMistakeSomali": ""
         }
@@ -2660,8 +2660,8 @@
           "somaliMeaning": "Lahaansho muujinaya",
           "partOfSpeech": "adjective",
           "pronunciation": "po-ze-siv",
-          "exampleEnglish": "My shows possession.",
-          "exampleSomali": "My wuxuu muujinayaa lahaansho.",
+          "exampleEnglish": "Amina uses possessive in a short conversation.",
+          "exampleSomali": "Amina waxay Lahaansho muujinaya ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "My, your, his iyo her waxay sheegaan cidda wax leh.",
           "commonMistakeSomali": ""
         },

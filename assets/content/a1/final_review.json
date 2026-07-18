@@ -3815,8 +3815,8 @@
           "somaliMeaning": "Family",
           "partOfSpeech": "review phrase • Reading Review",
           "pronunciation": "family",
-          "exampleEnglish": "Review example: Family.",
-          "exampleSomali": "Tusaale dib-u-eegis: Family.",
+          "exampleEnglish": "Amina uses family in a short conversation.",
+          "exampleSomali": "Amina waxay Family ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Family waxaa dib looga eegayaa mowduuca Reading Review.",
           "commonMistakeSomali": "Hubi macnaha, higgaadda iyo xaaladda lagu isticmaalo."
         },
@@ -3825,8 +3825,8 @@
           "somaliMeaning": "Routine",
           "partOfSpeech": "review phrase • Reading Review",
           "pronunciation": "routine",
-          "exampleEnglish": "Review example: Routine.",
-          "exampleSomali": "Tusaale dib-u-eegis: Routine.",
+          "exampleEnglish": "Amina uses routine in a short conversation.",
+          "exampleSomali": "Amina waxay Routine ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Routine waxaa dib looga eegayaa mowduuca Reading Review.",
           "commonMistakeSomali": "Hubi macnaha, higgaadda iyo xaaladda lagu isticmaalo."
         },
@@ -4733,8 +4733,8 @@
           "somaliMeaning": "Greetings",
           "partOfSpeech": "review phrase • Conversation Review",
           "pronunciation": "greetings",
-          "exampleEnglish": "Review example: Greetings.",
-          "exampleSomali": "Tusaale dib-u-eegis: Greetings.",
+          "exampleEnglish": "Amina says, “Greetings.”.",
+          "exampleSomali": "Amina waxay tiri, “Greetings.”.",
           "explanationSomali": "Greetings waxaa dib looga eegayaa mowduuca Conversation Review.",
           "commonMistakeSomali": "Hubi macnaha, higgaadda iyo xaaladda lagu isticmaalo."
         },
@@ -6166,8 +6166,8 @@
           "somaliMeaning": "Sentence starters",
           "partOfSpeech": "review phrase • Speaking Review",
           "pronunciation": "sentence starters",
-          "exampleEnglish": "Review example: Sentence starters.",
-          "exampleSomali": "Tusaale dib-u-eegis: Sentence starters.",
+          "exampleEnglish": "Amina uses sentence starters in a short conversation.",
+          "exampleSomali": "Amina waxay Sentence starters ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Sentence starters waxaa dib looga eegayaa mowduuca Speaking Review.",
           "commonMistakeSomali": "Hubi macnaha, higgaadda iyo xaaladda lagu isticmaalo."
         },
@@ -6176,8 +6176,8 @@
           "somaliMeaning": "Self-check",
           "partOfSpeech": "review phrase • Speaking Review",
           "pronunciation": "selfcheck",
-          "exampleEnglish": "Review example: Self-check.",
-          "exampleSomali": "Tusaale dib-u-eegis: Self-check.",
+          "exampleEnglish": "Amina uses self-check in a short conversation.",
+          "exampleSomali": "Amina waxay Self-check ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Self-check waxaa dib looga eegayaa mowduuca Speaking Review.",
           "commonMistakeSomali": "Hubi macnaha, higgaadda iyo xaaladda lagu isticmaalo."
         }

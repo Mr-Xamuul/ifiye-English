@@ -496,8 +496,8 @@
           "somaliMeaning": "20",
           "partOfSpeech": "number",
           "pronunciation": "twen-ti",
-          "exampleEnglish": "The number is twenty.",
-          "exampleSomali": "Tiradu waa 20.",
+          "exampleEnglish": "The price is twenty-four dollars.",
+          "exampleSomali": "Qiimuhu waa afar iyo labaatan doolar.",
           "explanationSomali": "twenty waa sida tirada 20 loogu qoro English.",
           "commonMistakeSomali": ""
         },
@@ -1707,8 +1707,8 @@
           "somaliMeaning": "Dal",
           "partOfSpeech": "noun",
           "pronunciation": "kan-tri",
-          "exampleEnglish": "I live in Somalia.",
-          "exampleSomali": "Waxaan degganahay Soomaaliya.",
+          "exampleEnglish": "Which country are you from?",
+          "exampleSomali": "Dalkee ayaad ka timid?",
           "explanationSomali": "Country waa dal.",
           "commonMistakeSomali": ""
         },
@@ -1717,8 +1717,8 @@
           "somaliMeaning": "Gudaha/ku jira",
           "partOfSpeech": "preposition",
           "pronunciation": "in",
-          "exampleEnglish": "I live in Nairobi.",
-          "exampleSomali": "Waxaan degganahay Nairobi.",
+          "exampleEnglish": "I live in Mogadishu.",
+          "exampleSomali": "Waxaan degganahay Muqdisho.",
           "explanationSomali": "In waxaa lala isticmaalaa magaalo, degmo ama dal.",
           "commonMistakeSomali": ""
         },
@@ -1727,8 +1727,8 @@
           "somaliMeaning": "Dusha/ku yaal",
           "partOfSpeech": "preposition",
           "pronunciation": "on",
-          "exampleEnglish": "I live on Peace Road.",
-          "exampleSomali": "Waxaan degganahay Peace Road.",
+          "exampleEnglish": "Amina uses on in a short conversation.",
+          "exampleSomali": "Amina waxay Dusha/ku yaal ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "On waxaa lala isticmaalaa magaca waddo.",
           "commonMistakeSomali": ""
         }
@@ -2924,8 +2924,8 @@
           "somaliMeaning": "Da’",
           "partOfSpeech": "form field",
           "pronunciation": "eyj",
-          "exampleEnglish": "Age: 20.",
-          "exampleSomali": "Da’da: 20.",
+          "exampleEnglish": "Amina uses age in a short conversation.",
+          "exampleSomali": "Amina waxay Da’ ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Age field-ku wuxuu rabaa tirada sannadaha.",
           "commonMistakeSomali": ""
         },
@@ -2954,8 +2954,8 @@
           "somaliMeaning": "Magaalo",
           "partOfSpeech": "form field",
           "pronunciation": "si-ti",
-          "exampleEnglish": "City: Mogadishu.",
-          "exampleSomali": "Magaalo: Muqdisho.",
+          "exampleEnglish": "Which city do you live in?",
+          "exampleSomali": "Magaaladee ayaad ku nooshahay?",
           "explanationSomali": "City waa magaalada.",
           "commonMistakeSomali": ""
         },
@@ -2964,8 +2964,8 @@
           "somaliMeaning": "Dal",
           "partOfSpeech": "form field",
           "pronunciation": "kan-tri",
-          "exampleEnglish": "Country: Somalia.",
-          "exampleSomali": "Dal: Soomaaliya.",
+          "exampleEnglish": "Amina uses country in a short conversation.",
+          "exampleSomali": "Amina waxay Dal ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Country waa dalka.",
           "commonMistakeSomali": ""
         },
@@ -2974,8 +2974,8 @@
           "somaliMeaning": "Jinsiyad/dhalasho dal",
           "partOfSpeech": "form field",
           "pronunciation": "na-sha-na-li-ti",
-          "exampleEnglish": "Nationality: Somali.",
-          "exampleSomali": "Jinsiyad: Soomaali.",
+          "exampleEnglish": "Amina uses nationality in a short conversation.",
+          "exampleSomali": "Amina waxay Jinsiyad/dhalasho dal ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Nationality wuxuu tilmaamaa dalka ama jinsiyadda qofka.",
           "commonMistakeSomali": ""
         },
@@ -2994,8 +2994,8 @@
           "somaliMeaning": "Shaqo",
           "partOfSpeech": "form field",
           "pronunciation": "o-kyu-pey-shan",
-          "exampleEnglish": "Occupation: Student.",
-          "exampleSomali": "Shaqo: Arday.",
+          "exampleEnglish": "My occupation is student.",
+          "exampleSomali": "Shaqadaydu waa arday.",
           "explanationSomali": "Occupation waa shaqada qofka.",
           "commonMistakeSomali": ""
         },

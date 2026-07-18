@@ -536,8 +536,8 @@
           "somaliMeaning": "Macallin",
           "partOfSpeech": "noun",
           "pronunciation": "tii-char",
-          "exampleEnglish": "My father is a teacher.",
-          "exampleSomali": "Aabbahay waa macallin.",
+          "exampleEnglish": "Amina uses teacher in a short conversation.",
+          "exampleSomali": "Amina waxay Macallin ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Teacher waa qof wax bara.",
           "commonMistakeSomali": ""
         },
@@ -2061,8 +2061,8 @@
           "somaliMeaning": "Naxariis badan",
           "partOfSpeech": "adjective",
           "pronunciation": "kaaynd",
-          "exampleEnglish": "My mother is kind.",
-          "exampleSomali": "Hooyaday waa naxariis badan tahay.",
+          "exampleEnglish": "He sounds kind.",
+          "exampleSomali": "Wuxuu u muuqdaa qof naxariis badan.",
           "explanationSomali": "Kind wuxuu tilmaamaa qof dadka si wanaagsan ula dhaqma.",
           "commonMistakeSomali": ""
         },
@@ -2091,8 +2091,8 @@
           "somaliMeaning": "Faraxsan",
           "partOfSpeech": "adjective",
           "pronunciation": "ha-pi",
-          "exampleEnglish": "The child is happy.",
-          "exampleSomali": "Ilmuhu waa faraxsan yahay.",
+          "exampleEnglish": "Amina uses happy in a short conversation.",
+          "exampleSomali": "Amina waxay Faraxsan ku isticmaashaa wada sheekeysi gaaban.",
           "explanationSomali": "Happy wuxuu tilmaamaa dareen farxad.",
           "commonMistakeSomali": ""
         },
@@ -2912,8 +2912,8 @@
           "somaliMeaning": "Immisa jir buu yahay?",
           "partOfSpeech": "question phrase",
           "pronunciation": "haw oold iz hii",
-          "exampleEnglish": "How old is he?",
-          "exampleSomali": "Immisa jir buu yahay?",
+          "exampleEnglish": "How old is he today.",
+          "exampleSomali": "Immisa jir buu yahay tusaalahan.",
           "explanationSomali": "How old wuxuu weydiinayaa da’da.",
           "commonMistakeSomali": ""
         },
