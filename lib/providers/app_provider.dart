@@ -44,8 +44,11 @@ class AppProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  bool isCourseLessonUnlocked(String? previousLessonId) =>
-      unlockA1DuringDevelopment ||
+  bool isCourseLessonUnlocked(
+    String? previousLessonId, {
+    String levelId = 'A1',
+  }) =>
+      (levelId == 'A1' && unlockA1DuringDevelopment) ||
       previousLessonId == null ||
       courseProgress.completedLessonIds.contains(previousLessonId);
 

@@ -1,8 +1,8 @@
 {
   "id": "A2",
   "title": "A2 – Elementary",
-  "descriptionSomali": "Heer lagu xoojinayo xaaladaha maalinlaha ah iyo waayo-aragnimada qofka.",
-  "introductionSomali": "A2 wuxuu kuu dhisayaa awood aad uga hadasho wixii hore u dhacay, safar, caafimaad, shaqo iyo qorshayaasha mustaqbalka.",
+  "descriptionSomali": "A2 – Heerka Aasaasiga Sare: English-ka xaaladaha maalinlaha ah iyo waayo-aragnimada fudud.",
+  "introductionSomali": "Heerka A2 waxaa loogu talagalay arday fahmaya English-ka aasaasiga ah. Waxaad baranaysaa dhacdooyin hore, waxa hadda socda, qorshayaasha mustaqbalka, safarka, caafimaadka, shaqada, wax iibsiga, cimilada iyo qoraallo gaagaaban oo isku xiran.",
   "requiredPreviousLevelId": "A1",
   "unitFiles": ["assets/content/a2/unit_01.json", "assets/content/a2/unit_02.json", "assets/content/a2/unit_03.json", "assets/content/a2/unit_04.json", "assets/content/a2/unit_05.json", "assets/content/a2/unit_06.json", "assets/content/a2/unit_07.json", "assets/content/a2/unit_08.json", "assets/content/a2/unit_09.json", "assets/content/a2/unit_10.json", "assets/content/a2/unit_11.json", "assets/content/a2/unit_12.json"],
   "finalExamFile": "assets/content/a2/final_exam.json"

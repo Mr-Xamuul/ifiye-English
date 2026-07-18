@@ -75,11 +75,14 @@ class _LevelsList extends StatelessWidget {
           return AppCard(
             onTap: unlocked
                 ? () {
-                    if (level.id == 'A1') {
+                    if (level.id == 'A1' || level.id == 'A2') {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (_) => const LessonsScreen(showBack: true),
+                          builder: (_) => LessonsScreen(
+                            showBack: true,
+                            level: level.id == 'A2' ? level : null,
+                          ),
                         ),
                       );
                     } else {

@@ -21,7 +21,9 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: Text('A1 Unit ${widget.unit.unitNumber} Quiz')),
+    appBar: AppBar(
+      title: Text('${widget.unit.levelId} Unit ${widget.unit.unitNumber} Quiz'),
+    ),
     body: SafeArea(child: finished ? _result(context) : _question(context)),
   );
 

@@ -10,8 +10,9 @@ import '../quiz/unit_quiz_screen.dart';
 import '../exam/exam_screen.dart';
 
 class LessonsScreen extends StatefulWidget {
-  const LessonsScreen({this.showBack = false, super.key});
+  const LessonsScreen({this.showBack = false, this.level, super.key});
   final bool showBack;
+  final CourseLevel? level;
 
   @override
   State<LessonsScreen> createState() => _LessonsScreenState();
@@ -19,19 +20,28 @@ class LessonsScreen extends StatefulWidget {
 
 class _LessonsScreenState extends State<LessonsScreen> {
   int _selectedUnit = 0;
-  late final Future<List<CourseUnit>> _units = Future.wait([
-    CefrContentRepository().loadUnit('assets/content/a1/unit_01.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_02.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_03.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_04.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_05.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_06.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_07.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_08.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_09.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/unit_10.json'),
-    CefrContentRepository().loadUnit('assets/content/a1/final_review.json'),
-  ]);
+  late final Future<List<CourseUnit>> _units;
+
+  @override
+  void initState() {
+    super.initState();
+    final repository = CefrContentRepository();
+    _units = widget.level == null
+        ? Future.wait([
+            repository.loadUnit('assets/content/a1/unit_01.json'),
+            repository.loadUnit('assets/content/a1/unit_02.json'),
+            repository.loadUnit('assets/content/a1/unit_03.json'),
+            repository.loadUnit('assets/content/a1/unit_04.json'),
+            repository.loadUnit('assets/content/a1/unit_05.json'),
+            repository.loadUnit('assets/content/a1/unit_06.json'),
+            repository.loadUnit('assets/content/a1/unit_07.json'),
+            repository.loadUnit('assets/content/a1/unit_08.json'),
+            repository.loadUnit('assets/content/a1/unit_09.json'),
+            repository.loadUnit('assets/content/a1/unit_10.json'),
+            repository.loadUnit('assets/content/a1/final_review.json'),
+          ])
+        : repository.loadAvailableUnits(widget.level!);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -50,10 +60,18 @@ class _LessonsScreenState extends State<LessonsScreen> {
         final units = snapshot.data!;
         return Column(
           children: [
-            _UnitSelector(
-              selectedUnit: _selectedUnit,
-              onSelected: (value) => setState(() => _selectedUnit = value),
-            ),
+            if (widget.level?.id == 'A2')
+              _A2UnitSelector(
+                selectedUnit: _selectedUnit,
+                availableUnits: units,
+                plannedUnitCount: widget.level!.unitFiles.length,
+                onSelected: (value) => setState(() => _selectedUnit = value),
+              )
+            else
+              _UnitSelector(
+                selectedUnit: _selectedUnit,
+                onSelected: (value) => setState(() => _selectedUnit = value),
+              ),
             Expanded(
               child: _UnitContent(
                 unit: units[_selectedUnit],
@@ -68,10 +86,81 @@ class _LessonsScreenState extends State<LessonsScreen> {
     );
     return widget.showBack
         ? Scaffold(
-            appBar: AppBar(title: const Text('A1 – Beginner')),
+            appBar: AppBar(title: Text(widget.level?.title ?? 'A1 – Beginner')),
             body: content,
           )
         : SafeArea(child: content);
+  }
+}
+
+class _A2UnitSelector extends StatelessWidget {
+  const _A2UnitSelector({
+    required this.selectedUnit,
+    required this.availableUnits,
+    required this.plannedUnitCount,
+    required this.onSelected,
+  });
+
+  final int selectedUnit;
+  final List<CourseUnit> availableUnits;
+  final int plannedUnitCount;
+  final ValueChanged<int> onSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    final state = context.watch<AppProvider>();
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(18, 10, 18, 8),
+      color: Theme.of(context).scaffoldBackgroundColor,
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          children: List.generate(plannedUnitCount, (index) {
+            final unitNumber = index + 1;
+            final hasContent = index < availableUnits.length;
+            final unlocked =
+                index == 0 ||
+                (index - 1 < availableUnits.length &&
+                    state.hasPassedUnit(availableUnits[index - 1].id));
+            return Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: ChoiceChip(
+                label: Text('Unit $unitNumber'),
+                selected: hasContent && selectedUnit == index,
+                avatar: Icon(
+                  unlocked
+                      ? (hasContent
+                            ? Icons.lock_open_outlined
+                            : Icons.schedule_outlined)
+                      : Icons.lock_outline,
+                  size: 18,
+                ),
+                onSelected: (_) {
+                  if (!unlocked) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          'Gudub Unit ${unitNumber - 1} quiz si Unit $unitNumber u furmo.',
+                        ),
+                      ),
+                    );
+                  } else if (!hasContent) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Casharrada unit-kan waa coming soon.'),
+                      ),
+                    );
+                  } else {
+                    onSelected(index);
+                  }
+                },
+              ),
+            );
+          }),
+        ),
+      ),
+    );
   }
 }
 
@@ -379,8 +468,10 @@ class _UnitContent extends StatelessWidget {
   Widget build(BuildContext context) {
     final state = context.watch<AppProvider>();
     final completed = state.courseProgress.completedLessonIds;
+    final developmentUnlocked =
+        unit.levelId == 'A1' && AppProvider.unlockA1DuringDevelopment;
     final unitUnlocked =
-        AppProvider.unlockA1DuringDevelopment ||
+        developmentUnlocked ||
         unit.requiredPreviousUnitId == null ||
         state.hasPassedUnit(unit.requiredPreviousUnitId!);
     final allLessonsComplete = unit.lessons.every(
@@ -389,9 +480,8 @@ class _UnitContent extends StatelessWidget {
     final passed = unit.id == 'a1-final-review'
         ? state.hasCompletedFinalReview
         : state.hasPassedUnit(unit.id);
-    final quizUnlocked =
-        AppProvider.unlockA1DuringDevelopment || allLessonsComplete;
-    final nextUnitUnlocked = AppProvider.unlockA1DuringDevelopment || passed;
+    final quizUnlocked = developmentUnlocked || allLessonsComplete;
+    final nextUnitUnlocked = developmentUnlocked || passed;
     final bestScore = state.courseProgress.unitQuizScores[unit.id] ?? 0;
 
     return ListView(
@@ -419,7 +509,10 @@ class _UnitContent extends StatelessWidget {
         ...unit.lessons.map((lesson) {
           final unlocked =
               unitUnlocked &&
-              state.isCourseLessonUnlocked(lesson.requiredPreviousLessonId);
+              state.isCourseLessonUnlocked(
+                lesson.requiredPreviousLessonId,
+                levelId: lesson.levelId,
+              );
           final isComplete = completed.contains(lesson.id);
           return AppCard(
             onTap: unlocked

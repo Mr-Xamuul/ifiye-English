@@ -47,6 +47,23 @@ class CefrContentRepository {
     }
   }
 
+  Future<List<CourseUnit>> loadAvailableUnits(CourseLevel level) async {
+    try {
+      final manifest = await AssetManifest.loadFromAssetBundle(_bundle);
+      final availableAssets = manifest.listAssets().toSet();
+      final availableFiles = level.unitFiles
+          .where(availableAssets.contains)
+          .toList();
+      return Future.wait(availableFiles.map(loadUnit));
+    } catch (error) {
+      if (error is ContentLoadException) rethrow;
+      throw ContentLoadException(
+        'Casharrada diyaarka ah ee ${level.id} lama akhrin karin.',
+        error,
+      );
+    }
+  }
+
   Future<List<PracticeExercise>> loadExam(String path) async {
     try {
       final data = await _readMap(path);
