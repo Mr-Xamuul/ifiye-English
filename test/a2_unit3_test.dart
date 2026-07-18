@@ -204,7 +204,12 @@ void main() {
       final repository = CefrContentRepository(bundle: rootBundle);
       final level = await repository.loadLevel('assets/content/a2/level.json');
       final available = await repository.loadAvailableUnits(level);
-      expect(available.map((unit) => unit.id), ['a2-u01', 'a2-u02', 'a2-u03']);
+      expect(available.map((unit) => unit.id), [
+        'a2-u01',
+        'a2-u02',
+        'a2-u03',
+        'a2-u04',
+      ]);
       expect(level.unitFiles[3], 'assets/content/a2/unit_04.json');
 
       final progress = CourseProgress(

@@ -110,7 +110,12 @@ void main() {
 
       expect(level.requiredPreviousLevelId, 'A1');
       expect(level.unitFiles, hasLength(12));
-      expect(available.map((unit) => unit.id), ['a2-u01', 'a2-u02', 'a2-u03']);
+      expect(available.map((unit) => unit.id), [
+        'a2-u01',
+        'a2-u02',
+        'a2-u03',
+        'a2-u04',
+      ]);
     },
   );
 

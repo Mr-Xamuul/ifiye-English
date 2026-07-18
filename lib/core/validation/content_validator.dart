@@ -29,8 +29,8 @@ class ContentValidator {
   ValidationResult validateUnit(CourseUnit unit) {
     final errors = <String>[];
     final ids = <String>{};
-    if (unit.lessons.length < 4 || unit.lessons.length > 19) {
-      errors.add('${unit.id}: unit-ku waa inuu lahaadaa 4 ilaa 19 lessons.');
+    if (unit.lessons.length < 4 || unit.lessons.length > 20) {
+      errors.add('${unit.id}: unit-ku waa inuu lahaadaa 4 ilaa 20 lessons.');
     }
     for (final lesson in unit.lessons) {
       if (!ids.add(lesson.id)) errors.add('${unit.id}: lesson ID isku mid ah.');
@@ -67,7 +67,7 @@ class ContentValidator {
     final maximumExercises = lesson.unitId == 'a1-final-review'
         ? 100
         : lesson.lessonType == LessonType.review
-        ? 35
+        ? 40
         : 15;
     if (lesson.practiceExercises.length < 8 ||
         lesson.practiceExercises.length > maximumExercises) {
