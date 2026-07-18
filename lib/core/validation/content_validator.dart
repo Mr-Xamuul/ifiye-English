@@ -29,8 +29,8 @@ class ContentValidator {
   ValidationResult validateUnit(CourseUnit unit) {
     final errors = <String>[];
     final ids = <String>{};
-    if (unit.lessons.length < 4 || unit.lessons.length > 20) {
-      errors.add('${unit.id}: unit-ku waa inuu lahaadaa 4 ilaa 20 lessons.');
+    if (unit.lessons.length < 4 || unit.lessons.length > 22) {
+      errors.add('${unit.id}: unit-ku waa inuu lahaadaa 4 ilaa 22 lessons.');
     }
     for (final lesson in unit.lessons) {
       if (!ids.add(lesson.id)) errors.add('${unit.id}: lesson ID isku mid ah.');
