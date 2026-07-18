@@ -120,10 +120,11 @@ class _A2UnitSelector extends StatelessWidget {
             final unitNumber = index + 1;
             final hasContent = index < availableUnits.length;
             final unlocked =
-                AppProvider.unlockAllDuringDevelopment ||
-                index == 0 ||
-                (index - 1 < availableUnits.length &&
-                    state.hasPassedUnit(availableUnits[index - 1].id));
+                hasContent &&
+                (AppProvider.unlockAllDuringDevelopment ||
+                    index == 0 ||
+                    (index - 1 < availableUnits.length &&
+                        state.hasPassedUnit(availableUnits[index - 1].id)));
             return Padding(
               padding: const EdgeInsets.only(right: 8),
               child: ChoiceChip(
