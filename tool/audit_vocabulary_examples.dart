@@ -18,6 +18,7 @@ const contentPaths = <String>[
   'assets/content/a2/unit_03.json',
   'assets/content/a2/unit_04.json',
   'assets/content/a2/unit_05.json',
+  'assets/content/a2/unit_06.json',
 ];
 
 final genericPattern = RegExp(
