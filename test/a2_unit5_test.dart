@@ -183,6 +183,7 @@ void main() {
         'a2-u08',
         'a2-u09',
         'a2-u10',
+        'a2-u11',
       ]);
       expect(level.unitFiles[5], 'assets/content/a2/unit_06.json');
 

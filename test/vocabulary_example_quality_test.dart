@@ -8,7 +8,7 @@ void main() {
     () {
       final result = auditVocabularyExamples();
 
-      expect(result.total, 4325);
+      expect(result.total, 4733);
       expect(result.errors, isEmpty, reason: result.errors.join('\n'));
     },
   );
