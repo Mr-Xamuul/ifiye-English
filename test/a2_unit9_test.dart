@@ -189,6 +189,7 @@ void main() {
         'a2-u07',
         'a2-u08',
         'a2-u09',
+        'a2-u10',
       ]);
       expect(level.unitFiles[9], 'assets/content/a2/unit_10.json');
       final progress = CourseProgress(
