@@ -42,7 +42,13 @@ class LocalStorageService {
   Future<void> saveCourseProgress(CourseProgress progress) =>
       _prefs.setString('courseProgress', jsonEncode(progress.toJson()));
   FinalExamProgress get finalExamProgress {
-    final source = _prefs.getString('a1FinalExamProgress');
+    return finalExamProgressFor('A1');
+  }
+
+  FinalExamProgress finalExamProgressFor(String levelId) {
+    final source = _prefs.getString(
+      '${levelId.toLowerCase()}FinalExamProgress',
+    );
     if (source == null) return const FinalExamProgress();
     try {
       return FinalExamProgress.fromJson(jsonDecode(source));
@@ -52,7 +58,15 @@ class LocalStorageService {
   }
 
   Future<void> saveFinalExamProgress(FinalExamProgress progress) =>
-      _prefs.setString('a1FinalExamProgress', jsonEncode(progress.toJson()));
+      saveFinalExamProgressFor('A1', progress);
+
+  Future<void> saveFinalExamProgressFor(
+    String levelId,
+    FinalExamProgress progress,
+  ) => _prefs.setString(
+    '${levelId.toLowerCase()}FinalExamProgress',
+    jsonEncode(progress.toJson()),
+  );
   Future<void> reset() async {
     for (final key in [
       'completedLessons',
@@ -61,6 +75,7 @@ class LocalStorageService {
       'dailyGoal',
       'courseProgress',
       'a1FinalExamProgress',
+      'a2FinalExamProgress',
     ]) {
       await _prefs.remove(key);
     }

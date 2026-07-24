@@ -12,10 +12,12 @@ class FinalExamQuestion {
     required this.explanationSomali,
     required this.scoreValue,
     required this.recommendationUnit,
+    this.resourceId,
   });
 
   final String id, sectionId, topic, unitSource, type, difficulty;
   final String question, correctAnswer, explanationSomali, recommendationUnit;
+  final String? resourceId;
   final List<String> options;
   final int scoreValue;
 
@@ -33,25 +35,67 @@ class FinalExamQuestion {
         explanationSomali: json['explanationSomali'] as String,
         scoreValue: json['scoreValue'] as int,
         recommendationUnit: json['recommendationUnit'] as String,
+        resourceId: json['resourceId'] as String?,
+      );
+}
+
+class FinalExamResource {
+  const FinalExamResource({
+    required this.id,
+    required this.type,
+    required this.title,
+    required this.content,
+  });
+
+  final String id, type, title, content;
+
+  factory FinalExamResource.fromJson(Map<String, dynamic> json) =>
+      FinalExamResource(
+        id: json['id'] as String,
+        type: json['type'] as String,
+        title: json['title'] as String,
+        content: json['content'] as String,
       );
 }
 
 class FinalExamContent {
   const FinalExamContent({
+    this.id = 'a1-final-exam',
     required this.titleEnglish,
     required this.titleSomali,
+    this.descriptionSomali = '',
     required this.passingScore,
+    this.estimatedMinutes = 80,
+    this.attemptQuestionCount,
+    this.attemptDistribution = const {},
+    this.resources = const [],
     required this.questions,
   });
-  final String titleEnglish, titleSomali;
-  final int passingScore;
+  final String id, titleEnglish, titleSomali, descriptionSomali;
+  final int passingScore, estimatedMinutes;
+  final int? attemptQuestionCount;
+  final Map<String, int> attemptDistribution;
+  final List<FinalExamResource> resources;
   final List<FinalExamQuestion> questions;
 
   factory FinalExamContent.fromJson(Map<String, dynamic> json) =>
       FinalExamContent(
+        id: json['id'] as String? ?? 'a1-final-exam',
         titleEnglish: json['titleEnglish'] as String,
         titleSomali: json['titleSomali'] as String,
+        descriptionSomali: json['descriptionSomali'] as String? ?? '',
         passingScore: json['passingScore'] as int,
+        estimatedMinutes: json['estimatedMinutes'] as int? ?? 80,
+        attemptQuestionCount: json['attemptQuestionCount'] as int?,
+        attemptDistribution:
+            (json['attemptDistribution'] as Map<String, dynamic>? ?? const {})
+                .map((key, value) => MapEntry(key, value as int)),
+        resources: (json['resources'] as List<dynamic>? ?? const [])
+            .map(
+              (item) =>
+                  FinalExamResource.fromJson(item as Map<String, dynamic>),
+            )
+            .toList(),
         questions: (json['questions'] as List<dynamic>)
             .map((e) => FinalExamQuestion.fromJson(e as Map<String, dynamic>))
             .toList(),
@@ -70,10 +114,12 @@ class FinalExamProgress {
     this.passed = false,
     this.completionDate,
     this.sectionScores = const {},
+    this.questionIds = const [],
   });
   final bool started, completed, passed;
   final int currentQuestion, latestScore, bestScore, attempts;
   final Map<String, String> answers;
+  final List<String> questionIds;
   final String? completionDate;
   final Map<String, int> sectionScores;
 
@@ -88,6 +134,7 @@ class FinalExamProgress {
     'passed': passed,
     'completionDate': completionDate,
     'sectionScores': sectionScores,
+    'questionIds': questionIds,
   };
 
   factory FinalExamProgress.fromJson(Map<String, dynamic> json) =>
@@ -107,5 +154,7 @@ class FinalExamProgress {
             (json['sectionScores'] as Map<String, dynamic>? ?? const {}).map(
               (k, v) => MapEntry(k, v as int),
             ),
+        questionIds: (json['questionIds'] as List<dynamic>? ?? const [])
+            .cast<String>(),
       );
 }

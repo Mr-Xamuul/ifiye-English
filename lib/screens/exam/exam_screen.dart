@@ -1,25 +1,47 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/utils/final_exam_engine.dart';
 import '../../data/repositories/cefr_content_repository.dart';
 import '../../models/content/final_exam_models.dart';
 import '../../providers/app_provider.dart';
 import '../../widgets/common_widgets.dart';
 
 class ExamScreen extends StatefulWidget {
-  const ExamScreen({this.standalone = false, super.key});
+  const ExamScreen({
+    this.standalone = false,
+    this.levelId = 'A1',
+    this.contentPath,
+    this.examContent,
+    super.key,
+  });
   final bool standalone;
+  final String levelId;
+  final String? contentPath;
+  final FinalExamContent? examContent;
   @override
   State<ExamScreen> createState() => _ExamScreenState();
 }
 
 class _ExamScreenState extends State<ExamScreen> {
-  late final Future<FinalExamContent> _content = CefrContentRepository()
-      .loadFinalExam('assets/content/a1/final_exam.json');
+  static const _engine = FinalExamEngine();
+  late final Future<FinalExamContent> _content;
   bool started = false, finished = false, reviewing = false;
   String reviewFilter = 'all';
   int index = 0;
   Map<String, String> answers = {};
+  List<FinalExamQuestion> attemptQuestions = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _content = widget.examContent != null
+        ? Future.value(widget.examContent)
+        : CefrContentRepository().loadFinalExam(
+            widget.contentPath ??
+                'assets/content/${widget.levelId.toLowerCase()}/final_exam.json',
+          );
+  }
 
   @override
   Widget build(BuildContext context) => FutureBuilder<FinalExamContent>(
@@ -41,7 +63,7 @@ class _ExamScreenState extends State<ExamScreen> {
           : _intro(snapshot.data!);
       return widget.standalone
           ? Scaffold(
-              appBar: AppBar(title: const Text('A1 Final Level Exam')),
+              appBar: AppBar(title: Text('${widget.levelId} Final Exam')),
               body: SafeArea(child: body),
             )
           : SafeArea(child: body);
@@ -50,9 +72,11 @@ class _ExamScreenState extends State<ExamScreen> {
 
   Widget _intro(FinalExamContent exam) {
     final state = context.watch<AppProvider>();
-    final progress = state.finalExamProgress;
-    final unlocked =
-        AppProvider.unlockAllDuringDevelopment || state.hasCompletedFinalReview;
+    final progress = state.finalExamProgressFor(widget.levelId);
+    final unlocked = widget.levelId == 'A2'
+        ? state.hasCompletedFinalReviewFor('A2')
+        : AppProvider.unlockAllDuringDevelopment ||
+              state.hasCompletedFinalReviewFor(widget.levelId);
     return ListView(
       padding: const EdgeInsets.all(18),
       children: [
@@ -71,13 +95,27 @@ class _ExamScreenState extends State<ExamScreen> {
           child: Column(
             children: [
               ListTile(
-                title: const Text('Su’aalaha'),
-                trailing: Text('${exam.questions.length}'),
+                title: Text(
+                  widget.levelId == 'A2' ? 'Su’aalaha attempt-ka' : 'Su’aalaha',
+                ),
+                trailing: Text(
+                  '${exam.attemptQuestionCount ?? exam.questions.length}',
+                ),
               ),
-              const ListTile(
-                title: Text('Passing score'),
-                trailing: Text('75%'),
+              if (widget.levelId == 'A2')
+                ListTile(
+                  title: const Text('Question bank'),
+                  trailing: Text('${exam.questions.length}'),
+                ),
+              ListTile(
+                title: const Text('Passing score'),
+                trailing: Text('${exam.passingScore}%'),
               ),
+              if (widget.levelId == 'A2')
+                ListTile(
+                  title: const Text('Waqtiga la qiyaasay'),
+                  trailing: Text('${exam.estimatedMinutes} daqiiqo'),
+                ),
               ListTile(
                 title: const Text('Attempts'),
                 trailing: Text('${progress.attempts}'),
@@ -90,12 +128,14 @@ class _ExamScreenState extends State<ExamScreen> {
           ),
         ),
         const SizedBox(height: 12),
-        const AppCard(
+        AppCard(
           child: Text(
-            'Xeerarka: Jawaabaha saxda ah lama muujinayo inta imtixaanku socdo. '
-            'Waxaad isticmaali kartaa Previous iyo Next. Jawaabahaaga iyo su’aasha aad joogto way kaydsamayaan. '
-            'Ka hor submit digniin ayaa lagu siinayaa haddii su’aalo bannaan jiraan. A2 wuxuu furmaa markaad hesho 75% ama ka badan.',
-            style: TextStyle(height: 1.5),
+            '${exam.descriptionSomali}\n\n'
+            'Akhri su’aal kasta si taxaddar leh. Dooro jawaabta ugu habboon. '
+            'Su’aalaha qaarkood waxay ku salaysan yihiin qoraal, jadwal ama wada-hadal. '
+            'Waxaad u baahan tahay ugu yaraan ${exam.passingScore}% si aad u gudubto. '
+            'Natiijadaada waa la keydin doonaa. Hubi jawaabahaaga kahor submit.',
+            style: const TextStyle(height: 1.5),
           ),
         ),
         const SizedBox(height: 18),
@@ -113,10 +153,10 @@ class _ExamScreenState extends State<ExamScreen> {
           ),
         ),
         if (!unlocked)
-          const Padding(
+          Padding(
             padding: EdgeInsets.only(top: 10),
             child: Text(
-              'Marka hore dhammaystir A1 Final Review.',
+              'Marka hore dhammaystir ${widget.levelId} Final Review.',
               textAlign: TextAlign.center,
             ),
           ),
@@ -124,26 +164,52 @@ class _ExamScreenState extends State<ExamScreen> {
     );
   }
 
-  void _start(FinalExamProgress progress) {
+  void _start(FinalExamProgress progress) async {
+    final exam = await _content;
+    if (!mounted) return;
     setState(() {
       started = true;
       if (progress.started && !progress.completed) {
         index = progress.currentQuestion;
         answers = {...progress.answers};
+        attemptQuestions =
+            progress.questionIds.isEmpty && exam.attemptQuestionCount == null
+            ? List<FinalExamQuestion>.of(exam.questions)
+            : _engine.restoreAttempt(exam, progress.questionIds);
+      }
+      if (attemptQuestions.isEmpty) {
+        attemptQuestions = _engine.selectAttempt(
+          exam,
+          seed: DateTime.now().microsecondsSinceEpoch,
+        );
+        index = 0;
+        answers = {};
       }
     });
+    await context.read<AppProvider>().saveLevelFinalExamSession(
+      widget.levelId,
+      index,
+      answers,
+      attemptQuestions.map((question) => question.id).toList(),
+    );
   }
 
   Widget _question(FinalExamContent exam) {
-    final q = exam.questions[index];
+    final q = attemptQuestions[index];
     final selected = answers[q.id];
     final sectionNumber = const {
       'vocabulary': 1,
       'grammar': 2,
       'reading': 3,
-      'situations': 4,
-      'translation': 5,
+      'documents': 4,
+      'communication': 5,
+      'correction': 6,
+      'somaliToEnglish': 7,
+      'englishToSomali': 8,
     }[q.sectionId];
+    final resource = q.resourceId == null
+        ? null
+        : exam.resources.where((item) => item.id == q.resourceId).firstOrNull;
     return ListView(
       padding: const EdgeInsets.all(18),
       children: [
@@ -152,12 +218,29 @@ class _ExamScreenState extends State<ExamScreen> {
           style: TextStyle(color: Theme.of(context).colorScheme.primary),
         ),
         Text(
-          'Su’aal ${index + 1} / ${exam.questions.length}',
+          'Su’aal ${index + 1} / ${attemptQuestions.length} • '
+          '${attemptQuestions.length - index - 1} ayaa haray',
           style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 8),
-        LinearProgressIndicator(value: (index + 1) / exam.questions.length),
+        LinearProgressIndicator(value: (index + 1) / attemptQuestions.length),
         const SizedBox(height: 20),
+        if (resource != null) ...[
+          AppCard(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  resource.title,
+                  style: const TextStyle(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 8),
+                SelectableText(resource.content),
+              ],
+            ),
+          ),
+          const SizedBox(height: 12),
+        ],
         Text(
           q.question,
           style: Theme.of(
@@ -168,7 +251,7 @@ class _ExamScreenState extends State<ExamScreen> {
         ...q.options.map(
           (option) => Padding(
             padding: const EdgeInsets.only(bottom: 8),
-            child: OutlinedButton(
+            child: OutlinedButton.icon(
               style: OutlinedButton.styleFrom(
                 minimumSize: const Size(0, 52),
                 backgroundColor: selected == option
@@ -177,12 +260,19 @@ class _ExamScreenState extends State<ExamScreen> {
               ),
               onPressed: () async {
                 setState(() => answers[q.id] = option);
-                await context.read<AppProvider>().saveFinalExamSession(
+                await context.read<AppProvider>().saveLevelFinalExamSession(
+                  widget.levelId,
                   index,
                   answers,
+                  attemptQuestions.map((question) => question.id).toList(),
                 );
               },
-              child: Text(option),
+              icon: Icon(
+                selected == option
+                    ? Icons.check_circle
+                    : Icons.radio_button_unchecked,
+              ),
+              label: Text(option),
             ),
           ),
         ),
@@ -198,11 +288,11 @@ class _ExamScreenState extends State<ExamScreen> {
             const SizedBox(width: 10),
             Expanded(
               child: FilledButton(
-                onPressed: index == exam.questions.length - 1
+                onPressed: index == attemptQuestions.length - 1
                     ? () => _confirmSubmit(exam)
                     : () => _move(index + 1),
                 child: Text(
-                  index == exam.questions.length - 1 ? 'Submit' : 'Next',
+                  index == attemptQuestions.length - 1 ? 'Submit' : 'Next',
                 ),
               ),
             ),
@@ -214,11 +304,16 @@ class _ExamScreenState extends State<ExamScreen> {
 
   void _move(int value) {
     setState(() => index = value);
-    context.read<AppProvider>().saveFinalExamSession(index, answers);
+    context.read<AppProvider>().saveLevelFinalExamSession(
+      widget.levelId,
+      index,
+      answers,
+      attemptQuestions.map((question) => question.id).toList(),
+    );
   }
 
   Future<void> _confirmSubmit(FinalExamContent exam) async {
-    final unanswered = exam.questions.length - answers.length;
+    final unanswered = attemptQuestions.length - answers.length;
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
@@ -241,48 +336,48 @@ class _ExamScreenState extends State<ExamScreen> {
       ),
     );
     if (confirmed != true || !mounted) return;
-    final score = _score(exam.questions);
-    await context.read<AppProvider>().finishFinalExam(
+    final score = _engine.score(attemptQuestions, answers);
+    await context.read<AppProvider>().finishLevelFinalExam(
+      widget.levelId,
+      exam.passingScore,
       score,
-      _sectionScores(exam.questions),
+      _engine.categoryScores(attemptQuestions, answers),
     );
     if (mounted) setState(() => finished = true);
   }
 
-  int _score(List<FinalExamQuestion> questions) {
-    final correct = questions
-        .where((q) => answers[q.id] == q.correctAnswer)
-        .length;
-    return (correct / questions.length * 100).round();
-  }
-
-  Map<String, int> _sectionScores(List<FinalExamQuestion> questions) {
-    final result = <String, int>{};
-    for (final section in questions.map((q) => q.sectionId).toSet()) {
-      final items = questions.where((q) => q.sectionId == section).toList();
-      final correct = items
-          .where((q) => answers[q.id] == q.correctAnswer)
-          .length;
-      result[section] = (correct / items.length * 100).round();
-    }
-    return result;
-  }
-
   Widget _result(FinalExamContent exam) {
-    final progress = context.watch<AppProvider>().finalExamProgress;
+    final progress = context.watch<AppProvider>().finalExamProgressFor(
+      widget.levelId,
+    );
     final score = progress.latestScore;
-    final category = score >= 90
+    final category = widget.levelId == 'A2'
+        ? score >= 85
+              ? 'Waxqabad aad u wanaagsan'
+              : score >= 70
+              ? 'Waad gudubtay'
+              : score >= 50
+              ? 'Weli ma gudbin'
+              : 'Dib-u-eegis dheeraad ah ayaa loo baahan yahay'
+        : score >= 90
         ? 'Aad u wanaagsan'
         : score >= 80
         ? 'Aad u fiican'
-        : score >= 75
+        : score >= exam.passingScore
         ? 'Waad gudubtay'
         : score >= 60
         ? 'Dib-u-eegis ayaad u baahan tahay'
         : 'Tababar dheeraad ah ayaad u baahan tahay';
-    final correct = exam.questions
+    final correct = attemptQuestions
         .where((q) => answers[q.id] == q.correctAnswer)
         .length;
+    final unanswered = attemptQuestions
+        .where((question) => !answers.containsKey(question.id))
+        .length;
+    final incorrect = attemptQuestions.length - correct - unanswered;
+    final strongest = _engine.strongest(progress.sectionScores);
+    final weakest = _engine.weakest(progress.sectionScores);
+    final recommendations = _engine.recommendations(attemptQuestions, answers);
     return ListView(
       padding: const EdgeInsets.all(20),
       children: [
@@ -303,13 +398,27 @@ class _ExamScreenState extends State<ExamScreen> {
             color: Theme.of(context).colorScheme.primary,
           ),
         ),
+        if (progress.passed && widget.levelId == 'A2')
+          AppCard(
+            child: ListTile(
+              leading: const Icon(Icons.verified_outlined),
+              title: const Text('Waxaad dhammaystirtay heerka A2 ee app-kan.'),
+              subtitle: Text(
+                'B1 waa furmay • Completion: ${progress.completionDate ?? 'la keydiyay'}',
+              ),
+            ),
+          ),
         AppCard(
           child: Column(
             children: [
               ListTile(title: const Text('Sax'), trailing: Text('$correct')),
               ListTile(
                 title: const Text('Khalad'),
-                trailing: Text('${exam.questions.length - correct}'),
+                trailing: Text('$incorrect'),
+              ),
+              ListTile(
+                title: const Text('Lama jawaabin'),
+                trailing: Text('$unanswered'),
               ),
               ListTile(
                 title: const Text('Best score'),
@@ -323,6 +432,18 @@ class _ExamScreenState extends State<ExamScreen> {
                 (e) =>
                     ListTile(title: Text(e.key), trailing: Text('${e.value}%')),
               ),
+              ListTile(
+                title: const Text('Meelaha ugu fiican'),
+                subtitle: Text(strongest.join(', ')),
+              ),
+              ListTile(
+                title: const Text('Meelaha dib loo eegayo'),
+                subtitle: Text(weakest.join(', ')),
+              ),
+              ListTile(
+                title: const Text('Review Weak Areas'),
+                subtitle: Text(recommendations.join(', ')),
+              ),
             ],
           ),
         ),
@@ -335,20 +456,27 @@ class _ExamScreenState extends State<ExamScreen> {
           FilledButton.icon(
             onPressed: () => context.read<AppProvider>().setNavIndex(1),
             icon: const Icon(Icons.arrow_forward),
-            label: const Text('U gudub A2'),
+            label: Text(
+              widget.levelId == 'A2' ? 'Continue to B1' : 'U gudub A2',
+            ),
+          ),
+        if (widget.levelId == 'A2')
+          OutlinedButton(
+            onPressed: () => context.read<AppProvider>().setNavIndex(2),
+            child: const Text('Review A2'),
           ),
         OutlinedButton(
           onPressed: () => widget.standalone
               ? Navigator.pop(context)
               : context.read<AppProvider>().setNavIndex(0),
-          child: const Text('Ku noqo A1'),
+          child: Text('Ku noqo ${widget.levelId}'),
         ),
       ],
     );
   }
 
   Widget _review(FinalExamContent exam) {
-    final filtered = exam.questions.where((q) {
+    final filtered = attemptQuestions.where((q) {
       if (reviewFilter == 'correct') return answers[q.id] == q.correctAnswer;
       if (reviewFilter == 'incorrect') return answers[q.id] != q.correctAnswer;
       if (reviewFilter.startsWith('section:')) {
@@ -377,8 +505,11 @@ class _ExamScreenState extends State<ExamScreen> {
               ('section:vocabulary', 'Vocabulary'),
               ('section:grammar', 'Grammar'),
               ('section:reading', 'Reading'),
-              ('section:situations', 'Situations'),
-              ('section:translation', 'Translation'),
+              ('section:documents', 'Documents'),
+              ('section:communication', 'Communication'),
+              ('section:correction', 'Correction'),
+              ('section:somaliToEnglish', 'Soomaali → English'),
+              ('section:englishToSomali', 'English → Soomaali'),
             ])
               ChoiceChip(
                 label: Text(filter.$2),
@@ -423,13 +554,27 @@ class _ExamScreenState extends State<ExamScreen> {
   }
 
   Future<void> _retry() async {
-    await context.read<AppProvider>().retryFinalExam();
+    final exam = await _content;
+    if (!mounted) return;
+    await context.read<AppProvider>().retryLevelFinalExam(widget.levelId);
+    if (!mounted) return;
     setState(() {
       started = true;
       finished = false;
       reviewing = false;
       index = 0;
       answers = {};
+      attemptQuestions = _engine.selectAttempt(
+        exam,
+        seed: DateTime.now().microsecondsSinceEpoch,
+      );
     });
+    if (!mounted) return;
+    await context.read<AppProvider>().saveLevelFinalExamSession(
+      widget.levelId,
+      0,
+      const {},
+      attemptQuestions.map((question) => question.id).toList(),
+    );
   }
 }

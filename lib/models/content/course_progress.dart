@@ -17,7 +17,7 @@ class CourseProgress {
       (lessonQuizScores[lessonId] ?? 0) >= 70;
   bool hasPassedUnitQuiz(String unitId) => (unitQuizScores[unitId] ?? 0) >= 70;
   bool hasPassedFinalExam(String levelId) =>
-      (finalExamScores[levelId] ?? 0) >= 75;
+      (finalExamScores[levelId] ?? 0) >= (levelId == 'A1' ? 75 : 70);
 
   Map<String, dynamic> toJson() => {
     'version': version,

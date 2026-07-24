@@ -1,0 +1,3567 @@
+{
+  "id": "a2-final-exam",
+  "titleEnglish": "A2 Final Exam",
+  "titleSomali": "Imtixaanka Kama Dambaysta ah ee A2",
+  "descriptionSomali": "Imtixaankani wuxuu cabbirayaa vocabulary-ga, grammar-ka, reading-ka iyo xirfadaha wada-xiriirka ee heerka A2. Gudub imtixaanka si aad u dhammaystirto heerka A2 ee app-kan oo aad u furto B1.",
+  "passingScore": 70,
+  "estimatedMinutes": 90,
+  "attemptQuestionCount": 100,
+  "attemptDistribution": {
+    "vocabulary": 20,
+    "grammar": 30,
+    "reading": 15,
+    "documents": 10,
+    "communication": 15,
+    "correction": 5,
+    "somaliToEnglish": 3,
+    "englishToSomali": 2
+  },
+  "resources": [
+    {
+      "id": "a2-fe-reading-01",
+      "type": "reading",
+      "title": "Work and evening study",
+      "content": "Sahra works at a small travel office and studies English in the evening. Last September, she joined a six-month course because she wanted to communicate more confidently with international customers. At first, she planned to attend class five evenings a week, but this was difficult after a full day at work. Her teacher helped her create a more practical schedule.\n\nSahra now attends class on Monday and Wednesday. On Tuesday, she reviews vocabulary for thirty minutes, and at the weekend she writes one short customer message. She has already completed four course projects. Her most recent project was a mock travel plan that included a timetable, hotel information and polite questions for a customer.\n\nTwo weeks ago, the office became very busy, and Sahra missed a class. Instead of stopping the course, she asked the teacher for the lesson notes and studied them on Saturday. Her manager has also started giving her simple English tasks at work. Yesterday, Sahra replied to an email about a delayed booking. She checked the dates carefully before sending it.\n\nSahra still finds telephone conversations challenging because people sometimes speak quickly. Next month, she is going to practise calls with a classmate. If she continues following her weekly plan, she believes she will be ready for a more advanced course later this year."
+    },
+    {
+      "id": "a2-fe-reading-02",
+      "type": "reading",
+      "title": "A journey to Lake Town",
+      "content": "Visitors can reach fictional Lake Town by bus, train or car. The train is usually the fastest choice, but the station is three kilometres from the town centre. A local bus leaves the station every thirty minutes and stops beside the public library. Travellers who arrive after nine in the evening must use a taxi because the local buses finish early.\n\nThe main visitor centre is opposite the library. It provides free maps and information about walking routes. The easiest route follows the lake for two kilometres and ends at Hill Park. The path is wide and suitable for families, although it may become wet after rain. A longer route continues through Green Forest. Visitors should carry water because there are no shops inside the forest.\n\nThis Saturday, road repairs will affect buses from the capital. The 8:00 bus will leave at 8:30, and the 10:00 service has been cancelled. Train services will operate normally. The weather forecast says that Saturday morning will be cloudy, with light rain in the afternoon.\n\nPeople planning a day trip should check their return time before starting a long walk. The final train leaves at 7:15 p.m. Anyone who misses it will have to wait until the next morning. The visitor centre closes at six, but maps are available in a box outside the entrance."
+    },
+    {
+      "id": "a2-fe-reading-03",
+      "type": "reading",
+      "title": "A course-booking problem",
+      "content": "Abdi registered for a fictional weekend computer course through a community centre’s website. He selected the Saturday morning class and paid forty dollars. A confirmation message arrived immediately, but it showed Sunday afternoon instead. Abdi could attend on Saturday only because he worked on Sundays.\n\nHe first checked the form he had saved. It clearly showed Saturday at nine o’clock. He then called the centre, but the information desk was already closed. Abdi sent a short email containing his booking reference, the incorrect day and the time he had originally chosen. He asked the centre to correct the booking or explain how to receive a refund.\n\nThe next morning, an employee replied. She apologized and explained that a website error had moved several students to the wrong class. The Saturday class was now full, so she offered Abdi three choices: a Saturday class the following month, an online class starting that week, or a full refund.\n\nAbdi needed the skills for a work project, so waiting a month was not suitable. He chose the online class after checking that its lessons were recorded. The employee changed his booking and sent a new confirmation. Abdi checked the date, price and course link before replying. He thanked her and asked where he could find the course materials. The problem was solved because both messages included clear details and a practical next step."
+    },
+    {
+      "id": "a2-fe-reading-04",
+      "type": "reading",
+      "title": "A six-month community goal",
+      "content": "Maryan has decided to organize a small reading project in a fictional neighbourhood. She noticed that many children wanted storybooks, but the nearest library was far away. Her goal is to create a weekly reading corner in a room at the community centre.\n\nDuring the first month, Maryan is going to speak to families and find out which days are convenient. She will also ask local volunteers to help. If at least six volunteers join, the project will open twice a week. Otherwise, it will begin with one Saturday session.\n\nMaryan has already collected thirty-five used books. Some are suitable for young children, while others are better for teenagers. Before the project starts, the volunteers will check every book and organize them by reading level. They might also create simple activity sheets, but this will depend on the time available.\n\nThe community centre has offered the room for free for six months. However, the project must keep the room clean and finish before evening classes begin. Maryan plans to record attendance and ask families for feedback after eight weeks. If the project is useful, she will prepare a short report and request support for another six months.\n\nMaryan knows that plans can change. She has therefore chosen a small first step instead of promising a large permanent library. She hopes the project will help children enjoy reading and give neighbours a useful activity to share."
+    },
+    {
+      "id": "a2-fe-doc-01",
+      "type": "document",
+      "title": "Bus timetable",
+      "content": "Route 8: Central Station 08:10 → Market 08:35 → Airport 09:05. Weekend fare: $6. Return service: 17:40."
+    },
+    {
+      "id": "a2-fe-doc-02",
+      "type": "document",
+      "title": "Train ticket",
+      "content": "Green Valley Rail • Single • Harbour–Green Valley • 14 August • 10:25 • Coach B, Seat 18 • $24 • Changes before departure only."
+    },
+    {
+      "id": "a2-fe-doc-03",
+      "type": "document",
+      "title": "Shop receipt",
+      "content": "Mock Home Store • Lamp $18 • Notebook $4 • Subtotal $22 • Discount $2 • Total paid $20 • Card • Return within 14 days with receipt."
+    },
+    {
+      "id": "a2-fe-doc-04",
+      "type": "document",
+      "title": "Hotel booking",
+      "content": "Lake Hotel • Guest: A. Noor • 2 nights • Check-in 6 June after 2 p.m. • Check-out 8 June before 11 a.m. • Breakfast included • Balance $70."
+    },
+    {
+      "id": "a2-fe-doc-05",
+      "type": "document",
+      "title": "Job advertisement",
+      "content": "Weekend shop assistant • City Clothes • Saturday and Sunday, 9–5 • Help customers and organize products • Friendly communication required • Apply by 12 May using mock form J-12."
+    },
+    {
+      "id": "a2-fe-doc-06",
+      "type": "document",
+      "title": "Course information",
+      "content": "Practical English A2 • Tuesdays and Thursdays • 6:30–8:00 p.m. • 8 weeks • Room 4 • Fee $48 • Registration closes 3 September."
+    },
+    {
+      "id": "a2-fe-doc-07",
+      "type": "document",
+      "title": "Weather forecast",
+      "content": "Friday: 27°C, sunny. Saturday: 23°C, cloudy, rain after 3 p.m. Sunday: 21°C, strong coastal wind. Travel warning applies Sunday morning."
+    },
+    {
+      "id": "a2-fe-doc-08",
+      "type": "document",
+      "title": "Public notice",
+      "content": "Library lift unavailable 4–5 March. Use the stairs near the main entrance. Ask reception for help accessing books from the first floor."
+    },
+    {
+      "id": "a2-fe-doc-09",
+      "type": "document",
+      "title": "Property advertisement",
+      "content": "Quiet one-bedroom flat • $260 monthly • Water included • 10 minutes from bus station • No furniture • Available 1 November • Viewing by appointment."
+    },
+    {
+      "id": "a2-fe-doc-10",
+      "type": "document",
+      "title": "Service message form",
+      "content": "Reference S-204 • Reported: 16 April, 09:20 • Problem: incorrect course date • Status: being checked • Next update: before 5 p.m. on 17 April."
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2-fe-voc-001",
+      "sectionId": "vocabulary",
+      "topic": "verb (base/past)",
+      "unitSource": "A2 Unit 1",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Which word best matches this Somali meaning: “cab → cabbay”?",
+      "options": [
+        "Teacher",
+        "drink → drank",
+        "Doctor",
+        "Nurse"
+      ],
+      "correctAnswer": "drink → drank",
+      "explanationSomali": "“drink → drank” ayaa ku habboon context-kan. Qaabka bidix waa base form; qaabka midig waa past form.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-voc-002",
+      "sectionId": "vocabulary",
+      "topic": "verb (base/past)",
+      "unitSource": "A2 Unit 1",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Which word best matches this Somali meaning: “leeyahay → lahaa”?",
+      "options": [
+        "Teacher",
+        "Doctor",
+        "have → had",
+        "Nurse"
+      ],
+      "correctAnswer": "have → had",
+      "explanationSomali": "“have → had” ayaa ku habboon context-kan. Qaabka bidix waa base form; qaabka midig waa past form.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-voc-003",
+      "sectionId": "vocabulary",
+      "topic": "verb (base/past)",
+      "unitSource": "A2 Unit 1",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Which word best matches this Somali meaning: “samee → sameeyay”?",
+      "options": [
+        "Teacher",
+        "Doctor",
+        "Nurse",
+        "do → did"
+      ],
+      "correctAnswer": "do → did",
+      "explanationSomali": "“do → did” ayaa ku habboon context-kan. Qaabka bidix waa base form; qaabka midig waa past form.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-voc-004",
+      "sectionId": "vocabulary",
+      "topic": "neutral travel word",
+      "unitSource": "A2 Unit 2",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: We arrived at the ___ two hours early. (Macnaha loo baahan yahay: garoon diyaaradeed)",
+      "options": [
+        "Airport",
+        "School",
+        "Primary school",
+        "Secondary school"
+      ],
+      "correctAnswer": "Airport",
+      "explanationSomali": "“Airport” ayaa ku habboon context-kan. Eraygan ama weedhan waxaa loo adeegsadaa xaaladaha safarka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-voc-005",
+      "sectionId": "vocabulary",
+      "topic": "neutral travel word",
+      "unitSource": "A2 Unit 2",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The ferry leaves the ___ every morning. (Macnaha loo baahan yahay: deked)",
+      "options": [
+        "School",
+        "Port",
+        "Primary school",
+        "Secondary school"
+      ],
+      "correctAnswer": "Port",
+      "explanationSomali": "“Port” ayaa ku habboon context-kan. Eraygan ama weedhan waxaa loo adeegsadaa xaaladaha safarka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-voc-006",
+      "sectionId": "vocabulary",
+      "topic": "neutral phrase",
+      "unitSource": "A2 Unit 2",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: We ___ before we book the tickets. (Macnaha loo baahan yahay: qorshee safar)",
+      "options": [
+        "School",
+        "Primary school",
+        "Plan a trip",
+        "Secondary school"
+      ],
+      "correctAnswer": "Plan a trip",
+      "explanationSomali": "“Plan a trip” ayaa ku habboon context-kan. Eraygan ama weedhan waxaa loo adeegsadaa xaaladaha safarka.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-voc-007",
+      "sectionId": "vocabulary",
+      "topic": "body word or neutral phrase",
+      "unitSource": "A2 Unit 3",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Which word best matches this Somali meaning: “suul cag / suulasha cagta”?",
+      "options": [
+        "Reading",
+        "Writing",
+        "Drawing",
+        "Toe / toes"
+      ],
+      "correctAnswer": "Toe / toes",
+      "explanationSomali": "“Toe / toes” ayaa ku habboon context-kan. Context: body. Waxaa loo isticmaalayaa communication luqadeed oo fudud.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a2-fe-voc-008",
+      "sectionId": "vocabulary",
+      "topic": "body word or neutral phrase",
+      "unitSource": "A2 Unit 3",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The child points to her ___. (Macnaha loo baahan yahay: maqaar)",
+      "options": [
+        "Skin",
+        "Reading",
+        "Writing",
+        "Drawing"
+      ],
+      "correctAnswer": "Skin",
+      "explanationSomali": "“Skin” ayaa ku habboon context-kan. Context: body. Waxaa loo isticmaalayaa communication luqadeed oo fudud.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a2-fe-voc-009",
+      "sectionId": "vocabulary",
+      "topic": "body word or neutral phrase",
+      "unitSource": "A2 Unit 3",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The child points to her ___. (Macnaha loo baahan yahay: jir)",
+      "options": [
+        "Reading",
+        "Body",
+        "Writing",
+        "Drawing"
+      ],
+      "correctAnswer": "Body",
+      "explanationSomali": "“Body” ayaa ku habboon context-kan. Context: body. Waxaa loo isticmaalayaa communication luqadeed oo fudud.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a2-fe-voc-010",
+      "sectionId": "vocabulary",
+      "topic": "shopping phrase • clothes/accessories",
+      "unitSource": "A2 Unit 4",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: I need a new ___. (Macnaha loo baahan yahay: suun)",
+      "options": [
+        "Tomorrow",
+        "Tomorrow morning",
+        "Belt",
+        "Tomorrow afternoon"
+      ],
+      "correctAnswer": "Belt",
+      "explanationSomali": "“Belt” ayaa ku habboon context-kan. Topic: clothes/accessories. Singular ama phrase macnaha ku habboon ayaa la adeegsadaa.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-voc-011",
+      "sectionId": "vocabulary",
+      "topic": "shopping phrase • clothes/accessories",
+      "unitSource": "A2 Unit 4",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The customer looks at the ___ before deciding. (Macnaha loo baahan yahay: tay)",
+      "options": [
+        "Tomorrow",
+        "Tomorrow morning",
+        "Tomorrow afternoon",
+        "Tie"
+      ],
+      "correctAnswer": "Tie",
+      "explanationSomali": "“Tie” ayaa ku habboon context-kan. Topic: clothes/accessories. Singular ama phrase macnaha ku habboon ayaa la adeegsadaa.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-voc-012",
+      "sectionId": "vocabulary",
+      "topic": "shopping phrase • clothes/accessories",
+      "unitSource": "A2 Unit 4",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The customer looks at the ___ before deciding. (Macnaha loo baahan yahay: saacad gacanta)",
+      "options": [
+        "Watch",
+        "Tomorrow",
+        "Tomorrow morning",
+        "Tomorrow afternoon"
+      ],
+      "correctAnswer": "Watch",
+      "explanationSomali": "“Watch” ayaa ku habboon context-kan. Topic: clothes/accessories. Singular ama phrase macnaha ku habboon ayaa la adeegsadaa.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-voc-013",
+      "sectionId": "vocabulary",
+      "topic": "weather word or phrase • Basic Weather Vocabulary • neutral",
+      "unitSource": "A2 Unit 5",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The roads may be ___ early tomorrow morning. (Macnaha loo baahan yahay: baraf leh)",
+      "options": [
+        "House",
+        "Icy",
+        "Home",
+        "Apartment"
+      ],
+      "correctAnswer": "Icy",
+      "explanationSomali": "“Icy” ayaa ku habboon context-kan. Topic: Erayada aasaasiga ah ee cimilada. Common collocation-ka waxaa lagu muujiyay example-ka dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-voc-014",
+      "sectionId": "vocabulary",
+      "topic": "weather word or phrase • Basic Weather Vocabulary • neutral",
+      "unitSource": "A2 Unit 5",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The evening was ___, so we walked home comfortably. (Macnaha loo baahan yahay: dhexdhexaad ah)",
+      "options": [
+        "House",
+        "Home",
+        "Mild",
+        "Apartment"
+      ],
+      "correctAnswer": "Mild",
+      "explanationSomali": "“Mild” ayaa ku habboon context-kan. Topic: Erayada aasaasiga ah ee cimilada. Common collocation-ka waxaa lagu muujiyay example-ka dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-voc-015",
+      "sectionId": "vocabulary",
+      "topic": "weather word or phrase • Temperature • neutral",
+      "unitSource": "A2 Unit 5",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The forecast shows ___ clearly for tomorrow afternoon. (Macnaha loo baahan yahay: heerkul)",
+      "options": [
+        "House",
+        "Home",
+        "Apartment",
+        "Temperature"
+      ],
+      "correctAnswer": "Temperature",
+      "explanationSomali": "“Temperature” ayaa ku habboon context-kan. Topic: Heerkulka. Common collocation-ka waxaa lagu muujiyay example-ka dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-voc-016",
+      "sectionId": "vocabulary",
+      "topic": "workplace word or phrase • Common Jobs • neutral",
+      "unitSource": "A2 Unit 6",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The ___ cleaned the chair and tools before the next customer arrived. (Macnaha loo baahan yahay: timo-jare)",
+      "options": [
+        "Barber",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "correctAnswer": "Barber",
+      "explanationSomali": "“Barber” ayaa ku habboon context-kan. Topic: Shaqooyinka caadiga ah. Common collocation-ka waxaa lagu muujiyay jumladda shaqada ee dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-voc-017",
+      "sectionId": "vocabulary",
+      "topic": "workplace word or phrase • Common Jobs • neutral",
+      "unitSource": "A2 Unit 6",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The ___ discussed the hairstyle with the customer before starting. (Macnaha loo baahan yahay: qurxiye timo)",
+      "options": [
+        "Good morning",
+        "Hairdresser",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "correctAnswer": "Hairdresser",
+      "explanationSomali": "“Hairdresser” ayaa ku habboon context-kan. Topic: Shaqooyinka caadiga ah. Common collocation-ka waxaa lagu muujiyay jumladda shaqada ee dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-voc-018",
+      "sectionId": "vocabulary",
+      "topic": "workplace word or phrase • Common Jobs • neutral",
+      "unitSource": "A2 Unit 6",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The ___ checked who entered the building during the night shift. (Macnaha loo baahan yahay: ilaaliye amni)",
+      "options": [
+        "Good morning",
+        "Good afternoon",
+        "Security guard",
+        "Good evening"
+      ],
+      "correctAnswer": "Security guard",
+      "explanationSomali": "“Security guard” ayaa ku habboon context-kan. Topic: Shaqooyinka caadiga ah. Common collocation-ka waxaa lagu muujiyay jumladda shaqada ee dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-voc-019",
+      "sectionId": "vocabulary",
+      "topic": "education word or phrase • People in Education • neutral",
+      "unitSource": "A2 Unit 7",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The ___ answered questions after the university lecture. (Macnaha loo baahan yahay: bare sare)",
+      "options": [
+        "Customer service",
+        "Reception",
+        "Information desk",
+        "Professor"
+      ],
+      "correctAnswer": "Professor",
+      "explanationSomali": "“Professor” ayaa ku habboon context-kan. Topic: Dadka waxbarashada ku jira. Common collocation-ka waxaa lagu muujiyay example-ka waxbarasho ee dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-voc-020",
+      "sectionId": "vocabulary",
+      "topic": "education word or phrase • People in Education • neutral",
+      "unitSource": "A2 Unit 7",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: I usually revise for exams with a ___ from my English course. (Macnaha loo baahan yahay: arday isku fasal)",
+      "options": [
+        "Classmate",
+        "Customer service",
+        "Reception",
+        "Information desk"
+      ],
+      "correctAnswer": "Classmate",
+      "explanationSomali": "“Classmate” ayaa ku habboon context-kan. Topic: Dadka waxbarashada ku jira. Common collocation-ka waxaa lagu muujiyay example-ka waxbarasho ee dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-voc-021",
+      "sectionId": "vocabulary",
+      "topic": "education word or phrase • People in Education • neutral",
+      "unitSource": "A2 Unit 7",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The ___ discussed the new school schedule with the staff. (Macnaha loo baahan yahay: madaxa macallimiinta)",
+      "options": [
+        "Customer service",
+        "Head teacher",
+        "Reception",
+        "Information desk"
+      ],
+      "correctAnswer": "Head teacher",
+      "explanationSomali": "“Head teacher” ayaa ku habboon context-kan. Topic: Dadka waxbarashada ku jira. Common collocation-ka waxaa lagu muujiyay example-ka waxbarasho ee dabiiciga ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-voc-022",
+      "sectionId": "vocabulary",
+      "topic": "free-time word or phrase • Indoor and Outdoor Activities • neutral",
+      "unitSource": "A2 Unit 8",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The fictional family chose to ___ together during their free Saturday afternoon. (Macnaha loo baahan yahay: telefishin daawo)",
+      "options": [
+        "yesterday",
+        "yesterday morning",
+        "Watch television",
+        "yesterday afternoon"
+      ],
+      "correctAnswer": "Watch television",
+      "explanationSomali": "“Watch television” ayaa ku habboon context-kan. Topic: Hawlaha gudaha iyo dibadda. Example-ku wuxuu muujinayaa common collocation iyo isticmaal dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-voc-023",
+      "sectionId": "vocabulary",
+      "topic": "free-time word or phrase • Indoor and Outdoor Activities • neutral",
+      "unitSource": "A2 Unit 8",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The fictional family chose to ___ together during their free Saturday afternoon. (Macnaha loo baahan yahay: ciyaaraha miiska ciyaar)",
+      "options": [
+        "yesterday",
+        "yesterday morning",
+        "yesterday afternoon",
+        "Play board games"
+      ],
+      "correctAnswer": "Play board games",
+      "explanationSomali": "“Play board games” ayaa ku habboon context-kan. Topic: Hawlaha gudaha iyo dibadda. Example-ku wuxuu muujinayaa common collocation iyo isticmaal dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-voc-024",
+      "sectionId": "vocabulary",
+      "topic": "free-time word or phrase • Indoor and Outdoor Activities • neutral",
+      "unitSource": "A2 Unit 8",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The fictional family chose to ___ together during their free Saturday afternoon. (Macnaha loo baahan yahay: cunto kari)",
+      "options": [
+        "Cook",
+        "yesterday",
+        "yesterday morning",
+        "yesterday afternoon"
+      ],
+      "correctAnswer": "Cook",
+      "explanationSomali": "“Cook” ayaa ku habboon context-kan. Topic: Hawlaha gudaha iyo dibadda. Example-ku wuxuu muujinayaa common collocation iyo isticmaal dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-voc-025",
+      "sectionId": "vocabulary",
+      "topic": "future-plans word or phrase • Talking About Plans • neutral",
+      "unitSource": "A2 Unit 9",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The learner uses ___ while preparing a clear plan for next month’s fictional course. (Macnaha loo baahan yahay: diyaargarow)",
+      "options": [
+        "Car",
+        "Preparation",
+        "Bus",
+        "Minibus"
+      ],
+      "correctAnswer": "Preparation",
+      "explanationSomali": "“Preparation” ayaa ku habboon context-kan. Topic: Ka hadalka qorshayaasha. Example-ku wuxuu muujinayaa common collocation iyo future-plans context dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-voc-026",
+      "sectionId": "vocabulary",
+      "topic": "future-plans word or phrase • Talking About Plans • neutral",
+      "unitSource": "A2 Unit 9",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The learner uses ___ while preparing a clear plan for next month’s fictional course. (Macnaha loo baahan yahay: jadwal)",
+      "options": [
+        "Car",
+        "Bus",
+        "Schedule",
+        "Minibus"
+      ],
+      "correctAnswer": "Schedule",
+      "explanationSomali": "“Schedule” ayaa ku habboon context-kan. Topic: Ka hadalka qorshayaasha. Example-ku wuxuu muujinayaa common collocation iyo future-plans context dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-voc-027",
+      "sectionId": "vocabulary",
+      "topic": "future-plans word or phrase • Talking About Plans • neutral",
+      "unitSource": "A2 Unit 9",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The learner uses ___ while preparing a clear plan for next month’s fictional course. (Macnaha loo baahan yahay: qabanqaabi)",
+      "options": [
+        "Car",
+        "Bus",
+        "Minibus",
+        "Arrange"
+      ],
+      "correctAnswer": "Arrange",
+      "explanationSomali": "“Arrange” ayaa ku habboon context-kan. Topic: Ka hadalka qorshayaasha. Example-ku wuxuu muujinayaa common collocation iyo future-plans context dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-voc-028",
+      "sectionId": "vocabulary",
+      "topic": "place word or phrase • Rooms in a Home • neutral",
+      "unitSource": "A2 Unit 10",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The example home includes a practical ___ beside another clearly labelled room. (Macnaha loo baahan yahay: jikada)",
+      "options": [
+        "Kitchen",
+        "Head / heads",
+        "Face / faces",
+        "Hair"
+      ],
+      "correctAnswer": "Kitchen",
+      "explanationSomali": "“Kitchen” ayaa ku habboon context-kan. Topic: Qolalka guriga. Example-ku wuxuu muujinayaa common collocation iyo place/comparison context dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-voc-029",
+      "sectionId": "vocabulary",
+      "topic": "place word or phrase • Rooms in a Home • neutral",
+      "unitSource": "A2 Unit 10",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The example home includes a practical ___ beside another clearly labelled room. (Macnaha loo baahan yahay: musqusha)",
+      "options": [
+        "Head / heads",
+        "Bathroom",
+        "Face / faces",
+        "Hair"
+      ],
+      "correctAnswer": "Bathroom",
+      "explanationSomali": "“Bathroom” ayaa ku habboon context-kan. Topic: Qolalka guriga. Example-ku wuxuu muujinayaa common collocation iyo place/comparison context dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-voc-030",
+      "sectionId": "vocabulary",
+      "topic": "place word or phrase • Rooms in a Home • neutral",
+      "unitSource": "A2 Unit 10",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The example family usually eats together in the ___. (Macnaha loo baahan yahay: qolka cuntada)",
+      "options": [
+        "Head / heads",
+        "Face / faces",
+        "Dining room",
+        "Hair"
+      ],
+      "correctAnswer": "Dining room",
+      "explanationSomali": "“Dining room” ayaa ku habboon context-kan. Topic: Qolalka guriga. Example-ku wuxuu muujinayaa common collocation iyo place/comparison context dabiici ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-voc-031",
+      "sectionId": "vocabulary",
+      "topic": "introduction • social communication • friendly",
+      "unitSource": "A2 Unit 11",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: Amina said, “___” while introducing people at a fictional training session, and her partner responded appropriately. (Macnaha loo baahan yahay: wax badan ayaan kaa maqlay)",
+      "options": [
+        "Shirt",
+        "T-shirt",
+        "Trousers",
+        "I have heard a lot about you."
+      ],
+      "correctAnswer": "I have heard a lot about you.",
+      "explanationSomali": "“I have heard a lot about you.” ayaa ku habboon context-kan. Function: introduction. Tone: friendly. Weedhan waxaa loo adeegsadaa wax badan ayaan kaa maqlay iyadoo la eegayo qofka iyo xaaladda.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-voc-032",
+      "sectionId": "vocabulary",
+      "topic": "information • social communication • neutral",
+      "unitSource": "A2 Unit 11",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: Learners practised the term “___” while introducing people at a fictional training session and chose a suitable response. (Macnaha loo baahan yahay: dhowaan ku biiray)",
+      "options": [
+        "Recently joined",
+        "Shirt",
+        "T-shirt",
+        "Trousers"
+      ],
+      "correctAnswer": "Recently joined",
+      "explanationSomali": "“Recently joined” ayaa ku habboon context-kan. Function: information. Tone: neutral. Weedhan waxaa loo adeegsadaa dhowaan ku biiray iyadoo la eegayo qofka iyo xaaladda.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-voc-033",
+      "sectionId": "vocabulary",
+      "topic": "information • social communication • neutral",
+      "unitSource": "A2 Unit 11",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: The role-play included “___” while introducing people at a fictional training session, so the meaning was clear. (Macnaha loo baahan yahay: fadhiga tababarka)",
+      "options": [
+        "Shirt",
+        "Training session",
+        "T-shirt",
+        "Trousers"
+      ],
+      "correctAnswer": "Training session",
+      "explanationSomali": "“Training session” ayaa ku habboon context-kan. Function: information. Tone: neutral. Weedhan waxaa loo adeegsadaa fadhiga tababarka iyadoo la eegayo qofka iyo xaaladda.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-voc-034",
+      "sectionId": "vocabulary",
+      "topic": "location question • everyday problem solving • neutral",
+      "unitSource": "A2 Unit 12",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Which word best matches this Somali meaning: “xaggee ka heli karaa...?”?",
+      "options": [
+        "Weather",
+        "Sun",
+        "Where can I find...?",
+        "Sunny"
+      ],
+      "correctAnswer": "Where can I find...?",
+      "explanationSomali": "“Where can I find...?” ayaa ku habboon context-kan. Function: location question. Tone: neutral. Example-ku wuxuu muujinayaa collocation ama response ku habboon xaalad maalinle ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-voc-035",
+      "sectionId": "vocabulary",
+      "topic": "time question • everyday problem solving • neutral",
+      "unitSource": "A2 Unit 12",
+      "type": "wordInContext",
+      "difficulty": "A2",
+      "question": "Choose the best word for this sentence: Amina said, “___” while asking for service information politely, and the response matched the situation. (Macnaha loo baahan yahay: goorma ayuu furmaa?)",
+      "options": [
+        "Weather",
+        "Sun",
+        "Sunny",
+        "What time does it open?"
+      ],
+      "correctAnswer": "What time does it open?",
+      "explanationSomali": "“What time does it open?” ayaa ku habboon context-kan. Function: time question. Tone: neutral. Example-ku wuxuu muujinayaa collocation ama response ku habboon xaalad maalinle ah.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-gra-001",
+      "sectionId": "grammar",
+      "topic": "Present Simple routine",
+      "unitSource": "A2 Unit 6",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Every Friday, our manager ___ the weekly report.",
+      "options": [
+        "check",
+        "checks",
+        "is checking",
+        "checked"
+      ],
+      "correctAnswer": "checks",
+      "explanationSomali": "Jawaabta “checks” waxay raacaysaa xeerka Present Simple routine.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-002",
+      "sectionId": "grammar",
+      "topic": "Present Continuous now",
+      "unitSource": "A2 Unit 6",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "Please wait; the receptionist ___ to a customer now.",
+      "options": [
+        "speaks",
+        "spoke",
+        "is speaking",
+        "has spoken"
+      ],
+      "correctAnswer": "is speaking",
+      "explanationSomali": "Jawaabta “is speaking” waxay raacaysaa xeerka Present Continuous now.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-003",
+      "sectionId": "grammar",
+      "topic": "Past Simple completed time",
+      "unitSource": "A2 Unit 1",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "We ___ the museum during our trip last month.",
+      "options": [
+        "visit",
+        "have visited",
+        "are visiting",
+        "visited"
+      ],
+      "correctAnswer": "visited",
+      "explanationSomali": "Jawaabta “visited” waxay raacaysaa xeerka Past Simple completed time.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-gra-004",
+      "sectionId": "grammar",
+      "topic": "was/were",
+      "unitSource": "A2 Unit 1",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "The office ___ closed yesterday afternoon.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has"
+      ],
+      "correctAnswer": "was",
+      "explanationSomali": "Jawaabta “was” waxay raacaysaa xeerka was/were.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-gra-005",
+      "sectionId": "grammar",
+      "topic": "Present Perfect result",
+      "unitSource": "A2 Unit 7",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "I ___ this form already, so you can send it now.",
+      "options": [
+        "completed yesterday",
+        "have completed",
+        "am completing",
+        "complete"
+      ],
+      "correctAnswer": "have completed",
+      "explanationSomali": "Jawaabta “have completed” waxay raacaysaa xeerka Present Perfect result.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-006",
+      "sectionId": "grammar",
+      "topic": "Past Simple with finished time",
+      "unitSource": "A2 Unit 1",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "She ___ at the clinic in 2024.",
+      "options": [
+        "has worked",
+        "works now",
+        "worked",
+        "is working"
+      ],
+      "correctAnswer": "worked",
+      "explanationSomali": "Jawaabta “worked” waxay raacaysaa xeerka Past Simple with finished time.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-gra-007",
+      "sectionId": "grammar",
+      "topic": "going to + base verb",
+      "unitSource": "A2 Unit 9",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "They are going to ___ a new course next month.",
+      "options": [
+        "started",
+        "starting",
+        "starts",
+        "start"
+      ],
+      "correctAnswer": "start",
+      "explanationSomali": "Jawaabta “start” waxay raacaysaa xeerka going to + base verb.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-gra-008",
+      "sectionId": "grammar",
+      "topic": "will prediction",
+      "unitSource": "A2 Unit 5",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "I think the afternoon bus ___ be crowded.",
+      "options": [
+        "will",
+        "is going",
+        "did",
+        "has"
+      ],
+      "correctAnswer": "will",
+      "explanationSomali": "Jawaabta “will” waxay raacaysaa xeerka will prediction.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-gra-009",
+      "sectionId": "grammar",
+      "topic": "arranged Present Continuous",
+      "unitSource": "A2 Unit 9",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "We ___ the adviser at three tomorrow.",
+      "options": [
+        "meet yesterday",
+        "are meeting",
+        "have meet",
+        "met now"
+      ],
+      "correctAnswer": "are meeting",
+      "explanationSomali": "Jawaabta “are meeting” waxay raacaysaa xeerka arranged Present Continuous.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-gra-010",
+      "sectionId": "grammar",
+      "topic": "might possibility",
+      "unitSource": "A2 Unit 5",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "Take an umbrella; it ___ rain later.",
+      "options": [
+        "must to",
+        "did",
+        "might",
+        "has"
+      ],
+      "correctAnswer": "might",
+      "explanationSomali": "Jawaabta “might” waxay raacaysaa xeerka might possibility.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-gra-011",
+      "sectionId": "grammar",
+      "topic": "polite request",
+      "unitSource": "A2 Unit 11",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "___ you help me carry this box, please?",
+      "options": [
+        "Must",
+        "Did",
+        "Have",
+        "Could"
+      ],
+      "correctAnswer": "Could",
+      "explanationSomali": "Jawaabta “Could” waxay raacaysaa xeerka polite request.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-gra-012",
+      "sectionId": "grammar",
+      "topic": "should advice",
+      "unitSource": "A2 Unit 3",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "You ___ rest if your headache continues.",
+      "options": [
+        "should",
+        "should to",
+        "are",
+        "did"
+      ],
+      "correctAnswer": "should",
+      "explanationSomali": "Jawaabta “should” waxay raacaysaa xeerka should advice.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a2-fe-gra-013",
+      "sectionId": "grammar",
+      "topic": "mustn’t prohibition",
+      "unitSource": "A2 Unit 6",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "Visitors ___ enter the staff room.",
+      "options": [
+        "don’t have to",
+        "mustn’t",
+        "should",
+        "can"
+      ],
+      "correctAnswer": "mustn’t",
+      "explanationSomali": "Jawaabta “mustn’t” waxay raacaysaa xeerka mustn’t prohibition.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-014",
+      "sectionId": "grammar",
+      "topic": "have to obligation",
+      "unitSource": "A2 Unit 6",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "Employees ___ wear an ID card at this office.",
+      "options": [
+        "has to",
+        "having",
+        "have to",
+        "must to"
+      ],
+      "correctAnswer": "have to",
+      "explanationSomali": "Jawaabta “have to” waxay raacaysaa xeerka have to obligation.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-015",
+      "sectionId": "grammar",
+      "topic": "no obligation",
+      "unitSource": "A2 Unit 6",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "You ___ bring food; lunch is provided.",
+      "options": [
+        "mustn’t",
+        "shouldn’t to",
+        "can’t to",
+        "don’t have to"
+      ],
+      "correctAnswer": "don’t have to",
+      "explanationSomali": "Jawaabta “don’t have to” waxay raacaysaa xeerka no obligation.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-016",
+      "sectionId": "grammar",
+      "topic": "comparative",
+      "unitSource": "A2 Unit 10",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "The train is ___ than the coach.",
+      "options": [
+        "faster",
+        "fastest",
+        "more fast",
+        "as faster"
+      ],
+      "correctAnswer": "faster",
+      "explanationSomali": "Jawaabta “faster” waxay raacaysaa xeerka comparative.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-gra-017",
+      "sectionId": "grammar",
+      "topic": "superlative",
+      "unitSource": "A2 Unit 10",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "This is the ___ room in the building.",
+      "options": [
+        "larger",
+        "largest",
+        "more large",
+        "as large"
+      ],
+      "correctAnswer": "largest",
+      "explanationSomali": "Jawaabta “largest” waxay raacaysaa xeerka superlative.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-gra-018",
+      "sectionId": "grammar",
+      "topic": "as…as",
+      "unitSource": "A2 Unit 10",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "The blue bag is ___ the black one.",
+      "options": [
+        "heavier as",
+        "as heavy than",
+        "as heavy as",
+        "the heaviest"
+      ],
+      "correctAnswer": "as heavy as",
+      "explanationSomali": "Jawaabta “as heavy as” waxay raacaysaa xeerka as…as.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-gra-019",
+      "sectionId": "grammar",
+      "topic": "too + adjective",
+      "unitSource": "A2 Unit 4",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "The jacket is ___ small for me.",
+      "options": [
+        "enough",
+        "many",
+        "a few",
+        "too"
+      ],
+      "correctAnswer": "too",
+      "explanationSomali": "Jawaabta “too” waxay raacaysaa xeerka too + adjective.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-gra-020",
+      "sectionId": "grammar",
+      "topic": "adjective + enough",
+      "unitSource": "A2 Unit 10",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "The room is quiet ___ for the meeting.",
+      "options": [
+        "enough",
+        "too",
+        "many",
+        "most"
+      ],
+      "correctAnswer": "enough",
+      "explanationSomali": "Jawaabta “enough” waxay raacaysaa xeerka adjective + enough.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-gra-021",
+      "sectionId": "grammar",
+      "topic": "any in questions",
+      "unitSource": "A2 Unit 4",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Do we have ___ clean cups?",
+      "options": [
+        "some",
+        "any",
+        "much",
+        "a little"
+      ],
+      "correctAnswer": "any",
+      "explanationSomali": "Jawaabta “any” waxay raacaysaa xeerka any in questions.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-gra-022",
+      "sectionId": "grammar",
+      "topic": "many countable",
+      "unitSource": "A2 Unit 6",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "How ___ customers are waiting?",
+      "options": [
+        "much",
+        "a little",
+        "many",
+        "some of"
+      ],
+      "correctAnswer": "many",
+      "explanationSomali": "Jawaabta “many” waxay raacaysaa xeerka many countable.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-023",
+      "sectionId": "grammar",
+      "topic": "a little uncountable",
+      "unitSource": "A2 Unit 2",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "We have only ___ time before the train leaves.",
+      "options": [
+        "a few",
+        "many",
+        "any people",
+        "a little"
+      ],
+      "correctAnswer": "a little",
+      "explanationSomali": "Jawaabta “a little” waxay raacaysaa xeerka a little uncountable.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-gra-024",
+      "sectionId": "grammar",
+      "topic": "a few countable",
+      "unitSource": "A2 Unit 7",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "Only ___ students missed the lesson.",
+      "options": [
+        "a few",
+        "a little",
+        "much",
+        "any"
+      ],
+      "correctAnswer": "a few",
+      "explanationSomali": "Jawaabta “a few” waxay raacaysaa xeerka a few countable.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-025",
+      "sectionId": "grammar",
+      "topic": "enjoy + ing",
+      "unitSource": "A2 Unit 8",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "Hodan enjoys ___ short stories after work.",
+      "options": [
+        "to reading",
+        "reading",
+        "readed",
+        "to reads"
+      ],
+      "correctAnswer": "reading",
+      "explanationSomali": "Jawaabta “reading” waxay raacaysaa xeerka enjoy + ing.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-gra-026",
+      "sectionId": "grammar",
+      "topic": "hope + infinitive",
+      "unitSource": "A2 Unit 9",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "I hope ___ the course this year.",
+      "options": [
+        "finishing to",
+        "finish to",
+        "to finish",
+        "to finished"
+      ],
+      "correctAnswer": "to finish",
+      "explanationSomali": "Jawaabta “to finish” waxay raacaysaa xeerka hope + infinitive.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-gra-027",
+      "sectionId": "grammar",
+      "topic": "first conditional",
+      "unitSource": "A2 Unit 9",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "If the shop is closed, we ___ tomorrow.",
+      "options": [
+        "returned",
+        "will returned",
+        "return yesterday",
+        "will return"
+      ],
+      "correctAnswer": "will return",
+      "explanationSomali": "Jawaabta “will return” waxay raacaysaa xeerka first conditional.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-gra-028",
+      "sectionId": "grammar",
+      "topic": "who for people",
+      "unitSource": "A2 Unit 6",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "A mechanic is someone ___ repairs vehicles.",
+      "options": [
+        "who",
+        "which place",
+        "where person",
+        "what"
+      ],
+      "correctAnswer": "who",
+      "explanationSomali": "Jawaabta “who” waxay raacaysaa xeerka who for people.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-029",
+      "sectionId": "grammar",
+      "topic": "that for things",
+      "unitSource": "A2 Unit 6",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "A printer is a machine ___ produces paper copies.",
+      "options": [
+        "who",
+        "that",
+        "where",
+        "than"
+      ],
+      "correctAnswer": "that",
+      "explanationSomali": "Jawaabta “that” waxay raacaysaa xeerka that for things.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-030",
+      "sectionId": "grammar",
+      "topic": "because of + noun",
+      "unitSource": "A2 Unit 5",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "The match was cancelled ___ the heavy rain.",
+      "options": [
+        "because",
+        "although",
+        "because of",
+        "however of"
+      ],
+      "correctAnswer": "because of",
+      "explanationSomali": "Jawaabta “because of” waxay raacaysaa xeerka because of + noun.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-gra-031",
+      "sectionId": "grammar",
+      "topic": "because + clause",
+      "unitSource": "A2 Unit 5",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "We stayed inside ___ it was raining.",
+      "options": [
+        "because of",
+        "however",
+        "despite of",
+        "because"
+      ],
+      "correctAnswer": "because",
+      "explanationSomali": "Jawaabta “because” waxay raacaysaa xeerka because + clause.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-gra-032",
+      "sectionId": "grammar",
+      "topic": "although contrast",
+      "unitSource": "A2 Unit 12",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "___ the service was slow, the staff were polite.",
+      "options": [
+        "Although",
+        "Because of",
+        "However the",
+        "Too"
+      ],
+      "correctAnswer": "Although",
+      "explanationSomali": "Jawaabta “Although” waxay raacaysaa xeerka although contrast.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-gra-033",
+      "sectionId": "grammar",
+      "topic": "however connector",
+      "unitSource": "A2 Unit 10",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "The flat is small. ___, it has enough storage.",
+      "options": [
+        "Although",
+        "However",
+        "Because of",
+        "Who"
+      ],
+      "correctAnswer": "However",
+      "explanationSomali": "Jawaabta “However” waxay raacaysaa xeerka however connector.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-gra-034",
+      "sectionId": "grammar",
+      "topic": "indirect question order",
+      "unitSource": "A2 Unit 2",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "Could you tell me where the ticket office ___?",
+      "options": [
+        "is it",
+        "does it",
+        "is",
+        "it is?"
+      ],
+      "correctAnswer": "is",
+      "explanationSomali": "Jawaabta “is” waxay raacaysaa xeerka indirect question order.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-gra-035",
+      "sectionId": "grammar",
+      "topic": "polite indirect question",
+      "unitSource": "A2 Unit 7",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "Do you know what time the course ___?",
+      "options": [
+        "does start",
+        "start it",
+        "is start",
+        "starts"
+      ],
+      "correctAnswer": "starts",
+      "explanationSomali": "Jawaabta “starts” waxay raacaysaa xeerka polite indirect question.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-036",
+      "sectionId": "grammar",
+      "topic": "third-person Present Simple",
+      "unitSource": "A2 Unit 6",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "He ___ to work by bus every morning.",
+      "options": [
+        "goes",
+        "go",
+        "is go",
+        "going"
+      ],
+      "correctAnswer": "goes",
+      "explanationSomali": "Jawaabta “goes” waxay raacaysaa xeerka third-person Present Simple.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-037",
+      "sectionId": "grammar",
+      "topic": "current action",
+      "unitSource": "A2 Unit 11",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "Listen! Someone ___ at the door.",
+      "options": [
+        "knocks every day",
+        "is knocking",
+        "knocked tomorrow",
+        "has knock"
+      ],
+      "correctAnswer": "is knocking",
+      "explanationSomali": "Jawaabta “is knocking” waxay raacaysaa xeerka current action.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-gra-038",
+      "sectionId": "grammar",
+      "topic": "Past Simple",
+      "unitSource": "A2 Unit 12",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "They ___ the wrong item two days ago.",
+      "options": [
+        "have received",
+        "receive now",
+        "received",
+        "are receive"
+      ],
+      "correctAnswer": "received",
+      "explanationSomali": "Jawaabta “received” waxay raacaysaa xeerka Past Simple.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-gra-039",
+      "sectionId": "grammar",
+      "topic": "Present Perfect experience",
+      "unitSource": "A2 Unit 7",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "___ you ever travelled by train?",
+      "options": [
+        "Did ever",
+        "Are",
+        "Do yesterday",
+        "Have"
+      ],
+      "correctAnswer": "Have",
+      "explanationSomali": "Jawaabta “Have” waxay raacaysaa xeerka Present Perfect experience.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-040",
+      "sectionId": "grammar",
+      "topic": "Present Perfect yet",
+      "unitSource": "A2 Unit 12",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "I haven’t received the confirmation ___.",
+      "options": [
+        "yet",
+        "yesterday",
+        "ago",
+        "last"
+      ],
+      "correctAnswer": "yet",
+      "explanationSomali": "Jawaabta “yet” waxay raacaysaa xeerka Present Perfect yet.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-gra-041",
+      "sectionId": "grammar",
+      "topic": "Present Perfect just",
+      "unitSource": "A2 Unit 7",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "She has ___ sent the updated schedule.",
+      "options": [
+        "last week",
+        "just",
+        "ago",
+        "tomorrow"
+      ],
+      "correctAnswer": "just",
+      "explanationSomali": "Jawaabta “just” waxay raacaysaa xeerka Present Perfect just.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-042",
+      "sectionId": "grammar",
+      "topic": "since starting point",
+      "unitSource": "A2 Unit 7",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "We have lived here ___ 2022.",
+      "options": [
+        "for 2022",
+        "ago",
+        "since",
+        "last"
+      ],
+      "correctAnswer": "since",
+      "explanationSomali": "Jawaabta “since” waxay raacaysaa xeerka since starting point.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-043",
+      "sectionId": "grammar",
+      "topic": "for duration",
+      "unitSource": "A2 Unit 7",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "He has worked there ___ three months.",
+      "options": [
+        "since three months",
+        "ago",
+        "last",
+        "for"
+      ],
+      "correctAnswer": "for",
+      "explanationSomali": "Jawaabta “for” waxay raacaysaa xeerka for duration.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-044",
+      "sectionId": "grammar",
+      "topic": "evidence prediction",
+      "unitSource": "A2 Unit 5",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "Look at those clouds! It is going to ___.",
+      "options": [
+        "rain",
+        "rained",
+        "raining",
+        "rains yesterday"
+      ],
+      "correctAnswer": "rain",
+      "explanationSomali": "Jawaabta “rain” waxay raacaysaa xeerka evidence prediction.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-gra-045",
+      "sectionId": "grammar",
+      "topic": "will promise",
+      "unitSource": "A2 Unit 9",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "I promise I ___ call you after the meeting.",
+      "options": [
+        "am yesterday",
+        "will",
+        "have",
+        "did"
+      ],
+      "correctAnswer": "will",
+      "explanationSomali": "Jawaabta “will” waxay raacaysaa xeerka will promise.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-gra-046",
+      "sectionId": "grammar",
+      "topic": "can permission",
+      "unitSource": "A2 Unit 7",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Students ___ use a dictionary in this test.",
+      "options": [
+        "can to",
+        "are can",
+        "can",
+        "cans"
+      ],
+      "correctAnswer": "can",
+      "explanationSomali": "Jawaabta “can” waxay raacaysaa xeerka can permission.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-gra-047",
+      "sectionId": "grammar",
+      "topic": "shouldn’t advice",
+      "unitSource": "A2 Unit 3",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "The medicine label says you ___ drive after taking it.",
+      "options": [
+        "don’t have",
+        "might to",
+        "are not drive",
+        "shouldn’t"
+      ],
+      "correctAnswer": "shouldn’t",
+      "explanationSomali": "Jawaabta “shouldn’t” waxay raacaysaa xeerka shouldn’t advice.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a2-fe-gra-048",
+      "sectionId": "grammar",
+      "topic": "has to",
+      "unitSource": "A2 Unit 6",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "She ___ start work at seven tomorrow.",
+      "options": [
+        "has to",
+        "have to",
+        "has",
+        "must to"
+      ],
+      "correctAnswer": "has to",
+      "explanationSomali": "Jawaabta “has to” waxay raacaysaa xeerka has to.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-gra-049",
+      "sectionId": "grammar",
+      "topic": "not adjective enough",
+      "unitSource": "A2 Unit 2",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "This suitcase is not light ___ to carry easily.",
+      "options": [
+        "too",
+        "enough",
+        "many",
+        "few"
+      ],
+      "correctAnswer": "enough",
+      "explanationSomali": "Jawaabta “enough” waxay raacaysaa xeerka not adjective enough.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-gra-050",
+      "sectionId": "grammar",
+      "topic": "much uncountable",
+      "unitSource": "A2 Unit 4",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "There isn’t ___ milk left.",
+      "options": [
+        "many",
+        "a few",
+        "much",
+        "several"
+      ],
+      "correctAnswer": "much",
+      "explanationSomali": "Jawaabta “much” waxay raacaysaa xeerka much uncountable.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-gra-051",
+      "sectionId": "grammar",
+      "topic": "would like + infinitive",
+      "unitSource": "A2 Unit 8",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Would you like ___ our study group?",
+      "options": [
+        "joining to",
+        "join to",
+        "to joined",
+        "to join"
+      ],
+      "correctAnswer": "to join",
+      "explanationSomali": "Jawaabta “to join” waxay raacaysaa xeerka would like + infinitive.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-gra-052",
+      "sectionId": "grammar",
+      "topic": "defining relative who",
+      "unitSource": "A2 Unit 11",
+      "type": "fillInTheBlank",
+      "difficulty": "A2",
+      "question": "The woman ___ works at reception helped us.",
+      "options": [
+        "who",
+        "which",
+        "where",
+        "whose place"
+      ],
+      "correctAnswer": "who",
+      "explanationSomali": "Jawaabta “who” waxay raacaysaa xeerka defining relative who.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-gra-053",
+      "sectionId": "grammar",
+      "topic": "relative that",
+      "unitSource": "A2 Unit 2",
+      "type": "chooseTense",
+      "difficulty": "A2",
+      "question": "The hotel ___ we booked has free breakfast.",
+      "options": [
+        "who",
+        "that",
+        "where is it",
+        "than"
+      ],
+      "correctAnswer": "that",
+      "explanationSomali": "Jawaabta “that” waxay raacaysaa xeerka relative that.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-gra-054",
+      "sectionId": "grammar",
+      "topic": "reason clause",
+      "unitSource": "A2 Unit 11",
+      "type": "sentenceTransformation",
+      "difficulty": "A2",
+      "question": "I apologized ___ I had sent the wrong date.",
+      "options": [
+        "because of I",
+        "however",
+        "because",
+        "although of"
+      ],
+      "correctAnswer": "because",
+      "explanationSomali": "Jawaabta “because” waxay raacaysaa xeerka reason clause.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-gra-055",
+      "sectionId": "grammar",
+      "topic": "indirect question arrangement",
+      "unitSource": "A2 Unit 2",
+      "type": "multipleChoice",
+      "difficulty": "A2",
+      "question": "Arrange correctly: / the station / where / is / Could you tell me / ?",
+      "options": [
+        "Could you tell me where is the station?",
+        "Where could you tell me the station is?",
+        "Could where the station tell me is?",
+        "Could you tell me where the station is?"
+      ],
+      "correctAnswer": "Could you tell me where the station is?",
+      "explanationSomali": "Jawaabta “Could you tell me where the station is?” waxay raacaysaa xeerka indirect question arrangement.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-rea-001",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Why did Sahra join the English course?",
+      "options": [
+        "To become a travel manager immediately",
+        "To communicate better with international customers",
+        "To stop working in the evening",
+        "To learn how to drive"
+      ],
+      "correctAnswer": "To communicate better with international customers",
+      "explanationSomali": "Her goal is stated in the first paragraph.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-reading-01"
+    },
+    {
+      "id": "a2-fe-rea-002",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "How often does Sahra attend class now?",
+      "options": [
+        "Every evening",
+        "Once a month",
+        "Twice a week",
+        "Only on Saturday"
+      ],
+      "correctAnswer": "Twice a week",
+      "explanationSomali": "She attends on Monday and Wednesday.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-reading-01"
+    },
+    {
+      "id": "a2-fe-rea-003",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What was Sahra’s most recent project?",
+      "options": [
+        "A health poster",
+        "A job advertisement",
+        "A weather report",
+        "A mock travel plan"
+      ],
+      "correctAnswer": "A mock travel plan",
+      "explanationSomali": "The passage names a mock travel plan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-reading-01"
+    },
+    {
+      "id": "a2-fe-rea-004",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What did Sahra do after missing a class?",
+      "options": [
+        "She requested the notes and studied on Saturday",
+        "She left the course",
+        "She changed her job",
+        "She ignored the lesson"
+      ],
+      "correctAnswer": "She requested the notes and studied on Saturday",
+      "explanationSomali": "She found a practical way to catch up.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-reading-01"
+    },
+    {
+      "id": "a2-fe-rea-005",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Which skill does Sahra still find difficult?",
+      "options": [
+        "Writing dates",
+        "Telephone conversations",
+        "Reading timetables",
+        "Using email"
+      ],
+      "correctAnswer": "Telephone conversations",
+      "explanationSomali": "Fast telephone speech remains challenging.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-reading-01"
+    },
+    {
+      "id": "a2-fe-rea-006",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 7",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What is the main idea of Sahra’s story?",
+      "options": [
+        "Travel offices should close earlier",
+        "Evening courses are always easy",
+        "A practical routine helps her combine work and study",
+        "Managers must teach English"
+      ],
+      "correctAnswer": "A practical routine helps her combine work and study",
+      "explanationSomali": "The passage focuses on a sustainable learning plan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-reading-01"
+    },
+    {
+      "id": "a2-fe-rea-007",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 2",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Why might a late visitor need a taxi in Lake Town?",
+      "options": [
+        "The train station closes at six",
+        "The road is always wet",
+        "Taxis are free at night",
+        "Local buses stop after nine"
+      ],
+      "correctAnswer": "Local buses stop after nine",
+      "explanationSomali": "The local bus service finishes early.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-reading-02"
+    },
+    {
+      "id": "a2-fe-rea-008",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 2",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Where is the visitor centre?",
+      "options": [
+        "Opposite the library",
+        "Inside Green Forest",
+        "Beside the train platform",
+        "Behind the airport"
+      ],
+      "correctAnswer": "Opposite the library",
+      "explanationSomali": "The location is given directly.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-reading-02"
+    },
+    {
+      "id": "a2-fe-rea-009",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 2",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What should walkers carry in Green Forest?",
+      "options": [
+        "A train ticket",
+        "Water",
+        "Heavy furniture",
+        "A hotel receipt"
+      ],
+      "correctAnswer": "Water",
+      "explanationSomali": "There are no shops inside the forest.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-reading-02"
+    },
+    {
+      "id": "a2-fe-rea-010",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 2",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What has happened to the 10:00 Saturday bus?",
+      "options": [
+        "It leaves at 8:30",
+        "It costs more",
+        "It has been cancelled",
+        "It stops at Hill Park"
+      ],
+      "correctAnswer": "It has been cancelled",
+      "explanationSomali": "The service update states this clearly.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-reading-02"
+    },
+    {
+      "id": "a2-fe-rea-011",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 2",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What is the best title for this passage?",
+      "options": [
+        "Repairing a train",
+        "Working in a library",
+        "Buying a new car",
+        "Planning a visit to Lake Town"
+      ],
+      "correctAnswer": "Planning a visit to Lake Town",
+      "explanationSomali": "The passage provides travel and visitor information.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-reading-02"
+    },
+    {
+      "id": "a2-fe-rea-012",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 12",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What was wrong with Abdi’s first confirmation?",
+      "options": [
+        "It showed Sunday instead of Saturday",
+        "It charged no fee",
+        "It had no reference",
+        "It showed the wrong name"
+      ],
+      "correctAnswer": "It showed Sunday instead of Saturday",
+      "explanationSomali": "The day did not match his saved form.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12",
+      "resourceId": "a2-fe-reading-03"
+    },
+    {
+      "id": "a2-fe-rea-013",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 12",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Why could Abdi not wait for next month’s class?",
+      "options": [
+        "He wanted a refund only",
+        "He needed the skills for a work project",
+        "He disliked computers",
+        "He was moving abroad"
+      ],
+      "correctAnswer": "He needed the skills for a work project",
+      "explanationSomali": "His work need made the delay unsuitable.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12",
+      "resourceId": "a2-fe-reading-03"
+    },
+    {
+      "id": "a2-fe-rea-014",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 12",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What did Abdi check in the new confirmation?",
+      "options": [
+        "The weather and bus route",
+        "A property address",
+        "The date, price and course link",
+        "A medicine label"
+      ],
+      "correctAnswer": "The date, price and course link",
+      "explanationSomali": "He verified three important details.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12",
+      "resourceId": "a2-fe-reading-03"
+    },
+    {
+      "id": "a2-fe-rea-015",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 12",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What does “full” mean in “the Saturday class was full”?",
+      "options": [
+        "The lesson was very long",
+        "Everyone received food",
+        "The price was complete",
+        "No more places were available"
+      ],
+      "correctAnswer": "No more places were available",
+      "explanationSomali": "In this context, full means all places were taken.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12",
+      "resourceId": "a2-fe-reading-03"
+    },
+    {
+      "id": "a2-fe-rea-016",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 12",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Why was the problem solved successfully?",
+      "options": [
+        "Both sides shared clear details and a next step",
+        "Abdi sent no message",
+        "The centre ignored the reference",
+        "The class became free"
+      ],
+      "correctAnswer": "Both sides shared clear details and a next step",
+      "explanationSomali": "Clear communication supported the solution.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12",
+      "resourceId": "a2-fe-reading-03"
+    },
+    {
+      "id": "a2-fe-rea-017",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Why does Maryan want to start the project?",
+      "options": [
+        "The centre needs evening teachers",
+        "The nearest library is far from local children",
+        "She wants to sell books",
+        "The room has no furniture"
+      ],
+      "correctAnswer": "The nearest library is far from local children",
+      "explanationSomali": "The need is explained at the beginning.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-018",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What will happen if six volunteers join?",
+      "options": [
+        "The project will close",
+        "Families will pay a fee",
+        "The reading corner will open twice a week",
+        "All books will be replaced"
+      ],
+      "correctAnswer": "The reading corner will open twice a week",
+      "explanationSomali": "This is the passage’s first conditional plan.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-019",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "How many books has Maryan collected?",
+      "options": [
+        "Six",
+        "Eight",
+        "Sixty-five",
+        "Thirty-five"
+      ],
+      "correctAnswer": "Thirty-five",
+      "explanationSomali": "The exact number appears in paragraph three.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-020",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Why must sessions finish before evening classes?",
+      "options": [
+        "The same room is used for those classes",
+        "The buses stop at noon",
+        "The books are too old",
+        "Volunteers work at a hotel"
+      ],
+      "correctAnswer": "The same room is used for those classes",
+      "explanationSomali": "The centre has conditions for using its room.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-021",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "When will Maryan ask families for feedback?",
+      "options": [
+        "Before the first session",
+        "After eight weeks",
+        "After six years",
+        "Every morning"
+      ],
+      "correctAnswer": "After eight weeks",
+      "explanationSomali": "The evaluation time is stated directly.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-022",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What will Maryan do if the project is useful?",
+      "options": [
+        "Move to another country",
+        "Return all the books",
+        "Prepare a report and request more support",
+        "Cancel the Saturday session"
+      ],
+      "correctAnswer": "Prepare a report and request more support",
+      "explanationSomali": "Her next step depends on the result.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-023",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "What is the writer’s purpose?",
+      "options": [
+        "To advertise an official library job",
+        "To complain about a shop",
+        "To explain train repairs",
+        "To describe a realistic community action plan"
+      ],
+      "correctAnswer": "To describe a realistic community action plan",
+      "explanationSomali": "The text explains goals, steps and conditions.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-024",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "True or false: Maryan has promised a permanent library.",
+      "options": [
+        "False",
+        "True",
+        "The passage does not mention a project",
+        "Only after one day"
+      ],
+      "correctAnswer": "False",
+      "explanationSomali": "She deliberately begins with a small temporary project.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-rea-025",
+      "sectionId": "reading",
+      "topic": "Reading comprehension",
+      "unitSource": "A2 Unit 9",
+      "type": "readingComprehension",
+      "difficulty": "A2",
+      "question": "Which quality best describes Maryan’s plan?",
+      "options": [
+        "Expensive and secret",
+        "Flexible and measurable",
+        "Immediate and permanent",
+        "Unclear and unsafe"
+      ],
+      "correctAnswer": "Flexible and measurable",
+      "explanationSomali": "The plan has conditions, stages and feedback.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9",
+      "resourceId": "a2-fe-reading-04"
+    },
+    {
+      "id": "a2-fe-doc-001",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 2",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "What time does Route 8 reach the airport?",
+      "options": [
+        "08:10",
+        "09:05",
+        "08:35",
+        "17:40"
+      ],
+      "correctAnswer": "09:05",
+      "explanationSomali": "The final outward time is 09:05.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-doc-01"
+    },
+    {
+      "id": "a2-fe-doc-002",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 2",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "How long is the journey from Central Station to the airport?",
+      "options": [
+        "25 minutes",
+        "35 minutes",
+        "55 minutes",
+        "90 minutes"
+      ],
+      "correctAnswer": "55 minutes",
+      "explanationSomali": "09:05 minus 08:10 equals 55 minutes.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-doc-01"
+    },
+    {
+      "id": "a2-fe-doc-003",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 2",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "Which seat is shown on the train ticket?",
+      "options": [
+        "Coach A, Seat 14",
+        "Platform B, Seat 24",
+        "Coach 18, Seat B",
+        "Coach B, Seat 18"
+      ],
+      "correctAnswer": "Coach B, Seat 18",
+      "explanationSomali": "The ticket gives both coach and seat.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-doc-02"
+    },
+    {
+      "id": "a2-fe-doc-004",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 4",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "How much money did the shop discount?",
+      "options": [
+        "$2",
+        "$4",
+        "$18",
+        "$22"
+      ],
+      "correctAnswer": "$2",
+      "explanationSomali": "The subtotal was $22 and total was $20.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4",
+      "resourceId": "a2-fe-doc-03"
+    },
+    {
+      "id": "a2-fe-doc-005",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 4",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "What must the customer keep for a return?",
+      "options": [
+        "The weather forecast",
+        "The receipt",
+        "A train map",
+        "The hotel key"
+      ],
+      "correctAnswer": "The receipt",
+      "explanationSomali": "The return condition requires the receipt.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4",
+      "resourceId": "a2-fe-doc-03"
+    },
+    {
+      "id": "a2-fe-doc-006",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 2",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "When must the hotel guest leave?",
+      "options": [
+        "After 2 p.m. on 6 June",
+        "Before 11 p.m. on 6 June",
+        "Before 11 a.m. on 8 June",
+        "At noon on 9 June"
+      ],
+      "correctAnswer": "Before 11 a.m. on 8 June",
+      "explanationSomali": "This is the stated check-out time.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-doc-04"
+    },
+    {
+      "id": "a2-fe-doc-007",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 2",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "What is included in the hotel booking?",
+      "options": [
+        "Airport transport",
+        "Dinner",
+        "A third night",
+        "Breakfast"
+      ],
+      "correctAnswer": "Breakfast",
+      "explanationSomali": "Breakfast included is printed in the confirmation.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2",
+      "resourceId": "a2-fe-doc-04"
+    },
+    {
+      "id": "a2-fe-doc-008",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 6",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "What is one main duty in the job advertisement?",
+      "options": [
+        "Helping customers",
+        "Repairing buses",
+        "Teaching an evening class",
+        "Writing weather reports"
+      ],
+      "correctAnswer": "Helping customers",
+      "explanationSomali": "The advertisement lists customer help.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6",
+      "resourceId": "a2-fe-doc-05"
+    },
+    {
+      "id": "a2-fe-doc-009",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 7",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "How many classroom hours does the course provide each week?",
+      "options": [
+        "1.5 hours",
+        "3 hours",
+        "6 hours",
+        "8 hours"
+      ],
+      "correctAnswer": "3 hours",
+      "explanationSomali": "Two 90-minute classes equal three hours.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7",
+      "resourceId": "a2-fe-doc-06"
+    },
+    {
+      "id": "a2-fe-doc-010",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 5",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "Which day has a travel warning?",
+      "options": [
+        "Friday",
+        "Saturday morning",
+        "Sunday",
+        "Thursday"
+      ],
+      "correctAnswer": "Sunday",
+      "explanationSomali": "The warning applies Sunday morning.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5",
+      "resourceId": "a2-fe-doc-07"
+    },
+    {
+      "id": "a2-fe-doc-011",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 5",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "When is Saturday rain expected?",
+      "options": [
+        "Before sunrise",
+        "All Friday",
+        "Sunday evening only",
+        "After 3 p.m."
+      ],
+      "correctAnswer": "After 3 p.m.",
+      "explanationSomali": "The forecast gives the time directly.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5",
+      "resourceId": "a2-fe-doc-07"
+    },
+    {
+      "id": "a2-fe-doc-012",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 10",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "What should someone do if stairs are difficult?",
+      "options": [
+        "Ask reception for help",
+        "Use the unavailable lift",
+        "Wait until next year",
+        "Enter through the roof"
+      ],
+      "correctAnswer": "Ask reception for help",
+      "explanationSomali": "The notice gives an accessible help action.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10",
+      "resourceId": "a2-fe-doc-08"
+    },
+    {
+      "id": "a2-fe-doc-013",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 10",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "Which cost is included in the flat’s monthly price?",
+      "options": [
+        "Furniture",
+        "Water",
+        "Electricity",
+        "Bus tickets"
+      ],
+      "correctAnswer": "Water",
+      "explanationSomali": "The advertisement says water included.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10",
+      "resourceId": "a2-fe-doc-09"
+    },
+    {
+      "id": "a2-fe-doc-014",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 10",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "How can a person view the flat?",
+      "options": [
+        "Only after moving in",
+        "Without contacting anyone",
+        "By appointment",
+        "During an online course"
+      ],
+      "correctAnswer": "By appointment",
+      "explanationSomali": "Viewing is available by appointment.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10",
+      "resourceId": "a2-fe-doc-09"
+    },
+    {
+      "id": "a2-fe-doc-015",
+      "sectionId": "documents",
+      "topic": "Everyday document",
+      "unitSource": "A2 Unit 12",
+      "type": "documentComprehension",
+      "difficulty": "A2",
+      "question": "What is the current status of reference S-204?",
+      "options": [
+        "Resolved and closed",
+        "Waiting for payment",
+        "Cancelled by the customer",
+        "Being checked"
+      ],
+      "correctAnswer": "Being checked",
+      "explanationSomali": "The form states “being checked”.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12",
+      "resourceId": "a2-fe-doc-10"
+    },
+    {
+      "id": "a2-fe-com-001",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You meet a new colleague. What is the best opening?",
+      "options": [
+        "Give me that file.",
+        "Hello, I’m Hani. It’s nice to meet you.",
+        "I disagree with the schedule.",
+        "The printer was broken yesterday."
+      ],
+      "correctAnswer": "Hello, I’m Hani. It’s nice to meet you.",
+      "explanationSomali": "This is a friendly introduction.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-002",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A colleague asks, “Could you send me the schedule?”",
+      "options": [
+        "I sent it last year.",
+        "You mustn’t ask.",
+        "Of course. I’ll send it after lunch.",
+        "The weather is cloudy."
+      ],
+      "correctAnswer": "Of course. I’ll send it after lunch.",
+      "explanationSomali": "It accepts the request and gives a clear time.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-003",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You want permission to use a desk.",
+      "options": [
+        "You use this desk now.",
+        "Why did the desk leave?",
+        "This desk must use me.",
+        "May I use this desk for an hour?"
+      ],
+      "correctAnswer": "May I use this desk for an hour?",
+      "explanationSomali": "May I is a polite permission form.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-004",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A visitor is carrying two heavy boxes.",
+      "options": [
+        "Would you like me to help you?",
+        "You shouldn’t have boxes.",
+        "Where was the train?",
+        "I have already eaten."
+      ],
+      "correctAnswer": "Would you like me to help you?",
+      "explanationSomali": "This is an appropriate offer.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-005",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You arrived late for an appointment.",
+      "options": [
+        "You are late, not me.",
+        "I’m sorry I’m late. The bus was delayed.",
+        "Congratulations on the delay.",
+        "I might buy a jacket."
+      ],
+      "correctAnswer": "I’m sorry I’m late. The bus was delayed.",
+      "explanationSomali": "It apologizes and briefly explains.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-006",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "Someone helped you complete a form.",
+      "options": [
+        "Could you cancel the form?",
+        "The form thanks you.",
+        "Thank you for explaining the form.",
+        "I didn’t went there."
+      ],
+      "correctAnswer": "Thank you for explaining the form.",
+      "explanationSomali": "It directly thanks the helper.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-007",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 8",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A friend invites you, but you cannot attend.",
+      "options": [
+        "Your invitation is wrong.",
+        "I never like invitations.",
+        "You have to attend for me.",
+        "Thanks for inviting me, but I’m not available then."
+      ],
+      "correctAnswer": "Thanks for inviting me, but I’m not available then.",
+      "explanationSomali": "It declines politely and gives context.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-com-008",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 3",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "Your friend says, “I have a bad headache.”",
+      "options": [
+        "You should rest and speak to a health professional if it continues.",
+        "You must drive quickly.",
+        "Buy every medicine.",
+        "Headaches are always nothing."
+      ],
+      "correctAnswer": "You should rest and speak to a health professional if it continues.",
+      "explanationSomali": "It gives safe general advice.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 3"
+    },
+    {
+      "id": "a2-fe-com-009",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A teammate suggests meeting at three, and you agree.",
+      "options": [
+        "I am agree at you.",
+        "That works for me.",
+        "Could you return this shirt?",
+        "The meeting was delicious."
+      ],
+      "correctAnswer": "That works for me.",
+      "explanationSomali": "This is a natural agreement.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-010",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You disagree with a plan but want to be polite.",
+      "options": [
+        "No. Your idea is bad.",
+        "You mustn’t have an opinion.",
+        "I see your point, but Friday may be more convenient.",
+        "I agreed yesterday because rain."
+      ],
+      "correctAnswer": "I see your point, but Friday may be more convenient.",
+      "explanationSomali": "It acknowledges the other view before disagreeing.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-011",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You did not understand an instruction.",
+      "options": [
+        "Why are instructions?",
+        "I have instruction yesterday.",
+        "Never speak again.",
+        "Could you explain the last step again, please?"
+      ],
+      "correctAnswer": "Could you explain the last step again, please?",
+      "explanationSomali": "It asks for clarification politely.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-012",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 12",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A shop sent the wrong product.",
+      "options": [
+        "I ordered the blue model, but I received the black one.",
+        "Your shop is the worst place.",
+        "I am receiving it next year.",
+        "Could you weather the product?"
+      ],
+      "correctAnswer": "I ordered the blue model, but I received the black one.",
+      "explanationSomali": "It states the complaint clearly and factually.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-com-013",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You answer a workplace telephone call.",
+      "options": [
+        "Who are you and why?",
+        "Good morning, City Office. How can I help?",
+        "The office has finished yesterday.",
+        "Call another number now."
+      ],
+      "correctAnswer": "Good morning, City Office. How can I help?",
+      "explanationSomali": "It is a professional phone greeting.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-014",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 12",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A customer says an order is late.",
+      "options": [
+        "Delays are your problem.",
+        "You don’t have to order.",
+        "I’m sorry about the delay. Let me check the reference.",
+        "The reference is sunny."
+      ],
+      "correctAnswer": "I’m sorry about the delay. Let me check the reference.",
+      "explanationSomali": "It apologizes and begins solving the problem.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-com-015",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You need a caller to speak more slowly.",
+      "options": [
+        "Speak slow because I said.",
+        "You are speaking yesterday.",
+        "Must you not call?",
+        "Could you speak a little more slowly, please?"
+      ],
+      "correctAnswer": "Could you speak a little more slowly, please?",
+      "explanationSomali": "This is a clear polite request.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-016",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "Someone says, “Thank you for your help.”",
+      "options": [
+        "You’re welcome.",
+        "I apologize.",
+        "I disagree.",
+        "Never mind the price."
+      ],
+      "correctAnswer": "You’re welcome.",
+      "explanationSomali": "You’re welcome responds to thanks.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-017",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 12",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You want to arrange another appointment.",
+      "options": [
+        "The appointment moved itself.",
+        "Could we move the appointment to Thursday afternoon?",
+        "Thursday is an expensive shirt.",
+        "You must to cancel me."
+      ],
+      "correctAnswer": "Could we move the appointment to Thursday afternoon?",
+      "explanationSomali": "It makes a specific polite request.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-com-018",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A friend says, “I passed my course.”",
+      "options": [
+        "I’m sorry for your loss.",
+        "Could you repeat the price?",
+        "Congratulations! You worked hard.",
+        "You mustn’t pass."
+      ],
+      "correctAnswer": "Congratulations! You worked hard.",
+      "explanationSomali": "Congratulations fits good news.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-019",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 6",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You need more information about a job.",
+      "options": [
+        "Tell hours.",
+        "Where are the hours work?",
+        "I worked hours tomorrow.",
+        "Could you tell me what the working hours are?"
+      ],
+      "correctAnswer": "Could you tell me what the working hours are?",
+      "explanationSomali": "It is a polite indirect question.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-com-020",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 4",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A customer wants a refund, but you need the receipt.",
+      "options": [
+        "Certainly. Could I see your receipt first?",
+        "No receipt, no speaking.",
+        "Refunds were cloudy.",
+        "You should buy two more."
+      ],
+      "correctAnswer": "Certainly. Could I see your receipt first?",
+      "explanationSomali": "It responds politely and explains the next action.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-com-021",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A colleague offers help, but you have finished.",
+      "options": [
+        "Never help me.",
+        "Thank you, but I’ve already completed the task.",
+        "The task is more tall.",
+        "I completed tomorrow."
+      ],
+      "correctAnswer": "Thank you, but I’ve already completed the task.",
+      "explanationSomali": "It declines the offer politely.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-022",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 12",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You accidentally sent the wrong date.",
+      "options": [
+        "The date made the mistake.",
+        "You shouldn’t read dates.",
+        "I apologize for the mistake. I’ll send the correct date now.",
+        "I am agree with the error."
+      ],
+      "correctAnswer": "I apologize for the mistake. I’ll send the correct date now.",
+      "explanationSomali": "It accepts responsibility and gives a solution.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-com-023",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "You want to confirm what you heard.",
+      "options": [
+        "The meeting says nine.",
+        "Why nine was meeting?",
+        "You must say no meeting.",
+        "Did you say the meeting starts at nine?"
+      ],
+      "correctAnswer": "Did you say the meeting starts at nine?",
+      "explanationSomali": "It checks one specific detail.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-com-024",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 12",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A hotel room is too noisy.",
+      "options": [
+        "Could I move to a quieter room, please?",
+        "This room is most noise.",
+        "I enjoy to noise.",
+        "You have many noisies."
+      ],
+      "correctAnswer": "Could I move to a quieter room, please?",
+      "explanationSomali": "It requests a practical solution politely.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-com-025",
+      "sectionId": "communication",
+      "topic": "Best response",
+      "unitSource": "A2 Unit 11",
+      "type": "bestResponse",
+      "difficulty": "A2",
+      "question": "A caller asks for a manager who is busy.",
+      "options": [
+        "She never wants callers.",
+        "She is in a meeting. Would you like to leave a message?",
+        "Call until she answers.",
+        "Managers are not here yesterday."
+      ],
+      "correctAnswer": "She is in a meeting. Would you like to leave a message?",
+      "explanationSomali": "It provides information and offers a next step.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-cor-001",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 6",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “The employee must to arrive early.”",
+      "options": [
+        "The employee must arrives early.",
+        "The employee must arrive early.",
+        "The employee must arriving early.",
+        "The employee to must arrive early."
+      ],
+      "correctAnswer": "The employee must arrive early.",
+      "explanationSomali": "Must waxaa raaca base verb aan “to” lahayn.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 6"
+    },
+    {
+      "id": "a2-fe-cor-002",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 1",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “We have booked the tickets last Friday.”",
+      "options": [
+        "We have book the tickets last Friday.",
+        "We are booked last Friday.",
+        "We booked the tickets last Friday.",
+        "We did booked the tickets last Friday."
+      ],
+      "correctAnswer": "We booked the tickets last Friday.",
+      "explanationSomali": "Finished time “last Friday” wuxuu qaataa Past Simple.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-cor-003",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 8",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “Hodan enjoys to watch documentaries.”",
+      "options": [
+        "Hodan enjoy watching documentaries.",
+        "Hodan enjoys watch documentaries.",
+        "Hodan enjoying to watch documentaries.",
+        "Hodan enjoys watching documentaries."
+      ],
+      "correctAnswer": "Hodan enjoys watching documentaries.",
+      "explanationSomali": "Enjoy waxaa raaca verb-ing.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-cor-004",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 10",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “There have a pharmacy near the bank.”",
+      "options": [
+        "There is a pharmacy near the bank.",
+        "There are a pharmacy near the bank.",
+        "It have a pharmacy near the bank.",
+        "There is pharmacy are near the bank."
+      ],
+      "correctAnswer": "There is a pharmacy near the bank.",
+      "explanationSomali": "Hal meel/shay waxaa loo adeegsadaa there is.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-cor-005",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 2",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “Do you know where does the bus stop?”",
+      "options": [
+        "Do you know where stops the bus?",
+        "Do you know where the bus stops?",
+        "Do you know where does stop the bus?",
+        "Do you know the bus where does stop?"
+      ],
+      "correctAnswer": "Do you know where the bus stops?",
+      "explanationSomali": "Indirect question-ku wuxuu leeyahay statement word order.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-cor-006",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 11",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “I am agree with your suggestion.”",
+      "options": [
+        "I agreeing with your suggestion.",
+        "I am agreement your suggestion.",
+        "I agree with your suggestion.",
+        "I do agree withing your suggestion."
+      ],
+      "correctAnswer": "I agree with your suggestion.",
+      "explanationSomali": "Agree waa verb; “am” looma baahna.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    },
+    {
+      "id": "a2-fe-cor-007",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 1",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “The driver didn’t checked the address.”",
+      "options": [
+        "The driver didn’t checks the address.",
+        "The driver not checked the address.",
+        "The driver doesn’t checked the address.",
+        "The driver didn’t check the address."
+      ],
+      "correctAnswer": "The driver didn’t check the address.",
+      "explanationSomali": "Didn’t waxaa raaca base verb.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-cor-008",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 7",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “She gave me many useful advices.”",
+      "options": [
+        "She gave me a lot of useful advice.",
+        "She gave me an useful advice.",
+        "She gave me many useful advice pieceses.",
+        "She gave me much advices."
+      ],
+      "correctAnswer": "She gave me a lot of useful advice.",
+      "explanationSomali": "Advice waa uncountable.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-cor-009",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 8",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “The students were boring during the film.”",
+      "options": [
+        "The students were bore during the film.",
+        "The students were bored during the film.",
+        "The students bored the film feeling.",
+        "The students were boredom during film."
+      ],
+      "correctAnswer": "The students were bored during the film.",
+      "explanationSomali": "Bored wuxuu sheegayaa sida dadka dareemeen.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 8"
+    },
+    {
+      "id": "a2-fe-cor-010",
+      "sectionId": "correction",
+      "topic": "Common A2 error",
+      "unitSource": "A2 Unit 9",
+      "type": "sentenceCorrection",
+      "difficulty": "A2",
+      "question": "Choose the correct version: “If the weather will improve, we will walk.”",
+      "options": [
+        "If the weather improved, we will walked.",
+        "If will the weather improve, we walk.",
+        "If the weather improves, we will walk.",
+        "If the weather improving, we will walking."
+      ],
+      "correctAnswer": "If the weather improves, we will walk.",
+      "explanationSomali": "First conditional if-clause-ku wuxuu qaataa Present Simple.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-ste-001",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 1",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "Dooro tarjumaadda saxda ah: “Waxaan booqday xarunta shalay.”",
+      "options": [
+        "I have visited the centre yesterday.",
+        "I visited the centre yesterday.",
+        "I visit the centre now yesterday.",
+        "I am visit the centre yesterday."
+      ],
+      "correctAnswer": "I visited the centre yesterday.",
+      "explanationSomali": "Yesterday wuxuu u baahan yahay Past Simple.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 1"
+    },
+    {
+      "id": "a2-fe-ste-002",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 2",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Ma ii sheegi kartaa goorta tareenku baxayo?”",
+      "options": [
+        "Could you tell me when does the train leave?",
+        "Tell me when leaves the train could?",
+        "Could you tell me when the train leaves?",
+        "Could when the train leaves tell me?"
+      ],
+      "correctAnswer": "Could you tell me when the train leaves?",
+      "explanationSomali": "Indirect question-ku wuxuu isticmaalaa statement order.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 2"
+    },
+    {
+      "id": "a2-fe-ste-003",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 9",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Waxay qorshaynaysaa inay bilowdo koorso cusub.”",
+      "options": [
+        "She going start a new course.",
+        "She is going to started a new course.",
+        "She will to starting a new course.",
+        "She is going to start a new course."
+      ],
+      "correctAnswer": "She is going to start a new course.",
+      "explanationSomali": "Going to waxaa raaca base verb.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-ste-004",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 9",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Haddii roob da’o, guriga ayaan joogi doonaa.”",
+      "options": [
+        "If it rains, I will stay at home.",
+        "If it will rain, I stay at home.",
+        "If it rained, I will stayed home.",
+        "If rains, I am stay home."
+      ],
+      "correctAnswer": "If it rains, I will stay at home.",
+      "explanationSomali": "First conditional: present + will.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 9"
+    },
+    {
+      "id": "a2-fe-ste-005",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 12",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Weli ma helin xaqiijinta.”",
+      "options": [
+        "I didn’t received the confirmation yet.",
+        "I haven’t received the confirmation yet.",
+        "I haven’t receive confirmation yesterday.",
+        "I am not receiving yet yesterday."
+      ],
+      "correctAnswer": "I haven’t received the confirmation yet.",
+      "explanationSomali": "Yet waxaa si dabiici ah ula socda Present Perfect.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-ste-006",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 12",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Fadlan ma hubin kartaa lambarka tixraaca?”",
+      "options": [
+        "Must you checked the reference?",
+        "You check reference yesterday please?",
+        "Could you check the reference number, please?",
+        "Could you checking the reference number?"
+      ],
+      "correctAnswer": "Could you check the reference number, please?",
+      "explanationSomali": "Could + base verb waa codsi edeb leh.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-ste-007",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 10",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Qolkani kuma filna kulanka.”",
+      "options": [
+        "This room is too enough for meeting.",
+        "This room has not many large.",
+        "This room is not enough large meeting.",
+        "This room is not large enough for the meeting."
+      ],
+      "correctAnswer": "This room is not large enough for the meeting.",
+      "explanationSomali": "Adjective + enough ayaa la isticmaalaa.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-ste-008",
+      "sectionId": "somaliToEnglish",
+      "topic": "Somali to English",
+      "unitSource": "A2 Unit 7",
+      "type": "somaliToEnglish",
+      "difficulty": "A2",
+      "question": "“Waxay halkan ka shaqaynaysay tan iyo 2023.”",
+      "options": [
+        "She has worked here since 2023.",
+        "She worked here since 2023 yesterday.",
+        "She has work here for 2023.",
+        "She is worked since 2023."
+      ],
+      "correctAnswer": "She has worked here since 2023.",
+      "explanationSomali": "Since wuxuu tilmaamaa starting point.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-ets-001",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 12",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "Dooro macnaha guud: “The appointment has been moved to Friday afternoon.”",
+      "options": [
+        "Ballanta waa la kansalay weligeed.",
+        "Ballanta waxaa loo beddelay Jimcaha galabtii.",
+        "Ballantu waxay dhacday Jimcihii hore.",
+        "Qofku wuxuu codsanayaa qiimaha ballanta."
+      ],
+      "correctAnswer": "Ballanta waxaa loo beddelay Jimcaha galabtii.",
+      "explanationSomali": "Moved here means the scheduled time changed.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-ets-002",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 7",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "“You don’t have to bring a laptop; the centre provides one.”",
+      "options": [
+        "Laptop lama oggola in xarunta la geeyo.",
+        "Waa qasab inaad laba laptop keento.",
+        "Laptop inaad keento khasab ma aha; xarunta ayaa mid bixisa.",
+        "Xaruntu ma laha wax kombiyuutar ah."
+      ],
+      "correctAnswer": "Laptop inaad keento khasab ma aha; xarunta ayaa mid bixisa.",
+      "explanationSomali": "Don’t have to waxay ka dhigan tahay khasab ma aha.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 7"
+    },
+    {
+      "id": "a2-fe-ets-003",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 10",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "“Although the flat is small, it has enough storage.”",
+      "options": [
+        "Gurigu wuu weyn yahay, laakiin kayd ma leh.",
+        "Sababta gurigu u yar yahay waa kaydka.",
+        "Gurigu aad buu ugu yar yahay in la arko.",
+        "Inkastoo gurigu yar yahay, wuxuu leeyahay meel kayd oo ku filan."
+      ],
+      "correctAnswer": "Inkastoo gurigu yar yahay, wuxuu leeyahay meel kayd oo ku filan.",
+      "explanationSomali": "Although wuxuu muujinayaa contrast.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 10"
+    },
+    {
+      "id": "a2-fe-ets-004",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 4",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "“Please keep your receipt in case you need to return the item.”",
+      "options": [
+        "Fadlan hayso rasiidka haddii aad u baahato inaad shayga celiso.",
+        "Rasiidka tuur markaad dukaanka ka baxdo.",
+        "Shayga waa in hadda la celiyaa.",
+        "Qiimaha shayga ayaa kordhaya."
+      ],
+      "correctAnswer": "Fadlan hayso rasiidka haddii aad u baahato inaad shayga celiso.",
+      "explanationSomali": "The message advises keeping proof of purchase.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 4"
+    },
+    {
+      "id": "a2-fe-ets-005",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 5",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "“The train might be delayed because of strong winds.”",
+      "options": [
+        "Tareenku hubaal wuu baxay shalay.",
+        "Tareenka waxaa laga yaabaa inuu dabaylo xooggan dartood dib u dhaco.",
+        "Dabayshu waxay joojisay dhammaan safarrada weligeed.",
+        "Tareenka ayaa ka dheereeya dabaysha."
+      ],
+      "correctAnswer": "Tareenka waxaa laga yaabaa inuu dabaylo xooggan dartood dib u dhaco.",
+      "explanationSomali": "Might expresses possibility, not certainty.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 5"
+    },
+    {
+      "id": "a2-fe-ets-006",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 12",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "“I’m following up on the message I sent on Monday.”",
+      "options": [
+        "Waxaan fariinta diri doonaa Isniinta dambe.",
+        "Waxaan tirtiray dhammaan fariimaha.",
+        "Waxaan daba socdaa fariintii aan diray Isniintii.",
+        "Fariintu waxay timid ka hor shaqada."
+      ],
+      "correctAnswer": "Waxaan daba socdaa fariintii aan diray Isniintii.",
+      "explanationSomali": "Following up means requesting an update.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 12"
+    },
+    {
+      "id": "a2-fe-ets-007",
+      "sectionId": "englishToSomali",
+      "topic": "English to Somali",
+      "unitSource": "A2 Unit 11",
+      "type": "englishToSomali",
+      "difficulty": "A2",
+      "question": "“Would you mind speaking a little more slowly?”",
+      "options": [
+        "Ma joojin kartaa hadalka weligaa?",
+        "Maxaad shalay u hadli weyday?",
+        "Waa inaad si degdeg ah u baxdaa.",
+        "Ma yara tartiibin kartaa hadalka?"
+      ],
+      "correctAnswer": "Ma yara tartiibin kartaa hadalka?",
+      "explanationSomali": "This is a polite request to reduce speaking speed.",
+      "scoreValue": 1,
+      "recommendationUnit": "Unit 11"
+    }
+  ]
+}

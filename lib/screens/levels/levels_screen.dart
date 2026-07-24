@@ -62,12 +62,17 @@ class _LevelsList extends StatelessWidget {
         const SizedBox(height: 14),
         ...levels.map((level) {
           final unlocked =
-              AppProvider.unlockAllDuringDevelopment ||
+              (AppProvider.unlockAllDuringDevelopment && level.id != 'B1') ||
               level.requiredPreviousLevelId == null ||
               state.courseProgress.hasPassedFinalExam(
                 level.requiredPreviousLevelId!,
               );
-          final progress = level.id == 'A1'
+          final levelCompleted = state.courseProgress.hasPassedFinalExam(
+            level.id,
+          );
+          final progress = levelCompleted
+              ? 1.0
+              : level.id == 'A1'
               ? (state.courseProgress.completedLessonIds.length / 120).clamp(
                   0.0,
                   1.0,
@@ -134,7 +139,7 @@ class _LevelsList extends StatelessWidget {
                         style: const TextStyle(color: Colors.grey),
                       ),
                       const SizedBox(height: 8),
-                      if (level.id == 'A1') ...[
+                      if (level.id == 'A1' || level.id == 'A2') ...[
                         LinearProgressIndicator(
                           value: progress,
                           minHeight: 5,
@@ -143,7 +148,7 @@ class _LevelsList extends StatelessWidget {
                         const SizedBox(height: 5),
                       ],
                       Text(
-                        '${level.unitFiles.length} units • ${unlocked ? (level.id == 'A1' ? '${(progress * 100).round()}%' : 'Diyaar') : 'Locked'}',
+                        '${level.unitFiles.length} units • ${unlocked ? (level.id == 'A1' || level.id == 'A2' ? '${(progress * 100).round()}%' : 'Diyaar') : 'Locked'}',
                         style: TextStyle(
                           color: unlocked
                               ? Theme.of(context).colorScheme.primary

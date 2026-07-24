@@ -194,15 +194,17 @@ class _A2UnitSelector extends StatelessWidget {
             _A2AssessmentChip(
               label: 'Final Exam',
               selected: false,
-              unlocked:
-                  AppProvider.unlockAllDuringDevelopment ||
-                  state.hasCompletedFinalReviewFor('A2'),
-              hasContent: false,
-              onOpen: () {},
+              unlocked: state.hasCompletedFinalReviewFor('A2'),
+              hasContent: true,
+              onOpen: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) =>
+                      const ExamScreen(standalone: true, levelId: 'A2'),
+                ),
+              ),
               lockedMessage:
                   'Dhammaystir A2 Final Review si Final Exam uu u furmo.',
-              comingSoonMessage:
-                  'A2 Final Exam weli lama hirgelin. Final Review oo keliya ayaa hadda diyaar ah.',
             ),
           ],
         ),
@@ -219,7 +221,6 @@ class _A2AssessmentChip extends StatelessWidget {
     required this.hasContent,
     required this.onOpen,
     required this.lockedMessage,
-    this.comingSoonMessage,
   });
 
   final String label;
@@ -228,7 +229,6 @@ class _A2AssessmentChip extends StatelessWidget {
   final bool hasContent;
   final VoidCallback onOpen;
   final String lockedMessage;
-  final String? comingSoonMessage;
 
   @override
   Widget build(BuildContext context) {
@@ -252,9 +252,7 @@ class _A2AssessmentChip extends StatelessWidget {
             ).showSnackBar(SnackBar(content: Text(lockedMessage)));
           } else if (!hasContent) {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text(comingSoonMessage ?? 'Qaybtan waa coming soon.'),
-              ),
+              const SnackBar(content: Text('Qaybtan waa coming soon.')),
             );
           } else {
             onOpen();
