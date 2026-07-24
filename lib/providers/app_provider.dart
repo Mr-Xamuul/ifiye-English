@@ -86,20 +86,34 @@ class AppProvider extends ChangeNotifier {
 
   static const finalReviewCompletionId = 'a1-final-review-completed';
 
+  static String finalReviewCompletionIdFor(String levelId) =>
+      '${levelId.toLowerCase()}-final-review-completed';
+
   bool get hasCompletedFinalReview =>
       courseProgress.completedLessonIds.contains(finalReviewCompletionId);
 
+  bool hasCompletedFinalReviewFor(String levelId) => courseProgress
+      .completedLessonIds
+      .contains(finalReviewCompletionIdFor(levelId));
+
   Future<void> completeFinalReview(int readinessScore) async {
+    await completeLevelFinalReview('A1', readinessScore);
+  }
+
+  Future<void> completeLevelFinalReview(
+    String levelId,
+    int readinessScore,
+  ) async {
+    final reviewId = '${levelId.toLowerCase()}-final-review';
+    final completionId = finalReviewCompletionIdFor(levelId);
+    final previous = courseProgress.unitQuizScores[reviewId] ?? 0;
     courseProgress = CourseProgress(
       version: courseProgress.version,
-      completedLessonIds: {
-        ...courseProgress.completedLessonIds,
-        finalReviewCompletionId,
-      },
+      completedLessonIds: {...courseProgress.completedLessonIds, completionId},
       lessonQuizScores: courseProgress.lessonQuizScores,
       unitQuizScores: {
         ...courseProgress.unitQuizScores,
-        'a1-final-review': readinessScore,
+        reviewId: readinessScore > previous ? readinessScore : previous,
       },
       finalExamScores: courseProgress.finalExamScores,
     );

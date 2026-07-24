@@ -64,7 +64,8 @@ class ContentValidator {
     if (lesson.examples.length < 5) {
       errors.add('${lesson.id}: ugu yaraan 5 tusaale ayaa loo baahan yahay.');
     }
-    final maximumExercises = lesson.unitId == 'a1-final-review'
+    final maximumExercises =
+        lesson.unitId == 'a1-final-review' || lesson.unitId == 'a2-final-review'
         ? 100
         : lesson.lessonType == LessonType.review
         ? (lesson.unitId == 'a2-u12'

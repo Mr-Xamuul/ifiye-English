@@ -25,6 +25,7 @@ const contentPaths = <String>[
   'assets/content/a2/unit_10.json',
   'assets/content/a2/unit_11.json',
   'assets/content/a2/unit_12.json',
+  'assets/content/a2/final_review.json',
 ];
 
 final genericPattern = RegExp(
@@ -139,6 +140,7 @@ VocabularyAuditResult auditVocabularyExamples() {
         final sentenceKey = normalize(english);
         final previousOwner = sentenceOwners[sentenceKey];
         if (previousOwner != null &&
+            !path.endsWith('/final_review.json') &&
             previousOwner.split('/').last.toLowerCase() != word.toLowerCase()) {
           errors.add('$owner: duplicate example also used by $previousOwner.');
         } else {

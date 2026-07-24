@@ -40,7 +40,24 @@ class _LessonsScreenState extends State<LessonsScreen> {
             repository.loadUnit('assets/content/a1/unit_10.json'),
             repository.loadUnit('assets/content/a1/final_review.json'),
           ])
-        : repository.loadAvailableUnits(widget.level!);
+        : _loadLevelUnits(repository, widget.level!);
+  }
+
+  Future<List<CourseUnit>> _loadLevelUnits(
+    CefrContentRepository repository,
+    CourseLevel level,
+  ) async {
+    final units = await repository.loadAvailableUnits(level);
+    if (level.id == 'A2') {
+      try {
+        units.add(
+          await repository.loadUnit('assets/content/a2/final_review.json'),
+        );
+      } on ContentLoadException {
+        // A2 units remain usable if the optional final review cannot be read.
+      }
+    }
+    return units;
   }
 
   @override
@@ -116,51 +133,133 @@ class _A2UnitSelector extends StatelessWidget {
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Row(
-          children: List.generate(plannedUnitCount, (index) {
-            final unitNumber = index + 1;
-            final hasContent = index < availableUnits.length;
-            final unlocked =
-                hasContent &&
-                (AppProvider.unlockAllDuringDevelopment ||
-                    index == 0 ||
-                    (index - 1 < availableUnits.length &&
-                        state.hasPassedUnit(availableUnits[index - 1].id)));
-            return Padding(
-              padding: const EdgeInsets.only(right: 8),
-              child: ChoiceChip(
-                label: Text('Unit $unitNumber'),
-                selected: hasContent && selectedUnit == index,
-                avatar: Icon(
-                  unlocked
-                      ? (hasContent
-                            ? Icons.lock_open_outlined
-                            : Icons.schedule_outlined)
-                      : Icons.lock_outline,
-                  size: 18,
-                ),
-                onSelected: (_) {
-                  if (!unlocked) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(
-                          'Gudub Unit ${unitNumber - 1} quiz si Unit $unitNumber u furmo.',
+          children: [
+            ...List.generate(plannedUnitCount, (index) {
+              final unitNumber = index + 1;
+              final hasContent = index < availableUnits.length;
+              final unlocked =
+                  hasContent &&
+                  (AppProvider.unlockAllDuringDevelopment ||
+                      index == 0 ||
+                      (index - 1 < availableUnits.length &&
+                          state.hasPassedUnit(availableUnits[index - 1].id)));
+              return Padding(
+                padding: const EdgeInsets.only(right: 8),
+                child: ChoiceChip(
+                  label: Text('Unit $unitNumber'),
+                  selected: hasContent && selectedUnit == index,
+                  avatar: Icon(
+                    unlocked
+                        ? (hasContent
+                              ? Icons.lock_open_outlined
+                              : Icons.schedule_outlined)
+                        : Icons.lock_outline,
+                    size: 18,
+                  ),
+                  onSelected: (_) {
+                    if (!unlocked) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(
+                            'Gudub Unit ${unitNumber - 1} quiz si Unit $unitNumber u furmo.',
+                          ),
                         ),
-                      ),
-                    );
-                  } else if (!hasContent) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Casharrada unit-kan waa coming soon.'),
-                      ),
-                    );
-                  } else {
-                    onSelected(index);
-                  }
-                },
+                      );
+                    } else if (!hasContent) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text('Casharrada unit-kan waa coming soon.'),
+                        ),
+                      );
+                    } else {
+                      onSelected(index);
+                    }
+                  },
+                ),
+              );
+            }),
+            _A2AssessmentChip(
+              label: 'Final Review',
+              selected:
+                  availableUnits.length > plannedUnitCount &&
+                  selectedUnit == plannedUnitCount,
+              unlocked:
+                  AppProvider.unlockAllDuringDevelopment ||
+                  state.hasPassedUnit('a2-u12'),
+              hasContent: availableUnits.length > plannedUnitCount,
+              onOpen: () => onSelected(plannedUnitCount),
+              lockedMessage:
+                  'Gudub Unit 12 quiz si A2 Final Review uu u furmo.',
+            ),
+            _A2AssessmentChip(
+              label: 'Final Exam',
+              selected: false,
+              unlocked:
+                  AppProvider.unlockAllDuringDevelopment ||
+                  state.hasCompletedFinalReviewFor('A2'),
+              hasContent: false,
+              onOpen: () {},
+              lockedMessage:
+                  'Dhammaystir A2 Final Review si Final Exam uu u furmo.',
+              comingSoonMessage:
+                  'A2 Final Exam weli lama hirgelin. Final Review oo keliya ayaa hadda diyaar ah.',
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _A2AssessmentChip extends StatelessWidget {
+  const _A2AssessmentChip({
+    required this.label,
+    required this.selected,
+    required this.unlocked,
+    required this.hasContent,
+    required this.onOpen,
+    required this.lockedMessage,
+    this.comingSoonMessage,
+  });
+
+  final String label;
+  final bool selected;
+  final bool unlocked;
+  final bool hasContent;
+  final VoidCallback onOpen;
+  final String lockedMessage;
+  final String? comingSoonMessage;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(right: 8),
+      child: ChoiceChip(
+        label: Text(label),
+        selected: selected,
+        avatar: Icon(
+          unlocked
+              ? (hasContent
+                    ? Icons.fact_check_outlined
+                    : Icons.schedule_outlined)
+              : Icons.lock_outline,
+          size: 18,
+        ),
+        onSelected: (_) {
+          if (!unlocked) {
+            ScaffoldMessenger.of(
+              context,
+            ).showSnackBar(SnackBar(content: Text(lockedMessage)));
+          } else if (!hasContent) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text(comingSoonMessage ?? 'Qaybtan waa coming soon.'),
               ),
             );
-          }),
-        ),
+          } else {
+            onOpen();
+          }
+        },
       ),
     );
   }
@@ -479,8 +578,8 @@ class _UnitContent extends StatelessWidget {
     final allLessonsComplete = unit.lessons.every(
       (item) => completed.contains(item.id),
     );
-    final passed = unit.id == 'a1-final-review'
-        ? state.hasCompletedFinalReview
+    final passed = unit.id.endsWith('-final-review')
+        ? state.hasCompletedFinalReviewFor(unit.levelId)
         : state.hasPassedUnit(unit.id);
     final quizUnlocked = developmentUnlocked || allLessonsComplete;
     final nextUnitUnlocked = developmentUnlocked || passed;

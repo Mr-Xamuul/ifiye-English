@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/utils/a2_review_diagnostics.dart';
 import '../../models/content/content_models.dart';
 import '../../providers/app_provider.dart';
 import '../../widgets/common_widgets.dart';
@@ -18,11 +19,18 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
   int correct = 0;
   String? selected;
   bool finished = false;
+  final Set<String> correctQuestionIds = {};
+
+  bool get _isFinalReview => widget.unit.id.endsWith('-final-review');
 
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: Text('${widget.unit.levelId} Unit ${widget.unit.unitNumber} Quiz'),
+      title: Text(
+        _isFinalReview
+            ? '${widget.unit.levelId} Final Review Readiness'
+            : '${widget.unit.levelId} Unit ${widget.unit.unitNumber} Quiz',
+      ),
     ),
     body: SafeArea(child: finished ? _result(context) : _question(context)),
   );
@@ -123,13 +131,19 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
   void _select(PracticeExercise item, String answer) {
     setState(() {
       selected = answer;
-      if (_isCorrect(item)) correct++;
+      if (_isCorrect(item)) {
+        correct++;
+        correctQuestionIds.add(item.id);
+      }
     });
   }
 
   void _next() {
     final item = widget.unit.unitQuiz[index];
-    if (item.options.isEmpty && _isCorrect(item)) correct++;
+    if (item.options.isEmpty && _isCorrect(item)) {
+      correct++;
+      correctQuestionIds.add(item.id);
+    }
     if (index < widget.unit.unitQuiz.length - 1) {
       setState(() {
         index++;
@@ -138,8 +152,11 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
       return;
     }
     final score = (correct / widget.unit.unitQuiz.length * 100).round();
-    if (widget.unit.id == 'a1-final-review') {
-      context.read<AppProvider>().completeFinalReview(score);
+    if (_isFinalReview) {
+      context.read<AppProvider>().completeLevelFinalReview(
+        widget.unit.levelId,
+        score,
+      );
     } else {
       context.read<AppProvider>().recordUnitQuizScore(widget.unit.id, score);
     }
@@ -148,7 +165,13 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
 
   Widget _result(BuildContext context) {
     final score = (correct / widget.unit.unitQuiz.length * 100).round();
-    final passed = widget.unit.id == 'a1-final-review' || score >= 70;
+    final passed = _isFinalReview || score >= 70;
+    final diagnostics = widget.unit.id == 'a2-final-review'
+        ? A2ReviewDiagnostics.calculate(
+            widget.unit.unitQuiz,
+            correctQuestionIds,
+          )
+        : null;
     return ListView(
       padding: const EdgeInsets.all(28),
       children: [
@@ -158,7 +181,7 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
           color: passed ? Colors.amber : Theme.of(context).colorScheme.primary,
         ),
         Text(
-          widget.unit.id == 'a1-final-review'
+          _isFinalReview
               ? 'Final Review waa la dhammaystiray!'
               : passed
               ? 'Hambalyo, waad gudubtay!'
@@ -193,9 +216,9 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
                 trailing: const Text('70%'),
               ),
               Text(
-                widget.unit.id == 'a1-final-review'
+                _isFinalReview
                     ? score >= 70
-                          ? 'Waxaad diyaar u tahay A1 Final Exam. Final Exam indicator-ku hadda waa furmay.'
+                          ? 'Waxaad diyaar u tahay ${widget.unit.levelId} Final Exam. Final Exam indicator-ku hadda waa furmay.'
                           : 'Review-ga waad dhammaystirtay, laakiin score-ku wuxuu ka hooseeyaa 70%. Dib u eeg topics-ka aad ku liidato ka hor Final Exam.'
                     : passed
                     ? widget.unit.id == 'a1-u10'
@@ -227,6 +250,40 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
             ],
           ),
         ),
+        if (diagnostics != null) ...[
+          const SizedBox(height: 12),
+          AppCard(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  diagnostics.readinessLabel,
+                  style: const TextStyle(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  'Grammar ${diagnostics.categoryScores['grammar'] ?? 0}% • '
+                  'Vocabulary ${diagnostics.categoryScores['vocabulary'] ?? 0}% • '
+                  'Reading ${diagnostics.categoryScores['reading'] ?? 0}% • '
+                  'Communication ${diagnostics.categoryScores['communication'] ?? 0}% • '
+                  'Notices/forms ${diagnostics.categoryScores['documents'] ?? 0}%',
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  'Meelaha ugu fiican: ${diagnostics.strongestAreas.join(', ')}',
+                ),
+                Text(
+                  'Meelaha tabarta yar: ${diagnostics.weakestAreas.join(', ')}',
+                ),
+                Text(
+                  diagnostics.recommendedSectionIds.isEmpty
+                      ? 'Review Weak Areas: talo gaar ah looma baahna.'
+                      : 'Review Weak Areas: ${diagnostics.recommendedSectionIds.join(', ')}',
+                ),
+              ],
+            ),
+          ),
+        ],
         const SizedBox(height: 18),
         FilledButton(onPressed: _retry, child: const Text('Mar kale qaado')),
         OutlinedButton(
@@ -242,5 +299,6 @@ class _UnitQuizScreenState extends State<UnitQuizScreen> {
     correct = 0;
     selected = null;
     finished = false;
+    correctQuestionIds.clear();
   });
 }
